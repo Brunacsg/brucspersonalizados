@@ -77,12 +77,12 @@ Altere para o e-mail real da empresa.
 #### Redes Sociais
 **Em `index.html` (no footer):**
 ```html
-<a href="#" title="Instagram">Instagram</a>
+<a href="https://instagram.com/brucspersonalizados" title="Instagram" target="_blank">@brucspersonalizados</a>
 <a href="#" title="Facebook">Facebook</a>
 <a href="#" title="LinkedIn">LinkedIn</a>
 ```
 
-Substitua os `#` pelos links reais:
+Exemplo já aplicado no projeto:
 ```html
 <a href="https://instagram.com/brucspersonalizados" title="Instagram">Instagram</a>
 ```
