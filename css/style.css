@@ -133,11 +133,16 @@ p {
     font-family: inherit;
 }
 
-.btn-primary {
-    background: linear-gradient(90deg, var(--primary-light), var(--primary-dark));
-    color: var(--white);
-    border: none;
-    box-shadow: 0 8px 24px rgba(45,27,78,0.18);
+.btn-primary{
+    background: linear-gradient(
+        135deg,
+        #8b5cf6,
+        #6d28d9
+    );
+
+    border:none;
+    box-shadow:
+    0 10px 30px rgba(139,92,246,.35);
 }
 
 .btn-primary:hover {
@@ -189,13 +194,15 @@ p {
    ================================ */
 
 .navbar {
-    background: rgba(45,27,78,0.96);
+        background: #12091f;
     color: var(--white);
-    padding: 1rem 0;
+    padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(6px);
+        border-bottom: 1px solid rgba(255,255,255,.08);
+
 }
 
 .navbar .container {
@@ -220,8 +227,13 @@ p {
 
 .logo img,
 .logo-image {
-    max-height: 90px;
+    height: 120px;
     width: auto;
+    display: block;
+}
+
+.logo-subtitle{
+    display:none;
 }
 
 .logo h1 {
@@ -286,22 +298,26 @@ p {
 /* ================================
    HERO SECTION
    ================================ */
-.hero {
-    position: relative;
-    min-height: 90vh;
+.hero{
+    min-height: calc(100vh - 150px);
 
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:center;
 
     background:
+    radial-gradient(
+        circle at top left,
+        rgba(139,92,246,.25),
+        transparent 40%
+    ),
     linear-gradient(
         135deg,
         #050507 0%,
-        #140a24 45%,
-        #2d1b4e 100%
+        #0d0917 45%,
+        #1a102e 100%
     );
 
-    overflow: hidden;
+    padding:80px 0;
 }
 
 .hero-image {
@@ -865,4 +881,48 @@ textarea {
 .sobre h2,
 .sobre p {
     color: white;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-text h1 {
+    color:#fff;
+    font-size:4.8rem;
+    line-height:1.05;
+    font-weight:700;
+    margin:20px 0;
+}
+
+.hero-tag {
+    color: #b88cff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
+    color: rgba(255,255,255,.85);
+    font-size: 1.2rem;
+}
+
+.hero-image-box img{
+    width:100%;
+    height:650px;
+    object-fit:cover;
+
+    border-radius:28px;
+
+    box-shadow:
+    0 40px 80px rgba(0,0,0,.55);
+}
+
+.hero-container{
+    display:grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items:center;
+    gap:80px;
 }
