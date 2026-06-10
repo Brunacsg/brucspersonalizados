@@ -11,17 +11,13 @@ async function processFile(file) {
   const name = path.basename(file, ext);
   const input = path.join(imagesDir, file);
   for (const size of sizes) {
-    const outName = `${name}-${size}${ext}`;
+    const outName = `${name}-${size}.jpeg`;
     const outPath = path.join(imagesDir, outName);
     await sharp(input)
       .resize({ width: size })
+      .jpeg({ quality: 80 })
       .toFile(outPath);
-    const webpName = `${name}-${size}.webp`;
-    await sharp(input)
-      .resize({ width: size })
-      .webp({ quality: 80 })
-      .toFile(path.join(imagesDir, webpName));
-    console.log('Written', outName, webpName);
+    console.log('Written', outName);
   }
 }
 

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { Jimp, rgbaToInt, intToRGBA } = require('jimp');
+const sharp = require('sharp');
 
 const outputDir = path.join(__dirname, 'assets', 'images');
 
@@ -132,14 +133,13 @@ async function heroBanner() {
   drawCircle(base, 250, 650, 140, rgbaToInt(255, 255, 255, 40), 1);
   drawCircle(base, 380, 720, 100, rgbaToInt(255, 255, 255, 28), 1);
   drawCircle(base, 980, 620, 120, rgbaToInt(255, 255, 255, 24), 1);
-  await saveImage(base, 'hero-banner.png');
+  await saveImage(base, 'hero-banner.jpeg');
 }
 
 async function galleryImage(filename, label) {
   const width = 600;
   const height = 500;
   const base = await createGradient(width, height, {r: 58, g: 40, b: 84}, {r: 32, g: 13, b: 51});
-  drawRoundedRect(base, 50, 80, 500, 340, 30, colors.white);
   drawCircle(base, 450, 230, 70, colors.lightPurple, 0.35);
   drawCircle(base, 130, 210, 60, colors.purple, 0.33);
   drawCircle(base, 220, 120, 40, colors.white, 0.25);
@@ -148,7 +148,16 @@ async function galleryImage(filename, label) {
 }
 
 async function saveImage(image, filename) {
-  await image.write(path.join(outputDir, filename));
+  const outputPath = path.join(outputDir, filename);
+  const ext = path.extname(filename).toLowerCase();
+  const getBuffer = (img, mime) => new Promise((res, rej) => img.getBuffer(mime, (err, buf) => err ? rej(err) : res(buf)) );
+  if (ext === '.jpeg' || ext === '.jpg') {
+    const pngBuf = await getBuffer(image, 'image/png');
+    await sharp(pngBuf).jpeg({ quality: 85 }).toFile(outputPath);
+  } else {
+    const buf = await getBuffer(image, 'image/png');
+    await fs.promises.writeFile(outputPath, buf);
+  }
 }
 
 async function aboutImage() {
@@ -159,36 +168,36 @@ async function aboutImage() {
   drawRoundedRect(base, 120, 100, 220, 180, 30, colors.purple);
   drawRoundedRect(base, 320, 140, 230, 140, 30, colors.lightPurple);
   drawRoundedRect(base, 585, 130, 110, 90, 20, colors.purple);
-  await saveImage(base, 'sobre.png');
+  await saveImage(base, 'sobre.jpeg');
 }
 
 async function main() {
   await heroBanner();
   const products = [
-    ['garrafas.png', 'Garrafas'],
-    ['squeezes.png', 'Squeezes'],
-    ['copos-termicos.png', 'Copos Térmicos'],
-    ['canecas.png', 'Canecas'],
-    ['chaveiros.png', 'Chaveiros'],
-    ['kits-corporativos.png', 'Kits'],
-    ['cadernos.png', 'Cadernos'],
-    ['ecobags.png', 'Ecobags'],
-    ['feiras.png', 'Feiras'],
-    ['casamentos.png', 'Casamentos'],
-    ['formaturas.png', 'Formaturas'],
-    ['promocionais.png', 'Promocionais'],
+    ['garrafas.jpeg', 'Garrafas'],
+    ['squeezes.jpeg', 'Squeezes'],
+    ['copos-termicos.jpeg', 'Copos Térmicos'],
+    ['canecas.jpeg', 'Canecas'],
+    ['chaveiros.jpeg', 'Chaveiros'],
+    ['kits-corporativos.jpeg', 'Kits'],
+    ['cadernos.jpeg', 'Cadernos'],
+    ['ecobags.jpeg', 'Ecobags'],
+    ['feiras.jpeg', 'Feiras'],
+    ['casamentos.jpeg', 'Casamentos'],
+    ['formaturas.jpeg', 'Formaturas'],
+    ['promocionais.jpeg', 'Promocionais'],
   ];
   for (const [filename, label] of products) {
     await productCard(label, filename);
   }
   await aboutImage();
   const gallery = [
-    ['projeto-1.png','Garrafas'],
-    ['projeto-2.png','Kit Premium'],
-    ['projeto-3.png','Canecas'],
-    ['projeto-4.png','Ecobag'],
-    ['projeto-5.png','Chaveiros'],
-    ['projeto-6.png','Brindes'],
+    ['projeto-1.jpeg','Garrafas'],
+    ['projeto-2.jpeg','Kit Premium'],
+    ['projeto-3.jpeg','Canecas'],
+    ['projeto-4.jpeg','Ecobag'],
+    ['projeto-5.jpeg','Chaveiros'],
+    ['projeto-6.jpeg','Brindes'],
   ];
   for (const [filename, label] of gallery) {
     await galleryImage(filename, label);

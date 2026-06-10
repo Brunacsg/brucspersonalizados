@@ -17,8 +17,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Brucs Personalizados",
+            "url": "https://brucspersonalizados.github.io/",
+            "logo": "https://brucspersonalizados.github.io/assets/images/logo.jpg",
+            "sameAs": ["https://instagram.com/brucspersonalizados"]
+        }
+        </script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -34,7 +45,7 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#orcamento">Orçamento</a></li>
             </ul>
-            <div class="hamburger">
+            <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -42,9 +53,11 @@
         </div>
     </nav>
 
+    <main id="main-content">
+
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <img src="assets/images/hero-banner.png" alt="Brindes Personalizados" class="hero-image">
+        <img src="assets/images/hero-banner.jpeg" alt="Brindes Personalizados" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Brindes Personalizados que Fortalecem sua Marca e Tornam seu Evento Inesquecível</h1>
@@ -64,84 +77,84 @@
             
             <div class="produtos-grid">
                 <div class="produto-card">
-                    <img src="assets/images/garrafas.jpeg" alt="Garrafas Personalizadas">
+                                        <img src="assets/images/garrafas-1200.jpeg" srcset="assets/images/garrafas-480.jpeg 480w, assets/images/garrafas-768.jpeg 768w, assets/images/garrafas-1200.jpeg 1200w" sizes="(max-width: 768px) 100vw, 1200px" alt="Garrafas Personalizadas" loading="lazy" decoding="async" fetchpriority="low">
                     <h3>Garrafas Personalizadas</h3>
                     <p>Garrafas em vidro ou plástico com sua marca e design exclusivo</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/squeezes.png" alt="Squeezes Personalizados">
+                    <img src="assets/images/squeezes.jpeg" alt="Squeezes Personalizados">
                     <h3>Squeezes</h3>
                     <p>Squeezes personalizadas para sua empresa ou evento</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/copos-termicos.png" alt="Copos Térmicos">
+                    <img src="assets/images/copos-termicos.jpeg" alt="Copos Térmicos">
                     <h3>Copos Térmicos</h3>
                     <p>Copos isolantes com impressão personalizada em alta definição</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/canecas.png" alt="Canecas Personalizadas">
+                    <img src="assets/images/canecas.jpeg" alt="Canecas Personalizadas">
                     <h3>Canecas</h3>
                     <p>Canecas cerâmicas com designs exclusivos para sua marca</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/chaveiros.jpeg" alt="Chaveiros Personalizados">
+                                        <img src="assets/images/chaveiros-1200.jpeg" srcset="assets/images/chaveiros-480.jpeg 480w, assets/images/chaveiros-768.jpeg 768w, assets/images/chaveiros-1200.jpeg 1200w" sizes="(max-width: 768px) 100vw, 1200px" alt="Chaveiros Personalizados" loading="lazy" decoding="async" fetchpriority="low">
                     <h3>Chaveiros</h3>
                     <p>Chaveiros personalizados em diversos formatos e materiais</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/kits-corporativos.png" alt="Kits Corporativos">
+                    <img src="assets/images/kits-corporativos.jpeg" alt="Kits Corporativos">
                     <h3>Kits Corporativos</h3>
                     <p>Conjuntos completos de brindes para presentear clientes e parceiros</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/cadernos.png" alt="Cadernos Personalizados">
+                    <img src="assets/images/cadernos.jpeg" alt="Cadernos Personalizados">
                     <h3>Cadernos Personalizados</h3>
                     <p>Cadernos de alta qualidade com capa personalizada</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/ecobags.png" alt="Ecobags">
+                    <img src="assets/images/ecobags.jpeg" alt="Ecobags">
                     <h3>Ecobags</h3>
                     <p>Sacolas sustentáveis personalizadas para sua marca</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/feiras.png" alt="Brindes para Feiras">
+                    <img src="assets/images/feiras.jpeg" alt="Brindes para Feiras">
                     <h3>Brindes para Feiras</h3>
                     <p>Produtos ideais para distribuição em feiras e eventos corporativos</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/casamentos.png" alt="Brindes para Casamentos">
+                    <img src="assets/images/casamentos.jpeg" alt="Brindes para Casamentos">
                     <h3>Brindes para Casamentos</h3>
                     <p>Presentes personalizados para presentear convidados e lembranças especiais</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/formaturas.png" alt="Brindes para Formaturas">
+                    <img src="assets/images/formaturas.jpeg" alt="Brindes para Formaturas">
                     <h3>Brindes para Formaturas</h3>
                     <p>Souvenires memoráveis para marca a conclusão do curso</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
                 </div>
 
                 <div class="produto-card">
-                    <img src="assets/images/promocionais.png" alt="Brindes Promocionais">
+                    <img src="assets/images/promocionais.jpeg" alt="Brindes Promocionais">
                     <h3>Brindes Promocionais</h3>
                     <p>Produtos para suas ações promocionais e marketing direto</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
@@ -195,22 +208,22 @@
             <p class="section-subtitle">Conheça alguns de nossos trabalhos realizados para clientes</p>
             <div class="galeria-grid">
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-1.png" alt="Projeto 1 - Garrafas Premium">
+                    <img src="assets/images/projeto-1.jpeg" alt="Projeto 1 - Garrafas Premium">
                 </div>
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-2.png" alt="Projeto 2 - Kit Corporativo">
+                    <img src="assets/images/projeto-2.jpeg" alt="Projeto 2 - Kit Corporativo">
                 </div>
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-3.png" alt="Projeto 3 - Canecas">
+                    <img src="assets/images/projeto-3.jpeg" alt="Projeto 3 - Canecas">
                 </div>
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-4.png" alt="Projeto 4 - Ecobag">
+                    <img src="assets/images/projeto-4.jpeg" alt="Projeto 4 - Ecobag">
                 </div>
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-5.png" alt="Projeto 5 - Chaveiros">
+                    <img src="assets/images/projeto-5.jpeg" alt="Projeto 5 - Chaveiros">
                 </div>
                 <div class="galeria-item">
-                    <img src="assets/images/projeto-6.png" alt="Projeto 6 - Brindes Premium">
+                    <img src="assets/images/projeto-6.jpeg" alt="Projeto 6 - Brindes Premium">
                 </div>
             </div>
         </div>
@@ -226,7 +239,7 @@
                     <p>Somos especialistas em criar soluções personalizadas que fortalecem a marca de nossos clientes e deixam uma impressão duradoura. Nossa equipe dedicada trabalha para garantir que cada projeto seja único e alinhado com os objetivos de negócio.</p>
                 </div>
                 <div class="sobre-imagem">
-                    <img src="assets/images/sobre.png" alt="Sobre Brucs Personalizados">
+                    <img src="assets/images/sobre.jpeg" alt="Sobre Brucs Personalizados">
                 </div>
             </div>
         </div>
@@ -302,6 +315,8 @@
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.867 1.171c-1.493.821-2.771 1.993-3.393 3.384 1.364-2.558 3.8-4.269 6.614-4.269.23 0 .459.013.684.039 1.68.138 3.2.829 4.316 1.979-1.224-.191-2.357-.547-3.35-1.304"/>
         </svg>
     </div>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
