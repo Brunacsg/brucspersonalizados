@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /assets/temp/
+Disallow: /*.php$
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://www.brucspersonalizados.com.br/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Crawl-delay
+Crawl-delay: 1

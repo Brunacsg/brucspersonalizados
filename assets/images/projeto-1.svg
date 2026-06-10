@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="proj1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c3483" />
+      <stop offset="100%" style="stop-color:#2d1b4e" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#proj1)"/>
+  <rect x="40" y="60" width="220" height="160" rx="10" fill="#fff" opacity="0.2"/>
+  <text x="150" y="155" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">Garrafas Premium</text>
+</svg>

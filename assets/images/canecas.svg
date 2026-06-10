@@ -1,0 +1,7 @@
+<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="350" fill="#f8f8f8"/>
+  <rect x="60" y="130" width="120" height="100" rx="5" fill="#6c3483"/>
+  <circle cx="200" cy="180" r="25" fill="none" stroke="#6c3483" stroke-width="15"/>
+  <rect x="70" y="160" width="100" height="50" fill="#2d1b4e" opacity="0.3"/>
+  <text x="150" y="190" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">CANECA</text>
+</svg>

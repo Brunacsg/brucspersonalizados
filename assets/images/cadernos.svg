@@ -1,0 +1,9 @@
+<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="350" fill="#f8f8f8"/>
+  <rect x="50" y="100" width="120" height="170" rx="5" fill="#6c3483" stroke="#2d1b4e" stroke-width="2"/>
+  <line x1="60" y1="140" x2="160" y2="140" stroke="#2d1b4e" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="170" x2="160" y2="170" stroke="#2d1b4e" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="200" x2="160" y2="200" stroke="#2d1b4e" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="230" x2="160" y2="230" stroke="#2d1b4e" stroke-width="1" opacity="0.5"/>
+  <text x="110" y="125" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">CADERNO</text>
+</svg>
