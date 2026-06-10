@@ -672,9 +672,10 @@ textarea {
 
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
     margin-bottom: 2rem;
+    align-items: start;
 }
 
 .footer-section h3, .footer-section h4 {
@@ -713,25 +714,24 @@ textarea {
 
 .social-links {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .social-links a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: var(--primary-light);
-    border-radius: 50%;
-    transition: var(--transition);
+    display: block;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 0;
     color: var(--white);
     text-decoration: none;
+    padding: 0;
+    transition: var(--transition);
 }
 
 .social-links a:hover {
-    background-color: var(--accent-white);
-    color: var(--primary-dark);
+    color: #d4b5ff;
 }
 
 .footer-bottom {
@@ -844,5 +844,17 @@ textarea {
 
     .footer-content {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-section {
+        align-items: center;
     }
 }
