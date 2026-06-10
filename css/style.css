@@ -477,16 +477,17 @@ p {
 
 .galeria-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.galeria-item {
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: var(--transition);
+.galeria-item img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
 }
 
 .galeria-item:hover {
@@ -857,4 +858,9 @@ textarea {
     .footer-section {
         align-items: center;
     }
+}
+
+.sobre h2,
+.sobre p {
+    color: white;
 }
