@@ -17,19 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Brucs Personalizados",
-            "url": "https://brucspersonalizados.github.io/",
-            "logo": "https://brucspersonalizados.github.io/assets/images/logo.jpg",
-            "sameAs": ["https://instagram.com/brucspersonalizados"]
-        }
-        </script>
 </head>
 <body>
-    <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -45,15 +34,13 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#orcamento">Orçamento</a></li>
             </ul>
-            <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
+            <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
     </nav>
-
-    <main id="main-content">
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -77,12 +64,7 @@
             
             <div class="produtos-grid">
                 <div class="produto-card">
-                    
-<picture>
-  <source type="image/webp" srcset="assets/images/garrafas-1200.webp 1200w, assets/images/garrafas-768.webp 768w, assets/images/garrafas-480.webp 480w" sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px">
-  <source type="image/jpeg" srcset="assets/images/garrafas-1200.jpeg 1200w, assets/images/garrafas-768.jpeg 768w, assets/images/garrafas-480.jpeg 480w" sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px">
-  <img src="assets/images/garrafas-1200.jpeg" alt="Garrafas Personalizadas" loading="lazy" decoding="async" fetchpriority="low">
-</picture>
+                    <img src="assets/images/garrafas.jpeg" alt="Garrafas Personalizadas">
                     <h3>Garrafas Personalizadas</h3>
                     <p>Garrafas em vidro ou plástico com sua marca e design exclusivo</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
@@ -110,12 +92,7 @@
                 </div>
 
                 <div class="produto-card">
-                    
-<picture>
-  <source type="image/webp" srcset="assets/images/chaveiros-1200.webp 1200w, assets/images/chaveiros-768.webp 768w, assets/images/chaveiros-480.webp 480w" sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px">
-  <source type="image/jpeg" srcset="assets/images/chaveiros-1200.jpeg 1200w, assets/images/chaveiros-768.jpeg 768w, assets/images/chaveiros-480.jpeg 480w" sizes="(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px">
-  <img src="assets/images/chaveiros-1200.jpeg" alt="Chaveiros Personalizados" loading="lazy" decoding="async" fetchpriority="low">
-</picture>
+                    <img src="assets/images/chaveiros.jpeg" alt="Chaveiros Personalizados">
                     <h3>Chaveiros</h3>
                     <p>Chaveiros personalizados em diversos formatos e materiais</p>
                     <a href="#orcamento" class="btn-card">Solicitar Orçamento</a>
@@ -325,8 +302,6 @@
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.867 1.171c-1.493.821-2.771 1.993-3.393 3.384 1.364-2.558 3.8-4.269 6.614-4.269.23 0 .459.013.684.039 1.68.138 3.2.829 4.316 1.979-1.224-.191-2.357-.547-3.35-1.304"/>
         </svg>
     </div>
-
-    </main>
 
     <!-- Footer -->
     <footer class="footer">

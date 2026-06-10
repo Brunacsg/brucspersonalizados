@@ -1,7 +1,0 @@
-<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="350" fill="#f8f8f8"/>
-  <path d="M 150 80 L 170 130 L 220 130 L 180 170 L 200 220 L 150 180 L 100 220 L 120 170 L 80 130 L 130 130 Z" fill="#fff" stroke="#6c3483" stroke-width="2"/>
-  <circle cx="150" cy="160" r="25" fill="#6c3483"/>
-  <text x="150" y="168" text-anchor="middle" fill="#fff" font-size="18">♥</text>
-  <text x="150" y="280" text-anchor="middle" fill="#2d1b4e" font-size="12" font-weight="bold">CASAMENTO</text>
-</svg>

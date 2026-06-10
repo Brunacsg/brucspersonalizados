@@ -9,6 +9,7 @@ const navMenu = document.querySelector('.nav-menu');
 if (hamburger) {
     hamburger.addEventListener('click', () => {
         navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+        hamburger.setAttribute('aria-expanded', navMenu.style.display === 'flex');
         
         // Animar hamburguer
         const spans = hamburger.querySelectorAll('span');
@@ -22,6 +23,14 @@ if (hamburger) {
                 span.style.opacity = '1';
             }
         });
+        });
+
+    // keyboard support (Enter / Space)
+    hamburger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            hamburger.click();
+        }
     });
 }
 

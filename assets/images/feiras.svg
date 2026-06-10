@@ -1,9 +1,0 @@
-<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="350" fill="#f8f8f8"/>
-  <polygon points="150,80 190,160 150,240 110,160" fill="#fff" stroke="#6c3483" stroke-width="2"/>
-  <circle cx="150" cy="160" r="35" fill="#6c3483"/>
-  <text x="150" y="165" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">FEIRA</text>
-  <line x1="150" y1="240" x2="150" y2="290" stroke="#2d1b4e" stroke-width="4"/>
-  <circle cx="140" cy="300" r="8" fill="#2d1b4e"/>
-  <circle cx="160" cy="300" r="8" fill="#2d1b4e"/>
-</svg>
