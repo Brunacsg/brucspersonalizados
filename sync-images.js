@@ -12,8 +12,8 @@ function listImageFiles() {
 function findReplacement(missing) {
   const base = path.basename(missing, path.extname(missing));
   const files = listImageFiles();
-  // prefer png, jpg, webp in that order
-  const order = ['.png', '.jpg', '.jpeg', '.webp', '.svg'];
+  // prefer jpg/jpeg, png, webp in that order — prefer JPEG for final site
+  const order = ['.jpeg', '.jpg', '.png', '.webp', '.svg'];
   for (const ext of order) {
     const candidate = base + ext;
     if (files.includes(candidate)) return candidate;

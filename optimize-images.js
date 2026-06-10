@@ -17,12 +17,12 @@ async function optimizeFile(file) {
     // replace original with optimized
     await fs.rename(path.join(imagesDir, `${name}.opt.png`), full);
 
-    // generate WebP
+    // also produce JPEG version for JPG-only workflow
     await sharp(full)
-      .webp({ quality: 80 })
-      .toFile(path.join(imagesDir, `${name}.webp`));
+      .jpeg({ quality: 85 })
+      .toFile(path.join(imagesDir, `${name}.jpeg`));
 
-    console.log('Optimized:', file);
+    console.log('Optimized and produced JPEG:', file);
   } catch (err) {
     console.error('Error optimizing', file, err.message);
   }

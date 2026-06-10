@@ -16,13 +16,11 @@ function makePicture(origSrc, filename, beforeAttrs, afterAttrs) {
   const mime = (ext === '.png') ? 'image/png' : 'image/jpeg';
   const sizes = '(max-width: 480px) 480px, (max-width: 768px) 768px, 1200px';
 
-  const webpSrcset = `assets/images/${base}-1200.webp 1200w, assets/images/${base}-768.webp 768w, assets/images/${base}-480.webp 480w`;
-  const jpgSrcset = `assets/images/${base}-1200${ext} 1200w, assets/images/${base}-768${ext} 768w, assets/images/${base}-480${ext} 480w`;
-  const fallback = `assets/images/${base}-1200${ext}`;
+  const jpgSrcset = `assets/images/${base}-1200.jpeg 1200w, assets/images/${base}-768.jpeg 768w, assets/images/${base}-480.jpeg 480w`;
+  const fallback = `assets/images/${base}-1200.jpeg`;
 
   return `
 <picture>
-  <source type="image/webp" srcset="${webpSrcset}" sizes="${sizes}">
   <source type="${mime}" srcset="${jpgSrcset}" sizes="${sizes}">
   <img src="${fallback}" alt="${alt}" loading="lazy" decoding="async" fetchpriority="low">
 </picture>`;
@@ -38,9 +36,8 @@ const newHtml = html.replace(imgRegex, (full, beforeAttrs, src, filename, afterA
   // find base files exist
   const base = path.basename(filename, path.extname(filename));
   const dir = path.join(__dirname, 'assets', 'images');
-  const webp = path.join(dir, `${base}-1200.webp`);
-  const lg = path.join(dir, `${base}-1200${path.extname(filename)}`);
-  if (fs.existsSync(webp) && fs.existsSync(lg)) {
+  const lg = path.join(dir, `${base}-1200.jpeg`);
+  if (fs.existsSync(lg)) {
     replaced.add(filename);
     return makePicture(src, filename, beforeAttrs, afterAttrs);
   }
