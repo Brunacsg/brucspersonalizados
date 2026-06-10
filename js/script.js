@@ -42,7 +42,7 @@ navLinks.forEach(link => {
 
 // Função para abrir WhatsApp
 function abrirWhatsApp() {
-    const numero = '5511999999999'; // Alterar com o número da empresa
+    const numero = '5511930226736'; // Número atualizado da empresa
     const mensagem = 'Olá! Gostaria de solicitar um orçamento para brindes personalizados.';
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
@@ -83,7 +83,7 @@ if (formOrcamento) {
 
 // Função para enviar dados para WhatsApp
 function enviarParaWhatsApp(data) {
-    const numero = '5511999999999'; // Alterar com o número da empresa
+    const numero = '5511930226736'; // Número atualizado da empresa
     
     const mensagem = `
 *SOLICITAÇÃO DE ORÇAMENTO - BRUCS PERSONALIZADOS*
