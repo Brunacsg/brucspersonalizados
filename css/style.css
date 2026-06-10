@@ -290,7 +290,7 @@ p {
 }
 
 /* ================================
-   HERO SECTION (CORRIGIDO PARA SINTONIZAR COM O HTML)
+   HERO SECTION (CORRIGIDO E AMPLIADO)
    ================================ */
 
 .hero {
@@ -305,9 +305,10 @@ p {
 
 .hero-container {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    /* Alterado para dividir a tela igualmente em 50% para cada elemento */
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     width: 100%;
 }
 
@@ -344,26 +345,22 @@ p {
     flex-wrap: wrap;
 }
 
-.hero-image-box img {
+.hero-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    z-index: 2;
     width: 100%;
-    max-width: 500px; /* Aumentado de 380px para 500px para dar mais destaque */
-    height: auto;
-    max-height: 600px; /* Aumentado de 550px para 600px para preencher a altura */
-    object-fit: contain;
-    border-radius: 24px;
-    box-shadow: 0 30px 60px rgba(0,0,0,.55);
-    transition: var(--transition);
+    height: 100%;
 }
 
-/* Efeito Glow Roxo de Fundo */
+/* Efeito Glow Roxo de Fundo ajustado */
 .hero-image-box::before {
     content: '';
     position: absolute;
-    width: 80%;
-    height: 80%;
-    background: rgba(139, 92, 246, 0.22);
+    width: 85%;
+    height: 85%;
+    background: rgba(139, 92, 246, 0.18);
     filter: blur(60px);
     z-index: 1;
     border-radius: 50%;
@@ -373,10 +370,12 @@ p {
     position: relative;
     z-index: 2;
     width: 100%;
-    max-width: 380px;
+    /* Ampliado os limites para ganhar largura e altura sem distorcer ou cortar */
+    max-width: 540px; 
     height: auto;
-    max-height: 550px;
-    object-fit: contain;
+    max-height: 650px; 
+    /* O SEGREDO: contain evita cortes nas bordas e exibe os textos inteiros */
+    object-fit: contain; 
     border-radius: 24px;
     box-shadow: 0 30px 60px rgba(0,0,0,.55);
     transition: var(--transition);
@@ -384,7 +383,7 @@ p {
 
 .hero-image-box img:hover {
     transform: translateY(-5px);
-    box-shadow: 0 40px 70px rgba(139, 92, 246, 0.2);
+    box-shadow: 0 40px 70px rgba(139, 92, 246, 0.25);
 }
 
 /* ================================
