@@ -290,7 +290,7 @@ p {
 }
 
 /* ================================
-   HERO SECTION (CORRIGIDO)
+   HERO SECTION (CORRIGIDO PARA SINTONIZAR COM O HTML)
    ================================ */
 
 .hero {
@@ -305,10 +305,15 @@ p {
 
 .hero-container {
     display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-columns: 1.1fr 0.9fr;
     align-items: center;
     gap: 60px;
     width: 100%;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
 }
 
 .hero-text h1 {
@@ -347,7 +352,7 @@ p {
     width: 100%;
 }
 
-/* Efeito Glow Roxo para preencher o fundo vazio */
+/* Efeito Glow Roxo de Fundo */
 .hero-image-box::before {
     content: '';
     position: absolute;
@@ -769,7 +774,6 @@ textarea {
         font-size: 2rem;
     }
 
-    /* Adaptação do Hero para Celular */
     .hero {
         padding: 40px 0;
     }
