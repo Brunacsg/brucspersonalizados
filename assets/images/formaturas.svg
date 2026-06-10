@@ -1,7 +1,0 @@
-<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="350" fill="#f8f8f8"/>
-  <path d="M 75 140 L 150 80 L 225 140 L 220 140 L 220 220 Q 220 240 200 240 L 100 240 Q 80 240 80 220 L 80 140 Z" fill="#6c3483"/>
-  <rect x="95" y="170" width="110" height="40" fill="#2d1b4e" opacity="0.5"/>
-  <circle cx="150" cy="160" r="12" fill="#fff"/>
-  <text x="150" y="190" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">2024</text>
-</svg>

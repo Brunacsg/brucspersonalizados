@@ -1,7 +1,0 @@
-<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
-  <rect width="300" height="350" fill="#f8f8f8"/>
-  <path d="M 70 130 L 60 240 Q 60 260 80 260 L 220 260 Q 240 260 240 240 L 230 130 Z" fill="#2d1b4e"/>
-  <path d="M 240 160 L 255 175 Q 260 180 255 185 L 240 175 Z" fill="#6c3483"/>
-  <rect x="75" y="160" width="150" height="60" fill="#6c3483" opacity="0.3"/>
-  <text x="150" y="190" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">COPO TÉRMICO</text>
-</svg>
