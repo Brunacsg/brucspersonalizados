@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="350" fill="#f8f8f8"/>
+  <path d="M 80 130 L 100 90 L 200 90 L 220 130 L 220 240 Q 220 260 200 260 L 100 260 Q 80 260 80 240 Z" fill="#2d1b4e"/>
+  <line x1="90" y1="135" x2="210" y2="135" stroke="#6c3483" stroke-width="3"/>
+  <line x1="95" y1="115" x2="105" y2="135" stroke="#6c3483" stroke-width="3"/>
+  <line x1="205" y1="115" x2="195" y2="135" stroke="#6c3483" stroke-width="3"/>
+  <text x="150" y="200" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">ECOBAG</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 300 350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="350" fill="#f8f8f8"/>
+  <rect x="40" y="110" width="220" height="150" rx="8" fill="none" stroke="#6c3483" stroke-width="3"/>
+  <rect x="55" y="130" width="50" height="60" fill="#6c3483" rx="3"/>
+  <rect x="125" y="130" width="50" height="60" fill="#2d1b4e" rx="3"/>
+  <rect x="195" y="130" width="45" height="60" fill="#6c3483" rx="3"/>
+  <circle cx="80" cy="220" r="6" fill="#2d1b4e"/>
+  <circle cx="150" cy="220" r="6" fill="#2d1b4e"/>
+  <circle cx="217.5" cy="220" r="6" fill="#2d1b4e"/>
+  <text x="150" y="260" text-anchor="middle" fill="#2d1b4e" font-size="12" font-weight="bold">KIT CORPORATIVO</text>
+</svg>
