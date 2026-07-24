@@ -6,15 +6,16 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
-if (hamburger) {
+if (hamburger && navMenu) {
     hamburger.addEventListener('click', () => {
-        navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-        hamburger.setAttribute('aria-expanded', navMenu.style.display === 'flex');
+        const menuOpen = navMenu.classList.toggle('show');
+        hamburger.classList.toggle('active', menuOpen);
+        hamburger.setAttribute('aria-expanded', menuOpen);
         
         // Animar hamburguer
         const spans = hamburger.querySelectorAll('span');
         spans.forEach((span, index) => {
-            if (navMenu.style.display === 'flex') {
+            if (menuOpen) {
                 if (index === 0) span.style.transform = 'rotate(45deg) translate(10px, 10px)';
                 if (index === 1) span.style.opacity = '0';
                 if (index === 2) span.style.transform = 'rotate(-45deg) translate(7px, -7px)';
@@ -23,7 +24,7 @@ if (hamburger) {
                 span.style.opacity = '1';
             }
         });
-        });
+    });
 
     // keyboard support (Enter / Space)
     hamburger.addEventListener('keydown', (e) => {
@@ -39,7 +40,9 @@ const navLinks = document.querySelectorAll('.nav-menu a');
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         if (navMenu) {
-            navMenu.style.display = 'none';
+            navMenu.classList.remove('show');
+            hamburger.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
             const spans = hamburger.querySelectorAll('span');
             spans.forEach(span => {
                 span.style.transform = 'none';
@@ -73,6 +76,8 @@ if (formOrcamento) {
             email: formData.get('email'),
             produto: formData.get('produto'),
             quantidade: formData.get('quantidade'),
+            margem: formData.get('margem'),
+            consultor: formData.get('consultor'),
             descricao: formData.get('descricao')
         };
         
@@ -101,8 +106,10 @@ function enviarParaWhatsApp(data) {
 *Empresa:* ${data.empresa}
 *Telefone:* ${data.telefone}
 *E-mail:* ${data.email}
-*Produto:* ${data.produto}
+*Tipo de Produto:* ${data.produto}
 *Quantidade:* ${data.quantidade}
+*Margem de Investimento por Unidade:* ${data.margem || 'Não informado'}
+*Código do Consultor:* ${data.consultor || 'Não informado'}
 
 *Descrição do Projeto:*
 ${data.descricao}
