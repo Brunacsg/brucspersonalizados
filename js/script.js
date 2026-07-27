@@ -87,42 +87,59 @@ if (formOrcamento) {
             return;
         }
         
-        // Enviar para WhatsApp (alternativa: backend)
-        enviarParaWhatsApp(data);
-        
-        // Limpar formulário
-        formOrcamento.reset();
+        // Enviar via Formsubmit (AJAX) para envio automático por e-mail
+        enviarViaFormSubmit(formData);
     });
 }
+// Enviar via Formsubmit (AJAX) para entrega automática por e-mail
+async function enviarViaFormSubmit(formData) {
+    const endpoint = 'https://formsubmit.co/ajax/contato@brucspersonalizados.com.br';
 
-// Função para enviar dados para WhatsApp
-function enviarParaWhatsApp(data) {
-    const numero = '5511930226736'; // Número atualizado da empresa
-    
-    const mensagem = `
-*SOLICITAÇÃO DE ORÇAMENTO - BRUCS PERSONALIZADOS*
+    // Ensure hidden fields exist for Formsubmit (in case JS-only submission)
+    formData.set('_captcha', 'false');
+    formData.set('_subject', 'Solicitação de Orçamento - Brucs Personalizados');
 
-*Nome:* ${data.nome}
-*Empresa:* ${data.empresa}
-*Telefone:* ${data.telefone}
-*E-mail:* ${data.email}
-*Tipo de Produto:* ${data.produto}
-*Quantidade:* ${data.quantidade}
-*Margem de Investimento por Unidade:* ${data.margem || 'Não informado'}
-*Código do Consultor:* ${data.consultor || 'Não informado'}
+    try {
+        const res = await fetch(endpoint, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
 
-*Descrição do Projeto:*
-${data.descricao}
+        if (res.ok) {
+            mostrarMensagemSucesso();
+            formOrcamento.reset();
+        } else {
+            mostrarMensagemErro();
+        }
+    } catch (err) {
+        mostrarMensagemErro();
+    }
+}
 
----
-Mensagem enviada através do site brucs.com.br
-    `.trim();
-    
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-    window.open(url, '_blank');
-    
-    // Mostrar mensagem de sucesso
-    mostrarMensagemSucesso();
+function mostrarMensagemErro() {
+    const notificacao = document.createElement('div');
+    notificacao.innerHTML = `
+        <div style="
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #d9534f;
+            color: white;
+            padding: 16px 24px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 10000;
+            animation: slideIn 0.3s ease;
+            font-weight: 600;
+        ">
+            Ocorreu um erro ao enviar. Por favor, tente novamente.
+        </div>
+    `;
+    document.body.appendChild(notificacao);
+    setTimeout(() => notificacao.remove(), 5000);
 }
 
 // Função para mostrar mensagem de sucesso
@@ -143,7 +160,7 @@ function mostrarMensagemSucesso() {
             animation: slideIn 0.3s ease;
             font-weight: 600;
         ">
-            ✓ Orçamento enviado com sucesso! Você será redirecionado para o WhatsApp.
+            ✓ Recebemos sua solicitação e em breve entraremos em contato.
         </div>
     `;
     

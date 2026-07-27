@@ -239,7 +239,10 @@
             <h2>Solicite Seu Orçamento</h2>
             <p class="section-description">Preencha os dados abaixo e receba uma proposta personalizada</p>
             
-            <form class="form-orcamento" id="formOrcamento">
+            <form class="form-orcamento" id="formOrcamento" action="https://formsubmit.co/contato@brucspersonalizados.com.br" method="POST" data-form-submit="true">
+                <!-- Formsubmit hidden fields: first submission requires verification to the target email -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Solicitação de Orçamento - Brucs Personalizados">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="nome">Nome *</label>
