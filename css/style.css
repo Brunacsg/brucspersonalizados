@@ -745,6 +745,45 @@ p {
     filter: brightness(1.05);
 }
 
+/* Ajustes de responsividade móvel para evitar corte lateral do banner
+   Aplica apenas em telas pequenas (ex.: iPhone Pro Max em modo retrato)
+   Não afeta layout desktop */
+@media (max-width: 430px) {
+    .hero {
+        padding: 0 0 60px;
+    }
+
+    .top-banner {
+        /* manter overflow oculto para evitar scroll inesperado */
+        overflow: hidden;
+    }
+
+    .top-banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+        /* preencher verticalmente para evitar faixa preta abaixo */
+        object-fit: cover;
+        object-position: center top;
+        min-height: 220px;
+    }
+
+    /* Ajustes menores para evitar elementos sobrepostos no mobile */
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-text p, .hero-intro {
+        max-width: 100%;
+        font-size: 0.98rem;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 /* ================================
    SOBRE
    ================================ */
@@ -1309,4 +1348,100 @@ textarea {
     .galeria-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Ajustes responsivos adicionais para diversos mobiles (tablet -> pequeno) */
+@media (max-width: 1024px) {
+    .hero {
+        /* remover padding-top para eliminar faixa preta abaixo do banner */
+        padding: 0 0 60px;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .top-banner {
+        margin-top: 68px;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .top-banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        object-position: center center;
+    }
+
+    /* Garantir que o banner fique abaixo do menu fixo (aprox. altura do menu) */
+    .top-banner {
+        margin-top: 68px;
+        margin-bottom: 0; /* garantir sem faixa abaixo da imagem */
+    }
+
+    .hero-text h1 {
+        font-size: clamp(2rem, 4.2vw, 3rem);
+        line-height: 1.06;
+    }
+
+    .hero-text p, .hero-intro {
+        font-size: clamp(0.95rem, 2.6vw, 1.05rem);
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    /* reduzir / ocultar efeitos de fundo que podem criar faixas visuais */
+    .hero::after {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        /* remover padding-top para eliminar faixa preta abaixo do banner */
+        padding: 0 0 50px;
+    }
+
+    .top-banner img {
+        /* Em telas muito estreitas usamos contain para garantir que nada seja cortado */
+        object-fit: contain;
+        object-position: center center;
+        width: 100%;
+        height: auto;
+        display: block;
+        max-height: none;
+    }
+
+    /* Garantir que o banner fique abaixo do menu fixo em telas muito estreitas */
+    .top-banner {
+        margin-top: 68px;
+        margin-bottom: 0; /* garantir sem faixa abaixo da imagem */
+    }
+
+    .hero-text h1 {
+        font-size: clamp(1.6rem, 6.5vw, 2.4rem);
+    }
+
+    .hero-text p, .hero-intro {
+        font-size: 0.95rem;
+    }
+
+    .hero-panel {
+        padding: 1rem;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+}
+
+/* Segurança extra para evitar overflow horizontal em qualquer mobile */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
