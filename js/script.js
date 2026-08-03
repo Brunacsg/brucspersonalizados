@@ -5,6 +5,46 @@
 // Menu Hamburguer
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
+const quoteCartStorageKey = 'catalogQuoteCartV1';
+
+function updateQuoteCartNavigation() {
+    let totalItems = 0;
+
+    try {
+        const items = JSON.parse(localStorage.getItem(quoteCartStorageKey) || '[]');
+        totalItems = Array.isArray(items)
+            ? items.reduce((sum, item) => sum + Math.max(0, Number(item?.qty) || 0), 0)
+            : 0;
+    } catch {
+        totalItems = 0;
+    }
+
+    document.querySelectorAll('[data-quote-cart-nav]').forEach((item) => {
+        item.hidden = totalItems <= 0;
+    });
+
+    document.querySelectorAll('[data-quote-cart-link]').forEach((link) => {
+        const label = totalItems === 1
+            ? 'Visualizar orçamento (1 item)'
+            : `Visualizar orçamento (${totalItems} itens)`;
+        link.textContent = label;
+        link.setAttribute('aria-label', label);
+    });
+}
+
+updateQuoteCartNavigation();
+window.addEventListener('quote-cart-changed', updateQuoteCartNavigation);
+window.addEventListener('storage', (event) => {
+    if (event.key === quoteCartStorageKey) updateQuoteCartNavigation();
+});
+
+document.querySelectorAll('[data-quote-cart-link]').forEach((link) => {
+    link.addEventListener('click', (event) => {
+        if (!document.getElementById('quoteCartPanel')) return;
+        event.preventDefault();
+        window.dispatchEvent(new CustomEvent('open-quote-cart'));
+    });
+});
 
 if (hamburger && navMenu) {
     hamburger.addEventListener('click', () => {
@@ -59,134 +99,6 @@ function abrirWhatsApp() {
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
 }
-
-// Formulário de Orçamento
-const formOrcamento = document.getElementById('formOrcamento');
-
-if (formOrcamento) {
-    formOrcamento.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Coletar dados do formulário
-        const formData = new FormData(formOrcamento);
-        const data = {
-            nome: formData.get('nome'),
-            empresa: formData.get('empresa'),
-            telefone: formData.get('telefone'),
-            email: formData.get('email'),
-            produto: formData.get('produto'),
-            quantidade: formData.get('quantidade'),
-            margem: formData.get('margem'),
-            consultor: formData.get('consultor'),
-            descricao: formData.get('descricao')
-        };
-        
-        // Validar dados
-        if (!data.nome || !data.email || !data.telefone) {
-            alert('Por favor, preencha todos os campos obrigatórios.');
-            return;
-        }
-        
-        // Enviar via Formsubmit (AJAX) para envio automático por e-mail
-        enviarViaFormSubmit(formData);
-    });
-}
-// Enviar via Formsubmit (AJAX) para entrega automática por e-mail
-async function enviarViaFormSubmit(formData) {
-    const endpoint = 'https://formsubmit.co/ajax/contato@brucspersonalizados.com.br';
-
-    // Ensure hidden fields exist for Formsubmit (in case JS-only submission)
-    formData.set('_captcha', 'false');
-    formData.set('_subject', 'Solicitação de Orçamento - Brucs Personalizados');
-
-    try {
-        const res = await fetch(endpoint, {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'Accept': 'application/json'
-            }
-        });
-
-        if (res.ok) {
-            mostrarMensagemSucesso();
-            formOrcamento.reset();
-        } else {
-            mostrarMensagemErro();
-        }
-    } catch (err) {
-        mostrarMensagemErro();
-    }
-}
-
-function mostrarMensagemErro() {
-    const notificacao = document.createElement('div');
-    notificacao.innerHTML = `
-        <div style="
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background-color: #d9534f;
-            color: white;
-            padding: 16px 24px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            z-index: 10000;
-            animation: slideIn 0.3s ease;
-            font-weight: 600;
-        ">
-            Ocorreu um erro ao enviar. Por favor, tente novamente.
-        </div>
-    `;
-    document.body.appendChild(notificacao);
-    setTimeout(() => notificacao.remove(), 5000);
-}
-
-// Função para mostrar mensagem de sucesso
-function mostrarMensagemSucesso() {
-    // Criar elemento de notificação
-    const notificacao = document.createElement('div');
-    notificacao.innerHTML = `
-        <div style="
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background-color: #25d366;
-            color: white;
-            padding: 16px 24px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            z-index: 10000;
-            animation: slideIn 0.3s ease;
-            font-weight: 600;
-        ">
-            ✓ Recebemos sua solicitação e em breve entraremos em contato.
-        </div>
-    `;
-    
-    document.body.appendChild(notificacao);
-    
-    // Remover notificação após 4 segundos
-    setTimeout(() => {
-        notificacao.remove();
-    }, 4000);
-}
-
-// Adicionar estilos de animação
-const style = document.createElement('style');
-style.innerHTML = `
-    @keyframes slideIn {
-        from {
-            transform: translateX(400px);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-`;
-document.head.appendChild(style);
 
 // Animar números quando a seção fica visível
 const observerOptions = {

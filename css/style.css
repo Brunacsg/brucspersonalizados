@@ -323,6 +323,26 @@ p {
     width: 100%;
 }
 
+.nav-menu .nav-quote-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.nav-menu .nav-quote-button:hover,
+.nav-menu .nav-quote-button:focus-visible {
+    background: rgba(255, 255, 255, 0.2);
+    transform: none;
+}
+
+.nav-menu .nav-quote-button::after {
+    display: none;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;

@@ -1,37 +1,20 @@
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+const { app } = require('./server');
 
-const port = process.env.PORT || 8080;
-const root = process.cwd();
+const port = Number(process.env.PORT) || 3001;
 
-const mime = {
-  '.html': 'text/html',
-  '.css': 'text/css',
-  '.js': 'application/javascript',
-  '.png': 'image/png',
-  '.jpg': 'image/jpeg',
-  '.jpeg':'image/jpeg',
-  '.webp':'image/webp',
-  '.svg':'image/svg+xml',
-  '.json':'application/json'
-};
+function listenOnPort(candidatePort) {
+  const server = app.listen(candidatePort, '0.0.0.0', () => {
+    console.log(`Preview server running at http://localhost:${candidatePort}`);
+  });
 
-const server = http.createServer((req, res) => {
-  let reqPath = decodeURIComponent(req.url.split('?')[0]);
-  if (reqPath === '/') reqPath = '/index.html';
-  const filePath = path.join(root, reqPath);
-  fs.stat(filePath, (err, stats) => {
-    if (err || !stats.isFile()) {
-      res.statusCode = 404;
-      res.end('Not found');
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE' && candidatePort < 8100) {
+      console.warn(`Port ${candidatePort} is busy, trying ${candidatePort + 1}...`);
+      server.close(() => listenOnPort(candidatePort + 1));
       return;
     }
-    const ext = path.extname(filePath).toLowerCase();
-    res.setHeader('Content-Type', mime[ext] || 'application/octet-stream');
-    const stream = fs.createReadStream(filePath);
-    stream.pipe(res);
+    throw err;
   });
-});
+}
 
-server.listen(port, () => console.log(`Preview server running at http://localhost:${port}`));
+listenOnPort(port);
