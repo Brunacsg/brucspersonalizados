@@ -432,7 +432,8 @@ function readQuoteCart() {
             .filter((item) => item && item.id)
             .map((item) => {
                 const parsedStock = Number(item.stock);
-                const stock = Number.isFinite(parsedStock)
+                const hasConfirmedStock = item.stock !== null && item.stock !== undefined && item.stock !== '';
+                const stock = hasConfirmedStock && Number.isFinite(parsedStock)
                     ? Math.max(0, Math.floor(parsedStock))
                     : null;
 
@@ -456,6 +457,8 @@ function readQuoteCart() {
 
 function syncQuoteCartStockLimits() {
     if (!quoteCart.length) return;
+
+    if (!stocksLoaded && !stocksFailed) return;
 
     quoteCart = quoteCart
         .map((item) => {

@@ -621,7 +621,8 @@ function renderDetail(snapshot) {
         const quantity = Math.max(1, Math.floor(Number(quoteQtyInput?.value) || 1));
         if (quoteQtyInput instanceof HTMLInputElement) quoteQtyInput.value = String(quantity);
         addProductToQuote(product, quantity);
-        if (quoteStatus) quoteStatus.textContent = 'Produto adicionado ao orçamento.';
+        if (quoteStatus) quoteStatus.textContent = 'Produto adicionado. Abrindo orçamento...';
+        window.location.assign('produtos.html?quote=1');
     });
 
     loadDetailStock(product);
