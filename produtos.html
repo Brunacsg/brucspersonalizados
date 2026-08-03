@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Brucs Personalizados</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css?v=4">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+    <nav class="navbar" aria-label="Navegação principal">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.jpg" alt="Brucs Personalizados" class="logo-image" loading="lazy"></a>
+                <p class="logo-subtitle">Personalizados</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Início</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#diferenciais">Diferenciais</a></li>
+                <li><a href="index.html#como-funciona">Como Funciona</a></li>
+                <li><a href="produtos.html" class="active">Catálogo</a></li>
+                <li data-quote-cart-nav hidden><a class="nav-quote-button" data-quote-cart-link href="produtos.html?quote=1">Visualizar orçamento</a></li>
+            </ul>
+            <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="spot-products layout-spotlike">
+            <div class="container catalog-layout">
+                <aside class="catalog-sidebar" aria-label="Filtros do catálogo">
+                    <button class="sidebar-block is-open" type="button" data-block>
+                        <span>BAIXE O CATÁLOGO</span>
+                        <span class="sidebar-arrow">⌄</span>
+                    </button>
+                    <div class="sidebar-panel is-open" data-panel>
+                        <section class="catalog-downloads" aria-label="Downloads de catálogos">
+                            <p class="catalog-downloads-title">BAIXAR CATÁLOGO</p>
+                            <a class="catalog-download-link" href="downloads/catalogo-completo">
+                                <span>Catálogo completo</span>
+                                <span aria-hidden="true">↓</span>
+                            </a>
+                            <a class="catalog-download-link" href="downloads/catalogo-kits">
+                                <span>Catálogo de kits</span>
+                                <span aria-hidden="true">↓</span>
+                            </a>
+                        </section>
+                    </div>
+
+                    <button class="sidebar-block is-open" type="button" data-block>
+                        <span>FILTRE POR PRODUTO</span>
+                        <span class="sidebar-arrow">⌄</span>
+                    </button>
+                    <div class="sidebar-panel is-open" data-panel>
+                        <div id="typeFilterOptions" class="type-filter-options"></div>
+                        <button id="clearTypeFilter" class="filter-clear" type="button">Limpar filtros</button>
+                    </div>
+                </aside>
+
+                <div class="catalog-main">
+                    <div class="catalog-topbar">
+                        <p id="productsCount" class="catalog-count">Carregando produtos...</p>
+                        <div class="catalog-controls">
+                            <input id="searchInput" class="catalog-search" type="search" placeholder="Buscar por nome ou código" aria-label="Buscar por nome ou código">
+                            <select id="sortSelect" class="sort-select" aria-label="Ordenação">
+                                <option value="name">Nome A-Z</option>
+                                <option value="name-desc">Nome Z-A</option>
+                                <option value="code">Código</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button id="openQuoteCart" class="quote-cart-fab" type="button" aria-label="Abrir orçamento">
+                        <span>Orçamento</span>
+                        <strong id="quoteCartCount">0</strong>
+                    </button>
+
+                    <aside id="quoteCartPanel" class="quote-cart-panel" aria-label="Carrinho de orçamento">
+                        <div class="quote-cart-header">
+                            <h3>Itens para orçamento</h3>
+                            <div class="quote-cart-header-actions">
+                                <button id="clearQuoteCart" class="quote-cart-clear" type="button">Limpar</button>
+                                <button id="closeQuoteCart" class="quote-cart-close" type="button" aria-label="Fechar">✕</button>
+                            </div>
+                        </div>
+                        <div id="quoteCartItems" class="quote-cart-items"></div>
+                        <p id="quoteCartSummary" class="quote-cart-summary"></p>
+                        <form id="quoteCartForm" class="quote-cart-form">
+                            <div class="form-group">
+                                <label for="quoteNome">Nome *</label>
+                                <input id="quoteNome" name="nome" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteDocumento">Documento *</label>
+                                <input id="quoteDocumento" name="documento" type="text" inputmode="numeric" autocomplete="off" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteEmail">E-mail *</label>
+                                <input id="quoteEmail" name="email" type="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quoteWhatsapp">WhatsApp *</label>
+                                <input id="quoteWhatsapp" name="whatsapp" type="tel" required>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Enviar orçamento</button>
+                            <p id="quoteCartStatus" class="quote-cart-status" aria-live="polite"></p>
+                        </form>
+                    </aside>
+
+                    <div id="productsStatus" class="products-status">Aguardando carregamento...</div>
+                    <div id="productsGrid" class="product-grid is-list"></div>
+                    <nav id="catalogPagination" class="catalog-pagination" aria-label="Paginação de produtos"></nav>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <a href="index.html"><img src="assets/images/logo.jpg" alt="Brucs Personalizados" class="footer-logo"></a>
+                    <p>Brindes corporativos e personalizados de qualidade premium para sua marca e evento.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📧 <a href="mailto:contato@brucspersonalizados.com.br">contato@brucspersonalizados.com.br</a></p>
+                    <p>📱 <a href="https://wa.me/5511930226736" target="_blank">WhatsApp</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/brucspersonalizados" target="_blank" rel="noopener noreferrer">@brucspersonalizados</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Brucs Personalizados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js?v=34"></script>
+    <script src="js/script.js?v=3"></script>
+</body>
+</html>

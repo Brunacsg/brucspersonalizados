@@ -53,7 +53,8 @@
                 <li><a href="#como-funciona">Como Funciona</a></li>
                 <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#orcamento">Orçamento</a></li>
+                <li><a href="produtos.html">Catálogo</a></li>
+                <li data-quote-cart-nav hidden><a class="nav-quote-button" data-quote-cart-link href="produtos.html?quote=1">Visualizar orçamento</a></li>
             </ul>
             <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
                 <span></span>
@@ -85,8 +86,8 @@
             </p>
 
             <div class="hero-buttons">
-                <a href="#orcamento" class="btn btn-primary">
-                    Solicitar Orçamento
+                <a href="produtos.html" class="btn btn-primary">
+                    Ver Catálogo
                 </a>
 
                 <a href="#galeria" class="btn btn-secondary">
@@ -233,86 +234,6 @@
         </div>
     </section>
 
-    <!-- Formulário de Orçamento -->
-    <section id="orcamento" class="orcamento">
-        <div class="container">
-            <h2>Solicite Seu Orçamento</h2>
-            <p class="section-description">Preencha os dados abaixo e receba uma proposta personalizada</p>
-            
-            <form class="form-orcamento" id="formOrcamento" action="https://formsubmit.co/contato@brucspersonalizados.com.br" method="POST" data-form-submit="true">
-                <!-- Formsubmit hidden fields: first submission requires verification to the target email -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_subject" value="Solicitação de Orçamento - Brucs Personalizados">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="nome">Nome *</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="empresa">Empresa *</label>
-                        <input type="text" id="empresa" name="empresa" required>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="telefone">Telefone *</label>
-                        <input type="tel" id="telefone" name="telefone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="produto">Tipo de Produto *</label>
-                    <select id="produto" name="produto" required>
-                        <option value="">Selecione um tipo de produto</option>
-                        <option value="Aniversário de Empresa">Aniversário de Empresa</option>
-                        <option value="Boas Vindas">Boas Vindas</option>
-                        <option value="Feiras e Eventos">Feiras e Eventos</option>
-                        <option value="SIPAT">SIPAT</option>
-                        <option value="Aniversário de Colaborador">Aniversário de Colaborador</option>
-                        <option value="Treinamentos">Treinamentos</option>
-                        <option value="Brindes Setembro Amarelo">Brindes Setembro Amarelo</option>
-                        <option value="Fim de Ano">Fim de Ano</option>
-                        <option value="Dia das Mulheres">Dia das Mulheres</option>
-                        <option value="Dia das Mães">Dia das Mães</option>
-                        <option value="Outubro Rosa">Outubro Rosa</option>
-                        <option value="Novembro Azul">Novembro Azul</option>
-                        <option value="Premiações ao Colaborador">Premiações ao Colaborador</option>
-                        <option value="Brindes para Clientes">Brindes para Clientes</option>
-                        <option value="Outros">Outros</option>
-                    </select>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="quantidade">Quantidade *</label>
-                        <input type="number" id="quantidade" name="quantidade" min="1" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="margem">Quanto deseja investir por Brinde? (R$) *</label>
-                        <input type="text" id="margem" name="margem" placeholder="Ex.: R$ 15,00" required>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="consultor">Código do Consultor</label>
-                    <input type="text" id="consultor" name="consultor" placeholder="Opcional para consultores BRUCS">
-                </div>
-
-                <div class="form-group">
-                    <label for="descricao">Descrição do Projeto *</label>
-                    <textarea id="descricao" name="descricao" rows="5" required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary btn-large">Solicitar Orçamento</button>
-            </form>
-        </div>
-    </section>
-
     <!-- Contato WhatsApp Flutuante -->
     <div class="whatsapp-float" onclick="abrirWhatsApp()">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white">
@@ -339,8 +260,6 @@
                     <h4>Redes Sociais</h4>
                     <div class="social-links">
                         <a href="https://instagram.com/brucspersonalizados" title="Instagram" target="_blank" rel="noopener noreferrer">@brucspersonalizados</a>
-                        <a href="#" title="Facebook">Facebook</a>
-                        <a href="#" title="LinkedIn">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -350,6 +269,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=3"></script>
 </body>
 </html>

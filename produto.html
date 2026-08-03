@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Brucs Personalizados</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css?v=5">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+    <nav class="navbar" aria-label="Navegação principal">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.jpg" alt="Brucs Personalizados" class="logo-image" loading="lazy"></a>
+                <p class="logo-subtitle">Personalizados</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Início</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#diferenciais">Diferenciais</a></li>
+                <li><a href="index.html#como-funciona">Como Funciona</a></li>
+                <li><a href="produtos.html" class="active">Catálogo</a></li>
+                <li data-quote-cart-nav hidden><a class="nav-quote-button" data-quote-cart-link href="produtos.html?quote=1">Visualizar orçamento</a></li>
+            </ul>
+            <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="spot-products layout-spotlike">
+            <div class="container catalog-main">
+                <div class="catalog-topbar">
+                    <p class="catalog-count">Detalhes do produto</p>
+                    <div class="catalog-controls">
+                        <a id="backToCatalog" class="sort-select" href="produtos.html" style="display:flex;align-items:center;text-decoration:none;">Voltar ao catálogo</a>
+                    </div>
+                </div>
+
+                <div id="productDetailStatus" class="products-status">Carregando detalhes...</div>
+                <article id="productDetailCard" class="product-card" style="display:none;"></article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-brand">
+                    <a href="index.html"><img src="assets/images/logo.jpg" alt="Brucs Personalizados" class="footer-logo"></a>
+                    <p>Brindes corporativos e personalizados de qualidade premium para sua marca e evento.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📧 <a href="mailto:contato@brucspersonalizados.com.br">contato@brucspersonalizados.com.br</a></p>
+                    <p>📱 <a href="https://wa.me/5511930226736" target="_blank">WhatsApp</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/brucspersonalizados" target="_blank" rel="noopener noreferrer">@brucspersonalizados</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Brucs Personalizados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/product-detail.js?v=11"></script>
+    <script src="js/script.js?v=3"></script>
+</body>
+</html>
