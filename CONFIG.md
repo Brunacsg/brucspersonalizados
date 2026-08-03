@@ -27,7 +27,7 @@ FACEBOOK_PIXEL_ID=xxxxxxxxxxxx
 
 ### SEO
 ```
-SITE_URL=https://brucspersonalizados.com.br
+SITE_URL=https://www.brucspersonalizados.com.br
 SITE_NAME=Brucs Personalizados
 SITE_DESCRIPTION=Brindes corporativos e personalizados de qualidade premium
 ```
@@ -289,19 +289,28 @@ upstream backend {
 }
 
 server {
-    listen 80;
-    server_name brucspersonalizados.com.br;
+  listen 80;
+  server_name brucspersonalizados.com.br www.brucspersonalizados.com.br;
 
-    # Redirecionar HTTP para HTTPS
-    return 301 https://$server_name$request_uri;
+  return 301 https://www.brucspersonalizados.com.br$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name brucspersonalizados.com.br;
+  server_name brucspersonalizados.com.br;
 
-    ssl_certificate /etc/letsencrypt/live/brucspersonalizados.com.br/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/brucspersonalizados.com.br/privkey.pem;
+  ssl_certificate /etc/letsencrypt/live/www.brucspersonalizados.com.br/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/www.brucspersonalizados.com.br/privkey.pem;
+
+  return 301 https://www.brucspersonalizados.com.br$request_uri;
+}
+
+server {
+  listen 443 ssl http2;
+  server_name www.brucspersonalizados.com.br;
+
+  ssl_certificate /etc/letsencrypt/live/www.brucspersonalizados.com.br/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/www.brucspersonalizados.com.br/privkey.pem;
 
     # Frontend
     location / {

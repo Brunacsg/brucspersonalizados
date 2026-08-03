@@ -1,0 +1,792 @@
+{
+	"info": {
+		"_postman_id": "d2243b76-a0f8-4262-b90f-f1a7c82a8f61",
+		"name": "Webservice Brasil - REST Calls - Clients",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Authentication",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/AuthenticateClient?accessKey=ACCESSKEY",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"AuthenticateClient"
+							],
+							"query": [
+								{
+									"key": "accessKey",
+									"value": "ACCESSKEY"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Validate Session",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/ValidateSession?token=TOKEN",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"ValidateSession"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Close Session",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/CloseSession?token=TOKEN",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"CloseSession"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Stocks",
+			"item": [
+				{
+					"name": "Stocks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/Stocks?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"Stocks"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "OrderV1 (simple order)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"order\":\r\n   [\r\n        {\r\n            \"Sku\": \"81190-103\",\r\n            \"Quantity\": \"1\",\r\n            \"LineType\": \"SIMPLE\",\r\n            \"WaitArtWork\": \"false\",\r\n            \"Sample\": \"false\",\r\n            \"Observation\": \"\"\r\n        }\r\n   ],\r\n   \"destination\":\r\n   {\r\n      \"AddressLine1\": \"Cliente de teste\",\r\n      \"AddressLine2\": \"Rua de teste\",\r\n      \"Postalcode\": \"3000\",\r\n      \"ExtentionPostalcode\": \"3000\",\r\n      \"City\": \"Sao Paulo\",\r\n      \"Country\": \"BR\",\r\n      \"PhoneNumber\": \"12345\",\r\n      \"State\": \"SP\"\r\n   },\r\n   \"courier\": \"Economy\",\r\n   \"observation\": \"\",\r\n   \"internalReference\": \"\",\r\n   \"relatedOrderStamp\": \"\",\r\n   \"shippingDate\": \"\",\r\n   \"noShipping\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/OrderV1?token=TOKEN&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"OrderV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrderV1 (print order)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"order\":\r\n   [\r\n        {\r\n            \"Sku\": \"81190-103\",\r\n            \"Quantity\": \"1\",\r\n            \"LineType\": \"PRINT\",\r\n            \"WaitArtWork\": \"false\",\r\n            \"Sample\": \"false\",\r\n            \"Observation\": \"\",\r\n            \"ServiceOrderLines\":\r\n            [\r\n                {\r\n                   \"ServCode\": \"81190.16.27.PDP1-01-01\",\r\n                   \"Color1\": \"verde\",\r\n                   \"Color2\": \"\",\r\n                   \"Color3\": \"\",\r\n                   \"Color4\": \"\",\r\n                   \"Color5\": \"\",\r\n                   \"LogoArea\": \"1\",\r\n                   \"LogoWidth\": \"1\",\r\n                   \"LogoHeight\": \"1\",\r\n                   \"Appproved\": \"true\",\r\n                   \"Files\":\r\n                   {\r\n                      \"ServiceFileV1\":\r\n                      {\r\n                         \"FileName\": \"fileName\",\r\n                        \"FileExtension\": \"fileExtension\",\r\n                        \"FileBytes\": \"fileBytes\"\r\n                        }\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n   ],\r\n   \"destination\":\r\n   {\r\n      \"AddressLine1\": \"Cliente de teste\",\r\n      \"AddressLine2\": \"Rua de teste\",\r\n      \"Postalcode\": \"3000\",\r\n      \"ExtentionPostalcode\": \"3000\",\r\n      \"City\": \"Sao Paulo\",\r\n      \"Country\": \"BR\",\r\n      \"PhoneNumber\": \"12345\",\r\n      \"State\": \"SP\"\r\n   },\r\n   \"courier\": \"Economy\",\r\n   \"observation\": \"\",\r\n   \"internalReference\": \"\",\r\n   \"relatedOrderStamp\": \"\",\r\n   \"shippingDate\": \"\",\r\n   \"noShipping\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/OrderV1?token=TOKEN&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"OrderV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrderV1 (print order - waitArtwork)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"order\":\r\n   [\r\n        {\r\n            \"Sku\": \"81190-103\",\r\n            \"Quantity\": \"1\",\r\n            \"LineType\": \"PRINT\",\r\n            \"WaitArtWork\": \"true\",\r\n            \"Sample\": \"false\",\r\n            \"Observation\": \"\"\r\n        }\r\n   ],\r\n   \"destination\":\r\n   {\r\n      \"AddressLine1\": \"Cliente de teste\",\r\n      \"AddressLine2\": \"Rua de teste\",\r\n      \"Postalcode\": \"3000\",\r\n      \"ExtentionPostalcode\": \"3000\",\r\n      \"City\": \"Sao Paulo\",\r\n      \"Country\": \"BR\",\r\n      \"PhoneNumber\": \"12345\",\r\n      \"State\": \"SP\"\r\n   },\r\n   \"courier\": \"Economy\",\r\n   \"observation\": \"\",\r\n   \"internalReference\": \"\",\r\n   \"relatedOrderStamp\": \"\",\r\n   \"shippingDate\": \"\",\r\n   \"noShipping\": \"false\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/OrderV1?token=TOKEN&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"OrderV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrdersV1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/OrdersV1?token=TOKEN&status=STATUS&number=10&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"OrdersV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "status",
+									"value": "STATUS"
+								},
+								{
+									"key": "number",
+									"value": "10"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ServiceOrderV1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderStamp\": \"orderStamp\",\r\n    \"order\":\r\n            [\r\n                {\r\n                   \"OrderLineStamp\" : \"OrderLineStamp\",\r\n                   \"ServCode\": \"81190.16.27.PDP1-01-01\",\r\n                   \"GroupId\": \"0\",\r\n                   \"Color1\": \"verde\",\r\n                   \"Color2\": \"\",\r\n                   \"Color3\": \"\",\r\n                   \"Color4\": \"\",\r\n                   \"Color5\": \"\",\r\n                   \"LogoArea\": \"1\",\r\n                   \"LogoWidth\": \"1\",\r\n                   \"LogoHeight\": \"1\",\r\n                   \"Appproved\": \"false\",\r\n                   \"Files\":\r\n                   [\r\n                      {\r\n                        \"FileName\": \"fileName\",\r\n                        \"FileExtension\": \"fileExtension\",\r\n                        \"FileBytes\": \"fileBytes\"\r\n                      }\r\n                   ]\r\n\r\n        }\r\n   ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/ServiceOrderV1?token=TOKEN&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"ServiceOrderV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CancelOrderV1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderStamp\" : \"ORDERSTAMP\",\r\n    \"reason\" : \"reason to cancel the order\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/CancelOrderV1?token=TOKEN&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"CancelOrderV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OrderDetailsV1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/OrderDetailsV1?token=TOKEN&orderStamp=ORDERSTAMP&test=true",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"OrderDetailsV1"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "orderStamp",
+									"value": "ORDERSTAMP"
+								},
+								{
+									"key": "test",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "ProductsTree",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/productsTree?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"productsTree"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/products?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"products"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optionals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/optionals?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"optionals"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optionals Price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/optionalsPrice?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"optionalsPrice"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Optionals Complete",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/optionalsComplete?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"optionalsComplete"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Customization Options",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/customizationOptions?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"customizationOptions"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Customization Tables",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/customizationTables?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"customizationTables"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Colors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/colors?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"colors"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product Types",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/productTypes?token=TOKEN&lang=PT",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"productTypes"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								},
+								{
+									"key": "lang",
+									"value": "PT"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Catalog Prices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/catalogPrices?token=TOKEN",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"catalogPrices"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Canceled Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ws.spotgifts.com.br/api/v1SSL/canceledProducts?token=TOKEN",
+							"protocol": "https",
+							"host": [
+								"ws",
+								"spotgifts",
+								"com",
+								"br"
+							],
+							"path": [
+								"api",
+								"v1SSL",
+								"canceledProducts"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "TOKEN"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
