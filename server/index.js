@@ -7,7 +7,9 @@ const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
-const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 3;
+const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
+const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
 const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..', 'products_print_area_allcolors_market1_150px');
 const CATALOG_DOWNLOAD_DIR = path.join(__dirname, '..', 'catalogo');
 const COMPLETE_CATALOG_FILE = 'Cata\u0301logo_Brucs_2026.pdf';
@@ -89,6 +91,27 @@ function buildCatalogCacheKey(lang, query) {
 
 function isProductsPayloadUsable(payload) {
     return Array.isArray(payload?.Products) && payload.Products.length > 0 && Number(payload?.ErrorCode || 0) === 0;
+}
+
+function readSpotProductsSnapshot(cacheKey) {
+    try {
+        const snapshot = JSON.parse(fs.readFileSync(SPOT_PRODUCTS_SNAPSHOT_FILE, 'utf8'));
+        if (!snapshot || snapshot.cacheKey !== cacheKey || !isProductsPayloadUsable(snapshot.payload)) return null;
+        if (Date.now() - Number(snapshot.savedAt) > SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) return null;
+        return snapshot.payload;
+    } catch {
+        return null;
+    }
+}
+
+function saveSpotProductsSnapshot(cacheKey, payload) {
+    if (!isProductsPayloadUsable(payload)) return;
+    try {
+        fs.mkdirSync(path.dirname(SPOT_PRODUCTS_SNAPSHOT_FILE), { recursive: true });
+        fs.writeFileSync(SPOT_PRODUCTS_SNAPSHOT_FILE, JSON.stringify({ cacheKey, savedAt: Date.now(), payload }), 'utf8');
+    } catch (error) {
+        console.warn('Spot products snapshot write failed:', error.message);
+    }
 }
 
 function sendSpotCatalogDisabled(res) {
@@ -719,13 +742,25 @@ function createApp() {
         }
 
         const request = (async () => {
-            const firstPayload = await client.request('products', { method: 'GET', params: query, language: lang });
+            const firstPayload = await client.request('products', {
+                method: 'GET',
+                params: query,
+                language: lang,
+                timeoutMs: Number(process.env.SPOT_PRODUCTS_TIMEOUT_MS) || 45000,
+                retries: Number(process.env.SPOT_PRODUCTS_RETRIES) || 2
+            });
             if (Number(firstPayload?.ErrorCode) !== 16) {
                 return firstPayload;
             }
 
             await new Promise((resolve) => setTimeout(resolve, 1500));
-            return client.request('products', { method: 'GET', params: query, language: lang });
+            return client.request('products', {
+                method: 'GET',
+                params: query,
+                language: lang,
+                timeoutMs: Number(process.env.SPOT_PRODUCTS_TIMEOUT_MS) || 45000,
+                retries: Number(process.env.SPOT_PRODUCTS_RETRIES) || 2
+            });
         })()
             .finally(() => productsInFlight.delete(cacheKey));
         productsInFlight.set(cacheKey, request);
@@ -814,6 +849,7 @@ function createApp() {
             const data = await getProductsPayload(lang);
             if (isProductsPayloadUsable(data)) {
                 setCacheValue(productsApiCache, cacheKey, data, PRODUCTS_API_TTL_MS);
+                saveSpotProductsSnapshot(cacheKey, data);
                 setTimeout(() => {
                     warmImagesForProducts(data.Products || []);
                 }, 10);
@@ -974,6 +1010,13 @@ function createApp() {
                 return res.json(staleCached);
             }
 
+            const persistentCached = readSpotProductsSnapshot(cacheKey);
+            if (persistentCached) {
+                res.setHeader('Cache-Control', 'public, max-age=60');
+                res.setHeader('X-Spot-Cache', 'DISK-STALE');
+                return res.json(persistentCached);
+            }
+
             const errorCode = Number(data?.ErrorCode);
             const message = data?.ErrorMessage || (Number.isFinite(errorCode) ? `Spot ErrorCode ${errorCode}` : 'Spot returned an empty product catalog');
             return res.status(502).json({ error: message });
@@ -984,6 +1027,12 @@ function createApp() {
             if (staleCached && isProductsPayloadUsable(staleCached)) {
                 res.setHeader('Cache-Control', 'public, max-age=60');
                 return res.json(staleCached);
+            }
+            const persistentCached = readSpotProductsSnapshot(cacheKey);
+            if (persistentCached) {
+                res.setHeader('Cache-Control', 'public, max-age=60');
+                res.setHeader('X-Spot-Cache', 'DISK-STALE');
+                return res.json(persistentCached);
             }
             return res.status(502).json({ error: err.message });
         }
