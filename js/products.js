@@ -16,6 +16,7 @@ const quoteCartForm = document.getElementById('quoteCartForm');
 const quoteCartStatus = document.getElementById('quoteCartStatus');
 const clearQuoteCartButton = document.getElementById('clearQuoteCart');
 const quoteCartSummary = document.getElementById('quoteCartSummary');
+const catalogSelectorButtons = Array.from(document.querySelectorAll('[data-catalog]'));
 
 const apiBase = window.SPOT_API_BASE || (window.location.protocol === 'file:' ? 'http://localhost:3001' : window.location.origin);
 const spotImageBase = window.SPOT_IMAGE_BASE || '';
@@ -47,6 +48,8 @@ const productSearchTextCache = new Map();
 let stocksLoaded = false;
 let stocksFailed = false;
 let catalogSupplementalLoadingPromise = null;
+let activeCatalog = 'kits';
+const catalogProductsCache = new Map();
 
 window.catalogMarkImageLoaded = function (src) {
     const value = String(src || '').trim();
@@ -1269,16 +1272,29 @@ function initQuoteCart() {
     });
 }
 
-async function fetchProducts() {
+function setActiveCatalog(catalog) {
+    activeCatalog = catalog === 'brindes' ? 'brindes' : 'kits';
+    searchTerm = '';
+    priceRange = 'all';
+    currentPage = 1;
+    if (searchInput) searchInput.value = '';
+    if (priceFilter) priceFilter.value = 'all';
+    catalogSelectorButtons.forEach((button) => {
+        const isActive = button.getAttribute('data-catalog') === activeCatalog;
+        button.classList.toggle('is-active', isActive);
+        button.setAttribute('aria-pressed', String(isActive));
+    });
+}
+
+async function fetchProducts(catalog = activeCatalog) {
     if (isLoadingProducts) return;
 
     isLoadingProducts = true;
-    if (productsStatus) productsStatus.textContent = 'Buscando produtos...';
+    setActiveCatalog(catalog);
+    if (productsStatus) productsStatus.textContent = `Carregando catálogo de ${activeCatalog === 'kits' ? 'kits' : 'brindes'}...`;
 
-    const cachedEntry = readProductsCache();
-    const cachedProducts = cachedEntry?.products || [];
+    const cachedProducts = catalogProductsCache.get(activeCatalog) || [];
     const hasCachedProducts = cachedProducts.length > 0;
-    const cacheAgeMs = cachedEntry?.savedAt ? (Date.now() - cachedEntry.savedAt) : Number.POSITIVE_INFINITY;
 
     if (hasCachedProducts) {
         allProducts = cachedProducts;
@@ -1287,14 +1303,10 @@ async function fetchProducts() {
         renderTypeFilters();
         renderProducts(getFilteredProducts());
         if (productsStatus) {
-            productsStatus.textContent = `Exibindo cache local (${cachedProducts.length} itens).`;
+            productsStatus.textContent = `Exibindo ${cachedProducts.length} itens do catálogo de ${activeCatalog === 'kits' ? 'kits' : 'brindes'}`;
         }
-
-        // Guarantee instant open/reopen of catalog when cache is still fresh.
-        if (cacheAgeMs <= PRODUCTS_CACHE_FRESH_MS) {
-            isLoadingProducts = false;
-            return;
-        }
+        isLoadingProducts = false;
+        return;
     } else if (productsGrid) {
         productsGrid.innerHTML = '';
     }
@@ -1303,7 +1315,8 @@ async function fetchProducts() {
 
     try {
         let products = [];
-        const data = await fetchApiJson('/api/catalog/products', 15000);
+        const endpoint = activeCatalog === 'kits' ? '/api/catalog/products' : '/api/spot/products?lang=PT';
+        const data = await fetchApiJson(endpoint, activeCatalog === 'kits' ? 15000 : 30000);
         products = extractProducts(data);
         if (!products.length) {
             if (hasCachedProducts) {
@@ -1315,7 +1328,7 @@ async function fetchProducts() {
             throw new Error('Lista de produtos vazia na API');
         }
 
-        saveProductsCache(products);
+        catalogProductsCache.set(activeCatalog, products);
 
         allProducts = products;
         rebuildProductSearchCache(allProducts);
@@ -1323,7 +1336,7 @@ async function fetchProducts() {
         renderTypeFilters();
         renderProducts(getFilteredProducts());
         if (productsStatus) {
-            productsStatus.textContent = `Exibindo ${products.length} itens`;
+            productsStatus.textContent = `Exibindo ${products.length} itens do catálogo de ${activeCatalog === 'kits' ? 'kits' : 'brindes'}`;
         }
         return;
 
@@ -1346,6 +1359,12 @@ async function fetchProducts() {
 initSidebarAccordion();
 initControls();
 initQuoteCart();
+catalogSelectorButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        const catalog = button.getAttribute('data-catalog');
+        if (catalog) fetchProducts(catalog);
+    });
+});
 fetchProducts();
 
 resolveApiBaseCandidate().then((resolvedBase) => {

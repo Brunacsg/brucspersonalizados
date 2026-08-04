@@ -14,6 +14,8 @@ class SpotClient {
         this.authenticationPromise = null;
         this.requestTimeoutMs = Number(process.env.SPOT_REQUEST_TIMEOUT_MS) || 20000;
         this.requestRetries = Number(process.env.SPOT_REQUEST_RETRIES) || 1;
+        this.productsTimeoutMs = Number(process.env.SPOT_PRODUCTS_TIMEOUT_MS) || 45000;
+        this.productsRetries = Number(process.env.SPOT_PRODUCTS_RETRIES) || 2;
     }
 
     async fetchJson(url, options = {}, { timeoutMs = this.requestTimeoutMs, retries = this.requestRetries } = {}) {
@@ -60,7 +62,7 @@ class SpotClient {
                     break;
                 }
 
-                await wait(150 * (attempt + 1));
+                await wait(300 * (2 ** attempt));
             } finally {
                 clearTimeout(timeoutId);
             }
@@ -109,7 +111,7 @@ class SpotClient {
         this.authenticationPromise = null;
     }
 
-    async request(path, { method = 'GET', body = null, params = {}, language = 'PT', includeLanguageParam = true } = {}) {
+    async request(path, { method = 'GET', body = null, params = {}, language = 'PT', includeLanguageParam = true, timeoutMs, retries } = {}) {
         const attemptRequest = async () => {
             const token = await this.authenticate();
 
@@ -128,7 +130,11 @@ class SpotClient {
             const opts = { method, headers };
             if (body) opts.body = JSON.stringify(body);
 
-            return await this.fetchJson(url.toString(), opts, { timeoutMs: this.requestTimeoutMs, retries: this.requestRetries });
+            const requestOptions = {
+                timeoutMs: timeoutMs || (path === 'products' ? this.productsTimeoutMs : this.requestTimeoutMs),
+                retries: Number.isFinite(retries) ? retries : (path === 'products' ? this.productsRetries : this.requestRetries)
+            };
+            return await this.fetchJson(url.toString(), opts, requestOptions);
         };
 
         const data = await attemptRequest();
