@@ -6,6 +6,8 @@ const fs = require('fs');
 const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
+const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
 const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..', 'products_print_area_allcolors_market1_150px');
 const CATALOG_DOWNLOAD_DIR = path.join(__dirname, '..', 'catalogo');
 const COMPLETE_CATALOG_FILE = 'Cata\u0301logo_Brucs_2026.pdf';
@@ -26,6 +28,7 @@ const SPOT_CLOUD_IMAGES_BASE_PATHS = (process.env.SPOT_CLOUD_IMAGES_BASE_PATHS |
     .filter(Boolean);
 const SPOT_CLOUD_WEBDAV_BASE = process.env.SPOT_CLOUD_WEBDAV_BASE || '/public.php/webdav';
 const SPOT_PERF_DEBUG = process.env.SPOT_PERF_DEBUG === 'true';
+const SPOT_CATALOG_ENABLED = process.env.SPOT_CATALOG_ENABLED !== 'false';
 
 function logSpotPerf(event, startedAt, details = '') {
     if (!SPOT_PERF_DEBUG) return;
@@ -86,6 +89,42 @@ function buildCatalogCacheKey(lang, query) {
 
 function isProductsPayloadUsable(payload) {
     return Array.isArray(payload?.Products) && payload.Products.length > 0 && Number(payload?.ErrorCode || 0) === 0;
+}
+
+function sendSpotCatalogDisabled(res) {
+    return res.status(503).json({
+        error: 'Spot catalog temporarily disabled',
+        message: 'O catálogo de produtos está temporariamente indisponível.'
+    });
+}
+
+function normalizeLocalCatalogProduct(product) {
+    const code = String(product?.codigo || '').trim();
+    const price = Number(product?.preco);
+    const stock = Number(product?.estoque);
+    return {
+        InternalReference: code,
+        ProdReference: code,
+        ProductCode: code,
+        Name: String(product?.nome || '').trim(),
+        ProductTypeName: 'Kits',
+        MainImage: `/${code}-1.jpg`,
+        Price: Number.isFinite(price) ? price * LOCAL_CATALOG_PRICE_MULTIPLIER : null,
+        Stock: Number.isFinite(stock) ? Math.max(0, Math.floor(stock)) : null
+    };
+}
+
+const LOCAL_CATALOG_PRODUCTS_NORMALIZED = LOCAL_CATALOG_PRODUCTS.map(normalizeLocalCatalogProduct);
+
+function getLocalCatalogImageFiles(code) {
+    const escapedCode = String(code || '').trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (!escapedCode) return [];
+    const pattern = new RegExp(`^${escapedCode}-(\\d+)\\.(png|jpe?g|webp)$`, 'i');
+    return fs.readdirSync(path.join(__dirname, '..'))
+        .map((file) => ({ file, match: file.match(pattern) }))
+        .filter(({ match }) => Boolean(match))
+        .sort((left, right) => Number(left.match[1]) - Number(right.match[1]))
+        .map(({ file }) => `/${file}`);
 }
 
 async function fetchWithRetry(url, options = {}, { timeoutMs = 8000, retries = 1 } = {}) {
@@ -784,11 +823,13 @@ function createApp() {
         }
     };
 
-    // Warm cache shortly after boot and refresh periodically.
-    setTimeout(() => { warmProductsCache('PT'); }, 100);
-    setTimeout(() => { getStocksPayload('PT').catch(() => {}); }, 100);
-    setInterval(() => { warmProductsCache('PT'); }, 4 * 60 * 1000);
-    setInterval(() => { getStocksPayload('PT').catch(() => {}); }, STOCKS_CACHE_TTL_MS);
+    // Warm cache only while the public Spot catalog is enabled.
+    if (SPOT_CATALOG_ENABLED) {
+        setTimeout(() => { warmProductsCache('PT'); }, 100);
+        setTimeout(() => { getStocksPayload('PT').catch(() => {}); }, 100);
+        setInterval(() => { warmProductsCache('PT'); }, 4 * 60 * 1000);
+        setInterval(() => { getStocksPayload('PT').catch(() => {}); }, STOCKS_CACHE_TTL_MS);
+    }
 
     const evaluateCapability = (data) => {
         if (typeof data === 'string') {
@@ -817,10 +858,22 @@ function createApp() {
 
 
     // Basic health
-    app.get('/api/spot/health', (req, res) => res.json({ ok: true }));
+    app.get('/api/spot/health', (req, res) => res.json({ ok: true, catalogEnabled: SPOT_CATALOG_ENABLED }));
 
     app.get('/api/spot/auth', (req, res) => {
         res.status(404).json({ error: 'Not found' });
+    });
+
+    app.get('/api/catalog/products', (req, res) => {
+        res.setHeader('Cache-Control', 'public, max-age=300');
+        return res.json({ source: 'local', Products: LOCAL_CATALOG_PRODUCTS_NORMALIZED });
+    });
+
+    app.get('/api/catalog/products/:code/images', (req, res) => {
+        const code = String(req.params.code || '').trim();
+        const images = getLocalCatalogImageFiles(code);
+        res.setHeader('Cache-Control', 'public, max-age=300');
+        return res.json({ code, images });
     });
 
     app.get('/api/spot/capabilities', async (req, res) => {
@@ -882,6 +935,10 @@ function createApp() {
     });
 
     app.get('/api/spot/products', async (req, res) => {
+        if (!SPOT_CATALOG_ENABLED) {
+            return sendSpotCatalogDisabled(res);
+        }
+
         const q = sanitizeQuery(req.query);
         const lang = String((req.query && req.query.lang) || 'PT').toUpperCase();
         const cacheKey = buildCatalogCacheKey(lang, q);
@@ -933,6 +990,10 @@ function createApp() {
     });
 
     app.get('/api/spot/catalog-content', async (req, res) => {
+        if (!SPOT_CATALOG_ENABLED) {
+            return sendSpotCatalogDisabled(res);
+        }
+
         const q = sanitizeQuery(req.query);
         const lang = String((req.query && req.query.lang) || 'PT').toUpperCase();
         const includeProducts = String(req.query?.includeProducts || 'true').toLowerCase() !== 'false';
