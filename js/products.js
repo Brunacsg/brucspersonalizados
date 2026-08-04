@@ -4,6 +4,7 @@ const productsCount = document.getElementById('productsCount');
 const typeFilterOptions = document.getElementById('typeFilterOptions');
 const clearTypeFilter = document.getElementById('clearTypeFilter');
 const sortSelect = document.getElementById('sortSelect');
+const priceFilter = document.getElementById('priceFilter');
 const catalogPagination = document.getElementById('catalogPagination');
 const searchInput = document.getElementById('searchInput');
 const openQuoteCartButton = document.getElementById('openQuoteCart');
@@ -26,6 +27,7 @@ let isLoadingProducts = false;
 let allProducts = [];
 let selectedTypeGroups = new Set();
 let sortMode = 'name';
+let priceRange = 'all';
 let stockByReference = new Map();
 let priceByReference = new Map();
 let customizationByReference = new Map();
@@ -310,6 +312,9 @@ function getAvailableStockByRef(refValue) {
 }
 
 function getAvailableStock(product) {
+    const directStock = parseNumber(product?.Stock ?? product?.stock ?? product?.Quantity ?? product?.estoque);
+    if (Number.isFinite(directStock)) return Math.max(0, Math.floor(directStock));
+
     const candidates = getProductReferenceCandidates(product);
     for (const candidate of candidates) {
         const qty = getAvailableStockByRef(candidate);
@@ -326,6 +331,11 @@ function clampQtyToStock(quantity, availableStock) {
 }
 
 function getPriceLabel(product) {
+    const directPrice = parseNumber(product?.Price ?? product?.CatalogPrice ?? product?.preco);
+    if (Number.isFinite(directPrice)) {
+        return { text: formatCurrency(directPrice), cssClass: 'is-available' };
+    }
+
     let value = null;
     for (const candidate of getProductReferenceCandidates(product)) {
         const found = priceByReference.get(candidate);
@@ -339,6 +349,18 @@ function getPriceLabel(product) {
     }
 
     return { text: 'Preco sob consulta', cssClass: 'is-neutral' };
+}
+
+function getProductPrice(product) {
+    const directPrice = parseNumber(product?.Price ?? product?.CatalogPrice ?? product?.preco);
+    if (Number.isFinite(directPrice)) return directPrice;
+
+    for (const candidate of getProductReferenceCandidates(product)) {
+        const mappedPrice = priceByReference.get(candidate);
+        if (Number.isFinite(mappedPrice)) return mappedPrice;
+    }
+
+    return null;
 }
 
 function getCustomizationLabel(product) {
@@ -558,19 +580,13 @@ function renderQuoteCart() {
     quoteCartItems.innerHTML = quoteCart.map((item) => {
         const title = escapeHtml(item.name || 'Produto');
         const code = escapeHtml(item.code || '---');
-        const qty = Math.max(1, Number(item.qty) || 1);
-        const stock = getCartStockValue(item.stock);
-        const maxAttr = Number.isFinite(stock) ? `max="${stock}"` : '';
-        const stockLine = Number.isFinite(stock)
-            ? `<p class="quote-cart-item-stock">Disponivel em estoque: ${stock}</p>`
-            : '';
+        const qty = Math.max(50, Number(item.qty) || 50);
         return `
             <article class="quote-cart-item" data-cart-id="${escapeHtml(item.id)}">
                 <p class="quote-cart-item-title">${title}</p>
                 <p class="quote-cart-item-code">Código: ${code}</p>
-                ${stockLine}
                 <div class="quote-cart-item-actions">
-                    <input type="number" min="1" ${maxAttr} value="${qty}" data-action="qty">
+                    <input type="number" min="50" value="${qty}" data-action="qty">
                     <button type="button" data-action="update">Atualizar</button>
                     <button type="button" data-action="remove">Excluir</button>
                 </div>
@@ -583,50 +599,34 @@ function renderQuoteCart() {
 }
 
 function upsertCartItem(product, qty) {
-    const requestedQty = Math.max(1, Number(qty) || 1);
+    const requestedQty = Math.max(50, Number(qty) || 50);
     const code = String(getProductCode(product));
     const ref = String(getProductReference(product) || code);
     const id = ref;
-    const availableStock = getAvailableStock(product);
-
-    if (Number.isFinite(availableStock) && availableStock <= 0) {
-        return { ok: false, reason: 'unavailable' };
-    }
 
     const existing = quoteCart.find((item) => item.id === id);
-    let limited = false;
     let addedQty = 0;
 
     if (existing) {
-        const targetQty = Number.isFinite(availableStock)
-            ? Math.min(existing.qty + requestedQty, availableStock)
-            : existing.qty + requestedQty;
-        limited = targetQty < (existing.qty + requestedQty);
-        addedQty = Math.max(0, targetQty - existing.qty);
-        existing.qty = targetQty;
-        existing.stock = Number.isFinite(availableStock) ? availableStock : null;
+        existing.qty = Math.max(50, existing.qty + requestedQty);
+        existing.stock = null;
+        addedQty = requestedQty;
     } else {
-        const initialQty = clampQtyToStock(requestedQty, availableStock);
-        if (initialQty <= 0) {
-            return { ok: false, reason: 'unavailable' };
-        }
-
-        limited = initialQty < requestedQty;
-        addedQty = initialQty;
+        addedQty = requestedQty;
         quoteCart.push({
             id,
             code,
             name: getProductName(product),
             ref,
             image: resolveImageSrc(product),
-            stock: Number.isFinite(availableStock) ? availableStock : null,
-            qty: initialQty
+            stock: null,
+            qty: requestedQty
         });
     }
 
     saveQuoteCart();
     renderQuoteCart();
-    return { ok: true, limited, addedQty };
+    return { ok: true, limited: false, addedQty };
 }
 
 function openQuoteCart() {
@@ -826,6 +826,10 @@ function resolveImageSrc(product) {
             return clean;
         }
 
+        if (clean.startsWith('/')) {
+            return `${activeApiBase}${clean}`;
+        }
+
         if (spotImageBase) {
             return `${spotImageBase.replace(/\/+$/, '')}/${clean.replace(/^\/+/, '')}`;
         }
@@ -878,7 +882,17 @@ function getFilteredProducts() {
         })
         : byType;
 
-    return applySorting(base);
+    const byPrice = base.filter((product) => {
+        const price = getProductPrice(product);
+        if (priceRange === 'all' || !Number.isFinite(price)) return true;
+        if (priceRange === '0-100') return price <= 100;
+        if (priceRange === '100-200') return price > 100 && price <= 200;
+        if (priceRange === '200-300') return price > 200 && price <= 300;
+        if (priceRange === '300+') return price > 300;
+        return true;
+    });
+
+    return applySorting(byPrice);
 }
 
 function updateCount(shown, totalFiltered) {
@@ -1054,6 +1068,7 @@ function renderProducts(products) {
         const name = escapeHtml(getProductName(product));
         const imageRaw = resolveImageSrc(product);
         const image = escapeHtml(imageRaw);
+        const price = getPriceLabel(product);
         const detailUrl = escapeHtml(buildDetailUrl(product));
         const imagePriority = index < 2 ? 'high' : 'auto';
         const shouldEagerLoad = imageRaw && loadedImageUrls.has(imageRaw);
@@ -1070,8 +1085,9 @@ function renderProducts(products) {
                     <div class="product-card-body">
                         <p class="product-code">${code}</p>
                         <p class="product-name">${name}</p>
+                        <p class="product-price ${price.cssClass}">${escapeHtml(price.text)}</p>
                         <div class="product-actions">
-                            <input class="product-qty" type="number" min="1" value="1" data-action="card-qty" aria-label="Quantidade para orçamento">
+                            <input class="product-qty" type="number" min="50" value="50" data-action="card-qty" aria-label="Quantidade para orçamento">
                             <button class="add-quote-btn" type="button" data-action="add-quote">Adicionar ao orçamento</button>
                         </div>
                     </div>
@@ -1091,7 +1107,7 @@ function renderProducts(products) {
                 const product = pageItems[index];
                 if (!product) return;
 
-                const qty = Math.max(1, Math.floor(Number(qtyInput?.value) || 1));
+                const qty = Math.max(50, Math.floor(Number(qtyInput?.value) || 50));
                 if (qtyInput instanceof HTMLInputElement) qtyInput.value = String(qty);
                 const result = upsertCartItem(product, qty);
                 if (quoteCartStatus) {
@@ -1150,6 +1166,14 @@ function initControls() {
     if (sortSelect) {
         sortSelect.addEventListener('change', () => {
             sortMode = sortSelect.value;
+            currentPage = 1;
+            renderProducts(getFilteredProducts());
+        });
+    }
+
+    if (priceFilter) {
+        priceFilter.addEventListener('change', () => {
+            priceRange = priceFilter.value;
             currentPage = 1;
             renderProducts(getFilteredProducts());
         });
@@ -1218,18 +1242,7 @@ function initQuoteCart() {
 
         if (action === 'update') {
             const qtyInput = card.querySelector('[data-action="qty"]');
-            const currentItem = quoteCart.find((item) => item.id === id);
-            const stock = getCartStockValue(currentItem?.stock);
-            const requestedQty = Math.max(1, Number(qtyInput?.value) || 1);
-            const qty = clampQtyToStock(qtyInput?.value, stock);
-
-            if (qty <= 0) {
-                quoteCart = quoteCart.filter((item) => item.id !== id);
-                saveQuoteCart();
-                renderQuoteCart();
-                if (quoteCartStatus) quoteCartStatus.textContent = 'Item removido: estoque indisponível.';
-                return;
-            }
+            const qty = Math.max(50, Number(qtyInput?.value) || 50);
 
             if (qtyInput instanceof HTMLInputElement) {
                 qtyInput.value = String(qty);
@@ -1240,11 +1253,7 @@ function initQuoteCart() {
             renderQuoteCart();
 
             if (quoteCartStatus) {
-                if (Number.isFinite(stock) && requestedQty > stock) {
-                    quoteCartStatus.textContent = 'Quantidade ajustada para o máximo disponível em estoque.';
-                } else {
-                    quoteCartStatus.textContent = '';
-                }
+                quoteCartStatus.textContent = '';
             }
         }
     });
@@ -1274,7 +1283,6 @@ async function fetchProducts() {
     if (hasCachedProducts) {
         allProducts = cachedProducts;
         rebuildProductSearchCache(allProducts);
-        loadCatalogSupplementalData();
         currentPage = 1;
         renderTypeFilters();
         renderProducts(getFilteredProducts());
@@ -1295,7 +1303,7 @@ async function fetchProducts() {
 
     try {
         let products = [];
-        const data = await fetchApiJson('/api/spot/products?lang=PT', 70000);
+        const data = await fetchApiJson('/api/catalog/products', 15000);
         products = extractProducts(data);
         if (!products.length) {
             if (hasCachedProducts) {
@@ -1311,7 +1319,6 @@ async function fetchProducts() {
 
         allProducts = products;
         rebuildProductSearchCache(allProducts);
-        loadCatalogSupplementalData();
         currentPage = 1;
         renderTypeFilters();
         renderProducts(getFilteredProducts());

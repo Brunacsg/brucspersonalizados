@@ -37,6 +37,7 @@ test('serve.js expõe o contrato de /api/spot/products', async () => {
     env: {
       ...process.env,
       ACCESS_KEY: '',
+      SPOT_CATALOG_ENABLED: 'false',
       PORT: String(port),
       ORDER_ADMIN_KEY: 'test-order-admin-key'
     },
@@ -54,13 +55,8 @@ test('serve.js expõe o contrato de /api/spot/products', async () => {
   try {
     const res = await waitForServer(port);
     const data = await res.json();
-    assert.ok([200, 503].includes(res.status));
-
-    if (res.status === 200) {
-      assert.ok(Array.isArray(data?.Products));
-    } else {
-      assert.equal(data?.error, 'Spot credentials not configured');
-    }
+    assert.equal(res.status, 503);
+    assert.equal(data?.error, 'Spot catalog temporarily disabled');
 
     const orderResponse = await fetch(`http://127.0.0.1:${port}/api/spot/orders`, {
       method: 'POST',
