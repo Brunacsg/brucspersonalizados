@@ -2,16 +2,16 @@
 
 ## Requisito do Catálogo
 
-O catálogo depende do servidor Node em `server/index.js` para acessar a API Spot. Publique em uma hospedagem que execute `npm start` e configure `ACCESS_KEY`. Não publique apenas os arquivos estáticos em GitHub Pages, Netlify ou Vercel sem adaptar o backend.
+O catálogo local depende do servidor Node em `server/index.js` para servir produtos e imagens locais. Publique em uma hospedagem que execute `npm start`. Não publique apenas os arquivos estáticos em GitHub Pages, Netlify ou Vercel sem adaptar o backend.
 
 Para produção, configure também `CORS_ALLOWED_ORIGINS` com o domínio público. As rotas administrativas de pedidos ficam desativadas até que `ORDER_ADMIN_KEY` seja definido; essa chave não pode ser enviada ao navegador.
 
 ### Checklist Obrigatório Antes do DNS
 
 1. Escolha uma hospedagem com Node.js persistente e defina o comando de inicialização como `npm start`.
-2. Configure no painel da hospedagem: `ACCESS_KEY`, `SPOT_BASE`, `PORT`, `CORS_ALLOWED_ORIGINS=https://www.brucspersonalizados.com.br` e uma `ORDER_ADMIN_KEY` longa e aleatória.
+2. Configure no painel da hospedagem: `SPOT_CATALOG_ENABLED=false`, `CORS_ALLOWED_ORIGINS=https://www.brucspersonalizados.com.br` e, apenas se as rotas administrativas de pedidos forem utilizadas, uma `ORDER_ADMIN_KEY` longa e aleatória.
 3. Aponte `www.brucspersonalizados.com.br` para essa hospedagem e mantenha o redirecionamento do domínio sem `www` para `https://www.brucspersonalizados.com.br`.
-4. Depois do deploy, valide no navegador: `/`, `/produtos.html`, `/api/spot/health` e `/api/spot/products?lang=PT`. Todos precisam responder `200`; o último deve retornar produtos em `Products`.
+4. Depois do deploy, valide no navegador: `/`, `/produtos.html`, `/api/spot/health`, `/api/catalog/products` e uma imagem de produto, por exemplo `/KT-90581-1.jpg`. As rotas do catálogo local devem responder `200`; a saúde deve informar `catalogEnabled: false`.
 5. Não exponha `.env`, `ACCESS_KEY` ou `ORDER_ADMIN_KEY` em arquivos públicos, variáveis de frontend ou repositórios.
 
 ## 🚀 Como Publicar o Site

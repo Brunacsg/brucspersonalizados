@@ -88,6 +88,16 @@ function getProductName(product) {
     return product.Name || product.Title || product.ProductName || product.Description || 'Produto sem nome';
 }
 
+function getProductStock(product) {
+    const value = parseNumber(product?.Stock ?? product?.stock ?? product?.Quantity ?? product?.estoque);
+    return Number.isFinite(value) ? Math.max(0, Math.floor(value)) : null;
+}
+
+function getProductPrice(product) {
+    const value = parseNumber(product?.Price ?? product?.CatalogPrice ?? product?.preco);
+    return Number.isFinite(value) ? value : null;
+}
+
 function findProductByReference(products, ref, code) {
     const references = new Set([String(ref || '').trim(), String(code || '').trim()].filter(Boolean));
     return (Array.isArray(products) ? products : []).find((product) => {
@@ -115,15 +125,19 @@ function readCachedProduct(ref, code) {
 }
 
 async function loadProductByReference(ref, code) {
-    const cachedProduct = readCachedProduct(ref, code);
-    if (cachedProduct) return cachedProduct;
-
     await resolveApiBaseCandidate();
-    const response = await fetchWithTimeout(buildApiUrl('/api/spot/products?lang=PT'), 30000);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    try {
+        const response = await fetchWithTimeout(buildApiUrl('/api/catalog/products'), 15000);
+        if (response.ok) {
+            const payload = await response.json();
+            const localProduct = findProductByReference(payload?.Products, ref, code);
+            if (localProduct) return localProduct;
+        }
+    } catch {
+        // Fall back to a previously cached product when the local catalog is unavailable.
+    }
 
-    const payload = await response.json();
-    return findProductByReference(payload?.Products, ref, code);
+    return readCachedProduct(ref, code);
 }
 
 function readQuoteCart() {
@@ -187,6 +201,10 @@ function resolveImageSrc(product) {
             return clean;
         }
 
+        if (clean.startsWith('/')) {
+            return `${activeApiBase}${clean}`;
+        }
+
         if (spotImageBase) {
             return `${spotImageBase.replace(/\/+$/, '')}/${clean.replace(/^\/+/, '')}`;
         }
@@ -210,7 +228,7 @@ function getInitialImageUrls(product) {
     const refs = [];
     const mainRaw = String(product.MainImage || product.Image || product.Photo || product.ImageURL || '').trim();
     if (mainRaw) {
-        if (/^https?:\/\//i.test(mainRaw)) {
+        if (/^https?:\/\//i.test(mainRaw) || mainRaw.startsWith('/')) {
             refs.push(mainRaw);
         } else {
             const main = getImageFileToken(mainRaw);
@@ -226,7 +244,7 @@ function getInitialImageUrls(product) {
         const rawText = String(raw || '').trim();
         if (!rawText) continue;
 
-        if (/^https?:\/\//i.test(rawText)) {
+        if (/^https?:\/\//i.test(rawText) || rawText.startsWith('/')) {
             refs.push(rawText);
             continue;
         }
@@ -243,6 +261,10 @@ function getInitialImageUrls(product) {
         .map((file) => {
             if (/^https?:\/\//i.test(file)) {
                 return file;
+            }
+
+            if (file.startsWith('/')) {
+                return `${activeApiBase}${file}`;
             }
 
             const ref = getProductReference(product);
@@ -367,6 +389,7 @@ function updateDetailGallery(images, name) {
     detailGalleryIndex = matchedIndex >= 0 ? matchedIndex : Math.min(detailGalleryIndex, detailGalleryImages.length - 1);
 
     mainImageButton.hidden = false;
+    mainImage.hidden = false;
     unavailable.hidden = true;
     mainImage.setAttribute('alt', name);
     prevButton.hidden = detailGalleryImages.length <= 1;
@@ -461,33 +484,6 @@ function bindDetailGalleryEvents() {
     document.addEventListener('keydown', detailKeydownHandler);
 }
 
-function refreshDetailStockLabel(nextQty, product) {
-    const stockNode = document.getElementById('detailStockLabel');
-    if (!stockNode) return;
-
-    const qty = parseNumber(nextQty);
-    const nextText = Number.isFinite(qty)
-        ? `Estoque: ${qty}`
-        : 'Estoque indisponivel';
-
-    stockNode.textContent = nextText;
-}
-
-async function loadDetailStock(product) {
-    const ref = getProductReference(product);
-    if (!ref) return;
-
-    try {
-        const response = await fetchWithTimeout(buildApiUrl(`/api/spot/stock/${encodeURIComponent(ref)}?lang=PT`), 15000);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const payload = await response.json();
-        const quantity = parseNumber(payload?.quantity);
-        refreshDetailStockLabel(quantity, product);
-    } catch {
-        refreshDetailStockLabel(null, product);
-    }
-}
-
 async function fetchAllProductImages(product) {
     console.count('product-detail:images:request');
     console.time('product-detail:images');
@@ -505,6 +501,24 @@ async function fetchAllProductImages(product) {
     }
 
     const declaredImages = getInitialImageUrls(product);
+    const isLocalImage = String(product?.MainImage || product?.Image || '').trim().startsWith('/');
+    if (isLocalImage) {
+        const code = getProductCode(product);
+        try {
+            const response = await fetchWithTimeout(buildApiUrl(`/api/catalog/products/${encodeURIComponent(code)}/images`), 5000);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const payload = await response.json();
+            const localImages = Array.isArray(payload?.images)
+                ? payload.images.map((image) => `${activeApiBase}${String(image || '').startsWith('/') ? '' : '/'}${image}`).filter(Boolean)
+                : [];
+            const images = localImages.length ? localImages : declaredImages;
+            saveDetailImagesCache(product, images);
+            return images;
+        } finally {
+            console.timeEnd('product-detail:images');
+        }
+    }
+
     if (hasDeclaredGalleryImages(product) && declaredImages.length) {
         saveDetailImagesCache(product, declaredImages);
         console.timeEnd('product-detail:images');
@@ -554,19 +568,10 @@ function renderDetail(snapshot) {
     const description = escapeHtml(product.ShortDescription || product.Description || '');
     const productType = escapeHtml(product.ProductTypeName || product.SubType || product.Type || product.Category || product.ProductType || 'Outros');
     const sizeCapacity = escapeHtml(product.CombinedSizes || product.Sizes || product.Capacitys || 'Sob consulta');
-    const colors = escapeHtml(product.Colors || 'Sob consulta');
-    const customization = escapeHtml(snapshot?.customization || product.CustomizationTypes || product.CustomizationDefaultType || 'Sob consulta');
+    const customization = 'logo personalizado em uma cor';
     currentDetailSnapshot = snapshot || null;
 
-    console.count('product-detail:stock:snapshot');
-    console.time('product-detail:stock:snapshot');
-    const qty = parseNumber(snapshot?.stock);
-    const stockLabel = Number.isFinite(qty)
-        ? `Estoque: ${qty}`
-        : 'Carregando estoque...';
-    console.timeEnd('product-detail:stock:snapshot');
-
-    const priceValue = parseNumber(snapshot?.price);
+    const priceValue = parseNumber(snapshot?.price ?? getProductPrice(product));
     const priceLabel = Number.isFinite(priceValue)
         ? formatCurrency(priceValue)
         : 'Preco sob consulta';
@@ -589,13 +594,11 @@ function renderDetail(snapshot) {
             <p class="product-name">${name}</p>
             ${description ? `<p class="product-detail">${description}</p>` : ''}
             <p class="product-detail"><strong>Tipo:</strong> ${productType}</p>
-            <p class="product-detail"><strong>Cores:</strong> ${colors}</p>
             <p class="product-detail"><strong>Tamanho/Capacidade:</strong> ${sizeCapacity}</p>
             <p class="product-detail"><strong>Personalizacao:</strong> ${customization}</p>
-            <p id="detailStockLabel" class="product-meta">${escapeHtml(stockLabel)}</p>
             <p class="product-meta">${escapeHtml(priceLabel)}</p>
             <div class="product-actions product-detail-actions">
-                <input id="detailQuoteQty" class="product-qty" type="number" min="1" value="1" aria-label="Quantidade para orçamento">
+                <input id="detailQuoteQty" class="product-qty" type="number" min="50" value="50" aria-label="Quantidade para orçamento">
                 <button id="detailAddQuote" class="add-quote-btn" type="button">Adicionar ao orçamento</button>
             </div>
             <p id="detailQuoteStatus" class="detail-quote-status" aria-live="polite"></p>
@@ -618,14 +621,12 @@ function renderDetail(snapshot) {
     const addQuoteButton = document.getElementById('detailAddQuote');
     const quoteStatus = document.getElementById('detailQuoteStatus');
     addQuoteButton?.addEventListener('click', () => {
-        const quantity = Math.max(1, Math.floor(Number(quoteQtyInput?.value) || 1));
+        const quantity = Math.max(50, Math.floor(Number(quoteQtyInput?.value) || 50));
         if (quoteQtyInput instanceof HTMLInputElement) quoteQtyInput.value = String(quantity);
         addProductToQuote(product, quantity);
-        if (quoteStatus) quoteStatus.textContent = 'Produto adicionado. Abrindo orçamento...';
-        window.location.assign('produtos.html?quote=1');
+        if (quoteStatus) quoteStatus.textContent = 'Produto adicionado ao orçamento.';
     });
 
-    loadDetailStock(product);
     preloadPrimaryDetailImage(product);
     fetchAllProductImages(product).then((allImages) => {
         updateDetailGallery(allImages, name);
@@ -653,7 +654,12 @@ async function loadDetail() {
                 return;
             }
 
-            snapshot = { product, stock: null, price: null, customization: '' };
+            snapshot = {
+                product,
+                stock: getProductStock(product),
+                price: getProductPrice(product),
+                customization: ''
+            };
             sessionStorage.setItem(key, JSON.stringify(snapshot));
         }
 

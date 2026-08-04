@@ -14,6 +14,8 @@ services:
         sync: false
       - key: SPOT_BASE
         value: https://ws.spotgifts.com.br/api/v1SSL/
+      - key: SPOT_CATALOG_ENABLED
+        value: "false"
       - key: CORS_ALLOWED_ORIGINS
         value: https://www.brucspersonalizados.com.br
       - key: ORDER_ADMIN_KEY
