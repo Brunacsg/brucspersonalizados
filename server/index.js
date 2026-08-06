@@ -126,13 +126,14 @@ function normalizeLocalCatalogProduct(product) {
     const code = String(product?.codigo || '').trim();
     const price = Number(product?.preco);
     const stock = Number(product?.estoque);
+    const image = String(product?.imagem || '').trim();
     return {
         InternalReference: code,
         ProdReference: code,
         ProductCode: code,
         Name: String(product?.nome || '').trim(),
         ProductTypeName: 'Kits',
-        MainImage: `/${code}-1.jpg`,
+        MainImage: `/api/spot/local-image/${encodeURIComponent(code)}`,
         Price: Number.isFinite(price) ? price * LOCAL_CATALOG_PRICE_MULTIPLIER : null,
         Stock: Number.isFinite(stock) ? Math.max(0, Math.floor(stock)) : null
     };
