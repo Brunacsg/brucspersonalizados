@@ -27,7 +27,7 @@ let apiBaseResolvePromise = null;
 let isLoadingProducts = false;
 let allProducts = [];
 let selectedTypeGroups = new Set();
-let sortMode = 'name';
+let sortMode = 'price-asc';
 let priceRange = 'all';
 let stockByReference = new Map();
 let priceByReference = new Map();
@@ -855,6 +855,18 @@ function resolveImageSrc(product) {
 function applySorting(products) {
     const list = [...products];
 
+    if (sortMode === 'price-asc') {
+        list.sort((a, b) => {
+            const priceA = getProductPrice(a);
+            const priceB = getProductPrice(b);
+
+            if (!Number.isFinite(priceA) && !Number.isFinite(priceB)) return 0;
+            if (!Number.isFinite(priceA)) return 1;
+            if (!Number.isFinite(priceB)) return -1;
+            return priceA - priceB;
+        });
+    }
+
     if (sortMode === 'name') {
         list.sort((a, b) => getProductName(a).localeCompare(getProductName(b), 'pt-BR'));
     }
@@ -1057,7 +1069,7 @@ function renderProducts(products) {
     if (!productsGrid) return;
 
     const safeList = Array.isArray(products) ? products : [];
-    const { totalPages, pageItems } = getPagedProducts(safeList);
+    const pageItems = safeList;
 
     if (!pageItems.length) {
         productsGrid.innerHTML = '<p class="section-description">Nenhum produto encontrado.</p>';
@@ -1137,7 +1149,7 @@ function renderProducts(products) {
         });
     });
 
-    renderPagination(safeList.length, totalPages);
+    renderPagination(0, 0);
     updateCount(pageItems.length, safeList.length);
 
     hydrateVisibleImages();
@@ -1348,7 +1360,11 @@ async function fetchProducts(catalog = activeCatalog) {
             }
         } else {
             if (productsStatus) productsStatus.textContent = `Falha ao carregar produtos: ${lastError?.message || 'sem resposta'}`;
-            if (productsGrid) productsGrid.innerHTML = '<p class="section-description">Não foi possível carregar os produtos agora.</p>';
+            if (productsGrid) {
+                productsGrid.innerHTML = activeCatalog === 'brindes'
+                    ? '<div class="catalog-download-fallback"><p class="section-description">Não foi possível carregar os brindes agora.</p><a class="catalog-download-link" href="/downloads/catalogo-brindes" download>Baixar catálogo de brindes</a></div>'
+                    : '<p class="section-description">Não foi possível carregar os produtos agora.</p>';
+            }
             if (productsCount) productsCount.textContent = '0 Produtos';
         }
     } finally {
