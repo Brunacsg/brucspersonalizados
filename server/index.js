@@ -7,13 +7,14 @@ const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
-const LOCAL_CATALOG_PRICE_MULTIPLIER = 3;
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
 const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
 const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
 const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..', 'products_print_area_allcolors_market1_150px');
 const CATALOG_DOWNLOAD_DIR = path.join(__dirname, '..', 'catalogo');
 const COMPLETE_CATALOG_FILE = 'Cata\u0301logo_Brucs_2026.pdf';
 const KITS_CATALOG_FILE = 'Cata\u0301logo_kits .pdf';
+const BRINDES_CATALOG_FILE = path.join(__dirname, '..', 'Catalogo BRUCS 2026-27.pdf');
 const SPOT_CLOUD_SHARE_URL = process.env.SPOT_CLOUD_SHARE_URL || 'http://cloud.stricker.pt:8085/index.php/s/J5Nb5Y1nLzXZqcV?path=%2FHigh_Resolution_original_dimension_shadow';
 const SPOT_CLOUD_SHARE_URLS = (process.env.SPOT_CLOUD_SHARE_URLS || `${SPOT_CLOUD_SHARE_URL};http://cloud.stricker.pt:8085/index.php/s/PpbNfDoJ2VIU2qd;http://cloud.stricker.pt:8085/index.php/s/B866XCvuIMxOyq0;http://cloud.stricker.pt:8085/index.php/s/0DdMY82GiM8OhgQ`)
     .split(';')
@@ -1513,6 +1514,10 @@ function createApp() {
 
     app.get('/downloads/catalogo-kits', (req, res) => {
         res.download(path.join(CATALOG_DOWNLOAD_DIR, KITS_CATALOG_FILE), 'Catalogo-Brucs-Kits.pdf');
+    });
+
+    app.get('/downloads/catalogo-brindes', (req, res) => {
+        res.download(BRINDES_CATALOG_FILE, 'Catalogo-BRUCS-2026-27.pdf');
     });
 
     // Serve static site optionally
