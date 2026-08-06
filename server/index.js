@@ -142,9 +142,11 @@ function normalizeLocalCatalogProduct(product) {
 const LOCAL_CATALOG_PRODUCTS_NORMALIZED = LOCAL_CATALOG_PRODUCTS.map(normalizeLocalCatalogProduct);
 
 function getLocalCatalogImageFiles(code) {
-    const escapedCode = String(code || '').trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    if (!escapedCode) return [];
-    const pattern = new RegExp(`^${escapedCode}-(\\d+)\\.(png|jpe?g|webp)$`, 'i');
+    const requestedCode = String(code || '').trim();
+    if (!requestedCode) return [];
+
+    const escapedCode = requestedCode.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(`^(?:.+-)?${escapedCode}-(\\d+)\\.(png|jpe?g|webp)$`, 'i');
     return fs.readdirSync(path.join(__dirname, '..'))
         .map((file) => ({ file, match: file.match(pattern) }))
         .filter(({ match }) => Boolean(match))
