@@ -7,13 +7,14 @@ const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
-const LOCAL_CATALOG_PRICE_MULTIPLIER = 3;
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
 const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
 const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
-const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..', 'products_print_area_allcolors_market1_150px');
+const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..');
 const CATALOG_DOWNLOAD_DIR = path.join(__dirname, '..', 'catalogo');
 const COMPLETE_CATALOG_FILE = 'Cata\u0301logo_Brucs_2026.pdf';
 const KITS_CATALOG_FILE = 'Cata\u0301logo_kits .pdf';
+const BRINDES_CATALOG_FILE = path.join(__dirname, '..', 'Catalogo BRUCS 2026-27.pdf');
 const SPOT_CLOUD_SHARE_URL = process.env.SPOT_CLOUD_SHARE_URL || 'http://cloud.stricker.pt:8085/index.php/s/J5Nb5Y1nLzXZqcV?path=%2FHigh_Resolution_original_dimension_shadow';
 const SPOT_CLOUD_SHARE_URLS = (process.env.SPOT_CLOUD_SHARE_URLS || `${SPOT_CLOUD_SHARE_URL};http://cloud.stricker.pt:8085/index.php/s/PpbNfDoJ2VIU2qd;http://cloud.stricker.pt:8085/index.php/s/B866XCvuIMxOyq0;http://cloud.stricker.pt:8085/index.php/s/0DdMY82GiM8OhgQ`)
     .split(';')
@@ -125,13 +126,14 @@ function normalizeLocalCatalogProduct(product) {
     const code = String(product?.codigo || '').trim();
     const price = Number(product?.preco);
     const stock = Number(product?.estoque);
+    const image = String(product?.imagem || '').trim();
     return {
         InternalReference: code,
         ProdReference: code,
         ProductCode: code,
         Name: String(product?.nome || '').trim(),
         ProductTypeName: 'Kits',
-        MainImage: `/${code}-1.jpg`,
+        MainImage: `/api/spot/local-image/${encodeURIComponent(code)}`,
         Price: Number.isFinite(price) ? price * LOCAL_CATALOG_PRICE_MULTIPLIER : null,
         Stock: Number.isFinite(stock) ? Math.max(0, Math.floor(stock)) : null
     };
@@ -610,6 +612,9 @@ function findLocalImageFile(index, token) {
     const raw = String(token || '').trim();
     if (!raw) return null;
 
+    const directMatch = index.refs.get(raw.toLowerCase());
+    if (directMatch) return directMatch;
+
     const clean = raw.split(/[\\/]/).pop().replace(/[?#].*$/, '');
     const baseName = clean.replace(/\.[^.]+$/, '');
     const candidates = [
@@ -671,11 +676,20 @@ async function getLocalImageIndex() {
                 const lower = file.toLowerCase();
                 exact.set(lower, file);
 
-                const match = String(file).match(/^(\d+)_/);
-                if (!match) continue;
-                const ref = match[1];
-                if (!refs.has(ref)) {
-                    refs.set(ref, file);
+                const codeMatch = String(file).match(/^(.+?)-\d+\.(png|jpe?g|webp)$/i);
+                if (codeMatch) {
+                    const code = codeMatch[1].toLowerCase();
+                    if (!refs.has(code)) {
+                        refs.set(code, file);
+                    }
+                }
+
+                const numericMatch = String(file).match(/^(\d+)_/);
+                if (numericMatch) {
+                    const ref = numericMatch[1];
+                    if (!refs.has(ref)) {
+                        refs.set(ref, file);
+                    }
                 }
             }
 
@@ -1513,6 +1527,10 @@ function createApp() {
 
     app.get('/downloads/catalogo-kits', (req, res) => {
         res.download(path.join(CATALOG_DOWNLOAD_DIR, KITS_CATALOG_FILE), 'Catalogo-Brucs-Kits.pdf');
+    });
+
+    app.get('/downloads/catalogo-brindes', (req, res) => {
+        res.download(BRINDES_CATALOG_FILE, 'Catalogo-BRUCS-2026-27.pdf');
     });
 
     // Serve static site optionally

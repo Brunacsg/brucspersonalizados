@@ -1,186 +1,4434 @@
 [
-  {"codigo":"KT-90579","nome":"KIT GARRAFA E COPO TÉRMICO - PRETO - 2 PÇS","preco":"101.94","estoque":"2472"},
-  {"codigo":"kt-9041s","nome":"KIT COM SQUEEZE, CANETA E CADERNO - 3 PÇS","preco":"81.47","estoque":"1645"},
-  {"codigo":"KT-9043Y","nome":"KIT OFFICE - 4 PÇS","preco":"69.99","estoque":"0"},
-  {"codigo":"KT-9042K","nome":"KIT BOAS VINDAS - 3 PÇS","preco":"86.35","estoque":"1835"},
-  {"codigo":"KT-90583","nome":"KIT MOCHILA, GARRAFA E GUARDA-CHUVA - 3 PÇS","preco":"156.03","estoque":"1211"},
-  {"codigo":"KT-90291","nome":"KIT GARRAFA E CANECA - 2 PÇS","preco":"77.69","estoque":"2276"},
-  {"codigo":"KT-90276","nome":"KIT GARRAFA E ACESSÓRIOS - 3 PÇS","preco":"108.45","estoque":"1645"},
-  {"codigo":"KT-90541","nome":"KIT SACOLA, GARRAFA, CADERNO E CANETA - 4 PÇS","preco":"44.91","estoque":"0"},
-  {"codigo":"KT-90153","nome":"KIT COM GARRAFA E CANECA BRANCA","preco":"77.57","estoque":"3526"},
-  {"codigo":"KT-90410","nome":"KIT MOCHILA, GUARDA-CHUVA E GARRAFA - 3 PÇS","preco":"243.81","estoque":"1211"},
-  {"codigo":"KT-90369","nome":"KIT GARRAFA E COPO TÉRMICO - VERDE/PRETO - 2 PÇS","preco":"109.02","estoque":"1475"},
-  {"codigo":"KT-90413","nome":"KIT SACOLA/ECOBAG E NECESSAIRE - 2 PÇS","preco":"39.38","estoque":"19"},
-  {"codigo":"KT-90520","nome":"KIT SQUEEZE, FONE, CADERNO E CANETA - AZUL - 4 PÇS","preco":"74.13","estoque":"935"},
-  {"codigo":"KT-90218","nome":"KIT SQUEEZE E ACESSÓRIOS - 4 PEÇAS","preco":"89.61","estoque":"935"},
-  {"codigo":"KT-9059J","nome":"KIT SQUEEZE, CADERNO E CANETA - 3 PÇS","preco":"70.01","estoque":"1835"},
-  {"codigo":"KT-90412","nome":"KIT FITNESS - 3 PÇS","preco":"45.56","estoque":"19"},
-  {"codigo":"KT-90353","nome":"KIT COM SQUEEZE, CANETA E CADERNO - BRANCO - 3 PÇS","preco":"80.96","estoque":"230"},
-  {"codigo":"KT-90285","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"113.32","estoque":"1645"},
-  {"codigo":"KT-90490","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"112.47","estoque":"230"},
-  {"codigo":"KT-90322","nome":"CONJ. MOCHILA, NECESSAIRE E GARRAFA - 3 PÇS","preco":"90.87","estoque":"0"},
-  {"codigo":"KT-90551","nome":"KIT NECESSAIRE, GARRAFA E CHAVEIRO - 3 PÇS","preco":"116.15","estoque":"1950"},
-  {"codigo":"KT-9042F","nome":"KIT COM SQUEEZE, CANECA E CADERNO - 3 PÇS","preco":"88.96","estoque":"1645"},
-  {"codigo":"KT-90495","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"132.57","estoque":"1558"},
-  {"codigo":"KT-90392","nome":"KIT GARRAFA, CANECA E CADERNO - 3 PÇS","preco":"109.06","estoque":"1645"},
-  {"codigo":"KT-90356","nome":"KIT SQUEEZE E ACESSÓRIOS - AZUL - 4 PÇS","preco":"79.66","estoque":"1268"},
-  {"codigo":"KT-90491","nome":"KIT FONE DE OUVIDO E ACESSÓRIOS - 4 PÇS","preco":"166.06","estoque":"203"},
-  {"codigo":"KT-90384","nome":"KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - VERDE - 3 PÇS","preco":"74.52","estoque":"157"},
-  {"codigo":"KT-9041K","nome":"KIT SQUEEZE E ACESSÓRIOS - 4 PEÇAS","preco":"89.50","estoque":"935"},
-  {"codigo":"KT-9042N","nome":"KIT ESCRITÓRIO - 5 PÇS","preco":"114.79","estoque":"0"},
-  {"codigo":"KT-9044M","nome":"KIT SQUEEZE E ACESSÓRIOS - 4 PÇS","preco":"91.10","estoque":"935"},
-  {"codigo":"KT-90545","nome":"KIT OFFICE - 4 PÇS","preco":"100.99","estoque":"0"},
-  {"codigo":"KT-90448","nome":"KIT BOAS VINDAS - BRANCO - 3 PÇS","preco":"68.65","estoque":"498"},
-  {"codigo":"KT-90414","nome":"KIT COPO TÉRMICO E NECESSAIRE - 2 PÇS","preco":"56.81","estoque":"19"},
-  {"codigo":"KT-90318","nome":"KIT NECESSAIRE E COPO TÉRMICO - 2 PÇS","preco":"80.19","estoque":"2339"},
-  {"codigo":"KT-9047Y","nome":"KIT BOAS VINDAS - 4 PÇS","preco":"48.04","estoque":"641"},
-  {"codigo":"KT-90362","nome":"KIT GARRAFA E CANECA - PRATA/BRANCO 2 PÇS","preco":"76.59","estoque":"552"},
-  {"codigo":"KT-90351","nome":"KIT COM SQUEEZE, CANETA E BLOCO PARA ANOTAÇÕES - AZUL - 3 PÇS","preco":"45.73","estoque":"2282"},
-  {"codigo":"KT-90449","nome":"KIT BOAS VINDAS - PRETO - 3 PÇS","preco":"68.51","estoque":"158"},
-  {"codigo":"KT-90567","nome":"KIT CAFETEIRA, MOEDOR E COPO DUPLA CAMADA - 3 PÇS","preco":"177.54","estoque":"838"},
-  {"codigo":"KT-90334","nome":"KIT COPO TÉRMICO E ACESSÓRIOS - CINZA - 3 PÇS","preco":"71.16","estoque":"559"},
-  {"codigo":"KT-90235","nome":"KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS","preco":"46.00","estoque":"6587"},
-  {"codigo":"KT-9049V","nome":"GARRAFA PLÁSTICA C/ ACESSÓRIOS - 4 PÇS","preco":"78.58","estoque":"447"},
-  {"codigo":"KT-90537-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-90554","nome":"KIT NECESSAIRE E COPO TÉRMICO - 2 PÇS","preco":"82.59","estoque":"1338"},
-  {"codigo":"KT-90516","nome":"KIT BOAS VINDAS - 5 PÇS - BRANCO/AZUL","preco":"67.64","estoque":"32"},
-  {"codigo":"KT-9049T","nome":"KIT OFFICE - 3 PÇS","preco":"60.77","estoque":"2014"},
-  {"codigo":"KT-90536-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"185.54","estoque":"2"},
-  {"codigo":"KT-9044L","nome":"CONJ. CANECA, CADERNETA E CANETA - 3 PEÇAS","preco":"55.11","estoque":"1835"},
-  {"codigo":"KT-9019F","nome":"KIT CADERNO, CANETA E COPO - 3 PÇS","preco":"63.20","estoque":"1095"},
-  {"codigo":"KT-90533-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-90284","nome":"KIT GARRAFA, CADERNO E FONE - 4 PÇS","preco":"107.42","estoque":"935"},
-  {"codigo":"KT-90372","nome":"KIT GARRAFA E NECESSAIRE - AZUL/PRETO - 2 PÇS","preco":"100.42","estoque":"1490"},
-  {"codigo":"KT-90260","nome":"CONJ. MOCHILA, BLOCO E CANETA - 3 PÇS","preco":"47.22","estoque":"0"},
-  {"codigo":"KT-90366","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"110.24","estoque":"586"},
-  {"codigo":"KT-9036E","nome":"KIT MOCHILA E ACESSÓRIOS - 5 PÇS","preco":"110.85","estoque":"1869"},
-  {"codigo":"KT-9059Q","nome":"KIT SQUEEZE E CANECA - 2 PÇS","preco":"58.50","estoque":"4360"},
-  {"codigo":"KT-90525","nome":"KIT BOAS VINDAS - VERMELHO - 4 PÇS","preco":"54.79","estoque":"500"},
-  {"codigo":"KT-90447","nome":"KIT BOAS VINDAS - 3 PÇS","preco":"42.34","estoque":"935"},
-  {"codigo":"KT-90368","nome":"KIT GARRAFA E COPO TÉRMICO - AZUL/PRETO - 2 PÇS","preco":"109.02","estoque":"1490"},
-  {"codigo":"KT-90359","nome":"KIT GARRAFA, CADERNO E CANETA - CINZA/PRATA - 3 PÇS","preco":"95.10","estoque":"253"},
-  {"codigo":"KT-90399","nome":"KIT GARRAFA E NECESSAIRE - 2 PÇS","preco":"85.86","estoque":"613"},
-  {"codigo":"KT-9043S","nome":"KIT MOCHILA COM SQUEEZE - 2 PÇS","preco":"163.19","estoque":"641"},
-  {"codigo":"KT-90409","nome":"KIT GUARDA-CHUVA, CADERNO E CANETA - 3 PÇS","preco":"107.10","estoque":"1211"},
-  {"codigo":"KT-90489","nome":"KIT ESCRITÓRIO - 4 PÇS","preco":"99.89","estoque":"199"},
-  {"codigo":"KT-90538-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-9042A","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"92.29","estoque":"2276"},
-  {"codigo":"KT-90407","nome":"KIT NECESSAIRE E CONJUNTO DE FERRAMENTAS - 17 PÇS","preco":"82.38","estoque":"1198"},
-  {"codigo":"KT-90287","nome":"KIT GARRAFA E CADERNO - 2 PÇS","preco":"91.12","estoque":"230"},
-  {"codigo":"KT-90374","nome":"KIT GARRAFA E NECESSAIRE - AMARELO/PRETO - 2 PÇS","preco":"100.42","estoque":"1492"},
-  {"codigo":"KT-9047R","nome":"KIT CADERNO E ACESSÓRIOS - 4 PÇS","preco":"100.93","estoque":"1645"},
-  {"codigo":"KT-90560","nome":"KIT SQUEEZE, CADERNETA E CANETA - PRETO - 3 PÇS","preco":"70.36","estoque":"1367"},
-  {"codigo":"KT-9047W","nome":"CONJ. GARRAFA E CADERNETA - 2 PEÇAS","preco":"77.64","estoque":"1835"},
-  {"codigo":"KT-90352","nome":"KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS","preco":"45.50","estoque":"2374"},
-  {"codigo":"KT-9038E","nome":"KIT GARRAFA E ACESSÓRIOS - 3 PÇS","preco":"74.30","estoque":"4388"},
-  {"codigo":"KT-90241","nome":"KIT BOAS VINDAS - 5 PÇS","preco":"63.47","estoque":"447"},
-  {"codigo":"KT-90400","nome":"KIT GARRAFA E NECESSAIRE - 2 PÇS","preco":"104.27","estoque":"4618"},
-  {"codigo":"KT-90242","nome":"KIT BOAS VINDAS - 5 PÇS","preco":"62.87","estoque":"641"},
-  {"codigo":"KT-90515","nome":"KIT BOAS VINDAS - 5 PÇS - PRETO","preco":"67.22","estoque":"158"},
-  {"codigo":"KT-90528","nome":"KIT ESCRITÓRIO - AZUL - 4 PÇS","preco":"97.07","estoque":"299"},
-  {"codigo":"KT-90314","nome":"KIT CANECA EM FIBRA DE BAMBU E ACESSÓRIOS - 4 PÇS","preco":"130.35","estoque":"203"},
-  {"codigo":"KT-9047Z","nome":"KIT COM CANECA E ACESSÓRIOS - 3 PÇS","preco":"69.22","estoque":"1367"},
-  {"codigo":"KT-90373","nome":"KIT GARRAFA E NECESSAIRE - VERDE/PRETO - 2 PÇS","preco":"100.42","estoque":"1475"},
-  {"codigo":"KT-90467","nome":"KIT GARRAFA E BONÉ - 2 PÇS","preco":"91.47","estoque":"380"},
-  {"codigo":"KT-9044U","nome":"KIT CADERNO E ACESSÓRIOS - 3 PÇS","preco":"77.34","estoque":"1835"},
-  {"codigo":"KT-90397","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"114.16","estoque":"230"},
-  {"codigo":"KT-90521","nome":"KIT SQUEEZE, FONE, CADERNO E CANETA - VERMELHO - 4 PÇS","preco":"74.25","estoque":"935"},
-  {"codigo":"VI-18321","nome":"COPO DE VIDRO P/ CERVEJA 400 ML - 1 PÇ - COM ESPAÇO PARA A GARRAFA","preco":"50.98","estoque":"1315"},
-  {"codigo":"KT-9036V","nome":"CONJ. MOCHILA, GARRAFA E CANECA - 3 PEÇAS","preco":"200.39","estoque":"2528"},
-  {"codigo":"KT-90243","nome":"KIT BOAS VINDAS - 5 PÇS","preco":"63.37","estoque":"935"},
-  {"codigo":"KT-90539","nome":"KIT NECESSAIRE E GARRAFA - 2 PÇS","preco":"114.41","estoque":"140"},
-  {"codigo":"KT-9045X","nome":"KIT CADERNO E ACESSÓRIOS - 5 PÇS","preco":"106.84","estoque":"1645"},
-  {"codigo":"KT-90367","nome":"KIT GARRAFA E COPO TÉRMICO - BRANCO - 2 PÇS","preco":"109.03","estoque":"1828"},
-  {"codigo":"KT-9043X","nome":"KIT BOAS VINDAS - 3 PÇS","preco":"86.72","estoque":"1835"},
-  {"codigo":"KT-90411","nome":"KIT ECOLÓGICO - 2 PÇS","preco":"21.85","estoque":"14138"},
-  {"codigo":"KT-90237","nome":"KIT BOAS VINDAS - 4 PÇS","preco":"69.12","estoque":"508"},
-  {"codigo":"KT-90580","nome":"KIT MOCHILA, GARRAFA E FONE BLUETOOTH - 3 PÇS","preco":"146.68","estoque":"203"},
-  {"codigo":"KT-90550","nome":"KIT CANECA, CANETA E CHAVEIRO - 3 PÇS","preco":"73.55","estoque":"1681"},
-  {"codigo":"KT-90493","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"97.59","estoque":"1828"},
-  {"codigo":"KT-90450","nome":"KIT NECESSAIRE, COPO C/ TAMPA E ESPELHO - 3 PÇS","preco":"59.52","estoque":"0"},
-  {"codigo":"KT-90272","nome":"KIT CONJUNTO DE FERRAMENTAS E PORTA-RETRATO - 2 PÇS","preco":"66.43","estoque":"3457"},
-  {"codigo":"KT-90277","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"105.09","estoque":"1835"},
-  {"codigo":"KT-9045P","nome":"KIT CADERNO E ACESSÓRIOS - 4 PÇS","preco":"90.05","estoque":"1835"},
-  {"codigo":"KT-90585","nome":"KIT SQUEEZE, CADERNETA E CANETA - BRANCO - 3 PÇS","preco":"69.74","estoque":"316"},
-  {"codigo":"KT-90380","nome":"KIT MOCHILA, CADERNO E CANETA - VERDE - 3 PÇS","preco":"71.69","estoque":"105"},
-  {"codigo":"KT-9040U","nome":"CONJ. GARRAFA E CANECA - 2 PEÇAS","preco":"79.86","estoque":"4360"},
-  {"codigo":"KT-90415","nome":"KIT GARRAFA E NECESSAIRE - 2 PÇS","preco":"35.88","estoque":"19"},
-  {"codigo":"KT-90526","nome":"KIT BOAS VINDAS - VERDE - 4 PÇS","preco":"54.77","estoque":"465"},
-  {"codigo":"KT-90360","nome":"KIT GARRAFA E CANECA - BRANCO - 2 PÇS","preco":"76.59","estoque":"933"},
-  {"codigo":"KT-90534-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-90577","nome":"KIT GARRAFA E COPO TÉRMICO - BRANCO - 2 PÇS","preco":"101.95","estoque":"2289"},
-  {"codigo":"KT-9029F","nome":"CONJ. CADERNO E COPO C/ TAMPA - 2 PÇS","preco":"56.17","estoque":"508"},
-  {"codigo":"KT-9040E","nome":"KIT CADERNO E ACESSÓRIOS - 4 PÇS","preco":"91.14","estoque":"1835"},
-  {"codigo":"KT-90259","nome":"CONJ. MOCHILA, CADERNETA E CANETA - 3 PÇS","preco":"79.78","estoque":"158"},
-  {"codigo":"KT-90469","nome":"CONJ. MOCHILA SACOLA, GARRAFA E BONÉ - 3 PÇS","preco":"55.63","estoque":"380"},
-  {"codigo":"IG-03321","nome":"CUIA TÉRMICA EM AÇO INOX COM BOMBA - PRETO - 300ML","preco":"91.48","estoque":"1228"},
-  {"codigo":"KT-90370","nome":"KIT GARRAFA E COPO TÉRMICO - AMARELO/PRETO - 2 PÇS","preco":"109.02","estoque":"1492"},
-  {"codigo":"KT-90582","nome":"KIT MOCHILA, COPO, CADERNO E CANETA - 4 PÇS","preco":"294.11","estoque":"0"},
-  {"codigo":"KT-9057F","nome":"KIT NECESSAIRE E GARRAFA - 2 PÇS","preco":"87.55","estoque":"4388"},
-  {"codigo":"KT-90529","nome":"KIT ESCRITÓRIO - VERMELHO - 4 PÇS","preco":"97.07","estoque":"300"},
-  {"codigo":"KT-90371","nome":"KIT GARRAFA E NECESSAIRE - BRANCO/PRETO - 2 PÇS","preco":"100.42","estoque":"1828"},
-  {"codigo":"KT-9034B","nome":"KIT CADERNO E ACESSÓRIOS - 3 PÇS","preco":"95.56","estoque":"1645"},
-  {"codigo":"KT-9046A","nome":"KIT CANECA EM AÇO INOX E PORTA-RETRATO EM ALUMÍNIO - 2 PÇS","preco":"72.04","estoque":"3814"},
-  {"codigo":"KT-90333","nome":"KIT COPO TÉRMICO E ACESSÓRIOS - BRANCO - 3 PÇS","preco":"71.16","estoque":"498"},
-  {"codigo":"KT-90383","nome":"KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - VERMELHO - 3 PÇS","preco":"74.83","estoque":"170"},
-  {"codigo":"KT-90581","nome":"CADERNO P/ ANOTAÇÕES COM CANETA - PRETO","preco":"50.46","estoque":"1875"},
-  {"codigo":"KT-90578","nome":"KIT MOCHILA, GARRAFA E FONE BLUETOOTH - 3 PÇS","preco":"146.97","estoque":"203"},
-  {"codigo":"KT-9047B","nome":"KIT BLOCO E ACESSÓRIOS - 3 PÇS","preco":"63.17","estoque":"9390"},
-  {"codigo":"KT-9041J","nome":"CONJ. CANECA, CADERNETA E CANETA - 3 PEÇAS","preco":"46.72","estoque":"899"},
-  {"codigo":"KT-90382","nome":"KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - AZUL - 3 PÇS","preco":"74.83","estoque":"88"},
-  {"codigo":"KT-90402","nome":"KIT GARRAFA E COPO TÉRMICO - 2 PÇS","preco":"122.31","estoque":"4618"},
-  {"codigo":"KT-9039D","nome":"KIT GARRAFA E CANECA - 2 PÇS","preco":"79.36","estoque":"3600"},
-  {"codigo":"KT-90363","nome":"KIT GARRAFA E NECESSAIRE - PRETO - 2 PÇS","preco":"96.52","estoque":"2167"},
-  {"codigo":"KT-90519","nome":"KIT SQUEEZE, FONE, CADERNO E CANETA - PRETO - 4 PÇS","preco":"74.13","estoque":"935"},
-  {"codigo":"KT-9046W","nome":"KIT CADERNO E ACESSÓRIOS - 3 PÇS","preco":"69.05","estoque":"3381"},
-  {"codigo":"KT-9046L","nome":"KIT CANECA E ACESSÓRIOS - 4 PÇS","preco":"83.77","estoque":"1713"},
-  {"codigo":"KT-90446","nome":"KIT BOAS VINDAS - 3 PÇS","preco":"43.08","estoque":"158"},
-  {"codigo":"KT-90398","nome":"KIT GARRAFA, CANECA E FONE BLUETOOTH - 3 PÇS","preco":"148.01","estoque":"203"},
-  {"codigo":"KT-90549","nome":"KIT ESCRITÓRIO - 4 PÇS","preco":"85.09","estoque":"0"},
-  {"codigo":"KT-90530","nome":"KIT ESCRITÓRIO - VERDE - 4 PÇS","preco":"96.77","estoque":"196"},
-  {"codigo":"KT-90361","nome":"KIT GARRAFA E CANECA - PRETO - 2 PÇS","preco":"76.59","estoque":"12"},
-  {"codigo":"KT-90468","nome":"KIT GARRAFA E CANIVETE 11 FUNÇÕES - 2 PÇS","preco":"76.97","estoque":"2754"},
-  {"codigo":"KT-9039W","nome":"KIT CADERNO E ACESSÓRIOS - 4 PÇS","preco":"95.04","estoque":"1645"},
-  {"codigo":"kt-9033z","nome":"CONJ. GARRAFA, CADERNETA E CANETA - 4 PÇS","preco":"92.21","estoque":"1095"},
-  {"codigo":"KT-90492","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"112.43","estoque":"1211"},
-  {"codigo":"KT-90364","nome":"KIT GARRAFA E NECESSAIRE - CINZA/PRETO - 2 PÇS","preco":"96.24","estoque":"2087"},
-  {"codigo":"KT-90527","nome":"KIT ESCRITÓRIO - PRETO - 4 PÇS","preco":"97.07","estoque":"381"},
-  {"codigo":"KT-90316","nome":"KIT PARA CAFÉ - 3 PÇS","preco":"173.28","estoque":"1036"},
-  {"codigo":"KT-9047P","nome":"KIT CADERNO E ACESSÓRIOS - 3 PÇS","preco":"42.57","estoque":"559"},
-  {"codigo":"KT-9076U","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"119.30","estoque":"12"},
-  {"codigo":"KT-90264","nome":"KIT CANECA EM AÇO INOX E PORTA-RETRATO EM ALUMÍNIO - 2 PÇS","preco":"66.18","estoque":"2125"},
-  {"codigo":"KT-9023S","nome":"KIT NECESSAIRE E GARRAFA - 2 PÇS","preco":"101.90","estoque":"401"},
-  {"codigo":"KT-90381","nome":"KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - PRETO - 3 PÇS","preco":"74.83","estoque":"836"},
-  {"codigo":"KT-90408","nome":"KIT NECESSAIRE E GUARDA-CHUVA - 2 PÇS","preco":"98.92","estoque":"1211"},
-  {"codigo":"KT-90522","nome":"KIT SQUEEZE, FONE, CADERNO E CANETA - VERDE - 4 PÇS","preco":"74.22","estoque":"935"},
-  {"codigo":"KT-9042M","nome":"KIT BOAS VINDAS - 4 PÇS","preco":"99.38","estoque":"1687"},
-  {"codigo":"KT-9073Q","nome":"KIT FONE DE OUVIDO E ACESSÓRIOS - 4 PÇS","preco":"97.91","estoque":"935"},
-  {"codigo":"KT-90354","nome":"KIT COM SQUEEZE, CANETA E CADERNO - AZUL - 3 PÇS","preco":"81.19","estoque":"845"},
-  {"codigo":"KT-9059G","nome":"KIT SQUEEZE, CADERNO E CANETA - 3 PÇS","preco":"61.18","estoque":"3381"},
-  {"codigo":"KT-9013B","nome":"KIT CADERNO COM ACESSÓRIOS - 3 PÇS","preco":"85.04","estoque":"845"},
-  {"codigo":"KT-90286","nome":"KIT GARRAFA, CANECA E FONE BLUETOOTH - 3 PÇS","preco":"148.54","estoque":"203"},
-  {"codigo":"KT-90531-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-90553","nome":"KIT SQUEEZE E NECESSAIRE - 2 PÇS","preco":"58.60","estoque":"1338"},
-  {"codigo":"KT-90357","nome":"KIT GARRAFA, CADERNO E CANETA - BRANCO - 3 PÇS","preco":"95.05","estoque":"390"},
-  {"codigo":"KT-90568","nome":"KIT COPO DUPLA CAMADA E GARRAFA - 2 PÇS","preco":"121.16","estoque":"2254"},
-  {"codigo":"KT-90275","nome":"KIT GARRAFA E CANECA - 2 PÇS","preco":"72.97","estoque":"3526"},
-  {"codigo":"KT-9044H","nome":"KIT SQUEEZE E ACESSÓRIOS - 4 PÇS","preco":"91.10","estoque":"935"},
-  {"codigo":"KT-9048Q","nome":"KIT GARRAFA COM ACESSÓRIOS - 4 PÇS","preco":"91.87","estoque":"559"},
-  {"codigo":"KT-9043F","nome":"KIT COPO, CANETA E CADERNETA - 3 PEÇAS","preco":"38.77","estoque":"3381"},
-  {"codigo":"KT-90517","nome":"KIT BOAS VINDAS - 5 PÇS - BRANCO/VERMELHO","preco":"67.76","estoque":"5"},
-  {"codigo":"KT-9059K","nome":"KIT SQUEEZE E ACESSÓRIOS - 4 PÇS","preco":"83.54","estoque":"1835"},
-  {"codigo":"KT-90317","nome":"KIT PARA CAFÉ - 3 PÇS","preco":"184.96","estoque":"1315"},
-  {"codigo":"KT-90391","nome":"KIT GARRAFA E CANECA - 2 PÇS","preco":"74.64","estoque":"2968"},
-  {"codigo":"KT-90365","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"109.78","estoque":"1367"},
-  {"codigo":"KT-90355","nome":"KIT SQUEEZE E ACESSÓRIOS - BRANCO - 4 PÇS","preco":"79.43","estoque":"498"},
-  {"codigo":"KT-90401","nome":"KIT GARRAFA, CADERNO E CANETA - 3 PÇS","preco":"97.74","estoque":"613"},
-  {"codigo":"KT-9041R","nome":"KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS","preco":"46.11","estoque":"6587"},
-  {"codigo":"KT-9042X","nome":"KIT BOAS VINDAS - 4 PÇS","preco":"98.87","estoque":"845"},
-  {"codigo":"KT-90535-BCO","nome":"KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS","preco":"186.29","estoque":"1"},
-  {"codigo":"KT-90393","nome":"KIT GARRAFA E ACESSÓRIOS - 4 PÇS","preco":"105.98","estoque":"253"},
-  {"codigo":"KT-90524","nome":"KIT BOAS VINDAS - AZUL - 4 PÇS","preco":"54.68","estoque":"500"},
-  {"codigo":"KT-90494","nome":"KIT GARRAFA, FONE BLUETOOTH E NECESSAIRE - 3 PÇS","preco":"162.27","estoque":"203"},
-  {"codigo":"KT-90219","nome":"KIT OFFICE - 4 PÇS","preco":"68.59","estoque":"0"},
-  {"codigo":"KT-90358","nome":"KIT GARRAFA, CADERNO E CANETA - PRETO - 3 PÇS","preco":"95.04","estoque":"12"},
-  {"codigo":"KT-90451","nome":"KIT OFFICE - 4 PÇS","preco":"200.87","estoque":"0"}
+  {
+    "codigo": "VI-00046",
+    "nome": "CONJ. COPOS AMERICANOS PARA DOSE - 6 PÇS",
+    "imagem": "conj-copos-americanos-para-dose-6-pcs_25109.webp",
+    "preco": "40.44",
+    "estoque": "150",
+    "url_produto": "/3605/produto/conj-copos-americanos-para-dose-6-pcs"
+  },
+  {
+    "codigo": "KT-90168",
+    "nome": "KIT PARA SALADA COM GARRAFA - BAMBU / VIDRO - 3 PÇS",
+    "imagem": "kit-para-salada-com-garrafa-bambu-vidro-3-pcs_23278.webp",
+    "preco": "151.07",
+    "estoque": "253",
+    "url_produto": "/2604/produto/kit-para-salada-com-garrafa-bambu-vidro-3-pcs"
+  },
+  {
+    "codigo": "KT-9015M-BCO",
+    "nome": "KIT CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-churrasco-com-copos-5-pcs_23803.webp",
+    "preco": "111.09",
+    "estoque": "3297",
+    "url_produto": "/3348/produto/kit-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-90081",
+    "nome": "KIT WHISKY COM BOLSA TÉRMICA - 9 PÇS",
+    "imagem": "kit-whisky-com-bolsa-termica-9-pcs_23406.webp",
+    "preco": "169.89",
+    "estoque": "878",
+    "url_produto": "/1949/produto/kit-whisky-com-bolsa-termica-9-pcs"
+  },
+  {
+    "codigo": "KT-90355",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS - BRANCO - 4 PÇS",
+    "imagem": "kit-squeeze-e-acessorios-branco-4-pcs_23825.webp",
+    "preco": "79.43",
+    "estoque": "498",
+    "url_produto": "/3362/produto/kit-squeeze-e-acessorios-branco-4-pcs"
+  },
+  {
+    "codigo": "KT-90110",
+    "nome": "KIT DE POTES PARA TEMPERO - 2 PÇS",
+    "imagem": "kit-de-potes-para-tempero-2-pcs_22654.webp",
+    "preco": "32.50",
+    "estoque": "1004",
+    "url_produto": "/2078/produto/kit-de-potes-para-tempero-2-pcs"
+  },
+  {
+    "codigo": "KT-90481",
+    "nome": "KIT PARA CHURRASCO E CERVEJA - 5 PÇS",
+    "imagem": "kit-para-churrasco-e-cerveja-4-pcs_24858.webp",
+    "preco": "71.02",
+    "estoque": "784",
+    "url_produto": "/3527/produto/kit-para-churrasco-e-cerveja-5-pcs"
+  },
+  {
+    "codigo": "KT-90391",
+    "nome": "KIT GARRAFA E CANECA - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-2-pcs_23996.webp",
+    "preco": "74.64",
+    "estoque": "2988",
+    "url_produto": "/3404/produto/kit-garrafa-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "VI-08722",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/ CHAMPAGNE 186 ML - 2 PÇS",
+    "imagem": "jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs_23517.webp",
+    "preco": "47.15",
+    "estoque": "668",
+    "url_produto": "/3316/produto/jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90439",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 3 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-3-pcs_24945.webp",
+    "preco": "117.65",
+    "estoque": "1004",
+    "url_produto": "/3551/produto/kit-para-cafe-com-prensa-francesa-3-pcs"
+  },
+  {
+    "codigo": "KE-00443",
+    "nome": "KIT PARA CAIPIRINHA EM BAMBU / MADEIRA - 0,35 L - 6 PÇS",
+    "imagem": "kit-para-caipirinha-em-bambu-6-pcs_22281.webp",
+    "preco": "94.54",
+    "estoque": "965",
+    "url_produto": "/1287/produto/kit-para-caipirinha-em-bambu-madeira-035-l-6-pcs"
+  },
+  {
+    "codigo": "KT-90177",
+    "nome": "KIT PARA CAFÉ DA MANHÃ - 12 PÇS",
+    "imagem": "kit-para-cafe-da-manha-12-pcs_21674.webp",
+    "preco": "165.22",
+    "estoque": "196",
+    "url_produto": "/2639/produto/kit-para-cafe-da-manha-12-pcs"
+  },
+  {
+    "codigo": "KT-90083",
+    "nome": "KIT WHISKY COM CANIVETE - 5 PÇS",
+    "imagem": "kit-whisky-com-canivete-5-pcs_23408.webp",
+    "preco": "69.55",
+    "estoque": "482",
+    "url_produto": "/1947/produto/kit-whisky-com-canivete-5-pcs"
+  },
+  {
+    "codigo": "MB-38113",
+    "nome": "CONJ. PARA COZINHA EM BAMBU / INOX - 3 PÇS",
+    "imagem": "conj-para-cozinha-em-bambu-inox-3-pcs_22688.webp",
+    "preco": "40.14",
+    "estoque": "3296",
+    "url_produto": "/2633/produto/conj-para-cozinha-em-bambu-inox-3-pcs"
+  },
+  {
+    "codigo": "KT-90294",
+    "nome": "KIT PARA DRINKS C/ COQUETELEIRA  - 3 PÇS",
+    "imagem": "kit-para-drinks-c-coqueteleira-3-pcs_23429.webp",
+    "preco": "72.48",
+    "estoque": "922",
+    "url_produto": "/3214/produto/kit-para-drinks-c-coqueteleira-3-pcs"
+  },
+  {
+    "codigo": "KT-90059",
+    "nome": "JOGO DE COPOS, CANECA E PORTA COPO - 8 PÇS",
+    "imagem": "jogo-de-copos-caneca-e-porta-copo-8-pcs_21578.webp",
+    "preco": "86.26",
+    "estoque": "964",
+    "url_produto": "/1867/produto/jogo-de-copos-caneca-e-porta-copo-8-pcs"
+  },
+  {
+    "codigo": "KT-90241",
+    "nome": "KIT BOAS VINDAS - 5 PÇS",
+    "imagem": "kit-boas-vindas-5-pcs_23548.webp",
+    "preco": "63.47",
+    "estoque": "447",
+    "url_produto": "/2943/produto/kit-boas-vindas-5-pcs"
+  },
+  {
+    "codigo": "KT-90347",
+    "nome": "CONJ. PARA QUEIJO EM BAMBU C/ TAÇA P/ CHAMPAGNE - 4 PEÇAS",
+    "imagem": "conj-para-queijo-em-bambu-c-taca-p-champagne-4-pecas_23707.webp",
+    "preco": "61.80",
+    "estoque": "42",
+    "url_produto": "/3330/produto/conj-para-queijo-em-bambu-c-taca-p-champagne-4-pecas"
+  },
+  {
+    "codigo": "KT-90474",
+    "nome": "KIT PARA PETISCO E VINHO - 9 PÇS",
+    "imagem": "kit-para-petisco-e-vinho-9-pcs_25096.webp",
+    "preco": "142.69",
+    "estoque": "1179",
+    "url_produto": "/3600/produto/kit-para-petisco-e-vinho-9-pcs"
+  },
+  {
+    "codigo": "KT-9031E",
+    "nome": "CONJ. PARA CHURRASCO C/ GARFO, FACA E TALHERES DE MESA - 14 PEÇAS",
+    "imagem": "conj-para-churrasco-c-garfo-faca-e-talheres-de-mesa-14-pecas_22532.webp",
+    "preco": "121.43",
+    "estoque": "313",
+    "url_produto": "/2897/produto/conj-para-churrasco-c-garfo-faca-e-talheres-de-mesa-14-pecas"
+  },
+  {
+    "codigo": "KT-90075",
+    "nome": "KIT PARA CAFEZINHO - 9 PÇS",
+    "imagem": "kit-para-cafezinho-9-pcs_21592.webp",
+    "preco": "153.32",
+    "estoque": "569",
+    "url_produto": "/1918/produto/kit-para-cafezinho-9-pcs"
+  },
+  {
+    "codigo": "KT-9048Q",
+    "nome": "KIT GARRAFA COM ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-com-acessorios-4-pcs_20218.webp",
+    "preco": "91.87",
+    "estoque": "558",
+    "url_produto": "/3048/produto/kit-garrafa-com-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90285",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_23674.webp",
+    "preco": "113.32",
+    "estoque": "1665",
+    "url_produto": "/3159/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90084",
+    "nome": "KIT WHISKY C/ BANDEJA E COPOS - 3 PÇS",
+    "imagem": "kit-whisky-c-bandeja-e-copos-3-pcs_22734.webp",
+    "preco": "91.00",
+    "estoque": "569",
+    "url_produto": "/1946/produto/kit-whisky-c-bandeja-e-copos-3-pcs"
+  },
+  {
+    "codigo": "KT-90219",
+    "nome": "KIT OFFICE - 4 PÇS",
+    "imagem": "kit-office-4-pcs_26788.webp",
+    "preco": "68.59",
+    "estoque": "0",
+    "url_produto": "/2809/produto/kit-office-4-pcs"
+  },
+  {
+    "codigo": "KT-9047R",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caderno-e-acessorios-4-pcs_20220.webp",
+    "preco": "100.93",
+    "estoque": "1665",
+    "url_produto": "/3046/produto/kit-caderno-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-9023T",
+    "nome": "KIT CHURRASCO COM GARRAFA E CANIVETE - 6 PÇS",
+    "imagem": "kit-churrasco-com-garrafa-e-canivete-6-pcs_23647.webp",
+    "preco": "147.53",
+    "estoque": "1252",
+    "url_produto": "/2895/produto/kit-churrasco-com-garrafa-e-canivete-6-pcs"
+  },
+  {
+    "codigo": "MX-70326",
+    "nome": "CONJ. PARA CHURRASCO EM BAMBU / INOX / MADEIRA - 4 PÇS",
+    "imagem": "conj-para-churrasco-em-bambu-inox-madeira-4-pcs_24834.webp",
+    "preco": "49.71",
+    "estoque": "943",
+    "url_produto": "/3521/produto/conj-para-churrasco-em-bambu-inox-madeira-4-pcs"
+  },
+  {
+    "codigo": "CO-03092",
+    "nome": "JOGO DE XÍCARAS COM PIRES - 90 ML - 4 PÇS",
+    "imagem": "jogo-de-xicaras-com-pires-90-ml-4-pcs_21205.webp",
+    "preco": "45.37",
+    "estoque": "776",
+    "url_produto": "/2652/produto/jogo-de-xicaras-com-pires-90-ml-4-pcs"
+  },
+  {
+    "codigo": "KT-90427",
+    "nome": "KIT PARA BAR E PETISCO - 5 PÇS",
+    "imagem": "kit-para-bar-e-petisco-5-pcs_24939.webp",
+    "preco": "53.06",
+    "estoque": "225",
+    "url_produto": "/3549/produto/kit-para-bar-e-petisco-5-pcs"
+  },
+  {
+    "codigo": "KT-90477",
+    "nome": "KIT PARA PETISCO / CERVEJA - 7 PÇS",
+    "imagem": "kit-para-petisco-cerveja-7-pcs_25147.webp",
+    "preco": "94.09",
+    "estoque": "1751",
+    "url_produto": "/3602/produto/kit-para-petisco-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-90527",
+    "nome": "KIT ESCRITÓRIO - PRETO - 4 PÇS",
+    "imagem": "kit-escritorio-preto-4-pcs_25498.webp",
+    "preco": "97.07",
+    "estoque": "381",
+    "url_produto": "/3662/produto/kit-escritorio-preto-4-pcs"
+  },
+  {
+    "codigo": "KT-90530",
+    "nome": "KIT ESCRITÓRIO - VERDE - 4 PÇS",
+    "imagem": "kit-escritorio-verde-4-pcs_25513.webp",
+    "preco": "96.77",
+    "estoque": "196",
+    "url_produto": "/3665/produto/kit-escritorio-verde-4-pcs"
+  },
+  {
+    "codigo": "KT-90298",
+    "nome": "KIT PARA CAFÉ COM CAFETEIRA ITALIANA - 2 PÇS",
+    "imagem": "kit-para-cafe-com-cafeteira-italiana-2-pcs_23538.webp",
+    "preco": "149.68",
+    "estoque": "1275",
+    "url_produto": "/3206/produto/kit-para-cafe-com-cafeteira-italiana-2-pcs"
+  },
+  {
+    "codigo": "KT-90338",
+    "nome": "KIT PETISCO E CHAMPAGNE - 2 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-champagne-2-pcs-nao-acompanha-garrafa_23698.webp",
+    "preco": "109.57",
+    "estoque": "1384",
+    "url_produto": "/3321/produto/kit-petisco-e-champagne-2-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90442",
+    "nome": "KIT PARA CAFÉ COM CAFETEIRA ITALIANA E MOEDOR - 6 PÇS",
+    "imagem": "kit-para-cafe-com-cafeteira-italiana-e-moedor-5-pcs_25164.webp",
+    "preco": "214.46",
+    "estoque": "839",
+    "url_produto": "/3578/produto/kit-para-cafe-com-cafeteira-italiana-e-moedor-6-pcs"
+  },
+  {
+    "codigo": "KT-90489",
+    "nome": "KIT ESCRITÓRIO - 4 PÇS",
+    "imagem": "kit-escritorio-4-pcs_25021.webp",
+    "preco": "99.89",
+    "estoque": "199",
+    "url_produto": "/3572/produto/kit-escritorio-4-pcs"
+  },
+  {
+    "codigo": "KT-90235",
+    "nome": "KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-bloco-3-pcs_21223.webp",
+    "preco": "46.00",
+    "estoque": "6346",
+    "url_produto": "/2871/produto/kit-com-squeeze-caneta-e-bloco-3-pcs"
+  },
+  {
+    "codigo": "KT-90242",
+    "nome": "KIT BOAS VINDAS - 5 PÇS",
+    "imagem": "kit-boas-vindas-5-pcs_23414.webp",
+    "preco": "62.87",
+    "estoque": "641",
+    "url_produto": "/2944/produto/kit-boas-vindas-5-pcs"
+  },
+  {
+    "codigo": "KT-90119",
+    "nome": "KIT PARA SERVIR - 3 PÇS",
+    "imagem": "kit-para-servir-3-pcs_21577.webp",
+    "preco": "110.02",
+    "estoque": "1401",
+    "url_produto": "/2090/produto/kit-para-servir-3-pcs"
+  },
+  {
+    "codigo": "KT-90364",
+    "nome": "KIT GARRAFA E NECESSAIRE - CINZA/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-cinza-preto-2-pcs_23858.webp",
+    "preco": "96.24",
+    "estoque": "2087",
+    "url_produto": "/3371/produto/kit-garrafa-e-necessaire-cinza-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90158",
+    "nome": "KIT DE POTES PARA TEMPERO - 2 PÇS",
+    "imagem": "kit-de-potes-para-tempero-2-pcs_22653.webp",
+    "preco": "35.49",
+    "estoque": "13",
+    "url_produto": "/2841/produto/kit-de-potes-para-tempero-2-pcs"
+  },
+  {
+    "codigo": "KT-9029F",
+    "nome": "CONJ. CADERNO E COPO C/ TAMPA - 2 PÇS",
+    "imagem": "conj-caderno-e-copo-c-tampa-2-pcs_23525.webp",
+    "preco": "56.17",
+    "estoque": "495",
+    "url_produto": "/2843/produto/conj-caderno-e-copo-c-tampa-2-pcs"
+  },
+  {
+    "codigo": "KT-90435",
+    "nome": "KIT CERVEJA E PETISCO - 2 PÇS",
+    "imagem": "kit-cerveja-e-petiscos-2-pcs_25068.webp",
+    "preco": "71.01",
+    "estoque": "3400",
+    "url_produto": "/3592/produto/kit-cerveja-e-petisco-2-pcs"
+  },
+  {
+    "codigo": "KT-90583",
+    "nome": "KIT MOCHILA, GARRAFA E GUARDA-CHUVA - 3 PÇS",
+    "imagem": "kit-mochila-garrafa-e-guarda-chuva-3-pcs_26286.webp",
+    "preco": "156.03",
+    "estoque": "1211",
+    "url_produto": "/3811/produto/kit-mochila-garrafa-e-guarda-chuva-3-pcs"
+  },
+  {
+    "codigo": "KT-90305",
+    "nome": "KIT PARA CHIMARRÃO / TERERE - 3 PÇS",
+    "imagem": "kit-para-chimarrao-terere-3-pcs_23520.webp",
+    "preco": "185.66",
+    "estoque": "23",
+    "url_produto": "/3203/produto/kit-para-chimarrao-terere-3-pcs"
+  },
+  {
+    "codigo": "KT-90107",
+    "nome": "KIT PARA COZINHA E TEMPERO - 6 PÇS",
+    "imagem": "kit-para-cozinha-e-tempero-6-pcs_19181.webp",
+    "preco": "89.51",
+    "estoque": "26",
+    "url_produto": "/2075/produto/kit-para-cozinha-e-tempero-6-pcs"
+  },
+  {
+    "codigo": "KT-90399",
+    "nome": "KIT GARRAFA E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-2-pcs_24141.webp",
+    "preco": "85.86",
+    "estoque": "613",
+    "url_produto": "/3429/produto/kit-garrafa-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "IX-02411",
+    "nome": "CONJ. DE GARRAFA E CANECA EM AÇO INOX  330/180 ML - 3 PÇS",
+    "imagem": "conj-de-garrafa-e-caneca-em-aco-inox-330-180-ml-3-pcs_21219.webp",
+    "preco": "100.49",
+    "estoque": "1",
+    "url_produto": "/3075/produto/conj-de-garrafa-e-caneca-em-aco-inox-330-180-ml-3-pcs"
+  },
+  {
+    "codigo": "KT-9076U",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_25343.webp",
+    "preco": "119.30",
+    "estoque": "2",
+    "url_produto": "/3622/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-9040Y",
+    "nome": "KIT CHURRASCO, CERVEJA E TRUCO - 10 PÇS - C/ JOGO DE BARALHO - P19",
+    "imagem": "kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho-p19_23379.webp",
+    "preco": "141.26",
+    "estoque": "3075",
+    "url_produto": "/3083/produto/kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho-p19"
+  },
+  {
+    "codigo": "KT-90515",
+    "nome": "KIT BOAS VINDAS - 5 PÇS - PRETO",
+    "imagem": "kit-boas-vindas-5-pcs-preto_25347.webp",
+    "preco": "67.22",
+    "estoque": "36",
+    "url_produto": "/3624/produto/kit-boas-vindas-5-pcs-preto"
+  },
+  {
+    "codigo": "KT-90280",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 8 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-8-pcs_21588.webp",
+    "preco": "137.39",
+    "estoque": "1036",
+    "url_produto": "/3146/produto/kit-para-cafe-com-prensa-francesa-8-pcs"
+  },
+  {
+    "codigo": "KT-90153",
+    "nome": "KIT COM GARRAFA E CANECA BRANCA",
+    "imagem": "kit-com-garrafa-e-caneca-branca_23673.webp",
+    "preco": "77.57",
+    "estoque": "3526",
+    "url_produto": "/2356/produto/kit-com-garrafa-e-caneca-branca"
+  },
+  {
+    "codigo": "KT-90541",
+    "nome": "KIT SACOLA, GARRAFA, CADERNO E CANETA - 4 PÇS",
+    "imagem": "kit-sacola-garrafa-caderno-e-caneta-4-pcs_25763.webp",
+    "preco": "44.91",
+    "estoque": "0",
+    "url_produto": "/3717/produto/kit-sacola-garrafa-caderno-e-caneta-4-pcs"
+  },
+  {
+    "codigo": "VI-18362",
+    "nome": "CONJ. CANECAS PARA CERVEJA E ESPAÇO PARA GARRAFA - 2 PÇS",
+    "imagem": "conj-canecas-para-cerveja-e-espaco-para-garrafa-2-pcs_25127.webp",
+    "preco": "73.92",
+    "estoque": "1275",
+    "url_produto": "/3612/produto/conj-canecas-para-cerveja-e-espaco-para-garrafa-2-pcs"
+  },
+  {
+    "codigo": "KT-90436",
+    "nome": "KIT PARA CHURRASCO E CERVEJA - 6 PÇS",
+    "imagem": "kit-para-churrasco-e-cerveja-6-pcs_26506.webp",
+    "preco": "148.48",
+    "estoque": "1537",
+    "url_produto": "/3543/produto/kit-para-churrasco-e-cerveja-6-pcs"
+  },
+  {
+    "codigo": "KT-90416",
+    "nome": "KIT PETISQUEIRA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-petisqueira-e-acessorios-4-pcs_24233.webp",
+    "preco": "86.10",
+    "estoque": "3563",
+    "url_produto": "/3448/produto/kit-petisqueira-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90383",
+    "nome": "KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - VERMELHO - 3 PÇS",
+    "imagem": "kit-copo-em-fibra-de-bambu-caderno-e-caneta-vermelho-3-pcs_23934.webp",
+    "preco": "74.83",
+    "estoque": "170",
+    "url_produto": "/3391/produto/kit-copo-em-fibra-de-bambu-caderno-e-caneta-vermelho-3-pcs"
+  },
+  {
+    "codigo": "VI-00812",
+    "nome": "JOGO DE CANECAS PARA CAFÉ - 2 PÇS - 130ML",
+    "imagem": "jogo-de-canecas-para-cafe-2-pcs-130ml_25333.webp",
+    "preco": "51.08",
+    "estoque": "301",
+    "url_produto": "/2664/produto/jogo-de-canecas-para-cafe-2-pcs-130ml"
+  },
+  {
+    "codigo": "KT-90393",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_24002.webp",
+    "preco": "105.98",
+    "estoque": "253",
+    "url_produto": "/3406/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90258",
+    "nome": "KIT PARA CAFÉ COM CAFETEIRA ITALIANA - 4 PÇS",
+    "imagem": "kit-para-cafe-com-cafeteira-italiana-4-pcs_22760.webp",
+    "preco": "181.07",
+    "estoque": "345",
+    "url_produto": "/2991/produto/kit-para-cafe-com-cafeteira-italiana-4-pcs"
+  },
+  {
+    "codigo": "KT-90476",
+    "nome": "KIT PARA PETISCO - 3 PÇS",
+    "imagem": "kit-para-petisco-3-pcs_25143.webp",
+    "preco": "66.03",
+    "estoque": "1751",
+    "url_produto": "/3616/produto/kit-para-petisco-3-pcs"
+  },
+  {
+    "codigo": "KT-90493",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_24990.webp",
+    "preco": "97.59",
+    "estoque": "1828",
+    "url_produto": "/3566/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90407",
+    "nome": "KIT NECESSAIRE E CONJUNTO DE FERRAMENTAS - 17 PÇS",
+    "imagem": "kit-para-engraxar-e-conjunto-de-ferramentas-22-pcs_24174.webp",
+    "preco": "82.38",
+    "estoque": "1194",
+    "url_produto": "/3437/produto/kit-necessaire-e-conjunto-de-ferramentas-17-pcs"
+  },
+  {
+    "codigo": "KT-90408",
+    "nome": "KIT NECESSAIRE E GUARDA-CHUVA - 2 PÇS",
+    "imagem": "kit-necessaire-e-guarda-chuva-2-pcs_24178.webp",
+    "preco": "98.92",
+    "estoque": "1211",
+    "url_produto": "/3438/produto/kit-necessaire-e-guarda-chuva-2-pcs"
+  },
+  {
+    "codigo": "KT-90282",
+    "nome": "KIT FARINHEIRA E SALEIRO EM BAMBU - 3 PÇS",
+    "imagem": "kit-farinheira-e-saleiro-em-bambu-3-pcs_23417.webp",
+    "preco": "132.91",
+    "estoque": "526",
+    "url_produto": "/3164/produto/kit-farinheira-e-saleiro-em-bambu-3-pcs"
+  },
+  {
+    "codigo": "ME-46373",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM BAMBU / MADEIRA / INOX - 4 PÇS",
+    "imagem": "conj-para-churrasco-premium-em-bambu-madeira-inox-4-pcs_26881.webp",
+    "preco": "291.97",
+    "estoque": "174",
+    "url_produto": "/3512/produto/conj-para-churrasco-premium-em-bambu-madeira-inox-4-pcs"
+  },
+  {
+    "codigo": "KT-90291",
+    "nome": "KIT GARRAFA E CANECA - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-2-pcs_21190.webp",
+    "preco": "77.69",
+    "estoque": "2276",
+    "url_produto": "/3250/produto/kit-garrafa-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "KT-90160",
+    "nome": "KIT COM COPO E CANECA EM FIBRA DE BAMBU",
+    "imagem": "kit-com-copo-e-caneca-em-fibra-de-bambu_21222.webp",
+    "preco": "34.57",
+    "estoque": "9985",
+    "url_produto": "/2558/produto/kit-com-copo-e-caneca-em-fibra-de-bambu"
+  },
+  {
+    "codigo": "PD-153A3",
+    "nome": "CONJ. P/ PETISCOS EM BAMBU - 3 PÇS",
+    "imagem": "conj-p-petiscos-em-bambu-3-pcs_23514.webp",
+    "preco": "32.34",
+    "estoque": "2732",
+    "url_produto": "/3168/produto/conj-p-petiscos-em-bambu-3-pcs"
+  },
+  {
+    "codigo": "KT-9059Q",
+    "nome": "KIT SQUEEZE E CANECA - 2 PÇS",
+    "imagem": "kit-squeeze-e-caneca-2-pcs_23404.webp",
+    "preco": "58.50",
+    "estoque": "4508",
+    "url_produto": "/3258/produto/kit-squeeze-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "CO-03096",
+    "nome": "JOGO DE XÍCARAS COM PIRES - 90 ML - 12 PÇS",
+    "imagem": "jogo-de-xicaras-com-pires-90-ml-12-pcs_23349.webp",
+    "preco": "106.70",
+    "estoque": "259",
+    "url_produto": "/3040/produto/jogo-de-xicaras-com-pires-90-ml-12-pcs"
+  },
+  {
+    "codigo": "KT-90224",
+    "nome": "KIT PARA CHURRASCO COM ESTEIRA GRILL - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-esteira-grill-5-pcs_22815.webp",
+    "preco": "126.03",
+    "estoque": "47",
+    "url_produto": "/2832/produto/kit-para-churrasco-com-esteira-grill-5-pcs"
+  },
+  {
+    "codigo": "KT-90537-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25555.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3672/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90047",
+    "nome": "CONJUNTO PARA TEMPEROS - 5 PÇS",
+    "imagem": "conjunto-para-temperos-5-pcs_26829.webp",
+    "preco": "47.61",
+    "estoque": "286",
+    "url_produto": "/1816/produto/conjunto-para-temperos-5-pcs"
+  },
+  {
+    "codigo": "KT-9018D",
+    "nome": "KIT PARA GIN - 3 PÇS",
+    "imagem": "kit-para-gin-3-pcs_23354.webp",
+    "preco": "62.75",
+    "estoque": "75",
+    "url_produto": "/2846/produto/kit-para-gin-3-pcs"
+  },
+  {
+    "codigo": "KT-90097",
+    "nome": "KIT PETISCO E VINHO - 3 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-vinho-3-pcs-nao-acompanha-garrafa_24058.webp",
+    "preco": "121.13",
+    "estoque": "2538",
+    "url_produto": "/2038/produto/kit-petisco-e-vinho-3-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90007",
+    "nome": "KIT QUEIJO E VINHO COM ESPAÇO PARA GARRAFA - 9 PÇS",
+    "imagem": "kit-queijo-e-vinho-com-espaco-para-garrafa-9-pcs_22087.webp",
+    "preco": "127.42",
+    "estoque": "1179",
+    "url_produto": "/1682/produto/kit-queijo-e-vinho-com-espaco-para-garrafa-9-pcs"
+  },
+  {
+    "codigo": "KT-90520",
+    "nome": "KIT SQUEEZE, FONE, CADERNO E CANETA - AZUL - 4 PÇS",
+    "imagem": "kit-squeeze-fone-caderno-e-caneta-azul-4-pcs_25452.webp",
+    "preco": "74.13",
+    "estoque": "935",
+    "url_produto": "/3651/produto/kit-squeeze-fone-caderno-e-caneta-azul-4-pcs"
+  },
+  {
+    "codigo": "KT-90002-BCO",
+    "nome": "KIT PIZZA E CERVEJA - 9 PÇS",
+    "imagem": "kit-pizza-e-cerveja-9-pcs_23808.webp",
+    "preco": "144.04",
+    "estoque": "888",
+    "url_produto": "/3350/produto/kit-pizza-e-cerveja-9-pcs"
+  },
+  {
+    "codigo": "KT-9046W",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-e-acessorios-3-pcs_20171.webp",
+    "preco": "69.05",
+    "estoque": "3036",
+    "url_produto": "/3029/produto/kit-caderno-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90426",
+    "nome": "KIT PARA CHURRASCO COM COPOS AMERICANOS - 11 PÇS",
+    "imagem": "kit-para-churrasco-11-pcs_25056.webp",
+    "preco": "124.81",
+    "estoque": "392",
+    "url_produto": "/3588/produto/kit-para-churrasco-com-copos-americanos-11-pcs"
+  },
+  {
+    "codigo": "KT-90424",
+    "nome": "KIT PARA CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-copos-5-pcs_24887.webp",
+    "preco": "71.70",
+    "estoque": "784",
+    "url_produto": "/3537/produto/kit-para-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-90284",
+    "nome": "KIT GARRAFA, CADERNO E FONE - 4 PÇS",
+    "imagem": "kit-garrafa-caderno-e-fone-4-pcs_23420.webp",
+    "preco": "107.42",
+    "estoque": "935",
+    "url_produto": "/3158/produto/kit-garrafa-caderno-e-fone-4-pcs"
+  },
+  {
+    "codigo": "KT-90175-BCO",
+    "nome": "KIT PARA CAIPIRINHA COM COQUETELEIRA - 5 PÇS",
+    "imagem": "kit-para-caipirinha-com-coqueteleira-5-pcs_24630.webp",
+    "preco": "72.58",
+    "estoque": "922",
+    "url_produto": "/3499/produto/kit-para-caipirinha-com-coqueteleira-5-pcs"
+  },
+  {
+    "codigo": "KT-90550",
+    "nome": "KIT CANECA, CANETA E CHAVEIRO - 3 PÇS",
+    "imagem": "kit-caneca-caneta-e-chaveiro-3-pcs_25739.webp",
+    "preco": "73.55",
+    "estoque": "1681",
+    "url_produto": "/3712/produto/kit-caneca-caneta-e-chaveiro-3-pcs"
+  },
+  {
+    "codigo": "KT-90231",
+    "nome": "KIT PARA CAFÉ - 2 PÇS",
+    "imagem": "kit-para-cafe-2-pcs_23411.webp",
+    "preco": "128.36",
+    "estoque": "1275",
+    "url_produto": "/2867/produto/kit-para-cafe-2-pcs"
+  },
+  {
+    "codigo": "KT-90525",
+    "nome": "KIT BOAS VINDAS - VERMELHO - 4 PÇS",
+    "imagem": "kit-boas-vindas-vermelho-4-pcs_25490.webp",
+    "preco": "54.79",
+    "estoque": "500",
+    "url_produto": "/3660/produto/kit-boas-vindas-vermelho-4-pcs"
+  },
+  {
+    "codigo": "kt-9041s",
+    "nome": "KIT COM SQUEEZE, CANETA E CADERNO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-caderno-3-pcs_23382.webp",
+    "preco": "81.47",
+    "estoque": "1665",
+    "url_produto": "/2879/produto/kit-com-squeeze-caneta-e-caderno-3-pcs"
+  },
+  {
+    "codigo": "KT-90164",
+    "nome": "CONJUNTO PARA COZINHA C/ CEPO EM BAMBU / INOX - 6 PÇS",
+    "imagem": "conjunto-para-cozinha-c-cepo-em-bambu-inox-6-pcs_22819.webp",
+    "preco": "174.44",
+    "estoque": "22",
+    "url_produto": "/2562/produto/conjunto-para-cozinha-c-cepo-em-bambu-inox-6-pcs"
+  },
+  {
+    "codigo": "KT-90371",
+    "nome": "KIT GARRAFA E NECESSAIRE - BRANCO/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-branco-preto-2-pcs_26399.webp",
+    "preco": "100.42",
+    "estoque": "1828",
+    "url_produto": "/3825/produto/kit-garrafa-e-necessaire-branco-preto-2-pcs"
+  },
+  {
+    "codigo": "VI-00194",
+    "nome": "CONJ. COPOS AMERICANOS MULTIUSO - 190 ML - 4 PÇS",
+    "imagem": "conj-copos-americanos-multiuso-190-ml-4-pcs_25112.webp",
+    "preco": "29.01",
+    "estoque": "392",
+    "url_produto": "/3606/produto/conj-copos-americanos-multiuso-190-ml-4-pcs"
+  },
+  {
+    "codigo": "VI-00822",
+    "nome": "JOGO DE CANECAS PARA CAFÉ - 2 PÇS - 240ML",
+    "imagem": "jogo-de-canecas-para-cafe-2-pcs-240ml_25332.webp",
+    "preco": "56.00",
+    "estoque": "345",
+    "url_produto": "/2665/produto/jogo-de-canecas-para-cafe-2-pcs-240ml"
+  },
+  {
+    "codigo": "KT-9043S",
+    "nome": "KIT MOCHILA COM SQUEEZE - 2 PÇS",
+    "imagem": "kit-mochila-com-squeeze-2-pcs_25445.webp",
+    "preco": "163.19",
+    "estoque": "641",
+    "url_produto": "/3060/produto/kit-mochila-com-squeeze-2-pcs"
+  },
+  {
+    "codigo": "KT-90008",
+    "nome": "KIT CHURRASCO, PETISCO, CERVEJA E TÁBUA 3 FUROS - 11 PÇS",
+    "imagem": "kit-churrasco-petisco-cerveja-e-tabua-3-furos-11-pcs_22170.webp",
+    "preco": "160.52",
+    "estoque": "1836",
+    "url_produto": "/1683/produto/kit-churrasco-petisco-cerveja-e-tabua-3-furos-11-pcs"
+  },
+  {
+    "codigo": "KT-9049T",
+    "nome": "KIT OFFICE - 3 PÇS",
+    "imagem": "kit-office-3-pcs_25297.webp",
+    "preco": "60.77",
+    "estoque": "2014",
+    "url_produto": "/3088/produto/kit-office-3-pcs"
+  },
+  {
+    "codigo": "KT-90580",
+    "nome": "KIT MOCHILA, GARRAFA E FONE BLUETOOTH - 3 PÇS",
+    "imagem": "kit-mochila-garrafa-e-fone-bluetooth-3-pcs_26273.webp",
+    "preco": "146.68",
+    "estoque": "168",
+    "url_produto": "/3808/produto/kit-mochila-garrafa-e-fone-bluetooth-3-pcs"
+  },
+  {
+    "codigo": "KT-90473",
+    "nome": "KIT PARA PETISCO E CERVEJA - 7 PÇS",
+    "imagem": "kit-para-petisco-e-cerveja-7-pcs_25092.webp",
+    "preco": "94.32",
+    "estoque": "3876",
+    "url_produto": "/3599/produto/kit-para-petisco-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "ME-39363",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM BAMBU / MADEIRA / INOX - 3 PÇS",
+    "imagem": "conj-para-churrasco-premium-em-bambu-madeira-inox-3-pcs_24703.webp",
+    "preco": "183.24",
+    "estoque": "665",
+    "url_produto": "/3511/produto/conj-para-churrasco-premium-em-bambu-madeira-inox-3-pcs"
+  },
+  {
+    "codigo": "KT-90094",
+    "nome": "KIT PARA CAFÉZINHO - 12 PÇS",
+    "imagem": "kit-para-cafezinho-12-pcs_21656.webp",
+    "preco": "131.06",
+    "estoque": "334",
+    "url_produto": "/2355/produto/kit-para-cafezinho-12-pcs"
+  },
+  {
+    "codigo": "KT-90455",
+    "nome": "KIT PARA CHÁ - 3 PÇS",
+    "imagem": "kit-para-cha-3-pcs_24564.webp",
+    "preco": "115.40",
+    "estoque": "379",
+    "url_produto": "/3487/produto/kit-para-cha-3-pcs"
+  },
+  {
+    "codigo": "KT-9047B",
+    "nome": "KIT BLOCO E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-e-acessorios-3-pcs_20191.webp",
+    "preco": "63.17",
+    "estoque": "9255",
+    "url_produto": "/3036/produto/kit-bloco-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90254",
+    "nome": "KIT PARA CHURRASCO / HAMBÚRGUER / CERVEJA - 10 PÇS",
+    "imagem": "kit-para-churrasco-hamburguer-cerveja-10-pcs_22736.webp",
+    "preco": "196.05",
+    "estoque": "943",
+    "url_produto": "/2978/produto/kit-para-churrasco-hamburguer-cerveja-10-pcs"
+  },
+  {
+    "codigo": "KT-90079",
+    "nome": "KIT CHURRASCO, CERVEJA E BARALHO",
+    "imagem": "kit-churrasco-cerveja-e-baralho_24470.webp",
+    "preco": "134.90",
+    "estoque": "3075",
+    "url_produto": "/1940/produto/kit-churrasco-cerveja-e-baralho"
+  },
+  {
+    "codigo": "KT-90506",
+    "nome": "KIT COPO TÉRMICO E PORTA RETRATO - 2 PÇS",
+    "imagem": "kit-copo-termico-e-porta-retrato-2-pcs_25200.webp",
+    "preco": "87.09",
+    "estoque": "0",
+    "url_produto": "/3553/produto/kit-copo-termico-e-porta-retrato-2-pcs"
+  },
+  {
+    "codigo": "KT-9036V",
+    "nome": "CONJ. MOCHILA, GARRAFA E CANECA - 3 PEÇAS",
+    "imagem": "conj-mochila-garrafa-e-caneca-3-pecas_23561.webp",
+    "preco": "200.39",
+    "estoque": "2518",
+    "url_produto": "/3058/produto/conj-mochila-garrafa-e-caneca-3-pecas"
+  },
+  {
+    "codigo": "KT-9038U",
+    "nome": "CONJ. PARA QUEIJO EM BAMBU C/ TAÇA P/ CHAMPAGNE - 4 PEÇAS",
+    "imagem": "conj-para-queijo-em-bambu-c-taca-p-champagne-4-pecas_22774.webp",
+    "preco": "58.16",
+    "estoque": "42",
+    "url_produto": "/2875/produto/conj-para-queijo-em-bambu-c-taca-p-champagne-4-pecas"
+  },
+  {
+    "codigo": "KT-90352",
+    "nome": "KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-bloco-branco-3-pcs_23819.webp",
+    "preco": "45.50",
+    "estoque": "2369",
+    "url_produto": "/3359/produto/kit-com-squeeze-caneta-e-bloco-3-pcs"
+  },
+  {
+    "codigo": "KT-9041K",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS -  4 PEÇAS",
+    "imagem": "kit-squeeze-e-acessorios-4-pecas_20182.webp",
+    "preco": "89.50",
+    "estoque": "935",
+    "url_produto": "/3032/produto/kit-squeeze-e-acessorios-4-pecas"
+  },
+  {
+    "codigo": "KT-90180",
+    "nome": "KIT PARA COZINHA EM BAMBU / INOX COM ESPÁTULA MULTIUSO - 3 PÇS",
+    "imagem": "kit-para-cozinha-em-bambu-inox-com-espatula-multiuso-3-pcs_22555.webp",
+    "preco": "60.84",
+    "estoque": "1242",
+    "url_produto": "/2642/produto/kit-para-cozinha-em-bambu-inox-com-espatula-multiuso-3-pcs"
+  },
+  {
+    "codigo": "VI-01352",
+    "nome": "CONJ. DE COPOS COM PAREDE DUPLA - 250/100ML - 2 PÇS",
+    "imagem": "conj-de-copos-com-parede-dupla-2-pcs_25139.webp",
+    "preco": "55.23",
+    "estoque": "419",
+    "url_produto": "/3615/produto/conj-de-copos-com-parede-dupla-250-100ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90425",
+    "nome": "KIT PARA BAR E PETISCO - 5 PÇS",
+    "imagem": "kit-para-bar-e-petisco-5-pcs_24910.webp",
+    "preco": "72.13",
+    "estoque": "784",
+    "url_produto": "/3539/produto/kit-para-bar-e-petisco-5-pcs"
+  },
+  {
+    "codigo": "KT-90207",
+    "nome": "KIT QUEIJO E VINHO - 6 PÇS",
+    "imagem": "_19082.webp",
+    "preco": "99.14",
+    "estoque": "42",
+    "url_produto": "/2749/produto/kit-queijo-e-vinho-6-pcs"
+  },
+  {
+    "codigo": "KT-9042K",
+    "nome": "KIT BOAS VINDAS - 3 PÇS",
+    "imagem": "kit-boas-vindas-3-pcs_20187.webp",
+    "preco": "86.35",
+    "estoque": "1775",
+    "url_produto": "/3034/produto/kit-boas-vindas-3-pcs"
+  },
+  {
+    "codigo": "KT-90257-BCO",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_24634.webp",
+    "preco": "73.89",
+    "estoque": "1197",
+    "url_produto": "/3500/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90283",
+    "nome": "KIT CUMBUCA E AMASSADOR DE TEMPEROS - 4 PÇS",
+    "imagem": "kit-cumbuca-e-amassador-de-temperos-4-pcs_21238.webp",
+    "preco": "94.87",
+    "estoque": "876",
+    "url_produto": "/3166/produto/kit-cumbuca-e-amassador-de-temperos-4-pcs"
+  },
+  {
+    "codigo": "KT-90259",
+    "nome": "CONJ. MOCHILA, CADERNETA E CANETA - 3 PÇS",
+    "imagem": "conj-mochila-e-acessorios-3-pecas_20072.webp",
+    "preco": "79.78",
+    "estoque": "158",
+    "url_produto": "/2995/produto/conj-mochila-caderneta-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90278",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 3 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-3-pcs_21603.webp",
+    "preco": "114.45",
+    "estoque": "1036",
+    "url_produto": "/3147/produto/kit-para-cafe-com-prensa-francesa-3-pcs"
+  },
+  {
+    "codigo": "KT-90243",
+    "nome": "KIT BOAS VINDAS - 5 PÇS",
+    "imagem": "kit-boas-vindas-5-pcs_23627.webp",
+    "preco": "63.37",
+    "estoque": "935",
+    "url_produto": "/2945/produto/kit-boas-vindas-5-pcs"
+  },
+  {
+    "codigo": "KT-9045P",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caderno-e-acessorios-4-pcs_23571.webp",
+    "preco": "90.05",
+    "estoque": "1775",
+    "url_produto": "/2997/produto/kit-caderno-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90334",
+    "nome": "KIT COPO TÉRMICO E ACESSÓRIOS - CINZA - 3 PÇS",
+    "imagem": "kit-copo-termico-e-acessorios-cinza-3-pcs_23791.webp",
+    "preco": "71.16",
+    "estoque": "558",
+    "url_produto": "/3308/produto/kit-copo-termico-e-acessorios-cinza-3-pcs"
+  },
+  {
+    "codigo": "KT-90540",
+    "nome": "KIT QUEIJO E VINHO - 4 PÇS",
+    "imagem": "kit-queijo-e-vinho-4-pcs_26900.webp",
+    "preco": "96.52",
+    "estoque": "3484",
+    "url_produto": "/3834/produto/kit-queijo-e-vinho-4-pcs"
+  },
+  {
+    "codigo": "KT-90409",
+    "nome": "KIT GUARDA-CHUVA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-guarda-chuva-caderno-e-caneta-3-pcs_24182.webp",
+    "preco": "107.10",
+    "estoque": "1211",
+    "url_produto": "/3439/produto/kit-guarda-chuva-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-9032E",
+    "nome": "KIT QUEIJO E VINHO - 8 PÇS",
+    "imagem": "kit-queijo-e-vinho-8-pcs_23648.webp",
+    "preco": "113.47",
+    "estoque": "1179",
+    "url_produto": "/3081/produto/kit-queijo-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "KT-9036K",
+    "nome": "KIT PETISCO, PATE E CERVEJA - 7 PÇS",
+    "imagem": "kit-petisco-pate-e-cerveja-7-pcs_23370.webp",
+    "preco": "96.98",
+    "estoque": "4755",
+    "url_produto": "/2830/produto/kit-petisco-pate-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-90471",
+    "nome": "KIT PETISCO E VINHO - 8 PÇS",
+    "imagem": "kit-petisco-e-vinho-8-pcs_24677.webp",
+    "preco": "140.07",
+    "estoque": "1179",
+    "url_produto": "/3505/produto/kit-petisco-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "KT-9061H",
+    "nome": "KIT PARA CHURRASCO/CERVEJA COM SACOLA - 5 PÇS",
+    "imagem": "kit-para-churrasco-cerveja-com-sacola-5-pcs_24023.webp",
+    "preco": "118.02",
+    "estoque": "1051",
+    "url_produto": "/3409/produto/kit-para-churrasco-cerveja-com-sacola-5-pcs"
+  },
+  {
+    "codigo": "KT-90363",
+    "nome": "KIT GARRAFA E NECESSAIRE - PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-preto-2-pcs_23852.webp",
+    "preco": "96.52",
+    "estoque": "2167",
+    "url_produto": "/3370/produto/kit-garrafa-e-necessaire-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90558",
+    "nome": "KIT PREMIUM PARA CHURRASCO - 4 PÇS",
+    "imagem": "kit-premium-para-churrasco-4-pcs_25954.webp",
+    "preco": "208.24",
+    "estoque": "27",
+    "url_produto": "/3749/produto/kit-premium-para-churrasco-4-pcs"
+  },
+  {
+    "codigo": "KT-90535-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25545.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3670/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90195",
+    "nome": "KIT PARA GIN / DRINKS - 4 PÇS",
+    "imagem": "kit-para-gin-drinks-4-pcs_22201.webp",
+    "preco": "96.91",
+    "estoque": "75",
+    "url_produto": "/2710/produto/kit-para-gin-drinks-4-pcs"
+  },
+  {
+    "codigo": "KT-90132",
+    "nome": "KIT DE UTENSÍLIOS EM BAMBU 30CM - 3 PÇS",
+    "imagem": "kit-de-utensilios-em-bambu-30cm-3-pcs_22659.webp",
+    "preco": "20.73",
+    "estoque": "4631",
+    "url_produto": "/2173/produto/kit-de-utensilios-em-bambu-30cm-3-pcs"
+  },
+  {
+    "codigo": "KT-90108",
+    "nome": "KIT PARA COZINHA E TEMPERO - 7 PÇS",
+    "imagem": "kit-para-cozinha-e-tempero-7-pcs_19169.webp",
+    "preco": "74.42",
+    "estoque": "26",
+    "url_produto": "/2076/produto/kit-para-cozinha-e-tempero-7-pcs"
+  },
+  {
+    "codigo": "KT-90277",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_23639.webp",
+    "preco": "105.09",
+    "estoque": "1775",
+    "url_produto": "/3153/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90308",
+    "nome": "KIT PARA CHURRASCO EM BAMBU / MADEIRA / INOX - 4 PÇS",
+    "imagem": "kit-para-churrasco-4-pcs_20891.webp",
+    "preco": "82.62",
+    "estoque": "603",
+    "url_produto": "/3209/produto/kit-para-churrasco-em-bambu-madeira-inox-4-pcs"
+  },
+  {
+    "codigo": "KT-9025I",
+    "nome": "KIT CHURRASCO COM GARRAFA, CANIVETE E BAINHA - 6 PÇS",
+    "imagem": "kit-churrasco-com-garrafa-canivete-e-bainha-6-pcs_23596.webp",
+    "preco": "138.86",
+    "estoque": "2543",
+    "url_produto": "/3026/produto/kit-churrasco-com-garrafa-canivete-e-bainha-6-pcs"
+  },
+  {
+    "codigo": "ME-21263",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM BAMBU / MADEIRA / INOX - 2 PÇS",
+    "imagem": "conj-para-churrasco-premium-em-bambu-madeira-inox-2-pcs_25974.webp",
+    "preco": "103.36",
+    "estoque": "945",
+    "url_produto": "/3752/produto/conj-para-churrasco-premium-em-bambu-madeira-inox-2-pcs"
+  },
+  {
+    "codigo": "KT-90192",
+    "nome": "KIT PARA COZINHA EM BAMBU / INOX - 3 PÇS",
+    "imagem": "kit-para-cozinha-em-bambu-inox-3-pcs_22854.webp",
+    "preco": "86.31",
+    "estoque": "590",
+    "url_produto": "/2707/produto/kit-para-cozinha-em-bambu-inox-3-pcs"
+  },
+  {
+    "codigo": "KT-90381",
+    "nome": "KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - PRETO - 3 PÇS",
+    "imagem": "kit-copo-em-fibra-de-bambu-caderno-e-caneta-preto-3-pcs_23936.webp",
+    "preco": "74.83",
+    "estoque": "836",
+    "url_produto": "/3386/produto/kit-copo-em-fibra-de-bambu-caderno-e-caneta-preto-3-pcs"
+  },
+  {
+    "codigo": "KT-90322",
+    "nome": "CONJ. MOCHILA, NECESSAIRE E GARRAFA - 3 PÇS",
+    "imagem": "conj-mochila-necessaire-e-garrafa-3-pcs_24097.webp",
+    "preco": "90.87",
+    "estoque": "0",
+    "url_produto": "/3416/produto/conj-mochila-necessaire-e-garrafa-3-pcs"
+  },
+  {
+    "codigo": "KT-90568",
+    "nome": "KIT COPO DUPLA CAMADA E GARRAFA - 2 PÇS",
+    "imagem": "kit-copo-dupla-camada-e-garrafa-2-pcs_26298.webp",
+    "preco": "121.16",
+    "estoque": "2187",
+    "url_produto": "/3798/produto/kit-copo-dupla-camada-e-garrafa-2-pcs"
+  },
+  {
+    "codigo": "KT-90003-BCO",
+    "nome": "KIT QUEIJO E VINHO - 8 PÇS",
+    "imagem": "kit-queijo-e-vinho-8-pcs_23809.webp",
+    "preco": "108.11",
+    "estoque": "1179",
+    "url_produto": "/3351/produto/kit-queijo-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "KT-90143",
+    "nome": "KIT PARA CAFEZINHO - 5 PÇS",
+    "imagem": "kit-para-cafezinho-5-pcs_22728.webp",
+    "preco": "96.77",
+    "estoque": "569",
+    "url_produto": "/2315/produto/kit-para-cafezinho-5-pcs"
+  },
+  {
+    "codigo": "KT-90375",
+    "nome": "KIT QUEIJO E VINHO COM ESPAÇO PARA GARRAFA - 11 PÇS",
+    "imagem": "kit-queijo-e-vinho-com-espaco-para-garrafa-11-pcs_23864.webp",
+    "preco": "160.70",
+    "estoque": "19",
+    "url_produto": "/3374/produto/kit-queijo-e-vinho-com-espaco-para-garrafa-11-pcs"
+  },
+  {
+    "codigo": "KT-90554",
+    "nome": "KIT NECESSAIRE E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-necessaire-e-copo-termico-2-pcs_25890.webp",
+    "preco": "82.59",
+    "estoque": "1338",
+    "url_produto": "/3736/produto/kit-necessaire-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "ME-21273",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM BAMBU / MADEIRA / INOX - 2 PÇS",
+    "imagem": "conj-para-churrasco-premium-em-bambu-madeira-inox-2-pcs_25983.webp",
+    "preco": "95.94",
+    "estoque": "1948",
+    "url_produto": "/3753/produto/conj-para-churrasco-premium-em-bambu-madeira-inox-2-pcs"
+  },
+  {
+    "codigo": "KT-9057F",
+    "nome": "KIT NECESSAIRE E GARRAFA - 2 PÇS",
+    "imagem": "kit-necessaire-e-garrafa-2-pcs_25344.webp",
+    "preco": "87.55",
+    "estoque": "4388",
+    "url_produto": "/3623/produto/kit-necessaire-e-garrafa-2-pcs"
+  },
+  {
+    "codigo": "KT-90095",
+    "nome": "KIT PARA CAFEZINHO - 13 PÇS",
+    "imagem": "kit-para-cafezinho-13-pcs_21702.webp",
+    "preco": "175.72",
+    "estoque": "569",
+    "url_produto": "/2040/produto/kit-para-cafezinho-13-pcs"
+  },
+  {
+    "codigo": "KT-90079-BCO",
+    "nome": "KIT CHURRASCO, CERVEJA E TRUCO - 10 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho_24474.webp",
+    "preco": "134.46",
+    "estoque": "3075",
+    "url_produto": "/3355/produto/kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-9047Y",
+    "nome": "KIT BOAS VINDAS - 4 PÇS",
+    "imagem": "kit-boas-vindas-4-pcs_23672.webp",
+    "preco": "48.04",
+    "estoque": "641",
+    "url_produto": "/3089/produto/kit-boas-vindas-4-pcs"
+  },
+  {
+    "codigo": "KT-90398",
+    "nome": "KIT GARRAFA, CANECA E FONE BLUETOOTH - 3 PÇS",
+    "imagem": "kit-garrafa-caneca-e-fone-bluetooth-3-pcs_24137.webp",
+    "preco": "148.01",
+    "estoque": "168",
+    "url_produto": "/3425/produto/kit-garrafa-caneca-e-fone-bluetooth-3-pcs"
+  },
+  {
+    "codigo": "KT-9019F",
+    "nome": "KIT CADERNO, CANETA E COPO - 3 PÇS",
+    "imagem": "kit-caderno-caneta-e-copo_24009.webp",
+    "preco": "63.20",
+    "estoque": "1065",
+    "url_produto": "/2687/produto/kit-caderno-caneta-e-copo-3-pcs"
+  },
+  {
+    "codigo": "KT-90592",
+    "nome": "KIT PARA CAFÉ COM CAFETEIRA ITALIANA - 5 PÇS",
+    "imagem": "kit-para-cafe-com-cafeteira-italiana-5-pcs_26487.webp",
+    "preco": "160.15",
+    "estoque": "671",
+    "url_produto": "/3845/produto/kit-para-cafe-com-cafeteira-italiana-5-pcs"
+  },
+  {
+    "codigo": "VI-08612",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/  VINHO 490 ML - 2 PÇS",
+    "imagem": "jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs_16916.webp",
+    "preco": "53.33",
+    "estoque": "934",
+    "url_produto": "/1358/produto/jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs"
+  },
+  {
+    "codigo": "MX-70066",
+    "nome": "CONJ. PARA CHURRASCO EM BAMBU / INOX / MADEIRA - 3 PÇS",
+    "imagem": "conj-para-churrasco-em-bambu-inox-madeira-3-pcs_24842.webp",
+    "preco": "35.92",
+    "estoque": "11504",
+    "url_produto": "/3523/produto/conj-para-churrasco-em-bambu-inox-madeira-3-pcs"
+  },
+  {
+    "codigo": "KT-90155",
+    "nome": "KIT PARA GIN TÔNICA - 8 PÇS",
+    "imagem": "kit-para-gin-tonica-8-pcs_23814.webp",
+    "preco": "124.07",
+    "estoque": "75",
+    "url_produto": "/2347/produto/kit-para-gin-tonica-8-pcs"
+  },
+  {
+    "codigo": "KT-90346",
+    "nome": "CONJ. TAÇA. TÁBUA E UTENSILIOS - 6 PEÇAS",
+    "imagem": "conj-taca-tabua-e-utensilios-6-pecas_25346.webp",
+    "preco": "70.21",
+    "estoque": "1384",
+    "url_produto": "/3329/produto/conj-taca-tabua-e-utensilios-6-pecas"
+  },
+  {
+    "codigo": "CO-03054",
+    "nome": "JOGO DE XÍCARAS DE CAFÉZINHO COM PIRES EM PORCELANA - 50ML",
+    "imagem": "jogo-de-xicaras-de-cafezinho-com-pires-em-porcelana-50ml_21632.webp",
+    "preco": "168.43",
+    "estoque": "223",
+    "url_produto": "/3102/produto/jogo-de-xicaras-de-cafezinho-com-pires-em-porcelana-50ml"
+  },
+  {
+    "codigo": "KT-9059K",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-squeeze-e-acessorios-4-pcs_21254.webp",
+    "preco": "83.54",
+    "estoque": "1775",
+    "url_produto": "/3256/produto/kit-squeeze-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90468",
+    "nome": "KIT GARRAFA E CANIVETE 11 FUNÇÕES - 2 PÇS",
+    "imagem": "kit-garrafa-e-canivete-11-funcoes-2-pcs_24509.webp",
+    "preco": "76.97",
+    "estoque": "2754",
+    "url_produto": "/3479/produto/kit-garrafa-e-canivete-11-funcoes-2-pcs"
+  },
+  {
+    "codigo": "CO-03094",
+    "nome": "JOGO DE XÍCARAS COM PIRES - 90 ML - 8 PÇS",
+    "imagem": "jogo-de-xicaras-com-pires-90-ml-8-pcs_21619.webp",
+    "preco": "78.19",
+    "estoque": "388",
+    "url_produto": "/2304/produto/jogo-de-xicaras-com-pires-90-ml-8-pcs"
+  },
+  {
+    "codigo": "KT-90339",
+    "nome": "KIT QUEIJO E CHAMPAGNE - 6 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-champagne-6-pcs-nao-acompanha-garrafa_23699.webp",
+    "preco": "96.25",
+    "estoque": "1384",
+    "url_produto": "/3322/produto/kit-queijo-e-champagne-6-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90335",
+    "nome": "KIT PRENSA FRANCESA E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-prensa-francesa-e-copo-termico-2-pcs_23790.webp",
+    "preco": "139.51",
+    "estoque": "1036",
+    "url_produto": "/3309/produto/kit-prensa-francesa-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "KT-90018",
+    "nome": "KIT PETISCO E CHAMPAGNE - 2 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-champagne-2-pcs-nao-acompanha-garrafa_24076.webp",
+    "preco": "111.69",
+    "estoque": "1554",
+    "url_produto": "/1728/produto/kit-petisco-e-champagne-2-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90488",
+    "nome": "KIT PARA CAFÉ/CHÁ E PORTA RETRATO - 6 PÇS",
+    "imagem": "kit-para-cafe-e-porta-retrato-6-pcs_25017.webp",
+    "preco": "90.61",
+    "estoque": "1197",
+    "url_produto": "/3571/produto/kit-para-cafe-cha-e-porta-retrato-6-pcs"
+  },
+  {
+    "codigo": "VI-01252",
+    "nome": "CONJ. DE COPOS COM PAREDE DUPLA - 250ML - 2 PÇS",
+    "imagem": "conj-de-copos-com-parede-dupla-2-pcs_25135.webp",
+    "preco": "61.50",
+    "estoque": "741",
+    "url_produto": "/3614/produto/conj-de-copos-com-parede-dupla-250ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90111",
+    "nome": "KIT DE POTES PARA TEMPERO - 3 PÇS",
+    "imagem": "kit-de-potes-para-tempero-3-pcs_26828.webp",
+    "preco": "53.57",
+    "estoque": "107",
+    "url_produto": "/2079/produto/kit-de-potes-para-tempero-3-pcs"
+  },
+  {
+    "codigo": "KT-90373",
+    "nome": "KIT GARRAFA E NECESSAIRE - VERDE/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-verde-preto-2-pcs_26409.webp",
+    "preco": "100.42",
+    "estoque": "1475",
+    "url_produto": "/3827/produto/kit-garrafa-e-necessaire-verde-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-9044W",
+    "nome": "KIT PARA CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-copos-5-pcs_23387.webp",
+    "preco": "92.12",
+    "estoque": "4755",
+    "url_produto": "/3053/produto/kit-para-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-90581",
+    "nome": "CADERNO P/ ANOTAÇÕES COM CANETA - PRETO",
+    "imagem": "caderno-p-anotacoes-com-caneta-preto_26277.webp",
+    "preco": "50.46",
+    "estoque": "1808",
+    "url_produto": "/3809/produto/caderno-p-anotacoes-com-caneta-preto"
+  },
+  {
+    "codigo": "KT-90197",
+    "nome": "KIT QUEIJO E CHAMPAGNE - 7 PÇS",
+    "imagem": "kit-queijo-e-champagne-7-pcs_24067.webp",
+    "preco": "111.75",
+    "estoque": "777",
+    "url_produto": "/2712/produto/kit-queijo-e-champagne-7-pcs"
+  },
+  {
+    "codigo": "KT-9033L",
+    "nome": "CONJUNTO PARA PETISCO - 7 PÇS",
+    "imagem": "conjunto-para-petisco-7-pcs_23363.webp",
+    "preco": "62.30",
+    "estoque": "5347",
+    "url_produto": "/3171/produto/conjunto-para-petisco-7-pcs"
+  },
+  {
+    "codigo": "KT-90340",
+    "nome": "TAÇA DE VIDRO P/ CHAMPAGNE 186 ML - C/ ESPAÇO PARA GARRAFA MINI",
+    "imagem": "taca-de-vidro-p-champagne-186-ml-c-espaco-para-garrafa-mini_23700.webp",
+    "preco": "45.80",
+    "estoque": "1384",
+    "url_produto": "/3323/produto/taca-de-vidro-p-champagne-186-ml-c-espaco-para-garrafa-mini"
+  },
+  {
+    "codigo": "KT-9032Y",
+    "nome": "CONJ. PARA GIN - 4 PEÇAS",
+    "imagem": "conj-para-gin-4-pecas_21744.webp",
+    "preco": "118.86",
+    "estoque": "289",
+    "url_produto": "/2965/produto/conj-para-gin-4-pecas"
+  },
+  {
+    "codigo": "KT-90545",
+    "nome": "KIT OFFICE - 4 PÇS",
+    "imagem": "kit-office-4-pcs_25657.webp",
+    "preco": "100.99",
+    "estoque": "0",
+    "url_produto": "/3695/produto/kit-office-4-pcs"
+  },
+  {
+    "codigo": "KT-90369",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - VERDE/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-verde-preto-2-pcs_26389.webp",
+    "preco": "109.02",
+    "estoque": "1475",
+    "url_produto": "/3823/produto/kit-garrafa-e-copo-termico-verde-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-9030A",
+    "nome": "CONJ. PARA CHURRASCO C/ COPOS E GARRAFA - 8 PEÇAS",
+    "imagem": "conj-para-churrasco-c-copos-e-garrafa-8-pecas_23555.webp",
+    "preco": "145.66",
+    "estoque": "4388",
+    "url_produto": "/3061/produto/conj-para-churrasco-c-copos-e-garrafa-8-pecas"
+  },
+  {
+    "codigo": "KT-9029H",
+    "nome": "CONJ. TAÇA. TÁBUA E UTENSILIOS - 6 PEÇAS",
+    "imagem": "conj-taca-tabua-e-utensilios-6-pecas_22678.webp",
+    "preco": "72.33",
+    "estoque": "1554",
+    "url_produto": "/2699/produto/conj-taca-tabua-e-utensilios-6-pecas"
+  },
+  {
+    "codigo": "KT-90367",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - BRANCO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-branco-2-pcs_26379.webp",
+    "preco": "109.03",
+    "estoque": "1828",
+    "url_produto": "/3818/produto/kit-garrafa-e-copo-termico-branco-2-pcs"
+  },
+  {
+    "codigo": "KT-90349",
+    "nome": "KIT PETISQUEIRA E TAÇAS PARA CHAMPAGNE - 3 PÇS",
+    "imagem": "kit-petisqueira-e-tacas-para-champagne-3-pcs_23789.webp",
+    "preco": "83.89",
+    "estoque": "1300",
+    "url_produto": "/3331/produto/kit-petisqueira-e-tacas-para-champagne-3-pcs"
+  },
+  {
+    "codigo": "KT-90199",
+    "nome": "CONJUNTO PARA PETISCO - 7 PÇS",
+    "imagem": "conjunto-para-petisco-7-pcs_25339.webp",
+    "preco": "86.71",
+    "estoque": "5347",
+    "url_produto": "/2713/produto/conjunto-para-petisco-7-pcs"
+  },
+  {
+    "codigo": "KT-9024H",
+    "nome": "KIT CHURRASCO E CERVEJA - 9 PEÇAS ",
+    "imagem": "kit-churrasco-e-cerveja-9-pecas-_23359.webp",
+    "preco": "146.42",
+    "estoque": "4996",
+    "url_produto": "/3085/produto/kit-churrasco-e-cerveja-9-pecas-"
+  },
+  {
+    "codigo": "PD-04X13",
+    "nome": "PETISQUEIRA EM BAMBU COM FORMATO DE CORAÇÃO COM ESPÁTULAS",
+    "imagem": "petisqueira-em-bambu-com-formato-de-coracao-com-espatulas_21296.webp",
+    "preco": "35.50",
+    "estoque": "3563",
+    "url_produto": "/3169/produto/petisqueira-em-bambu-com-formato-de-coracao-com-espatulas"
+  },
+  {
+    "codigo": "KT-90555",
+    "nome": "KIT PREMIUM PARA CHURRASCO - 4 PÇS",
+    "imagem": "kit-premium-para-churrasco-4-pcs_25969.webp",
+    "preco": "249.52",
+    "estoque": "665",
+    "url_produto": "/3751/produto/kit-premium-para-churrasco-4-pcs"
+  },
+  {
+    "codigo": "KT-90522",
+    "nome": "KIT SQUEEZE, FONE, CADERNO E CANETA - VERDE - 4 PÇS",
+    "imagem": "kit-squeeze-fone-caderno-e-caneta-verde-4-pcs_25772.webp",
+    "preco": "74.22",
+    "estoque": "935",
+    "url_produto": "/3653/produto/kit-squeeze-fone-caderno-e-caneta-verde-4-pcs"
+  },
+  {
+    "codigo": "KT-90003",
+    "nome": "KIT QUEIJO E VINHO COM ABRIDOR SACA ROLHAS- 8 PÇS.",
+    "imagem": "kit-queijo-e-vinho-com-abridor-saca-rolhas-8-pcs_24276.webp",
+    "preco": "108.11",
+    "estoque": "1179",
+    "url_produto": "/1678/produto/kit-queijo-e-vinho-com-abridor-saca-rolhas-8-pcs"
+  },
+  {
+    "codigo": "KT-90584",
+    "nome": "KIT PARA VINHO - 6 PÇS",
+    "imagem": "kit-para-vinho-6-pcs_26290.webp",
+    "preco": "140.68",
+    "estoque": "1793",
+    "url_produto": "/3812/produto/kit-para-vinho-6-pcs"
+  },
+  {
+    "codigo": "KT-90569",
+    "nome": "KIT CAFETEIRA ITALIANA E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-cafeteira-e-copo-termico-2-pcs_26241.webp",
+    "preco": "135.14",
+    "estoque": "671",
+    "url_produto": "/3799/produto/kit-cafeteira-italiana-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "KT-90478",
+    "nome": "KIT PARA QUEIJO E VINHO - 8 PÇS",
+    "imagem": "kit-para-queijo-e-vinho-8-pcs_25151.webp",
+    "preco": "107.79",
+    "estoque": "1179",
+    "url_produto": "/3603/produto/kit-para-queijo-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "KT-9043F",
+    "nome": "KIT COPO, CANETA E CADERNETA - 3 PEÇAS",
+    "imagem": "kit-copo-caneta-e-caderneta-3-pecas_21228.webp",
+    "preco": "38.77",
+    "estoque": "3036",
+    "url_produto": "/3001/produto/kit-copo-caneta-e-caderneta-3-pecas"
+  },
+  {
+    "codigo": "KT-9044U",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-e-acessorios-3-pcs_23519.webp",
+    "preco": "77.34",
+    "estoque": "1775",
+    "url_produto": "/3004/produto/kit-caderno-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90490",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_25003.webp",
+    "preco": "112.47",
+    "estoque": "230",
+    "url_produto": "/3568/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90256",
+    "nome": "KIT PARA CAFÉ DA MANHÃ - 4 PÇS",
+    "imagem": "kit-para-cafe-da-manha-4-pcs_22744.webp",
+    "preco": "71.09",
+    "estoque": "783",
+    "url_produto": "/2989/produto/kit-para-cafe-da-manha-4-pcs"
+  },
+  {
+    "codigo": "KT-90249",
+    "nome": "KIT PARA PETISCO / QUEIJO - 3 PÇS",
+    "imagem": "kit-para-petisco-queijo-3-pcs_22738.webp",
+    "preco": "62.32",
+    "estoque": "42",
+    "url_produto": "/2956/produto/kit-para-petisco-queijo-3-pcs"
+  },
+  {
+    "codigo": "KT-90226",
+    "nome": "KIT PARA CAIPIRINHA COM BALDE - 6 PÇS",
+    "imagem": "kit-para-caipirinha-com-balde-6-pcs_22859.webp",
+    "preco": "90.82",
+    "estoque": "245",
+    "url_produto": "/2834/produto/kit-para-caipirinha-com-balde-6-pcs"
+  },
+  {
+    "codigo": "KT-90536-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25550.webp",
+    "preco": "185.54",
+    "estoque": "2",
+    "url_produto": "/3671/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90351",
+    "nome": "KIT COM SQUEEZE, CANETA E BLOCO PARA ANOTAÇÕES - AZUL - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-bloco-para-anotacoes-azul-3-pcs_23816.webp",
+    "preco": "45.73",
+    "estoque": "2273",
+    "url_produto": "/3358/produto/kit-com-squeeze-caneta-e-bloco-para-anotacoes-azul-3-pcs"
+  },
+  {
+    "codigo": "KT-90480",
+    "nome": "KIT PARA QUEIJO E VINHO - 6 PÇS",
+    "imagem": "kit-para-queijo-e-vinho-6-pcs_25159.webp",
+    "preco": "98.82",
+    "estoque": "42",
+    "url_produto": "/3528/produto/kit-para-queijo-e-vinho-6-pcs"
+  },
+  {
+    "codigo": "KT-90005",
+    "nome": "KIT PETISCO E CHAMPAGNE - 3 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-champagne-3-pcs-nao-acompanha-garrafa_22252.webp",
+    "preco": "119.71",
+    "estoque": "777",
+    "url_produto": "/1680/produto/kit-petisco-e-champagne-3-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90362",
+    "nome": "KIT GARRAFA E CANECA - PRATA/BRANCO 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-prata-branco-2-pcs_23849.webp",
+    "preco": "76.59",
+    "estoque": "552",
+    "url_produto": "/3369/produto/kit-garrafa-e-caneca-prata-branco-2-pcs"
+  },
+  {
+    "codigo": "KT-9073Q",
+    "nome": "KIT FONE DE OUVIDO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-fone-de-ouvido-e-acessorios-4-pcs_25342.webp",
+    "preco": "97.91",
+    "estoque": "935",
+    "url_produto": "/3621/produto/kit-fone-de-ouvido-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90310",
+    "nome": "KIT PRENSA FRANCESA E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-prensa-francesa-e-copo-termico-2-pcs_23567.webp",
+    "preco": "139.51",
+    "estoque": "1036",
+    "url_produto": "/3211/produto/kit-prensa-francesa-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "KT-90156",
+    "nome": "KIT PARA CHURRASCO COM GARRAFA TÉRMICA - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-garrafa-termica-5-pcs_22902.webp",
+    "preco": "145.06",
+    "estoque": "23",
+    "url_produto": "/2374/produto/kit-para-churrasco-com-garrafa-termica-5-pcs"
+  },
+  {
+    "codigo": "KT-9040E",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caderno-e-acessorios-4-pcs_25340.webp",
+    "preco": "91.14",
+    "estoque": "1775",
+    "url_produto": "/2856/produto/kit-caderno-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-9036E",
+    "nome": "KIT MOCHILA E ACESSÓRIOS - 5 PÇS",
+    "imagem": "kit-mochila-e-acessorios-5-pcs_23367.webp",
+    "preco": "110.85",
+    "estoque": "1869",
+    "url_produto": "/3009/produto/kit-mochila-e-acessorios-5-pcs"
+  },
+  {
+    "codigo": "KT-90447",
+    "nome": "KIT BOAS VINDAS - 3 PÇS",
+    "imagem": "kit-boas-vindas-3-pcs_24361.webp",
+    "preco": "42.34",
+    "estoque": "935",
+    "url_produto": "/3473/produto/kit-boas-vindas-3-pcs"
+  },
+  {
+    "codigo": "KT-9024R",
+    "nome": "ACESSÓRIOS PARA VINHO COM ESTOJO EM BAMBU E ESPAÇO PARA GARRAFA- 6 PÇS",
+    "imagem": "_19672.webp",
+    "preco": "114.43",
+    "estoque": "1837",
+    "url_produto": "/2894/produto/acessorios-para-vinho-com-estojo-em-bambu-e-espaco-para-garrafa-6-pcs"
+  },
+  {
+    "codigo": "KT-90093",
+    "nome": "KIT PARA CAFÉZINHO - 6PÇS",
+    "imagem": "kit-para-cafezinho-6pcs_21248.webp",
+    "preco": "71.97",
+    "estoque": "669",
+    "url_produto": "/2829/produto/kit-para-cafezinho-6pcs"
+  },
+  {
+    "codigo": "KT-90054",
+    "nome": "KIT CHURRASCO, CERVEJA E TRUCO - 10 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-cerveja-e-truco-com-baralho_22447.webp",
+    "preco": "157.54",
+    "estoque": "3075",
+    "url_produto": "/1826/produto/kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-90218",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS -  4 PEÇAS",
+    "imagem": "kit-squeeze-e-acessorios-4-pecas_21708.webp",
+    "preco": "89.61",
+    "estoque": "935",
+    "url_produto": "/2819/produto/kit-squeeze-e-acessorios-4-pecas"
+  },
+  {
+    "codigo": "KT-90411",
+    "nome": "KIT ECOLÓGICO - 2 PÇS",
+    "imagem": "kit-ecologico-2-pcs_24208.webp",
+    "preco": "21.85",
+    "estoque": "14038",
+    "url_produto": "/3443/produto/kit-ecologico-2-pcs"
+  },
+  {
+    "codigo": "KT-90503",
+    "nome": "KIT PARA CHURRASCO/PETISCO - 10 PÇS",
+    "imagem": "kit-para-churrasco-petisco-10-pcs_25192.webp",
+    "preco": "178.11",
+    "estoque": "2459",
+    "url_produto": "/3576/produto/kit-para-churrasco-petisco-10-pcs"
+  },
+  {
+    "codigo": "KT-90232",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_23572.webp",
+    "preco": "128.12",
+    "estoque": "1275",
+    "url_produto": "/2868/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90196",
+    "nome": "KIT PETISCO E CHAMPAGNE - 7 PÇS",
+    "imagem": "kit-petisco-e-champagne-7-pcs_22023.webp",
+    "preco": "136.67",
+    "estoque": "777",
+    "url_produto": "/2711/produto/kit-petisco-e-champagne-7-pcs"
+  },
+  {
+    "codigo": "KT-90358",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - PRETO - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-preto-3-pcs_23840.webp",
+    "preco": "95.04",
+    "estoque": "2",
+    "url_produto": "/3365/produto/kit-garrafa-caderno-e-caneta-preto-3-pcs"
+  },
+  {
+    "codigo": "KT-90316",
+    "nome": "KIT PARA CAFÉ - 3 PÇS",
+    "imagem": "kit-para-cafe-3-pcs_21239.webp",
+    "preco": "173.28",
+    "estoque": "1036",
+    "url_produto": "/3247/produto/kit-para-cafe-3-pcs"
+  },
+  {
+    "codigo": "KT-9040V",
+    "nome": "KIT CHURRASCO / WHISKY - 5 PÇS",
+    "imagem": "kit-churrasco-whisky-5-pcs_23589.webp",
+    "preco": "118.92",
+    "estoque": "482",
+    "url_produto": "/3079/produto/kit-churrasco-whisky-5-pcs"
+  },
+  {
+    "codigo": "KT-90357",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - BRANCO - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-branco-3-pcs_23834.webp",
+    "preco": "95.05",
+    "estoque": "390",
+    "url_produto": "/3364/produto/kit-garrafa-caderno-e-caneta-branco-3-pcs"
+  },
+  {
+    "codigo": "KT-90074",
+    "nome": "KIT PARA PIZZA COM CORTADOR, ESPÁTULA E GARRAFA - 3 PÇS",
+    "imagem": "kit-para-pizza-com-cortador-espatula-e-garrafa-3-pcs_26824.webp",
+    "preco": "52.82",
+    "estoque": "253",
+    "url_produto": "/1915/produto/kit-para-pizza-com-cortador-espatula-e-garrafa-3-pcs"
+  },
+  {
+    "codigo": "KT-90317",
+    "nome": "KIT PARA CAFÉ - 3 PÇS",
+    "imagem": "kit-para-cafe-3-pcs_23629.webp",
+    "preco": "184.96",
+    "estoque": "1275",
+    "url_produto": "/3248/produto/kit-para-cafe-3-pcs"
+  },
+  {
+    "codigo": "KT-9064J",
+    "nome": "KIT PARA CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-copos-5-pcs_21293.webp",
+    "preco": "88.60",
+    "estoque": "4755",
+    "url_produto": "/3267/produto/kit-para-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-9023S",
+    "nome": "KIT NECESSAIRE E GARRAFA - 2 PÇS",
+    "imagem": "kit-necessaire-e-garrafa-2-pcs_25337.webp",
+    "preco": "101.90",
+    "estoque": "401",
+    "url_produto": "/3012/produto/kit-necessaire-e-garrafa-2-pcs"
+  },
+  {
+    "codigo": "KT-90505",
+    "nome": "KIT PARA CHURRASCO COM AVENTAL - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-avental-5-pcs_25196.webp",
+    "preco": "237.60",
+    "estoque": "139",
+    "url_produto": "/3581/produto/kit-para-churrasco-com-avental-5-pcs"
+  },
+  {
+    "codigo": "KT-90392",
+    "nome": "KIT GARRAFA, CANECA E CADERNO - 3 PÇS",
+    "imagem": "kit-garrafa-caneca-e-caderno-3-pcs_23999.webp",
+    "preco": "109.06",
+    "estoque": "1665",
+    "url_produto": "/3405/produto/kit-garrafa-caneca-e-caderno-3-pcs"
+  },
+  {
+    "codigo": "KT-9059J",
+    "nome": "KIT SQUEEZE, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-squeeze-caderno-e-caneta-3-pcs_23403.webp",
+    "preco": "70.01",
+    "estoque": "1775",
+    "url_produto": "/3253/produto/kit-squeeze-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90470",
+    "nome": "KIT PORTA RETRATO E CONJUNTO DE FERRAMENTAS - 8 PÇS",
+    "imagem": "kit-porta-retrato-e-conjunto-de-ferramentas-8-pcs_24517.webp",
+    "preco": "34.18",
+    "estoque": "1969",
+    "url_produto": "/3481/produto/kit-porta-retrato-e-conjunto-de-ferramentas-8-pcs"
+  },
+  {
+    "codigo": "KT-9034B",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-e-acessorios-3-pcs_24272.webp",
+    "preco": "95.56",
+    "estoque": "1665",
+    "url_produto": "/2854/produto/kit-caderno-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "IG-03321",
+    "nome": "CUIA TÉRMICA EM AÇO INOX COM BOMBA - PRETO - 300ML",
+    "imagem": "cuia-termica-em-aco-inox-com-bomba-preto-300ml_20817.webp",
+    "preco": "91.48",
+    "estoque": "1228",
+    "url_produto": "/3193/produto/cuia-termica-em-aco-inox-com-bomba-preto-300ml"
+  },
+  {
+    "codigo": "KT-90257",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_22850.webp",
+    "preco": "73.89",
+    "estoque": "1197",
+    "url_produto": "/2990/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90524",
+    "nome": "KIT BOAS VINDAS - AZUL - 4 PÇS",
+    "imagem": "kit-boas-vindas-azul-4-pcs_25486.webp",
+    "preco": "54.68",
+    "estoque": "500",
+    "url_produto": "/3659/produto/kit-boas-vindas-azul-4-pcs"
+  },
+  {
+    "codigo": "KT-90010",
+    "nome": "KIT QUEIJO E CERVEJA - 4 PEÇAS",
+    "imagem": "kit-queijo-e-cerveja-4-pecas_22012.webp",
+    "preco": "71.47",
+    "estoque": "1470",
+    "url_produto": "/1685/produto/kit-queijo-e-cerveja-4-pecas"
+  },
+  {
+    "codigo": "IX-01611",
+    "nome": "CONJ. DE GARRAFA E CANECA EM AÇO INOX  600/180 ML - 2 PÇS",
+    "imagem": "conj-de-garrafa-e-caneca-em-aco-inox-600-180-ml-2-pcs_21218.webp",
+    "preco": "59.35",
+    "estoque": "1014",
+    "url_produto": "/3076/produto/conj-de-garrafa-e-caneca-em-aco-inox-600-180-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90529",
+    "nome": "KIT ESCRITÓRIO - VERMELHO - 4 PÇS",
+    "imagem": "kit-escritorio-vermelho-4-pcs_25508.webp",
+    "preco": "97.07",
+    "estoque": "300",
+    "url_produto": "/3664/produto/kit-escritorio-vermelho-4-pcs"
+  },
+  {
+    "codigo": "KT-90161",
+    "nome": "CONJUNTO PARA QUEIJO COM CEPO EM BAMBU / INOX - 6 PÇS",
+    "imagem": "conjunto-para-queijo-com-cepo-em-bambu-inox-6-pcs_22130.webp",
+    "preco": "206.79",
+    "estoque": "22",
+    "url_produto": "/2559/produto/conjunto-para-queijo-com-cepo-em-bambu-inox-6-pcs"
+  },
+  {
+    "codigo": "KT-90404",
+    "nome": "KIT PARA CAFÉ - 7 PÇS",
+    "imagem": "kit-para-cafe-7-pcs_24162.webp",
+    "preco": "245.05",
+    "estoque": "839",
+    "url_produto": "/3434/produto/kit-para-cafe-7-pcs"
+  },
+  {
+    "codigo": "KT-90186",
+    "nome": "KIT PARA CAFEZINHO - 3 PÇS",
+    "imagem": "kit-para-cafezinho-3-pcs_24797.webp",
+    "preco": "93.90",
+    "estoque": "136",
+    "url_produto": "/2661/produto/kit-para-cafezinho-3-pcs"
+  },
+  {
+    "codigo": "KT-90288",
+    "nome": "KIT PARA PETISCO - 4 PÇS",
+    "imagem": "kit-para-petisco-4-pcs_20743.webp",
+    "preco": "111.62",
+    "estoque": "1300",
+    "url_produto": "/3185/produto/kit-para-petisco-4-pcs"
+  },
+  {
+    "codigo": "KT-9051Y",
+    "nome": "KIT PARA CAIPIRINHA EM BAMBU - 6 PÇS",
+    "imagem": "kit-para-caipirinha-em-bambu-6-pcs_23399.webp",
+    "preco": "93.59",
+    "estoque": "1803",
+    "url_produto": "/3162/produto/kit-para-caipirinha-em-bambu-6-pcs"
+  },
+  {
+    "codigo": "KT-90487",
+    "nome": "KIT PARA CHÁ - 4 PÇS",
+    "imagem": "kit-para-cha-4-pcs_25370.webp",
+    "preco": "140.82",
+    "estoque": "379",
+    "url_produto": "/3627/produto/kit-para-cha-4-pcs"
+  },
+  {
+    "codigo": "KT-90345",
+    "nome": "KIT PARA PETISCO - 4 PÇS",
+    "imagem": "kit-para-petisco-4-pcs_23705.webp",
+    "preco": "107.96",
+    "estoque": "1300",
+    "url_produto": "/3328/produto/kit-para-petisco-4-pcs"
+  },
+  {
+    "codigo": "KT-90301",
+    "nome": "KIT PARA CHURRASCO COM COPO TÉRMICO - 6 PÇS",
+    "imagem": "kit-para-churrasco-com-copo-termico-6-pcs_23488.webp",
+    "preco": "198.42",
+    "estoque": "603",
+    "url_produto": "/3204/produto/kit-para-churrasco-com-copo-termico-6-pcs"
+  },
+  {
+    "codigo": "KT-9038Z",
+    "nome": "KIT PIZZA / CERVEJA - 9 PÇS",
+    "imagem": "kit-pizza-cerveja-9-pcs_23374.webp",
+    "preco": "129.69",
+    "estoque": "888",
+    "url_produto": "/3078/produto/kit-pizza-cerveja-9-pcs"
+  },
+  {
+    "codigo": "KT-90472",
+    "nome": "KIT PETISCO E CERVEJA - 7 PÇS",
+    "imagem": "kit-petisco-e-cerveja-7-pcs_24681.webp",
+    "preco": "114.13",
+    "estoque": "1944",
+    "url_produto": "/3506/produto/kit-petisco-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-90553",
+    "nome": "KIT SQUEEZE E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-squeeze-e-necessaire-2-pcs_25885.webp",
+    "preco": "58.60",
+    "estoque": "1338",
+    "url_produto": "/3735/produto/kit-squeeze-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "KT-90230",
+    "nome": "KIT PARA CAFÉ - 2 PÇS",
+    "imagem": "kit-para-cafe-2-pcs_23410.webp",
+    "preco": "124.99",
+    "estoque": "1275",
+    "url_produto": "/2866/produto/kit-para-cafe-2-pcs"
+  },
+  {
+    "codigo": "KT-9035G",
+    "nome": "KIT PARA DRINKS COM COQUETELEIRA - 7 PÇS",
+    "imagem": "kit-para-drinks-com-coqueteleira-7-pcs_23594.webp",
+    "preco": "114.73",
+    "estoque": "75",
+    "url_produto": "/3021/produto/kit-para-drinks-com-coqueteleira-7-pcs"
+  },
+  {
+    "codigo": "KT-9039F",
+    "nome": "KIT CANECAS COM COLHERES - 4 PÇS",
+    "imagem": "kit-canecas-com-colheres-4-pcs_21227.webp",
+    "preco": "41.21",
+    "estoque": "636",
+    "url_produto": "/3056/produto/kit-canecas-com-colheres-4-pcs"
+  },
+  {
+    "codigo": "KT-90121-BCO",
+    "nome": "KIT QUEIJO/CERVEJA - 6 PÇS",
+    "imagem": "kit-queijo-cerveja-6-pcs_23812.webp",
+    "preco": "133.32",
+    "estoque": "1470",
+    "url_produto": "/3356/produto/kit-queijo-cerveja-6-pcs"
+  },
+  {
+    "codigo": "KT-9038E",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-3-pcs_19989.webp",
+    "preco": "74.30",
+    "estoque": "4388",
+    "url_produto": "/2853/produto/kit-garrafa-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90491",
+    "nome": "KIT FONE DE OUVIDO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-fone-de-ouvido-e-acessorios-4-pcs_25007.webp",
+    "preco": "166.06",
+    "estoque": "168",
+    "url_produto": "/3569/produto/kit-fone-de-ouvido-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90532-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25528.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3667/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-9045X",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 5 PÇS",
+    "imagem": "kit-caderno-e-acessorios-5-pcs_23391.webp",
+    "preco": "106.84",
+    "estoque": "1665",
+    "url_produto": "/3054/produto/kit-caderno-e-acessorios-5-pcs"
+  },
+  {
+    "codigo": "KT-9027U",
+    "nome": "KIT QUEIJO E CERVEJA - 4 PÇS",
+    "imagem": "kit-queijo-e-cerveja-4-pcs_23575.webp",
+    "preco": "66.01",
+    "estoque": "2459",
+    "url_produto": "/2847/produto/kit-queijo-e-cerveja-4-pcs"
+  },
+  {
+    "codigo": "KT-90103",
+    "nome": "KIT PARA CAFEZINHO - 7 PÇS",
+    "imagem": "kit-para-cafezinho-7-pcs_25341.webp",
+    "preco": "114.82",
+    "estoque": "136",
+    "url_produto": "/2052/produto/kit-para-cafezinho-7-pcs"
+  },
+  {
+    "codigo": "KT-90120",
+    "nome": "KIT PARA PETISCO COM TÁBUA, ESPÁTULAS E RAMEKINS - 5 PÇS",
+    "imagem": "kit-para-petisco-com-tabua-espatulas-e-ramekins-5-pcs_22302.webp",
+    "preco": "62.56",
+    "estoque": "1836",
+    "url_produto": "/2082/produto/kit-para-petisco-com-tabua-espatulas-e-ramekins-5-pcs"
+  },
+  {
+    "codigo": "KT-90406",
+    "nome": "KIT COPO TÉRMICO E CONJUNTO DE FERRAMENTAS - 17 PÇS",
+    "imagem": "kit-copo-termico-e-conjunto-de-ferramentas-2-pcs_24170.webp",
+    "preco": "121.81",
+    "estoque": "1194",
+    "url_produto": "/3436/produto/kit-copo-termico-e-conjunto-de-ferramentas-17-pcs"
+  },
+  {
+    "codigo": "KT-90414",
+    "nome": "KIT COPO TÉRMICO E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-copo-termico-e-necessaire-2-pcs_24220.webp",
+    "preco": "56.81",
+    "estoque": "19",
+    "url_produto": "/3446/produto/kit-copo-termico-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "KT-90304",
+    "nome": "KIT PARA CERVEJA / PETISCO - 2 PÇS",
+    "imagem": "kit-para-cerveja-petisco-2-pcs_23440.webp",
+    "preco": "108.85",
+    "estoque": "2799",
+    "url_produto": "/3199/produto/kit-para-cerveja-petisco-2-pcs"
+  },
+  {
+    "codigo": "KT-90077",
+    "nome": "KIT CHURRASCO, CERVEJA E TRUCO - 8 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-cerveja-e-truco-8-pcs-jogo-de-baralho_22793.webp",
+    "preco": "164.99",
+    "estoque": "3075",
+    "url_produto": "/1938/produto/kit-churrasco-cerveja-e-truco-8-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-90118",
+    "nome": "KIT PARA CHÁ EM BAMBU E CANECA - 3 PÇS",
+    "imagem": "kit-para-cha-em-bambu-e-caneca-3-pcs_21634.webp",
+    "preco": "149.46",
+    "estoque": "622",
+    "url_produto": "/2089/produto/kit-para-cha-em-bambu-e-caneca-3-pcs"
+  },
+  {
+    "codigo": "KT-90169",
+    "nome": "KIT PARA PIZZA COM GARRAFA - BAMBU / INOX / VIDRO - 4 PÇS",
+    "imagem": "kit-para-pizza-com-garrafa-bambu-inox-vidro-4-pcs_23157.webp",
+    "preco": "116.17",
+    "estoque": "493",
+    "url_produto": "/2605/produto/kit-para-pizza-com-garrafa-bambu-inox-vidro-4-pcs"
+  },
+  {
+    "codigo": "KT-90449",
+    "nome": "KIT BOAS VINDAS - PRETO - 3 PÇS",
+    "imagem": "kit-boas-vindas-preto-3-pcs_24366.webp",
+    "preco": "68.51",
+    "estoque": "36",
+    "url_produto": "/3462/produto/kit-boas-vindas-preto-3-pcs"
+  },
+  {
+    "codigo": "KT-9044P",
+    "nome": "KIT CHURRASCO E CERVEJA - 5 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-churrasco-e-cerveja-5-pcs-nao-acompanha-garrafa_23611.webp",
+    "preco": "119.99",
+    "estoque": "2521",
+    "url_produto": "/3086/produto/kit-churrasco-e-cerveja-5-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90172",
+    "nome": "KIT PARA DRINKS COM COQUETELEIRA - 6 PÇS",
+    "imagem": "kit-para-drinks-com-coqueteleira-6-pcs_24005.webp",
+    "preco": "84.74",
+    "estoque": "75",
+    "url_produto": "/2608/produto/kit-para-drinks-com-coqueteleira-6-pcs"
+  },
+  {
+    "codigo": "KT-90008-BCO",
+    "nome": "KIT CHURRASCO, PETISCO E CERVEJA - 11 PÇS",
+    "imagem": "kit-churrasco-petisco-e-cerveja-11-pcs_23806.webp",
+    "preco": "160.52",
+    "estoque": "1836",
+    "url_produto": "/3353/produto/kit-churrasco-petisco-e-cerveja-11-pcs"
+  },
+  {
+    "codigo": "KT-9047P",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-e-acessorios-3-pcs_21237.webp",
+    "preco": "42.57",
+    "estoque": "558",
+    "url_produto": "/3007/produto/kit-caderno-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90247",
+    "nome": "KIT PARA PETISCO / VINHO - 8 PÇS",
+    "imagem": "kit-para-petisco-vinho-8-pcs_22847.webp",
+    "preco": "132.36",
+    "estoque": "1179",
+    "url_produto": "/2954/produto/kit-para-petisco-vinho-8-pcs"
+  },
+  {
+    "codigo": "VI-Z0721",
+    "nome": "TAÇA DE VIDRO P/ CHAMPAGNE 190 ML - NÃO ACOMPANHA GARRAFA",
+    "imagem": "taca-de-vidro-p-champagne-190-ml_24101.webp",
+    "preco": "53.25",
+    "estoque": "1275",
+    "url_produto": "/3417/produto/taca-de-vidro-p-champagne-190-ml-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90526",
+    "nome": "KIT BOAS VINDAS - VERDE - 4 PÇS",
+    "imagem": "kit-boas-vindas-verde-4-pcs_25494.webp",
+    "preco": "54.77",
+    "estoque": "465",
+    "url_produto": "/3661/produto/kit-boas-vindas-verde-4-pcs"
+  },
+  {
+    "codigo": "KT-90343",
+    "nome": "KIT QUEIJO E CHAMPAGNE - 7 PÇS",
+    "imagem": "kit-queijo-e-champagne-7-pcs_23703.webp",
+    "preco": "107.51",
+    "estoque": "692",
+    "url_produto": "/3326/produto/kit-queijo-e-champagne-7-pcs"
+  },
+  {
+    "codigo": "KT-90415",
+    "nome": "KIT GARRAFA E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-2-pcs_24224.webp",
+    "preco": "35.88",
+    "estoque": "19",
+    "url_produto": "/3447/produto/kit-garrafa-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "KT-90342",
+    "nome": "KIT PETISCO E CHAMPAGNE - 7 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-champagne-7-pcs_23702.webp",
+    "preco": "132.43",
+    "estoque": "692",
+    "url_produto": "/3325/produto/kit-petisco-e-champagne-7-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90001",
+    "nome": "KIT PARA CHURRASCO E PETISCO COM 2 TÁBUAS - 11 PÇS",
+    "imagem": "kit-para-churrasco-e-petisco-com-2-tabuas-11-pcs_22858.webp",
+    "preco": "291.90",
+    "estoque": "174",
+    "url_produto": "/1676/produto/kit-para-churrasco-e-petisco-com-2-tabuas-11-pcs"
+  },
+  {
+    "codigo": "VI-18722-BCO",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/ CHAMPAGNE 186 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa_24659.webp",
+    "preco": "61.16",
+    "estoque": "589",
+    "url_produto": "/3498/produto/jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-90594",
+    "nome": "KIT PARA CAFÉ - 6 PÇS",
+    "imagem": "kit-para-cafe-6-pcs_26489.webp",
+    "preco": "224.61",
+    "estoque": "671",
+    "url_produto": "/3847/produto/kit-para-cafe-6-pcs"
+  },
+  {
+    "codigo": "KT-9042M",
+    "nome": "KIT BOAS VINDAS - 4 PÇS",
+    "imagem": "kit-boas-vindas-4-pcs_23613.webp",
+    "preco": "99.38",
+    "estoque": "1687",
+    "url_produto": "/2986/produto/kit-boas-vindas-4-pcs"
+  },
+  {
+    "codigo": "VI-00314",
+    "nome": "JOGO DE COPOS VIDRO P/ CERVEJA / CHOPP - 350 ML - 4 PÇS",
+    "imagem": "jogo-de-copos-vidro-p-cerveja-chopp-350-ml-4-pcs_22914.webp",
+    "preco": "65.53",
+    "estoque": "1275",
+    "url_produto": "/1866/produto/jogo-de-copos-vidro-p-cerveja-chopp-350-ml-4-pcs"
+  },
+  {
+    "codigo": "KT-9042A",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_23645.webp",
+    "preco": "92.29",
+    "estoque": "2276",
+    "url_produto": "/3025/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "VI-18522-BCO",
+    "nome": "JOGO DE COPOS DE VIDRO P/ WHISKY 330 ML COM PORTA COPO - 4 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo-4-pcs-nao-acompanha-a-garrafa_24647.webp",
+    "preco": "61.57",
+    "estoque": "482",
+    "url_produto": "/3495/produto/jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo-4-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-90263",
+    "nome": "KIT VINHO E UTILIDADES - 7 PÇS",
+    "imagem": "kit-vinho-e-utilidades-7-pcs_22008.webp",
+    "preco": "232.32",
+    "estoque": "262",
+    "url_produto": "/3127/produto/kit-vinho-e-utilidades-7-pcs"
+  },
+  {
+    "codigo": "KT-9035A",
+    "nome": "KIT PIZZA / CERVEJA - 9 PÇS",
+    "imagem": "kit-pizza-cerveja-9-pcs_24018.webp",
+    "preco": "135.82",
+    "estoque": "888",
+    "url_produto": "/3087/produto/kit-pizza-cerveja-9-pcs"
+  },
+  {
+    "codigo": "KT-90433",
+    "nome": "KIT PARA BAR/CAIPIRINHA - 5 PÇS",
+    "imagem": "kit-bar-e-petiscos-5-pcs_24917.webp",
+    "preco": "78.64",
+    "estoque": "3400",
+    "url_produto": "/3542/produto/kit-para-bar-caipirinha-5-pcs"
+  },
+  {
+    "codigo": "KT-90577",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - BRANCO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-branco-2-pcs_26306.webp",
+    "preco": "101.95",
+    "estoque": "2289",
+    "url_produto": "/3814/produto/kit-garrafa-e-copo-termico-branco-2-pcs"
+  },
+  {
+    "codigo": "KT-90350",
+    "nome": "KIT PARA PETISCO - 2 PÇS",
+    "imagem": "kit-para-petisco-2-pcs_23788.webp",
+    "preco": "78.08",
+    "estoque": "1300",
+    "url_produto": "/3332/produto/kit-para-petisco-2-pcs"
+  },
+  {
+    "codigo": "KT-90538-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25560.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3673/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90234",
+    "nome": "KIT PARA CAFÉ COM CAFETEIRA ITALIANA - 5 PÇS",
+    "imagem": "kit-para-cafe-com-cafeteira-italiana-5-pcs_23412.webp",
+    "preco": "152.97",
+    "estoque": "345",
+    "url_produto": "/2870/produto/kit-para-cafe-com-cafeteira-italiana-5-pcs"
+  },
+  {
+    "codigo": "KT-90394",
+    "nome": "KIT QUEIJO E VINHO - 4 PÇS",
+    "imagem": "kit-queijo-e-vinho-4-pcs_23975.webp",
+    "preco": "77.12",
+    "estoque": "3484",
+    "url_produto": "/3403/produto/kit-queijo-e-vinho-4-pcs"
+  },
+  {
+    "codigo": "KT-9047Z",
+    "nome": "KIT COM CANECA E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-com-caneca-e-acessorios-3-pcs_23635.webp",
+    "preco": "69.22",
+    "estoque": "1367",
+    "url_produto": "/3018/produto/kit-com-caneca-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "VI-00312",
+    "nome": "JOGO DE COPOS VIDRO P/ CERVEJA / CHOPP - 350 ML - 2 PÇS",
+    "imagem": "jogo-de-copos-vidro-p-cerveja-chopp-350-ml-2-pcs_21231.webp",
+    "preco": "40.11",
+    "estoque": "781",
+    "url_produto": "/1868/produto/jogo-de-copos-vidro-p-cerveja-chopp-350-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90361",
+    "nome": "KIT GARRAFA E CANECA - PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-preto-2-pcs_23843.webp",
+    "preco": "76.59",
+    "estoque": "2",
+    "url_produto": "/3368/produto/kit-garrafa-e-caneca-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90043",
+    "nome": "KIT PARA PETISCO COM TÁBUA FORMATO CORAÇÃO - 5 PÇS",
+    "imagem": "kit-para-petisco-com-tabua-formato-coracao-5-pcs_22196.webp",
+    "preco": "78.06",
+    "estoque": "1836",
+    "url_produto": "/1796/produto/kit-para-petisco-com-tabua-formato-coracao-5-pcs"
+  },
+  {
+    "codigo": "KT-90233",
+    "nome": "KIT PARA CAFÉ COM BANDEJA - 6 PÇS",
+    "imagem": "kit-para-cafe-com-bandeja-6-pcs_23643.webp",
+    "preco": "172.10",
+    "estoque": "569",
+    "url_produto": "/2869/produto/kit-para-cafe-com-bandeja-6-pcs"
+  },
+  {
+    "codigo": "KT-90560",
+    "nome": "KIT SQUEEZE, CADERNETA E CANETA - PRETO - 3 PÇS",
+    "imagem": "kit-squeeze-caderneta-e-caneta-preto-3-pcs_26189.webp",
+    "preco": "70.36",
+    "estoque": "1367",
+    "url_produto": "/3785/produto/kit-squeeze-caderneta-e-caneta-preto-3-pcs"
+  },
+  {
+    "codigo": "KT-90276",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-3-pcs_23564.webp",
+    "preco": "108.45",
+    "estoque": "1665",
+    "url_produto": "/3152/produto/kit-garrafa-e-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90251",
+    "nome": "KIT PARA HAMBURGUER COM ESPÁTULA - 4 PÇS",
+    "imagem": "kit-para-hamburguer-com-espatula-4-pcs_22834.webp",
+    "preco": "81.32",
+    "estoque": "590",
+    "url_produto": "/2975/produto/kit-para-hamburguer-com-espatula-4-pcs"
+  },
+  {
+    "codigo": "KT-9043Y",
+    "nome": "KIT OFFICE - 4 PÇS",
+    "imagem": "kit-office-4-pcs_23668.webp",
+    "preco": "69.99",
+    "estoque": "0",
+    "url_produto": "/3175/produto/kit-office-4-pcs"
+  },
+  {
+    "codigo": "KT-9016C",
+    "nome": "KIT PARA CAIPIRINHA COM PETISQUEIRA EM BAMBU / MADEIRA - 15 PÇS",
+    "imagem": "kit-para-caipirinha-com-petisqueira-em-bambu-15-pcs_22272.webp",
+    "preco": "201.73",
+    "estoque": "1142",
+    "url_produto": "/2686/produto/kit-para-caipirinha-com-petisqueira-em-bambu-madeira-15-pcs"
+  },
+  {
+    "codigo": "KT-90301-BCO",
+    "nome": "KIT PARA CHURRASCO COM COPO TÉRMICO - 6 PÇS",
+    "imagem": "kit-para-churrasco-com-copo-termico-6-pcs_23815.webp",
+    "preco": "198.42",
+    "estoque": "603",
+    "url_produto": "/3357/produto/kit-para-churrasco-com-copo-termico-6-pcs"
+  },
+  {
+    "codigo": "KT-90402",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-2-pcs_24153.webp",
+    "preco": "122.31",
+    "estoque": "4607",
+    "url_produto": "/3432/produto/kit-garrafa-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "KT-90190",
+    "nome": "KIT PARA GIN / DRINKS - 7 PÇS",
+    "imagem": "kit-para-gin-drinks-7-pcs_22174.webp",
+    "preco": "104.27",
+    "estoque": "959",
+    "url_produto": "/2705/produto/kit-para-gin-drinks-7-pcs"
+  },
+  {
+    "codigo": "KT-9032Q",
+    "nome": "KIT QUEIJO E VINHO - 7 PÇS",
+    "imagem": "kit-queijo-e-vinho-7-pcs_21614.webp",
+    "preco": "112.30",
+    "estoque": "5779",
+    "url_produto": "/2701/produto/kit-queijo-e-vinho-7-pcs"
+  },
+  {
+    "codigo": "KT-90227",
+    "nome": "KIT PARA CAIPIRINHA COM BALDE - 10 PÇS",
+    "imagem": "kit-para-caipirinha-com-balde-10-pcs_22824.webp",
+    "preco": "148.74",
+    "estoque": "75",
+    "url_produto": "/2835/produto/kit-para-caipirinha-com-balde-10-pcs"
+  },
+  {
+    "codigo": "KT-90551",
+    "nome": "KIT NECESSAIRE, GARRAFA E CHAVEIRO - 3 PÇS",
+    "imagem": "kit-necessaire-garrafa-e-chaveiro-3-pcs_25705.webp",
+    "preco": "116.15",
+    "estoque": "1950",
+    "url_produto": "/3705/produto/kit-necessaire-garrafa-e-chaveiro-3-pcs"
+  },
+  {
+    "codigo": "KT-90573",
+    "nome": "KIT PRENSA FRANCESA E CANECA - 2 PÇS",
+    "imagem": "kit-prensa-francesa-e-caneca-2-pcs_26249.webp",
+    "preco": "76.62",
+    "estoque": "1272",
+    "url_produto": "/3803/produto/kit-prensa-francesa-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "KT-90412",
+    "nome": "KIT FITNESS - 3 PÇS",
+    "imagem": "kit-fitness-3-pcs_24212.webp",
+    "preco": "45.56",
+    "estoque": "19",
+    "url_produto": "/3444/produto/kit-fitness-3-pcs"
+  },
+  {
+    "codigo": "KT-90296-BCO",
+    "nome": "KIT PARA CAFÉ/CHÁ - 5 PÇS",
+    "imagem": "kit-para-cafe-cha-5-pcs_24638.webp",
+    "preco": "98.75",
+    "estoque": "1197",
+    "url_produto": "/3501/produto/kit-para-cafe-cha-5-pcs"
+  },
+  {
+    "codigo": "KT-90395",
+    "nome": "KIT QUEIJO E VINHO - 6 PÇS",
+    "imagem": "kit-queijo-e-vinho-6-pcs_23980.webp",
+    "preco": "109.36",
+    "estoque": "42",
+    "url_produto": "/3402/produto/kit-queijo-e-vinho-6-pcs"
+  },
+  {
+    "codigo": "KT-90380",
+    "nome": "KIT MOCHILA, CADERNO E CANETA - VERDE - 3 PÇS",
+    "imagem": "kit-mochila-caderno-e-caneta-verde-3-pcs_23930.webp",
+    "preco": "71.69",
+    "estoque": "105",
+    "url_produto": "/3385/produto/kit-mochila-caderno-e-caneta-verde-3-pcs"
+  },
+  {
+    "codigo": "KT-90382",
+    "nome": "KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - AZUL - 3 PÇS",
+    "imagem": "kit-copo-em-fibra-de-bambu-caderno-e-caneta-azul-3-pcs_23931.webp",
+    "preco": "74.83",
+    "estoque": "88",
+    "url_produto": "/3387/produto/kit-copo-em-fibra-de-bambu-caderno-e-caneta-azul-3-pcs"
+  },
+  {
+    "codigo": "KT-9094Q",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_26491.webp",
+    "preco": "155.23",
+    "estoque": "592",
+    "url_produto": "/3849/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90400",
+    "nome": "KIT GARRAFA E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-2-pcs_24145.webp",
+    "preco": "104.27",
+    "estoque": "4607",
+    "url_produto": "/3430/produto/kit-garrafa-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "KT-90287",
+    "nome": "KIT GARRAFA E CADERNO - 2 PÇS",
+    "imagem": "kit-garrafa-e-caderno-2-pcs_23426.webp",
+    "preco": "91.12",
+    "estoque": "230",
+    "url_produto": "/3154/produto/kit-garrafa-e-caderno-2-pcs"
+  },
+  {
+    "codigo": "KT-9019Y",
+    "nome": "KIT CHURRASCO COM CANECA",
+    "imagem": "kit-churrasco-com-caneca_22897.webp",
+    "preco": "91.37",
+    "estoque": "104",
+    "url_produto": "/2689/produto/kit-churrasco-com-caneca"
+  },
+  {
+    "codigo": "KT-90201",
+    "nome": "CONJUNTO PARA QUEIJO / CERVEJA - 7 PÇS",
+    "imagem": "conjunto-para-queijo-cerveja-7-pcs_24664.webp",
+    "preco": "86.09",
+    "estoque": "4755",
+    "url_produto": "/2715/produto/conjunto-para-queijo-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-9017B",
+    "nome": "KIT QUEIJO E CHAMPAGNE COM ESPAÇO PARA GARRAFA - 7 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-champagne-com-espaco-para-garrafa-7-pcs-nao-acompanha-garrafa_22022.webp",
+    "preco": "106.86",
+    "estoque": "777",
+    "url_produto": "/2766/produto/kit-queijo-e-champagne-com-espaco-para-garrafa-7-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90486",
+    "nome": "KIT MARMITA DUPLA, BOLSA TÉRMICA E GARRAFA - 3 PÇS",
+    "imagem": "kit-marmita-dupla-bolsa-termica-e-garrafa-3-pcs_24694.webp",
+    "preco": "81.55",
+    "estoque": "373",
+    "url_produto": "/3508/produto/kit-marmita-dupla-bolsa-termica-e-garrafa-3-pcs"
+  },
+  {
+    "codigo": "KT-90485",
+    "nome": "KIT MARMITA E COPO EM FIBRA DE BAMBU - 2 PÇS",
+    "imagem": "kit-marmita-e-copo-em-fibra-de-bambu-2-pcs_24690.webp",
+    "preco": "46.49",
+    "estoque": "18",
+    "url_produto": "/3507/produto/kit-marmita-e-copo-em-fibra-de-bambu-2-pcs"
+  },
+  {
+    "codigo": "KT-90365",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_23855.webp",
+    "preco": "109.78",
+    "estoque": "1367",
+    "url_produto": "/3372/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-9042N",
+    "nome": "KIT ESCRITÓRIO - 5 PÇS",
+    "imagem": "kit-escritorio-5-pcs_23676.webp",
+    "preco": "114.79",
+    "estoque": "0",
+    "url_produto": "/3039/produto/kit-escritorio-5-pcs"
+  },
+  {
+    "codigo": "KT-90154",
+    "nome": "KIT PARA GIN TÔNICA - 5 PÇS",
+    "imagem": "kit-para-gin-tonica-5-pcs_21749.webp",
+    "preco": "84.95",
+    "estoque": "75",
+    "url_produto": "/2348/produto/kit-para-gin-tonica-5-pcs"
+  },
+  {
+    "codigo": "KT-9034S",
+    "nome": "KIT QUEIJO E VINHO - 7 PÇS",
+    "imagem": "kit-queijo-e-vinho-7-pcs_23366.webp",
+    "preco": "108.71",
+    "estoque": "3296",
+    "url_produto": "/3184/produto/kit-queijo-e-vinho-7-pcs"
+  },
+  {
+    "codigo": "KT-90302",
+    "nome": "KIT PARA CERVEJA / PETISCO - 2 PÇS",
+    "imagem": "kit-para-cerveja-petisco-2-pcs_23576.webp",
+    "preco": "108.85",
+    "estoque": "1412",
+    "url_produto": "/3198/produto/kit-para-cerveja-petisco-2-pcs"
+  },
+  {
+    "codigo": "KT-90193",
+    "nome": "KIT PARA CHURRASCO E COZINHA EM BAMBU / MADEIRA / INOX - 3 PÇS",
+    "imagem": "kit-para-churrasco-cozinha-em-bambu-inox-3-pcs_22334.webp",
+    "preco": "77.98",
+    "estoque": "5016",
+    "url_produto": "/2708/produto/kit-para-churrasco-e-cozinha-em-bambu-madeira-inox-3-pcs"
+  },
+  {
+    "codigo": "KT-9042F",
+    "nome": "KIT COM SQUEEZE, CANECA E CADERNO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneca-e-caderno-3-pcs_20145.webp",
+    "preco": "88.96",
+    "estoque": "1665",
+    "url_produto": "/3020/produto/kit-com-squeeze-caneca-e-caderno-3-pcs"
+  },
+  {
+    "codigo": "KT-90533-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25533.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3668/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90175",
+    "nome": "KIT PARA CAIPIRINHA COM COQUETELEIRA - 5 PÇS",
+    "imagem": "kit-para-caipirinha-com-coqueteleira-5-pcs_22188.webp",
+    "preco": "72.58",
+    "estoque": "922",
+    "url_produto": "/2637/produto/kit-para-caipirinha-com-coqueteleira-5-pcs"
+  },
+  {
+    "codigo": "VI-00044",
+    "nome": "CONJ. COPOS AMERICANOS PARA DOSE - 4 PÇS",
+    "imagem": "conj-copos-americanos-para-dose-4-pcs_25106.webp",
+    "preco": "36.95",
+    "estoque": "225",
+    "url_produto": "/3604/produto/conj-copos-americanos-para-dose-4-pcs"
+  },
+  {
+    "codigo": "KT-9026F",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/ CHAMPAGNE 190 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-tacas-de-vidro-p-champagne-190-ml-2-pcs-nao-acompanha-a-garrafa_21740.webp",
+    "preco": "63.37",
+    "estoque": "777",
+    "url_produto": "/2696/produto/jogo-de-tacas-de-vidro-p-champagne-190-ml-2-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-90534-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25540.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3669/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KE-01423",
+    "nome": "KIT PARA CAIPIRINHA EM BAMBU / MADEIRA COM AVENTAL E BANDANA - 0,35 L - 8 PÇS",
+    "imagem": "kit-para-caipirinha-em-bambu-madeira-com-avental-e-bandana-035-l-8-pcs_26885.webp",
+    "preco": "152.75",
+    "estoque": "255",
+    "url_produto": "/1291/produto/kit-para-caipirinha-em-bambu-madeira-com-avental-e-bandana-035-l-8-pcs"
+  },
+  {
+    "codigo": "KT-90456",
+    "nome": "KIT PARA CHÁ - 5 PÇS",
+    "imagem": "kit-para-cha-5-pcs_24571.webp",
+    "preco": "118.68",
+    "estoque": "379",
+    "url_produto": "/3488/produto/kit-para-cha-5-pcs"
+  },
+  {
+    "codigo": "KT-9044L",
+    "nome": "CONJ. CANECA, CADERNETA E CANETA - 3 PEÇAS",
+    "imagem": "conj-caneca-caderneta-e-caneta-3-pecas_23660.webp",
+    "preco": "55.11",
+    "estoque": "1775",
+    "url_produto": "/2984/produto/conj-caneca-caderneta-e-caneta-3-pecas"
+  },
+  {
+    "codigo": "KT-90040",
+    "nome": "JOGO DE COPOS PARA CERVEJA EM VIDRO - 5 PÇS",
+    "imagem": "jogo-de-copos-para-cerveja-em-vidro-5-pcs_21686.webp",
+    "preco": "103.85",
+    "estoque": "1562",
+    "url_produto": "/1828/produto/jogo-de-copos-para-cerveja-em-vidro-5-pcs"
+  },
+  {
+    "codigo": "KT-90428",
+    "nome": "KIT PARA BAR - 6 PÇS",
+    "imagem": "kit-para-bar-6-pcs_25053.webp",
+    "preco": "85.44",
+    "estoque": "898",
+    "url_produto": "/3587/produto/kit-para-bar-6-pcs"
+  },
+  {
+    "codigo": "KT-90445",
+    "nome": "KIT PARA CAFÉZINHO - 6 PÇS",
+    "imagem": "kit-para-cafezinho-6-pcs_25086.webp",
+    "preco": "61.13",
+    "estoque": "705",
+    "url_produto": "/3598/produto/kit-para-cafezinho-6-pcs"
+  },
+  {
+    "codigo": "KT-90516",
+    "nome": "KIT BOAS VINDAS - 5 PÇS - BRANCO/AZUL",
+    "imagem": "kit-boas-vindas-5-pcs-branco-azul_25352.webp",
+    "preco": "67.64",
+    "estoque": "32",
+    "url_produto": "/3625/produto/kit-boas-vindas-5-pcs-branco-azul"
+  },
+  {
+    "codigo": "KT-90438",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_25071.webp",
+    "preco": "79.91",
+    "estoque": "502",
+    "url_produto": "/3593/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90370",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - AMARELO/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-amarelo-preto-2-pcs_26394.webp",
+    "preco": "109.02",
+    "estoque": "1492",
+    "url_produto": "/3824/produto/kit-garrafa-e-copo-termico-amarelo-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90374",
+    "nome": "KIT GARRAFA E NECESSAIRE - AMARELO/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-amarelo-preto-2-pcs_26414.webp",
+    "preco": "100.42",
+    "estoque": "1492",
+    "url_produto": "/3828/produto/kit-garrafa-e-necessaire-amarelo-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-9009K",
+    "nome": "TAÇA DE VIDRO P/CHAMPAGNE 190 ML C/ ESPAÇO  P/GARRAFA MINI NÃO ACOMPANHA GARRAFA",
+    "imagem": "taca-de-vidro-p-champagne-190-ml-c-espaco-p-garrafa-mini-nao-acompanha-garrafa_20912.webp",
+    "preco": "47.92",
+    "estoque": "1554",
+    "url_produto": "/3210/produto/taca-de-vidro-p-champagne-190-ml-c-espaco-p-garrafa-mini-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90475",
+    "nome": "KIT PARA PETISCO E CERVEJA - 7 PÇS",
+    "imagem": "kit-para-petisco-e-cerveja-7-pcs_25101.webp",
+    "preco": "118.23",
+    "estoque": "3876",
+    "url_produto": "/3601/produto/kit-para-petisco-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-9046A",
+    "nome": "KIT CANECA EM AÇO INOX E PORTA-RETRATO EM ALUMÍNIO - 2 PÇS",
+    "imagem": "kit-caneca-em-aco-inox-e-porta-retrato-em-aluminio-2-pcs_23582.webp",
+    "preco": "72.04",
+    "estoque": "3773",
+    "url_produto": "/3038/produto/kit-caneca-em-aco-inox-e-porta-retrato-em-aluminio-2-pcs"
+  },
+  {
+    "codigo": "KT-90437",
+    "nome": "KIT CANECAS COM COLHERES - 4 PÇS",
+    "imagem": "kit-canecas-com-colheres-4-pcs_24942.webp",
+    "preco": "51.70",
+    "estoque": "502",
+    "url_produto": "/3550/produto/kit-canecas-com-colheres-4-pcs"
+  },
+  {
+    "codigo": "KT-90595",
+    "nome": "KIT PARA CAFÉ - 4 PÇS",
+    "imagem": "kit-para-cafe-4-pcs_26490.webp",
+    "preco": "195.81",
+    "estoque": "671",
+    "url_produto": "/3848/produto/kit-para-cafe-4-pcs"
+  },
+  {
+    "codigo": "KT-90450",
+    "nome": "KIT NECESSAIRE, COPO C/ TAMPA E ESPELHO - 3 PÇS",
+    "imagem": "kit-necessaire-copo-c-tampa-e-espelho-3-pcs_24374.webp",
+    "preco": "59.52",
+    "estoque": "0",
+    "url_produto": "/3463/produto/kit-necessaire-copo-c-tampa-e-espelho-3-pcs"
+  },
+  {
+    "codigo": "KT-90300",
+    "nome": "KIT DE COPOS TÉRMICOS EM AÇO INOX - 500ML - PRETO / BRANCO - 2 PÇS",
+    "imagem": "kit-de-copos-termicos-em-aco-inox-500ml-preto-branco-2-pcs_21226.webp",
+    "preco": "124.43",
+    "estoque": "1412",
+    "url_produto": "/3200/produto/kit-de-copos-termicos-em-aco-inox-500ml-preto-branco-2-pcs"
+  },
+  {
+    "codigo": "KT-9042X",
+    "nome": "KIT BOAS VINDAS - 4 PÇS",
+    "imagem": "kit-boas-vindas-4-pcs_23563.webp",
+    "preco": "98.87",
+    "estoque": "845",
+    "url_produto": "/3042/produto/kit-boas-vindas-4-pcs"
+  },
+  {
+    "codigo": "KT-9047W",
+    "nome": "CONJ. GARRAFA E CADERNETA - 2 PEÇAS",
+    "imagem": "conj-garrafa-e-caderneta-2-pecas_20169.webp",
+    "preco": "77.64",
+    "estoque": "1775",
+    "url_produto": "/3028/produto/conj-garrafa-e-caderneta-2-pecas"
+  },
+  {
+    "codigo": "KT-90306",
+    "nome": "KIT PARA CHURRASCO / CHIMARRÃO / TERERE - 5 PÇS",
+    "imagem": "kit-para-churrasco-chimarrao-terere-5-pcs_23443.webp",
+    "preco": "129.42",
+    "estoque": "1228",
+    "url_produto": "/3202/produto/kit-para-churrasco-chimarrao-terere-5-pcs"
+  },
+  {
+    "codigo": "KT-90413",
+    "nome": "KIT SACOLA/ECOBAG E NECESSAIRE - 2 PÇS",
+    "imagem": "kit-sacola-ecobag-e-necessaire-2-pcs_24216.webp",
+    "preco": "39.38",
+    "estoque": "19",
+    "url_produto": "/3445/produto/kit-sacola-ecobag-e-necessaire-2-pcs"
+  },
+  {
+    "codigo": "KT-90208",
+    "nome": "KIT QUEIJO E VINHO COM ESPAÇO PARA GARRAFA - 7 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "_19086.webp",
+    "preco": "118.46",
+    "estoque": "42",
+    "url_produto": "/2750/produto/kit-queijo-e-vinho-com-espaco-para-garrafa-7-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90272",
+    "nome": "KIT CONJUNTO DE FERRAMENTAS E PORTA-RETRATO - 2 PÇS",
+    "imagem": "kit-conjunto-de-ferramentas-e-porta-retrato-2-pcs_23583.webp",
+    "preco": "66.43",
+    "estoque": "3457",
+    "url_produto": "/3115/produto/kit-conjunto-de-ferramentas-e-porta-retrato-2-pcs"
+  },
+  {
+    "codigo": "KT-90020",
+    "nome": "KIT QUEIJO E VINHO - 7 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-vinho-7-pcs-nao-acompanha-garrafa_22029.webp",
+    "preco": "108.29",
+    "estoque": "1179",
+    "url_produto": "/1710/produto/kit-queijo-e-vinho-7-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90337",
+    "nome": "KIT PETISCO E CHAMPAGNE - 3 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-petisco-e-champagne-3-pcs-nao-acompanha-garrafa_23697.webp",
+    "preco": "115.47",
+    "estoque": "692",
+    "url_produto": "/3320/produto/kit-petisco-e-champagne-3-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90585",
+    "nome": "KIT SQUEEZE, CADERNETA E CANETA - BRANCO - 3 PÇS",
+    "imagem": "kit-squeeze-caderneta-e-caneta-branco-3-pcs_26310.webp",
+    "preco": "69.74",
+    "estoque": "316",
+    "url_produto": "/3815/produto/kit-squeeze-caderneta-e-caneta-branco-3-pcs"
+  },
+  {
+    "codigo": "KT-90469",
+    "nome": "CONJ. MOCHILA SACOLA, GARRAFA E BONÉ - 3 PÇS",
+    "imagem": "conj-mochila-sacola-garrafa-e-bone-3-pcs_24513.webp",
+    "preco": "55.63",
+    "estoque": "374",
+    "url_produto": "/3480/produto/conj-mochila-sacola-garrafa-e-bone-3-pcs"
+  },
+  {
+    "codigo": "KT-90451",
+    "nome": "KIT OFFICE - 4 PÇS",
+    "imagem": "kit-feminino-4-pcs_24407.webp",
+    "preco": "200.87",
+    "estoque": "0",
+    "url_produto": "/3464/produto/kit-office-4-pcs"
+  },
+  {
+    "codigo": "KT-90579",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-preto-2-pcs_26314.webp",
+    "preco": "101.94",
+    "estoque": "2472",
+    "url_produto": "/3816/produto/kit-garrafa-e-copo-termico-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90401",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_24149.webp",
+    "preco": "97.74",
+    "estoque": "613",
+    "url_produto": "/3431/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90368",
+    "nome": "KIT GARRAFA E COPO TÉRMICO - AZUL/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-copo-termico-azul-preto-2-pcs_26384.webp",
+    "preco": "109.02",
+    "estoque": "1490",
+    "url_produto": "/3822/produto/kit-garrafa-e-copo-termico-azul-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90014",
+    "nome": "KIT QUEIJO E VINHO C/ TÁBUA, FACA E ABRIDOR - 3 PÇS",
+    "imagem": "kit-queijo-e-vinho-c-tabua-faca-e-abridor-3-pcs_22090.webp",
+    "preco": "65.32",
+    "estoque": "1179",
+    "url_produto": "/1691/produto/kit-queijo-e-vinho-c-tabua-faca-e-abridor-3-pcs"
+  },
+  {
+    "codigo": "KT-90061",
+    "nome": "KIT CHURRASCO / CERVEJA / WHISKY - 6 PÇS",
+    "imagem": "kit-churrasco-cerveja-whisky-6-pcs_22791.webp",
+    "preco": "158.95",
+    "estoque": "964",
+    "url_produto": "/1888/produto/kit-churrasco-cerveja-whisky-6-pcs"
+  },
+  {
+    "codigo": "KT-90593",
+    "nome": "KIT PARA CAFÉ - 4 PÇS",
+    "imagem": "kit-para-cafe-4-pcs_26488.webp",
+    "preco": "191.37",
+    "estoque": "671",
+    "url_produto": "/3846/produto/kit-para-cafe-4-pcs"
+  },
+  {
+    "codigo": "KT-90264",
+    "nome": "KIT CANECA EM AÇO INOX E PORTA-RETRATO EM ALUMÍNIO - 2 PÇS",
+    "imagem": "kit-caneca-em-aco-inox-e-porta-retrato-em-aluminio-2-pcs_25371.webp",
+    "preco": "66.18",
+    "estoque": "2125",
+    "url_produto": "/3628/produto/kit-caneca-em-aco-inox-e-porta-retrato-em-aluminio-2-pcs"
+  },
+  {
+    "codigo": "KT-90502",
+    "nome": "KIT PARA CAFÉ - 3 PÇS",
+    "imagem": "kit-para-cafe-3-pcs_24952.webp",
+    "preco": "129.59",
+    "estoque": "210",
+    "url_produto": "/3557/produto/kit-para-cafe-3-pcs"
+  },
+  {
+    "codigo": "kt-9033z",
+    "nome": "CONJ. GARRAFA, CADERNETA E CANETA - 4 PÇS",
+    "imagem": "conj-garrafa-caderneta-e-caneta-3-pecas_21204.webp",
+    "preco": "92.21",
+    "estoque": "1065",
+    "url_produto": "/2874/produto/conj-garrafa-caderneta-e-caneta-4-pcs"
+  },
+  {
+    "codigo": "KT-90142",
+    "nome": "KIT PARA CAFE / CHÁ - 9 PÇS",
+    "imagem": "kit-para-cafe-cha-9-pcs_22762.webp",
+    "preco": "112.95",
+    "estoque": "16",
+    "url_produto": "/2314/produto/kit-para-cafe-cha-9-pcs"
+  },
+  {
+    "codigo": "KT-9019X",
+    "nome": "KIT PIZZA EM BAMBU COM COPOS - 19 PÇS",
+    "imagem": "kit-pizza-em-bambu-com-copos-19-pcs_24479.webp",
+    "preco": "201.64",
+    "estoque": "31",
+    "url_produto": "/2688/produto/kit-pizza-em-bambu-com-copos-19-pcs"
+  },
+  {
+    "codigo": "KT-9044J",
+    "nome": "KIT VINHO COM ABRIDOR - 2 PÇS",
+    "imagem": "kit-vinho-com-abridor-2-pcs_20167.webp",
+    "preco": "55.64",
+    "estoque": "1179",
+    "url_produto": "/3027/produto/kit-vinho-com-abridor-2-pcs"
+  },
+  {
+    "codigo": "VI-18321",
+    "nome": "COPO DE VIDRO P/ CERVEJA 400 ML - 1 PÇ - COM ESPAÇO PARA A GARRAFA",
+    "imagem": "copo-de-vidro-p-cerveja-400-ml-1-pc-com-espaco-para-a-garrafa_20232.webp",
+    "preco": "50.98",
+    "estoque": "1275",
+    "url_produto": "/3052/produto/copo-de-vidro-p-cerveja-400-ml-1-pc-com-espaco-para-a-garrafa"
+  },
+  {
+    "codigo": "KT-90070",
+    "nome": "CONJ. PARA COZINHA E TEMPERO EM BAMBU/INOX - 6 PÇS",
+    "imagem": "conj-para-cozinha-e-tempero-em-bambu-inox-6-pcs_19172.webp",
+    "preco": "101.54",
+    "estoque": "286",
+    "url_produto": "/1909/produto/conj-para-cozinha-e-tempero-em-bambu-inox-6-pcs"
+  },
+  {
+    "codigo": "KT-9021B",
+    "nome": "KIT PETISCO, PATE E CERVEJA - 7 PÇS",
+    "imagem": "kit-petisco-pate-e-cerveja-7-pcs_25613.webp",
+    "preco": "103.11",
+    "estoque": "4755",
+    "url_produto": "/2691/produto/kit-petisco-pate-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-9027Q",
+    "nome": "KIT QUEIJO, CHURRASCO E VINHO- 11 PÇS",
+    "imagem": "kit-queijo-churrasco-e-vinho-11-pcs_22841.webp",
+    "preco": "168.21",
+    "estoque": "1179",
+    "url_produto": "/2698/produto/kit-queijo-churrasco-e-vinho-11-pcs"
+  },
+  {
+    "codigo": "KT-90323",
+    "nome": "KIT PARA CAFÉ - 2 PÇS",
+    "imagem": "kit-para-cafe-2-pcs_24085.webp",
+    "preco": "123.38",
+    "estoque": "1275",
+    "url_produto": "/3412/produto/kit-para-cafe-2-pcs"
+  },
+  {
+    "codigo": "KF-03073",
+    "nome": "CONJ. DE FACA E GARFO PREMIUM EM MADEIRA / INOX - PRETO - 2 PÇS",
+    "imagem": "conj-de-faca-e-garfo-premium-em-madeira-inox-preto-2-pcs_25943.webp",
+    "preco": "96.73",
+    "estoque": "849",
+    "url_produto": "/3719/produto/conj-de-faca-e-garfo-premium-em-madeira-inox-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90341",
+    "nome": "KIT QUEIJO E CHAMPAGNE C/ ESPAÇO P/ GARRAFA - 7 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-champagne-c-espaco-p-garrafa-7-pcs-nao-acompanha-garrafa_23701.webp",
+    "preco": "102.15",
+    "estoque": "692",
+    "url_produto": "/3324/produto/kit-queijo-e-champagne-c-espaco-p-garrafa-7-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-9041A",
+    "nome": "KIT CHURRASCO E CERVEJA - 5 PÇS",
+    "imagem": "kit-churrasco-e-cerveja-5-pcs_23557.webp",
+    "preco": "129.12",
+    "estoque": "1601",
+    "url_produto": "/3080/produto/kit-churrasco-e-cerveja-5-pcs"
+  },
+  {
+    "codigo": "KT-9027L",
+    "nome": "KIT PARA CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-copos-5-pcs_25362.webp",
+    "preco": "88.59",
+    "estoque": "4755",
+    "url_produto": "/2697/produto/kit-para-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-90576",
+    "nome": "KIT PARA CAFÉ - 9 PÇS",
+    "imagem": "kit-para-cafe-9-pcs_26265.webp",
+    "preco": "161.00",
+    "estoque": "686",
+    "url_produto": "/3806/produto/kit-para-cafe-9-pcs"
+  },
+  {
+    "codigo": "KT-90297",
+    "nome": "KIT DE COPOS TÉRMICOS EM AÇO INOX - 340ML / 500ML - PRETO - 2 PÇS",
+    "imagem": "kit-de-copos-termicos-em-aco-inox-340ml-500ml-preto-2-pcs_21225.webp",
+    "preco": "111.66",
+    "estoque": "2799",
+    "url_produto": "/3201/produto/kit-de-copos-termicos-em-aco-inox-340ml-500ml-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90141",
+    "nome": "KIT PARA CHÁ COM CAIXA EM BAMBU E COLHERES - 5 PÇS",
+    "imagem": "kit-para-cha-com-caixa-em-bambu-e-colheres-5-pcs_21687.webp",
+    "preco": "133.05",
+    "estoque": "622",
+    "url_produto": "/2313/produto/kit-para-cha-com-caixa-em-bambu-e-colheres-5-pcs"
+  },
+  {
+    "codigo": "KT-90286",
+    "nome": "KIT GARRAFA, CANECA E FONE BLUETOOTH - 3 PÇS",
+    "imagem": "kit-garrafa-caneca-e-fone-bluetooth-3-pcs_23604.webp",
+    "preco": "148.54",
+    "estoque": "168",
+    "url_produto": "/3160/produto/kit-garrafa-caneca-e-fone-bluetooth-3-pcs"
+  },
+  {
+    "codigo": "KT-90113",
+    "nome": "KIT PARA CAFÉ DA MANHÃ EM BAMBU - 6 PÇS",
+    "imagem": "kit-para-cafe-da-manha-em-bambu-6-pcs_21746.webp",
+    "preco": "203.87",
+    "estoque": "15",
+    "url_produto": "/2073/produto/kit-para-cafe-da-manha-em-bambu-6-pcs"
+  },
+  {
+    "codigo": "KT-90200",
+    "nome": "CONJUNTO PARA PETISCO - 5 PÇS",
+    "imagem": "_18907.webp",
+    "preco": "92.64",
+    "estoque": "2538",
+    "url_produto": "/2714/produto/conjunto-para-petisco-5-pcs"
+  },
+  {
+    "codigo": "KT-9041J",
+    "nome": "CONJ. CANECA, CADERNETA E CANETA - 3 PEÇAS",
+    "imagem": "conj-caneca-caderneta-e-caneta-3-pecas_21234.webp",
+    "preco": "46.72",
+    "estoque": "899",
+    "url_produto": "/3006/produto/conj-caneca-caderneta-e-caneta-3-pecas"
+  },
+  {
+    "codigo": "KT-90A32",
+    "nome": "KIT CHURRASCO / CERVEJA - 5 PÇS",
+    "imagem": "kit-churrasco-cerveja-5-pcs_23615.webp",
+    "preco": "126.49",
+    "estoque": "2521",
+    "url_produto": "/3084/produto/kit-churrasco-cerveja-5-pcs"
+  },
+  {
+    "codigo": "KT-90528",
+    "nome": "KIT ESCRITÓRIO - AZUL - 4 PÇS",
+    "imagem": "kit-escritorio-azul-4-pcs_25503.webp",
+    "preco": "97.07",
+    "estoque": "299",
+    "url_produto": "/3663/produto/kit-escritorio-azul-4-pcs"
+  },
+  {
+    "codigo": "KT-90085",
+    "nome": "KIT WHISKY COM BARALHO E COPOS",
+    "imagem": "kit-whisky-com-baralho-e-copos_19211.webp",
+    "preco": "55.81",
+    "estoque": "482",
+    "url_produto": "/1945/produto/kit-whisky-com-baralho-e-copos"
+  },
+  {
+    "codigo": "KT-90024",
+    "nome": "KIT COM CANECAS DE VIDRO PARA  CHOPP DE 340 ML",
+    "imagem": "kit-com-canecas-de-vidro-para-chopp-de-340-ml_26786.webp",
+    "preco": "52.06",
+    "estoque": "2593",
+    "url_produto": "/1704/produto/kit-com-canecas-de-vidro-para-chopp-de-340-ml"
+  },
+  {
+    "codigo": "KT-90354",
+    "nome": "KIT COM SQUEEZE, CANETA E CADERNO - AZUL - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-caderno-azul-3-pcs_23828.webp",
+    "preco": "81.19",
+    "estoque": "845",
+    "url_produto": "/3361/produto/kit-com-squeeze-caneta-e-caderno-azul-3-pcs"
+  },
+  {
+    "codigo": "KT-90504",
+    "nome": "KIT PREMIUM PARA CHURRASCO - 4 PÇS",
+    "imagem": "kit-premium-para-churrasco-4-pcs_25030.webp",
+    "preco": "213.00",
+    "estoque": "139",
+    "url_produto": "/3580/produto/kit-premium-para-churrasco-4-pcs"
+  },
+  {
+    "codigo": "KE-00423",
+    "nome": "KIT PARA CAIPIRINHA EM BAMBU / MADEIRA - 0,35 L - 6 PÇS",
+    "imagem": "kit-para-caipirinha-em-bambu-com-coqueteleira-6-pcs_23232.webp",
+    "preco": "107.80",
+    "estoque": "1275",
+    "url_produto": "/1285/produto/kit-para-caipirinha-em-bambu-madeira-035-l-6-pcs"
+  },
+  {
+    "codigo": "KT-90512",
+    "nome": "KIT PARA PETISCO E VINHO - 8 PÇS",
+    "imagem": "kit-para-petisco-e-vinho-8-pcs_25405.webp",
+    "preco": "176.79",
+    "estoque": "1179",
+    "url_produto": "/3632/produto/kit-para-petisco-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "VI-00721-900",
+    "nome": "TAÇA DE VIDRO P/ CHAMPAGNE - 186 ML",
+    "imagem": "taca-de-vidro-p-champagne-186-ml_23709.webp",
+    "preco": "11.35",
+    "estoque": "1384",
+    "url_produto": "/3334/produto/taca-de-vidro-p-champagne-186-ml"
+  },
+  {
+    "codigo": "KT-9039W",
+    "nome": "KIT CADERNO E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caderno-e-acessorios-4-pcs_25443.webp",
+    "preco": "95.04",
+    "estoque": "1665",
+    "url_produto": "/2857/produto/kit-caderno-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "VI-00512",
+    "nome": "CONJ. COPOS AMERICANOS PARA DRINK - 315 ML - 2 PÇS",
+    "imagem": "conj-copos-americanos-para-drink-315-ml-2-pcs_25124.webp",
+    "preco": "40.84",
+    "estoque": "337",
+    "url_produto": "/3610/produto/conj-copos-americanos-para-drink-315-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90484",
+    "nome": "KIT PARA CHURRASCO E CERVEJA - 4 PÇS",
+    "imagem": "kit-para-churrasco-e-cerveja-4-pcs_24846.webp",
+    "preco": "84.07",
+    "estoque": "3400",
+    "url_produto": "/3524/produto/kit-para-churrasco-e-cerveja-4-pcs"
+  },
+  {
+    "codigo": "KT-90492",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_24986.webp",
+    "preco": "112.43",
+    "estoque": "1186",
+    "url_produto": "/3565/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90078",
+    "nome": "KIT CHURRASCO, DRINKS E TRUCO - 12 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-drinks-e-jogo-de-baralho-12-pcs_18184.webp",
+    "preco": "163.23",
+    "estoque": "378",
+    "url_produto": "/1939/produto/kit-churrasco-drinks-e-truco-12-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-9039D",
+    "nome": "KIT GARRAFA E CANECA - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-2-pcs_23376.webp",
+    "preco": "79.36",
+    "estoque": "3600",
+    "url_produto": "/2855/produto/kit-garrafa-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "KT-90279",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 4 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-4-pcs_21689.webp",
+    "preco": "145.69",
+    "estoque": "1036",
+    "url_produto": "/3145/produto/kit-para-cafe-com-prensa-francesa-4-pcs"
+  },
+  {
+    "codigo": "VI-18722",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/ CHAMPAGNE 186 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa_23680.webp",
+    "preco": "61.76",
+    "estoque": "589",
+    "url_produto": "/3317/produto/jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-9045T",
+    "nome": "KIT PARA PETISCO / QUEIJO - 7 PÇS",
+    "imagem": "kit-para-petisco-queijo-7-pcs_20175.webp",
+    "preco": "90.63",
+    "estoque": "1381",
+    "url_produto": "/3031/produto/kit-para-petisco-queijo-7-pcs"
+  },
+  {
+    "codigo": "KT-90027",
+    "nome": "KIT CHURRASCO E COZINHA - 12 PÇS",
+    "imagem": "kit-churrasco-e-cozinha-com-garfos-e-facas-12-pcs_22456.webp",
+    "preco": "198.43",
+    "estoque": "1862",
+    "url_produto": "/1764/produto/kit-churrasco-e-cozinha-12-pcs"
+  },
+  {
+    "codigo": "KT-90443",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_25080.webp",
+    "preco": "138.65",
+    "estoque": "1275",
+    "url_produto": "/3596/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90225",
+    "nome": "KIT PARA WHISKY COM BALDE - 4 PÇS",
+    "imagem": "kit-para-whisky-com-balde-4-pcs_21215.webp",
+    "preco": "66.31",
+    "estoque": "245",
+    "url_produto": "/2833/produto/kit-para-whisky-com-balde-4-pcs"
+  },
+  {
+    "codigo": "KT-90229",
+    "nome": "KIT PARA CHURRASCO COM BALDE -  9 PÇS",
+    "imagem": "_19457.webp",
+    "preco": "194.01",
+    "estoque": "0",
+    "url_produto": "/2837/produto/kit-para-churrasco-com-balde-9-pcs"
+  },
+  {
+    "codigo": "PD-15333",
+    "nome": "CONJ. PARA PETISCO EM BAMBU - 2 PÇS",
+    "imagem": "conj-para-petisco-em-bambu-2-pcs_23478.webp",
+    "preco": "20.97",
+    "estoque": "31355",
+    "url_produto": "/3167/produto/conj-para-petisco-em-bambu-2-pcs"
+  },
+  {
+    "codigo": "KT-90045",
+    "nome": "KIT PARA SERVIR - 2 PÇS",
+    "imagem": "kit-para-servir-2-pcs_21617.webp",
+    "preco": "98.08",
+    "estoque": "1401",
+    "url_produto": "/1807/produto/kit-para-servir-2-pcs"
+  },
+  {
+    "codigo": "KT-90321",
+    "nome": "KIT PARA CAFÉ - 3 PÇS",
+    "imagem": "kit-para-cafe-3-pcs_23663.webp",
+    "preco": "187.80",
+    "estoque": "1275",
+    "url_produto": "/3263/produto/kit-para-cafe-3-pcs"
+  },
+  {
+    "codigo": "KT-90521",
+    "nome": "KIT SQUEEZE, FONE, CADERNO E CANETA - VERMELHO - 4 PÇS",
+    "imagem": "kit-squeeze-fone-caderno-e-caneta-vermelho-4-pcs_25457.webp",
+    "preco": "74.25",
+    "estoque": "935",
+    "url_produto": "/3652/produto/kit-squeeze-fone-caderno-e-caneta-vermelho-4-pcs"
+  },
+  {
+    "codigo": "KT-9033C",
+    "nome": "CONJ. P/ CAIPIRINHA C/ PETISQUEIRA, COQUETELEIRA, TÁBUA E UTENSÍLIOS - 14 PEÇAS",
+    "imagem": "conj-p-caipirinha-c-petisqueira-coqueteleira-tabua-e-utensilios-14-pecas_22829.webp",
+    "preco": "210.72",
+    "estoque": "1142",
+    "url_produto": "/2967/produto/conj-p-caipirinha-c-petisqueira-coqueteleira-tabua-e-utensilios-14-pecas"
+  },
+  {
+    "codigo": "KT-90397",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_24133.webp",
+    "preco": "114.16",
+    "estoque": "230",
+    "url_produto": "/3424/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-9046L",
+    "nome": "KIT CANECA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caneca-e-acessorios-4-pcs_23396.webp",
+    "preco": "83.77",
+    "estoque": "1733",
+    "url_produto": "/3033/produto/kit-caneca-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-9044M",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS -  4 PÇS",
+    "imagem": "kit-squeeze-e-acessorios-4-pcs_20189.webp",
+    "preco": "91.10",
+    "estoque": "935",
+    "url_produto": "/3035/produto/kit-squeeze-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90405",
+    "nome": "KIT PARA CAFÉ - 6 PÇS",
+    "imagem": "kit-para-cafe-6-pcs_24166.webp",
+    "preco": "222.01",
+    "estoque": "345",
+    "url_produto": "/3435/produto/kit-para-cafe-6-pcs"
+  },
+  {
+    "codigo": "KT-9021P",
+    "nome": "KIT PARA PIZZA E CERVEJA - 9 PÇS",
+    "imagem": "kit-para-pizza-e-cerveja-9-pcs_22163.webp",
+    "preco": "139.08",
+    "estoque": "888",
+    "url_produto": "/2692/produto/kit-para-pizza-e-cerveja-9-pcs"
+  },
+  {
+    "codigo": "KT-90253",
+    "nome": "KIT PARA CHURRASCO / CERVEJA COM PEGADOR - 7 PÇS",
+    "imagem": "kit-para-churrasco-cerveja-com-pegador-7-pcs_22730.webp",
+    "preco": "145.68",
+    "estoque": "943",
+    "url_produto": "/2977/produto/kit-para-churrasco-cerveja-com-pegador-7-pcs"
+  },
+  {
+    "codigo": "KT-90497",
+    "nome": "KIT PARA CAFÉ COM MOEDOR - 4 PÇS",
+    "imagem": "kit-para-cafe-com-moedor-4-pcs_24960.webp",
+    "preco": "193.61",
+    "estoque": "839",
+    "url_produto": "/3559/produto/kit-para-cafe-com-moedor-4-pcs"
+  },
+  {
+    "codigo": "KT-90571",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 3 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-3-pcs_26245.webp",
+    "preco": "118.25",
+    "estoque": "592",
+    "url_produto": "/3801/produto/kit-para-cafe-com-prensa-francesa-3-pcs"
+  },
+  {
+    "codigo": "KT-90384",
+    "nome": "KIT COPO EM FIBRA DE BAMBU, CADERNO E CANETA - VERDE - 3 PÇS",
+    "imagem": "kit-copo-em-fibra-de-bambu-caderno-e-caneta-verde-3-pcs_23937.webp",
+    "preco": "74.52",
+    "estoque": "157",
+    "url_produto": "/3392/produto/kit-copo-em-fibra-de-bambu-caderno-e-caneta-verde-3-pcs"
+  },
+  {
+    "codigo": "KT-90260",
+    "nome": "CONJ. MOCHILA, BLOCO E CANETA - 3 PÇS",
+    "imagem": "conj-mochila-e-caderno-2-pecas_20073.webp",
+    "preco": "47.22",
+    "estoque": "0",
+    "url_produto": "/2996/produto/conj-mochila-bloco-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90336",
+    "nome": "KIT PRENSA FRANCESA E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-prensa-francesa-e-copo-termico-2-pcs_23792.webp",
+    "preco": "139.51",
+    "estoque": "1036",
+    "url_produto": "/3310/produto/kit-prensa-francesa-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "AV-02111",
+    "nome": "AVENTAL E AVENTAL MINI EM BRIM PRETO - 2 PÇS",
+    "imagem": "avental-e-avental-mini-em-brim-preto-2-pcs_24496.webp",
+    "preco": "58.33",
+    "estoque": "109",
+    "url_produto": "/3476/produto/avental-e-avental-mini-em-brim-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90002",
+    "nome": "KIT PIZZA E CERVEJA - 9 PÇS",
+    "imagem": "kit-pizza-e-cerveja-9-pcs_22248.webp",
+    "preco": "144.04",
+    "estoque": "888",
+    "url_produto": "/1677/produto/kit-pizza-e-cerveja-9-pcs"
+  },
+  {
+    "codigo": "KT-9024M",
+    "nome": "KIT PORTA CONDIMENTOS E COLHERES - 3 PEÇAS",
+    "imagem": "kit-porta-condimentos-e-colheres-3-pecas_22641.webp",
+    "preco": "141.54",
+    "estoque": "164",
+    "url_produto": "/2694/produto/kit-porta-condimentos-e-colheres-3-pecas"
+  },
+  {
+    "codigo": "KT-90255",
+    "nome": "KIT PARA CAFEZINHO - 5 PÇS",
+    "imagem": "kit-para-cafezinho-5-pcs_22856.webp",
+    "preco": "75.68",
+    "estoque": "1197",
+    "url_produto": "/2988/produto/kit-para-cafezinho-5-pcs"
+  },
+  {
+    "codigo": "KT-9048L",
+    "nome": "CONJUNTO PARA QUEIJO / CERVEJA - 7 PÇS",
+    "imagem": "conjunto-para-queijo-cerveja-7-pcs_24071.webp",
+    "preco": "89.40",
+    "estoque": "4755",
+    "url_produto": "/3045/produto/conjunto-para-queijo-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-90012",
+    "nome": "KIT QUEIJO E CERVEJA - 6 PÇS - COM FACA",
+    "imagem": "kit-queijo-e-cerveja-6-pcs-com-faca_24806.webp",
+    "preco": "109.79",
+    "estoque": "1470",
+    "url_produto": "/1707/produto/kit-queijo-e-cerveja-6-pcs-com-faca"
+  },
+  {
+    "codigo": "KT-90360",
+    "nome": "KIT GARRAFA E CANECA - BRANCO - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-branco-2-pcs_23837.webp",
+    "preco": "76.59",
+    "estoque": "933",
+    "url_produto": "/3367/produto/kit-garrafa-e-caneca-branco-2-pcs"
+  },
+  {
+    "codigo": "KT-90198",
+    "nome": "KIT PARA QUEIJO E VINHO - 8 PÇS",
+    "imagem": "kit-para-queijo-e-vinho-8-pcs_22089.webp",
+    "preco": "125.35",
+    "estoque": "1227",
+    "url_produto": "/2716/produto/kit-para-queijo-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "CJ-71373",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM MADEIRA / INOX",
+    "imagem": "conj-para-churrasco-premium-em-madeira-inox_25948.webp",
+    "preco": "169.82",
+    "estoque": "791",
+    "url_produto": "/3748/produto/conj-para-churrasco-premium-em-madeira-inox"
+  },
+  {
+    "codigo": "KT-90396",
+    "nome": "KIT PARA CAFÉ DA MANHÃ - 8 PÇS",
+    "imagem": "kit-para-cafe-da-manha-8-pcs_24089.webp",
+    "preco": "139.43",
+    "estoque": "144",
+    "url_produto": "/3413/produto/kit-para-cafe-da-manha-8-pcs"
+  },
+  {
+    "codigo": "KT-9045H",
+    "nome": "CONJ. TAÇA, TÁBUA E UTENSILIOS - 6 PEÇAS",
+    "imagem": "conj-taca-tabua-e-utensilios-6-pecas_23654.webp",
+    "preco": "75.55",
+    "estoque": "7079",
+    "url_produto": "/3041/produto/conj-taca-tabua-e-utensilios-6-pecas"
+  },
+  {
+    "codigo": "KT-90359",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - CINZA/PRATA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-cinza-prata-3-pcs_23846.webp",
+    "preco": "95.10",
+    "estoque": "253",
+    "url_produto": "/3366/produto/kit-garrafa-caderno-e-caneta-cinza-prata-3-pcs"
+  },
+  {
+    "codigo": "KT-90019",
+    "nome": "PETISQUEIRA COM ESPAÇO PARA GARRAFA",
+    "imagem": "petisqueira-com-espaco-para-garrafa_24063.webp",
+    "preco": "99.60",
+    "estoque": "2538",
+    "url_produto": "/1709/produto/petisqueira-com-espaco-para-garrafa"
+  },
+  {
+    "codigo": "KT-90087",
+    "nome": "KIT PARA PETISCO COM TÁBUA REDONDA - 5 PÇS",
+    "imagem": "kit-para-petisco-com-tabua-redonda-5-pcs_22236.webp",
+    "preco": "60.77",
+    "estoque": "1836",
+    "url_produto": "/2032/produto/kit-para-petisco-com-tabua-redonda-5-pcs"
+  },
+  {
+    "codigo": "KT-9044H",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS -  4 PÇS",
+    "imagem": "kit-squeeze-e-acessorios-4-pcs_23657.webp",
+    "preco": "91.10",
+    "estoque": "935",
+    "url_produto": "/2998/produto/kit-squeeze-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90509",
+    "nome": "KIT PETISCO E BAR - 3 PÇS",
+    "imagem": "kit-petisco-e-bar-3-pcs_25377.webp",
+    "preco": "61.57",
+    "estoque": "784",
+    "url_produto": "/3633/produto/kit-petisco-e-bar-3-pcs"
+  },
+  {
+    "codigo": "ME-39373",
+    "nome": "CONJ. PARA CHURRASCO PREMIUM EM BAMBU / MADEIRA / INOX - 3 PÇS",
+    "imagem": "conj-para-churrasco-premium-em-bambu-madeira-inox-3-pcs_25959.webp",
+    "preco": "178.94",
+    "estoque": "665",
+    "url_produto": "/3750/produto/conj-para-churrasco-premium-em-bambu-madeira-inox-3-pcs"
+  },
+  {
+    "codigo": "KT-90366",
+    "nome": "KIT GARRAFA, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-garrafa-caderno-e-caneta-3-pcs_23861.webp",
+    "preco": "110.24",
+    "estoque": "586",
+    "url_produto": "/3373/produto/kit-garrafa-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90483",
+    "nome": "KIT PARA CHURRASCO - 7 PÇS",
+    "imagem": "kit-para-churrasco-7-pcs_24850.webp",
+    "preco": "86.15",
+    "estoque": "918",
+    "url_produto": "/3525/produto/kit-para-churrasco-7-pcs"
+  },
+  {
+    "codigo": "KT-90106",
+    "nome": "KIT QUEIJO E VINHO COM TÁBUA REDONDA - 8 PÇS",
+    "imagem": "kit-queijo-e-vinho-com-tabua-redonda-8-pcs_24280.webp",
+    "preco": "116.13",
+    "estoque": "1179",
+    "url_produto": "/2094/produto/kit-queijo-e-vinho-com-tabua-redonda-8-pcs"
+  },
+  {
+    "codigo": "KT-9049V",
+    "nome": "GARRAFA PLÁSTICA C/ ACESSÓRIOS - 4 PÇS",
+    "imagem": "garrafa-plastica-c-acessorios-4-pcs_20340.webp",
+    "preco": "78.58",
+    "estoque": "447",
+    "url_produto": "/3101/produto/garrafa-plastica-c-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90410",
+    "nome": "KIT MOCHILA, GUARDA-CHUVA E GARRAFA - 3 PÇS",
+    "imagem": "kit-mochila-guarda-chuva-e-garrafa-3-pcs_24186.webp",
+    "preco": "243.81",
+    "estoque": "1211",
+    "url_produto": "/3440/produto/kit-mochila-guarda-chuva-e-garrafa-3-pcs"
+  },
+  {
+    "codigo": "KT-90403",
+    "nome": "KIT PARA CAFÉ COM COPO TÉRMICO - 3 PÇS",
+    "imagem": "kit-para-cafe-com-copo-termico-3-pcs_24157.webp",
+    "preco": "198.97",
+    "estoque": "839",
+    "url_produto": "/3433/produto/kit-para-cafe-com-copo-termico-3-pcs"
+  },
+  {
+    "codigo": "VI-18612-BCO",
+    "nome": "JOGO DE TAÇAS DE VIDRO P /  VINHO 490 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs-nao-acompanha-a-garrafa_24651.webp",
+    "preco": "63.72",
+    "estoque": "2851",
+    "url_produto": "/3496/produto/jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-90112",
+    "nome": "KIT PARA CAFÉ DA MANHÃ EM BAMBU - 4 PÇS",
+    "imagem": "kit-para-cafe-da-manha-em-bambu-4-pcs_22779.webp",
+    "preco": "159.58",
+    "estoque": "15",
+    "url_produto": "/2072/produto/kit-para-cafe-da-manha-em-bambu-4-pcs"
+  },
+  {
+    "codigo": "KT-90494",
+    "nome": "KIT GARRAFA, FONE BLUETOOTH E NECESSAIRE - 3 PÇS",
+    "imagem": "kit-garrafa-fone-bluetooth-e-necessaire-3-pcs_24973.webp",
+    "preco": "162.27",
+    "estoque": "168",
+    "url_produto": "/3562/produto/kit-garrafa-fone-bluetooth-e-necessaire-3-pcs"
+  },
+  {
+    "codigo": "KT-9027Q-BCO",
+    "nome": "KIT QUEIJO, CHURRASCO E VINHO- 11 PÇS",
+    "imagem": "kit-queijo-churrasco-e-vinho-11-pcs_23811.webp",
+    "preco": "168.21",
+    "estoque": "1179",
+    "url_produto": "/3349/produto/kit-queijo-churrasco-e-vinho-11-pcs"
+  },
+  {
+    "codigo": "KT-9043A",
+    "nome": "CONJUNTO PARA PETISCO COM ESPAÇO PARA GARRAFA - 7 PÇS",
+    "imagem": "conjunto-para-petisco-com-espaco-para-garrafa-7-pcs_23537.webp",
+    "preco": "100.72",
+    "estoque": "4755",
+    "url_produto": "/3047/produto/conjunto-para-petisco-com-espaco-para-garrafa-7-pcs"
+  },
+  {
+    "codigo": "KT-90292",
+    "nome": "KIT PETISCO E CERVEJA - 3 PÇS",
+    "imagem": "kit-petisco-e-cerveja-3-pcs_24008.webp",
+    "preco": "75.87",
+    "estoque": "1300",
+    "url_produto": "/3194/produto/kit-petisco-e-cerveja-3-pcs"
+  },
+  {
+    "codigo": "KT-9040W",
+    "nome": "KIT DE COPOS E FACAS - 5 PÇS",
+    "imagem": "kit-de-copos-e-facas-5-pcs_20173.webp",
+    "preco": "78.35",
+    "estoque": "3075",
+    "url_produto": "/3030/produto/kit-de-copos-e-facas-5-pcs"
+  },
+  {
+    "codigo": "KT-90299",
+    "nome": "KIT PARA CHURRASCO COM COPO TÉRMICO - 4 PÇS",
+    "imagem": "kit-para-churrasco-com-copo-termico-4-pcs_23437.webp",
+    "preco": "93.28",
+    "estoque": "4654",
+    "url_produto": "/3197/produto/kit-para-churrasco-com-copo-termico-4-pcs"
+  },
+  {
+    "codigo": "KT-90275",
+    "nome": "KIT GARRAFA E CANECA - 2 PÇS",
+    "imagem": "kit-garrafa-e-caneca-2-pcs_21640.webp",
+    "preco": "72.97",
+    "estoque": "3526",
+    "url_produto": "/3151/produto/kit-garrafa-e-caneca-2-pcs"
+  },
+  {
+    "codigo": "KT-90495",
+    "nome": "KIT GARRAFA E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-garrafa-e-acessorios-4-pcs_24977.webp",
+    "preco": "132.57",
+    "estoque": "1556",
+    "url_produto": "/3563/produto/kit-garrafa-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-9008E",
+    "nome": "KIT VINHO COM ABRIDOR - 3 PÇS",
+    "imagem": "kit-vinho-com-abridor-3-pcs_23659.webp",
+    "preco": "70.66",
+    "estoque": "1179",
+    "url_produto": "/3302/produto/kit-vinho-com-abridor-3-pcs"
+  },
+  {
+    "codigo": "VI-00196",
+    "nome": "CONJ. COPOS AMERICANOS MULTIUSO - 190 ML - 6 PÇS",
+    "imagem": "conj-copos-americanos-multiuso-190-ml-6-pcs_25115.webp",
+    "preco": "33.51",
+    "estoque": "261",
+    "url_produto": "/3607/produto/conj-copos-americanos-multiuso-190-ml-6-pcs"
+  },
+  {
+    "codigo": "KT-9043X",
+    "nome": "KIT BOAS VINDAS - 3 PÇS",
+    "imagem": "kit-boas-vindas-3-pcs_23609.webp",
+    "preco": "86.72",
+    "estoque": "1775",
+    "url_produto": "/3019/produto/kit-boas-vindas-3-pcs"
+  },
+  {
+    "codigo": "KT-90017",
+    "nome": "KIT CHURRASCO / CERVEJA - 5 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-churrasco-cerveja-5-pcs-nao-acompanha-garrafa_22355.webp",
+    "preco": "122.66",
+    "estoque": "2521",
+    "url_produto": "/1711/produto/kit-churrasco-cerveja-5-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-9032P",
+    "nome": "CONJ. TÁBUA E UTENSÍLIOS P/ QUEIJO - 5 PEÇAS",
+    "imagem": "conj-tabua-e-utensilios-p-queijo-5-pecas_22018.webp",
+    "preco": "56.78",
+    "estoque": "2543",
+    "url_produto": "/2702/produto/conj-tabua-e-utensilios-p-queijo-5-pecas"
+  },
+  {
+    "codigo": "KT-90246",
+    "nome": "KIT PARA PETISCO / QUEIJO - 5 PÇS",
+    "imagem": "kit-para-petisco-queijo-5-pcs_23289.webp",
+    "preco": "71.15",
+    "estoque": "1381",
+    "url_produto": "/2953/produto/kit-para-petisco-queijo-5-pcs"
+  },
+  {
+    "codigo": "KT-90162",
+    "nome": "CONJUNTO PARA QUEIJO C/ CEPO EM BAMBU / INOX - 5 PÇS",
+    "imagem": "conjunto-para-queijo-c-cepo-em-bambu-inox-5-pcs_22808.webp",
+    "preco": "197.83",
+    "estoque": "22",
+    "url_produto": "/2560/produto/conjunto-para-queijo-c-cepo-em-bambu-inox-5-pcs"
+  },
+  {
+    "codigo": "KT-90101",
+    "nome": "KIT PARA QUEIJO EM BAMBU / INOX - 2 PÇS",
+    "imagem": "kit-para-queijo-em-bambu-inox-2-pcs_24801.webp",
+    "preco": "67.70",
+    "estoque": "1470",
+    "url_produto": "/2051/produto/kit-para-queijo-em-bambu-inox-2-pcs"
+  },
+  {
+    "codigo": "KT-90508",
+    "nome": "KIT PETISCO - 3 PÇS",
+    "imagem": "kit-petisco-3-pcs_25208.webp",
+    "preco": "69.07",
+    "estoque": "859",
+    "url_produto": "/3577/produto/kit-petisco-3-pcs"
+  },
+  {
+    "codigo": "KT-9038D",
+    "nome": "KIT CHURRASCO, PETISCO E CERVEJA - 11 PÇS",
+    "imagem": "kit-churrasco-petisco-e-cerveja-11-pcs_23533.webp",
+    "preco": "168.32",
+    "estoque": "414",
+    "url_produto": "/3177/produto/kit-churrasco-petisco-e-cerveja-11-pcs"
+  },
+  {
+    "codigo": "KT-90006",
+    "nome": "KIT PETISCO E VINHO - 8 PÇS",
+    "imagem": "kit-petisco-e-vinho-8-pcs_22263.webp",
+    "preco": "131.25",
+    "estoque": "1179",
+    "url_produto": "/1681/produto/kit-petisco-e-vinho-8-pcs"
+  },
+  {
+    "codigo": "KT-90479",
+    "nome": "KIT PARA QUEIJO E CERVEJA - 7 PÇS",
+    "imagem": "kit-para-queijo-e-cerveja-7-pcs_25155.webp",
+    "preco": "103.65",
+    "estoque": "1836",
+    "url_produto": "/3529/produto/kit-para-queijo-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-90007-BCO",
+    "nome": "KIT QUEIJO E VINHO COM ESPAÇO PARA GARRAFA - 9 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-vinho-com-espaco-para-garrafa-9-pcs-nao-acompanha-garrafa_23810.webp",
+    "preco": "127.42",
+    "estoque": "1179",
+    "url_produto": "/3352/produto/kit-queijo-e-vinho-com-espaco-para-garrafa-9-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90578",
+    "nome": "KIT MOCHILA, GARRAFA E FONE BLUETOOTH - 3 PÇS",
+    "imagem": "kit-mochila-garrafa-e-fone-bluetooth-3-pcs_26269.webp",
+    "preco": "146.97",
+    "estoque": "168",
+    "url_produto": "/3807/produto/kit-mochila-garrafa-e-fone-bluetooth-3-pcs"
+  },
+  {
+    "codigo": "KT-90353",
+    "nome": "KIT COM SQUEEZE, CANETA E CADERNO - BRANCO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-caderno-branco-3-pcs_23822.webp",
+    "preco": "80.96",
+    "estoque": "230",
+    "url_produto": "/3360/produto/kit-com-squeeze-caneta-e-caderno-branco-3-pcs"
+  },
+  {
+    "codigo": "IX-41601",
+    "nome": "CONJ. DE SQUEEZE E CANECA EM AÇO INOX  600/410 ML- 2 PÇS",
+    "imagem": "conj-de-squeeze-e-caneca-em-aco-inox-600-410-ml-2-pcs_21211.webp",
+    "preco": "62.08",
+    "estoque": "1014",
+    "url_produto": "/242/produto/conj-de-squeeze-e-caneca-em-aco-inox-600-410-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-90517",
+    "nome": "KIT BOAS VINDAS - 5 PÇS - BRANCO/VERMELHO",
+    "imagem": "kit-boas-vindas-5-pcs-branco-vermelho_25357.webp",
+    "preco": "67.76",
+    "estoque": "5",
+    "url_produto": "/3626/produto/kit-boas-vindas-5-pcs-branco-vermelho"
+  },
+  {
+    "codigo": "KT-90501",
+    "nome": "KIT PORTA RETRATO E COPOS - 3 PÇS",
+    "imagem": "kit-porta-retrato-e-copos-3-pcs_24948.webp",
+    "preco": "75.64",
+    "estoque": "210",
+    "url_produto": "/3556/produto/kit-porta-retrato-e-copos-3-pcs"
+  },
+  {
+    "codigo": "KT-90514",
+    "nome": "KIT PETISCO E CERVEJA - 4 PÇS",
+    "imagem": "kit-petisco-e-cerveja-4-pcs_25418.webp",
+    "preco": "104.46",
+    "estoque": "2905",
+    "url_produto": "/3635/produto/kit-petisco-e-cerveja-4-pcs"
+  },
+  {
+    "codigo": "KT-90430",
+    "nome": "KIT PARA DRINKS COM BALDE - NÃO ACOMPANHA A GARRAFA - 4 PÇS",
+    "imagem": "kit-para-drinks-com-balde-4-pcs_24930.webp",
+    "preco": "86.36",
+    "estoque": "245",
+    "url_produto": "/3546/produto/kit-para-drinks-com-balde-nao-acompanha-a-garrafa-4-pcs"
+  },
+  {
+    "codigo": "KT-90309",
+    "nome": "KIT PARA PETISCO - 3 PÇS",
+    "imagem": "kit-para-petisco-3-pcs_20830.webp",
+    "preco": "70.72",
+    "estoque": "1300",
+    "url_produto": "/3196/produto/kit-para-petisco-3-pcs"
+  },
+  {
+    "codigo": "KT-90376",
+    "nome": "KIT PARA VINHO - 7 PÇS",
+    "imagem": "kit-para-vinho-7-pcs_23866.webp",
+    "preco": "101.86",
+    "estoque": "1298",
+    "url_produto": "/3375/produto/kit-para-vinho-7-pcs"
+  },
+  {
+    "codigo": "KT-90318",
+    "nome": "KIT NECESSAIRE E COPO TÉRMICO - 2 PÇS",
+    "imagem": "kit-necessaire-e-copo-termico-2-pcs_21186.webp",
+    "preco": "80.19",
+    "estoque": "2328",
+    "url_produto": "/3249/produto/kit-necessaire-e-copo-termico-2-pcs"
+  },
+  {
+    "codigo": "KT-90060",
+    "nome": "KIT PARA PETISCO COM TÁBUA EM FORMATO CORAÇÃO 5 PÇS",
+    "imagem": "kit-para-petisco-com-tabua-em-formato-coracao-5-pcs_22182.webp",
+    "preco": "67.72",
+    "estoque": "1836",
+    "url_produto": "/1862/produto/kit-para-petisco-com-tabua-em-formato-coracao-5-pcs"
+  },
+  {
+    "codigo": "KT-90296",
+    "nome": "KIT PARA CAFÉ/CHÁ - 5 PÇS",
+    "imagem": "kit-para-cafe-cha-5-pcs_23671.webp",
+    "preco": "98.75",
+    "estoque": "1197",
+    "url_produto": "/3216/produto/kit-para-cafe-cha-5-pcs"
+  },
+  {
+    "codigo": "KT-90307",
+    "nome": "KIT PARA CHURRASCO EM BAMBU / MADEIRA / INOX - 5 PÇS",
+    "imagem": "kit-para-churrasco-5-pcs_23649.webp",
+    "preco": "150.08",
+    "estoque": "302",
+    "url_produto": "/3208/produto/kit-para-churrasco-em-bambu-madeira-inox-5-pcs"
+  },
+  {
+    "codigo": "KT-90250",
+    "nome": "KIT PARA PETISCO / CERVEJA - 5 PÇS",
+    "imagem": "kit-para-petisco-cerveja-5-pcs_26115.webp",
+    "preco": "88.75",
+    "estoque": "2732",
+    "url_produto": "/2957/produto/kit-para-petisco-cerveja-5-pcs"
+  },
+  {
+    "codigo": "KT-90325",
+    "nome": "KIT PARA WHISKY - 4 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-para-whisky-4-pcs-nao-acompanha-garrafa_24080.webp",
+    "preco": "81.55",
+    "estoque": "245",
+    "url_produto": "/3411/produto/kit-para-whisky-4-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90037",
+    "nome": "KIT PARA CHURRASCO E CAIPIRINHA - 9 PÇS",
+    "imagem": "kit-para-churrasco-e-caipirinha-com-tabua-e-facas-9-pcs_22419.webp",
+    "preco": "151.38",
+    "estoque": "1032",
+    "url_produto": "/1800/produto/kit-para-churrasco-e-caipirinha-9-pcs"
+  },
+  {
+    "codigo": "MX-70266",
+    "nome": "CONJ. PARA CHURRASCO EM BAMBU / INOX / MADEIRA - 4 PÇS",
+    "imagem": "conj-para-churrasco-em-bambu-inox-madeira-4-pcs_24838.webp",
+    "preco": "47.14",
+    "estoque": "1644",
+    "url_produto": "/3522/produto/conj-para-churrasco-em-bambu-inox-madeira-4-pcs"
+  },
+  {
+    "codigo": "KT-90507",
+    "nome": "KIT CAFETEIRA, MOEDOR E COPO TÉRMICO - 3 PÇS",
+    "imagem": "kit-cafeteira-moedor-e-copo-termico-3-pcs_25204.webp",
+    "preco": "196.75",
+    "estoque": "0",
+    "url_produto": "/3554/produto/kit-cafeteira-moedor-e-copo-termico-3-pcs"
+  },
+  {
+    "codigo": "KT-90125",
+    "nome": "KIT PARA CAIPIRINHA E DRINKS - 5 PÇS",
+    "imagem": "kit-para-caipirinha-e-drinks-5-pcs_25444.webp",
+    "preco": "81.22",
+    "estoque": "922",
+    "url_produto": "/2101/produto/kit-para-caipirinha-e-drinks-5-pcs"
+  },
+  {
+    "codigo": "KT-90356",
+    "nome": "KIT SQUEEZE E ACESSÓRIOS - AZUL - 4 PÇS",
+    "imagem": "kit-squeeze-e-acessorios-azul-4-pcs_23831.webp",
+    "preco": "79.66",
+    "estoque": "1211",
+    "url_produto": "/3363/produto/kit-squeeze-e-acessorios-azul-4-pcs"
+  },
+  {
+    "codigo": "KT-90252",
+    "nome": "KIT PARA CHURRASCO/HAMBÚRGUER COM PEGADOR E ESPÁTULA - 6 PÇS",
+    "imagem": "kit-para-churrasco-hamburguer-com-pegador-e-espatula-6-pcs_20020.webp",
+    "preco": "169.32",
+    "estoque": "665",
+    "url_produto": "/2976/produto/kit-para-churrasco-hamburguer-com-pegador-e-espatula-6-pcs"
+  },
+  {
+    "codigo": "KT-9020H",
+    "nome": "KIT P/ PETISCO, PATÊ E VINHO - 5 PÇS",
+    "imagem": "kit-p-petisco-pate-e-vinho-5-pcs_22159.webp",
+    "preco": "118.42",
+    "estoque": "5347",
+    "url_produto": "/2690/produto/kit-p-petisco-pate-e-vinho-5-pcs"
+  },
+  {
+    "codigo": "KT-90482",
+    "nome": "KIT PARA CHURRASCO EM BAMBU / MADEIRA / INOX - 5 PÇS",
+    "imagem": "kit-para-churrasco-em-bambu-madeira-inox-5-pcs_24854.webp",
+    "preco": "107.72",
+    "estoque": "2721",
+    "url_produto": "/3526/produto/kit-para-churrasco-em-bambu-madeira-inox-5-pcs"
+  },
+  {
+    "codigo": "KT-90575",
+    "nome": "KIT CAFETEIRA, MOEDOR E COPO TÉRMICO - 3 PÇS",
+    "imagem": "kit-cafeteira-moedor-e-copo-termico-3-pcs_26261.webp",
+    "preco": "162.23",
+    "estoque": "837",
+    "url_produto": "/3805/produto/kit-cafeteira-moedor-e-copo-termico-3-pcs"
+  },
+  {
+    "codigo": "KT-90546",
+    "nome": "KIT CHAVEIRO, CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-chaveiro-caderno-e-caneta-3-pcs_25685.webp",
+    "preco": "45.68",
+    "estoque": "2893",
+    "url_produto": "/3701/produto/kit-chaveiro-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-9047E",
+    "nome": "KIT PARA CHURRASCO COM COPOS E BOLSA TÉRMICA - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-copos-e-bolsa-termica-5-pcs_25338.webp",
+    "preco": "116.29",
+    "estoque": "5779",
+    "url_produto": "/3113/produto/kit-para-churrasco-com-copos-e-bolsa-termica-5-pcs"
+  },
+  {
+    "codigo": "KT-90431",
+    "nome": "KIT BAR E PETISCOS - 3 PÇS",
+    "imagem": "kit-bar-e-petiscos-3-pcs_25062.webp",
+    "preco": "81.19",
+    "estoque": "337",
+    "url_produto": "/3590/produto/kit-bar-e-petiscos-3-pcs"
+  },
+  {
+    "codigo": "KT-90518",
+    "nome": "KIT HAMBURGUER E CERVEJA - 7 PÇS",
+    "imagem": "kit-pao-e-cerveja-7-pcs_25422.webp",
+    "preco": "134.85",
+    "estoque": "1537",
+    "url_produto": "/3636/produto/kit-hamburguer-e-cerveja-7-pcs"
+  },
+  {
+    "codigo": "KT-9033P",
+    "nome": "CONJ. PARA PIZZA EM BAMBU 35 CM - 12 PÇS",
+    "imagem": "conj-para-pizza-em-bambu-35-cm-12-pcs_23655.webp",
+    "preco": "167.28",
+    "estoque": "31",
+    "url_produto": "/2951/produto/conj-para-pizza-em-bambu-35-cm-12-pcs"
+  },
+  {
+    "codigo": "KT-90556",
+    "nome": "KIT PREMIUM PARA CHURRASCO - 4 PÇS",
+    "imagem": "kit-premium-para-churrasco-4-pcs_25938.webp",
+    "preco": "242.09",
+    "estoque": "665",
+    "url_produto": "/3747/produto/kit-premium-para-churrasco-4-pcs"
+  },
+  {
+    "codigo": "KT-9041R",
+    "nome": "KIT COM SQUEEZE, CANETA E BLOCO - 3 PÇS",
+    "imagem": "kit-com-squeeze-caneta-e-bloco-3-pcs_21235.webp",
+    "preco": "46.11",
+    "estoque": "6346",
+    "url_produto": "/3057/produto/kit-com-squeeze-caneta-e-bloco-3-pcs"
+  },
+  {
+    "codigo": "KT-90076",
+    "nome": "KIT CHURRASCO, WHISKY E TRUCO - 8 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-whisky-e-truco-8-pcs-c-jogo-de-baralho_18172.webp",
+    "preco": "153.45",
+    "estoque": "241",
+    "url_produto": "/1937/produto/kit-churrasco-whisky-e-truco-8-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-90245",
+    "nome": "KIT PARA PETISCO - 3 PÇS",
+    "imagem": "kit-para-petisco-3-pcs_22776.webp",
+    "preco": "65.66",
+    "estoque": "1381",
+    "url_produto": "/2952/produto/kit-para-petisco-3-pcs"
+  },
+  {
+    "codigo": "KT-90574",
+    "nome": "KIT PARA CAFÉ - 8 PÇS",
+    "imagem": "kit-para-cafe-8-pcs_26257.webp",
+    "preco": "115.44",
+    "estoque": "705",
+    "url_produto": "/3804/produto/kit-para-cafe-8-pcs"
+  },
+  {
+    "codigo": "KT-9015M",
+    "nome": "KIT CHURRASCO COM COPOS - 5 PÇS",
+    "imagem": "kit-churrasco-com-copos-5-pcs_23524.webp",
+    "preco": "111.09",
+    "estoque": "2521",
+    "url_produto": "/2828/produto/kit-churrasco-com-copos-5-pcs"
+  },
+  {
+    "codigo": "KT-90531-BCO",
+    "nome": "KIT GARRAFA, NECESSAIRE E FONE - 3 PÇS",
+    "imagem": "kit-garrafa-necessaire-e-fone-3-pcs_25518.webp",
+    "preco": "186.29",
+    "estoque": "1",
+    "url_produto": "/3666/produto/kit-garrafa-necessaire-e-fone-3-pcs"
+  },
+  {
+    "codigo": "KT-90441",
+    "nome": "KIT PARA CHÁ - 3 PÇS",
+    "imagem": "kit-para-cha-3-pcs_25077.webp",
+    "preco": "124.35",
+    "estoque": "622",
+    "url_produto": "/3595/produto/kit-para-cha-3-pcs"
+  },
+  {
+    "codigo": "KT-90467",
+    "nome": "KIT GARRAFA E BONÉ - 2 PÇS",
+    "imagem": "kit-garrafa-e-bone-2-pcs_24505.webp",
+    "preco": "91.47",
+    "estoque": "374",
+    "url_produto": "/3478/produto/kit-garrafa-e-bone-2-pcs"
+  },
+  {
+    "codigo": "KT-90025",
+    "nome": "KIT QUEIJO E CHAMPAGNE - 6 PÇS - NÃO ACOMPANHA GARRAFA",
+    "imagem": "kit-queijo-e-champagne-6-pcs-nao-acompanha-garrafa_22013.webp",
+    "preco": "98.37",
+    "estoque": "1554",
+    "url_produto": "/1763/produto/kit-queijo-e-champagne-6-pcs-nao-acompanha-garrafa"
+  },
+  {
+    "codigo": "KT-90182",
+    "nome": "KIT PARA COZINHA EM BAMBU / INOX COM ESPÁTULA MULTIUSO - 4 PÇS",
+    "imagem": "kit-para-cozinha-em-bambu-inox-com-espatula-multiuso-4-pcs_26882.webp",
+    "preco": "130.01",
+    "estoque": "590",
+    "url_produto": "/2644/produto/kit-para-cozinha-em-bambu-inox-com-espatula-multiuso-4-pcs"
+  },
+  {
+    "codigo": "KT-90314",
+    "nome": "KIT CANECA EM FIBRA DE BAMBU E ACESSÓRIOS - 4 PÇS",
+    "imagem": "kit-caneca-em-fibra-de-bambu-e-acessorios-4-pcs_24093.webp",
+    "preco": "130.35",
+    "estoque": "168",
+    "url_produto": "/3415/produto/kit-caneca-em-fibra-de-bambu-e-acessorios-4-pcs"
+  },
+  {
+    "codigo": "KT-90100",
+    "nome": "KIT PARA QUEIJO EM BAMBU / MADEIRA / INOX - 5 PÇS",
+    "imagem": "kit-para-queijo-em-bambu-e-inox-com-tabua-redonda-5-pcs_23409.webp",
+    "preco": "66.95",
+    "estoque": "3296",
+    "url_produto": "/2050/produto/kit-para-queijo-em-bambu-madeira-inox-5-pcs"
+  },
+  {
+    "codigo": "KT-90023",
+    "nome": "CONJ. PARA QUEIJO EM BAMBU / MADEIRA / INOX OREGON - 6 PÇS",
+    "imagem": "conj-para-queijo-em-bambu-inox-oregon-6-pcs_19515.webp",
+    "preco": "60.61",
+    "estoque": "1470",
+    "url_produto": "/1703/produto/conj-para-queijo-em-bambu-madeira-inox-oregon-6-pcs"
+  },
+  {
+    "codigo": "KT-90121",
+    "nome": "KIT QUEIJO E TAÇAS PARA CERVEJA - 6 PÇS",
+    "imagem": "kit-queijo-e-tacas-para-cerveja-6-pcs_22091.webp",
+    "preco": "133.32",
+    "estoque": "1470",
+    "url_produto": "/2357/produto/kit-queijo-e-tacas-para-cerveja-6-pcs"
+  },
+  {
+    "codigo": "KE-00463",
+    "nome": "KIT PARA CAIPIRINHA EM BAMBU/MADEIRA - 0,35 L - 6 PÇS",
+    "imagem": "kit-para-caipirinha-em-bambu-035-l-6-pcs_22192.webp",
+    "preco": "88.44",
+    "estoque": "917",
+    "url_produto": "/1289/produto/kit-para-caipirinha-em-bambu-madeira-035-l-6-pcs"
+  },
+  {
+    "codigo": "KT-90511",
+    "nome": "KIT CHURRASCO E BAR - 5 PÇS",
+    "imagem": "kit-churrasco-e-bar-5-pcs_25397.webp",
+    "preco": "88.37",
+    "estoque": "1568",
+    "url_produto": "/3631/produto/kit-churrasco-e-bar-5-pcs"
+  },
+  {
+    "codigo": "KT-9073X",
+    "nome": "KIT COM CUTELO, GARFO E ESPÁTULA - 3 PÇS",
+    "imagem": "kit-com-cutelo-garfo-e-espatula-3-pcs_25176.webp",
+    "preco": "81.25",
+    "estoque": "603",
+    "url_produto": "/3617/produto/kit-com-cutelo-garfo-e-espatula-3-pcs"
+  },
+  {
+    "codigo": "KT-9035S",
+    "nome": "KIT PARA PETISCO - 18 PÇS",
+    "imagem": "kit-para-petisco-18-pcs_22805.webp",
+    "preco": "206.33",
+    "estoque": "531",
+    "url_produto": "/2966/produto/kit-para-petisco-18-pcs"
+  },
+  {
+    "codigo": "ME-48646",
+    "nome": "CONJ. PARA CHURRASCO COM AVENTAL - 5 PÇS",
+    "imagem": "conj-para-churrasco-com-avental-5-pcs_25393.webp",
+    "preco": "105.71",
+    "estoque": "1537",
+    "url_produto": "/3645/produto/conj-para-churrasco-com-avental-5-pcs"
+  },
+  {
+    "codigo": "KT-90163",
+    "nome": "CONJUNTO PARA COZINHA COM CEPO EM BAMBU / MADEIRA / INOX - 6 PÇS",
+    "imagem": "conjunto-para-cozinha-com-cepo-em-bambu-inox-6-pcs_22754.webp",
+    "preco": "190.82",
+    "estoque": "22",
+    "url_produto": "/2561/produto/conjunto-para-cozinha-com-cepo-em-bambu-madeira-inox-6-pcs"
+  },
+  {
+    "codigo": "KT-9032C",
+    "nome": "CONJ. TÁBUA DE 1 FURO, GARFO E FACA PARA QUEIJO - 3 PEÇAS",
+    "imagem": "conj-tabua-de-1-furo-garfo-e-faca-para-queijo-3-pecas_20345.webp",
+    "preco": "34.96",
+    "estoque": "42",
+    "url_produto": "/3103/produto/conj-tabua-de-1-furo-garfo-e-faca-para-queijo-3-pecas"
+  },
+  {
+    "codigo": "KT-9013B",
+    "nome": "KIT CADERNO COM ACESSÓRIOS - 3 PÇS",
+    "imagem": "kit-caderno-com-acessorios-3-pcs_21836.webp",
+    "preco": "85.04",
+    "estoque": "845",
+    "url_produto": "/2878/produto/kit-caderno-com-acessorios-3-pcs"
+  },
+  {
+    "codigo": "KT-90333",
+    "nome": "KIT COPO TÉRMICO E ACESSÓRIOS - BRANCO - 3 PÇS",
+    "imagem": "kit-copo-termico-e-acessorios-branco-3-pcs_23793.webp",
+    "preco": "71.16",
+    "estoque": "498",
+    "url_produto": "/3307/produto/kit-copo-termico-e-acessorios-branco-3-pcs"
+  },
+  {
+    "codigo": "IX-41211",
+    "nome": "CONJ. DE CANECAS EM AÇO INOX  400/180 ML - 2 PÇS",
+    "imagem": "conj-de-canecas-em-aco-inox-400-180-ml-2-pcs_21220.webp",
+    "preco": "55.61",
+    "estoque": "2125",
+    "url_produto": "/3077/produto/conj-de-canecas-em-aco-inox-400-180-ml-2-pcs"
+  },
+  {
+    "codigo": "KT-9059G",
+    "nome": "KIT SQUEEZE , CADERNO E CANETA - 3 PÇS",
+    "imagem": "kit-squeeze-caderno-e-caneta-3-pcs_21250.webp",
+    "preco": "61.18",
+    "estoque": "3036",
+    "url_produto": "/3252/produto/kit-squeeze-caderno-e-caneta-3-pcs"
+  },
+  {
+    "codigo": "KT-90054-BCO",
+    "nome": "KIT CHURRASCO, CERVEJA E TRUCO - 10 PÇS - C/ JOGO DE BARALHO",
+    "imagem": "kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho_23804.webp",
+    "preco": "157.54",
+    "estoque": "3075",
+    "url_produto": "/3354/produto/kit-churrasco-cerveja-e-truco-10-pcs-c-jogo-de-baralho"
+  },
+  {
+    "codigo": "KT-90032",
+    "nome": "KIT CHURRASCO / CERVEJA / WHISKY - 5 PÇS",
+    "imagem": "kit-churrasco-cerveja-whisky-5-pcs_22402.webp",
+    "preco": "120.94",
+    "estoque": "964",
+    "url_produto": "/1772/produto/kit-churrasco-cerveja-whisky-5-pcs"
+  },
+  {
+    "codigo": "KT-90448",
+    "nome": "KIT BOAS VINDAS - BRANCO - 3 PÇS",
+    "imagem": "kit-boas-vindas-branco-3-pcs_24399.webp",
+    "preco": "68.65",
+    "estoque": "498",
+    "url_produto": "/3461/produto/kit-boas-vindas-branco-3-pcs"
+  },
+  {
+    "codigo": "KT-90372",
+    "nome": "KIT GARRAFA E NECESSAIRE - AZUL/PRETO - 2 PÇS",
+    "imagem": "kit-garrafa-e-necessaire-azul-preto-2-pcs_26404.webp",
+    "preco": "100.42",
+    "estoque": "1490",
+    "url_produto": "/3826/produto/kit-garrafa-e-necessaire-azul-preto-2-pcs"
+  },
+  {
+    "codigo": "KT-90570",
+    "nome": "KIT PARA CAFÉ - 7 PÇS",
+    "imagem": "kit-para-cafe-7-pcs_26302.webp",
+    "preco": "160.75",
+    "estoque": "671",
+    "url_produto": "/3800/produto/kit-para-cafe-7-pcs"
+  },
+  {
+    "codigo": "CO-21270",
+    "nome": "KIT CANECAS EM CERÂMICA BRANCA - 270ML",
+    "imagem": "kit-canecas-em-ceramica-branca-270ml_21240.webp",
+    "preco": "43.52",
+    "estoque": "2486",
+    "url_produto": "/1951/produto/kit-canecas-em-ceramica-branca-270ml"
+  },
+  {
+    "codigo": "KT-9040U",
+    "nome": "CONJ. GARRAFA E CANECA - 2 PEÇAS",
+    "imagem": "conj-garrafa-e-caneca-2-pecas_20131.webp",
+    "preco": "79.86",
+    "estoque": "4508",
+    "url_produto": "/3017/produto/conj-garrafa-e-caneca-2-pecas"
+  },
+  {
+    "codigo": "KT-90223",
+    "nome": "KIT PARA CHURRASCO COM ESTEIRA GRILL - 5 PÇS",
+    "imagem": "kit-para-churrasco-com-esteira-grill-5-pcs_22766.webp",
+    "preco": "96.59",
+    "estoque": "47",
+    "url_produto": "/2831/produto/kit-para-churrasco-com-esteira-grill-5-pcs"
+  },
+  {
+    "codigo": "KT-9040K",
+    "nome": "KIT CHURRASCO COM CANECA - 5 PÇS",
+    "imagem": "kit-churrasco-com-caneca-5-pcs_22814.webp",
+    "preco": "92.88",
+    "estoque": "1781",
+    "url_produto": "/2972/produto/kit-churrasco-com-caneca-5-pcs"
+  },
+  {
+    "codigo": "KT-90176",
+    "nome": "KIT PARA CAFÉ DA MANHÃ - 6 PÇS",
+    "imagem": "_18457.webp",
+    "preco": "99.31",
+    "estoque": "392",
+    "url_produto": "/2638/produto/kit-para-cafe-da-manha-6-pcs"
+  },
+  {
+    "codigo": "KT-90549",
+    "nome": "KIT ESCRITÓRIO - 4 PÇS",
+    "imagem": "kit-escritorio-4-pcs_25661.webp",
+    "preco": "85.09",
+    "estoque": "0",
+    "url_produto": "/3696/produto/kit-escritorio-4-pcs"
+  },
+  {
+    "codigo": "KT-90444",
+    "nome": "KIT PARA CAFÉ - 5 PÇS",
+    "imagem": "kit-para-cafe-5-pcs_25083.webp",
+    "preco": "86.61",
+    "estoque": "1197",
+    "url_produto": "/3597/produto/kit-para-cafe-5-pcs"
+  },
+  {
+    "codigo": "KT-90248",
+    "nome": "KIT PARA PETISCO - 3 PÇS",
+    "imagem": "kit-para-petisco-3-pcs_22837.webp",
+    "preco": "64.68",
+    "estoque": "2732",
+    "url_produto": "/2955/produto/kit-para-petisco-3-pcs"
+  },
+  {
+    "codigo": "KT-90237",
+    "nome": "KIT BOAS VINDAS - 4 PÇS",
+    "imagem": "kit-boas-vindas-4-pcs_23530.webp",
+    "preco": "69.12",
+    "estoque": "495",
+    "url_produto": "/2882/produto/kit-boas-vindas-4-pcs"
+  },
+  {
+    "codigo": "KT-90572",
+    "nome": "KIT PARA CAFÉ COM PRENSA FRANCESA - 4 PÇS",
+    "imagem": "kit-para-cafe-com-prensa-francesa-4-pcs_26253.webp",
+    "preco": "132.32",
+    "estoque": "210",
+    "url_produto": "/3802/produto/kit-para-cafe-com-prensa-francesa-4-pcs"
+  },
+  {
+    "codigo": "KT-90131",
+    "nome": "KIT PARA PATÊ / GELÉIA - 4 PÇS",
+    "imagem": "kit-para-pate-geleia-4-pcs_26827.webp",
+    "preco": "36.82",
+    "estoque": "430",
+    "url_produto": "/2107/produto/kit-para-pate-geleia-4-pcs"
+  },
+  {
+    "codigo": "KT-90432",
+    "nome": "KIT CHURRASCO, DRINK E TRUCO - 10 PÇS",
+    "imagem": "kit-churrasco-drink-e-truco-10-pcs_25050.webp",
+    "preco": "149.57",
+    "estoque": "337",
+    "url_produto": "/3586/produto/kit-churrasco-drink-e-truco-10-pcs"
+  },
+  {
+    "codigo": "KT-9022S",
+    "nome": "KIT QUEIJO E VINHO SEM ESPAÇO PARA GARRAFA -  9 PÇS ",
+    "imagem": "kit-queijo-e-vinho-sem-espaco-para-garrafa-9-pcs-_23355.webp",
+    "preco": "120.30",
+    "estoque": "1179",
+    "url_produto": "/2849/produto/kit-queijo-e-vinho-sem-espaco-para-garrafa-9-pcs-"
+  },
+  {
+    "codigo": "KT-90013",
+    "nome": "KIT WHISKY E JOGOS - 6 PÇS",
+    "imagem": "kit-whisky-e-jogos-6-pcs_22865.webp",
+    "preco": "70.79",
+    "estoque": "482",
+    "url_produto": "/1702/produto/kit-whisky-e-jogos-6-pcs"
+  },
+  {
+    "codigo": "KT-90567",
+    "nome": "KIT CAFETEIRA, MOEDOR E COPO DUPLA CAMADA - 3 PÇS",
+    "imagem": "kit-cafeteira-moedor-e-copo-dupla-camada-3-pcs_26237.webp",
+    "preco": "177.54",
+    "estoque": "837",
+    "url_produto": "/3797/produto/kit-cafeteira-moedor-e-copo-dupla-camada-3-pcs"
+  },
+  {
+    "codigo": "KT-90510",
+    "nome": "KIT PETISCO E CERVEJA - 5 PÇS",
+    "imagem": "kit-petisco-e-cerveja-5-pcs_25381.webp",
+    "preco": "82.10",
+    "estoque": "42",
+    "url_produto": "/3630/produto/kit-petisco-e-cerveja-5-pcs"
+  },
+  {
+    "codigo": "KT-90446",
+    "nome": "KIT BOAS VINDAS - 3 PÇS",
+    "imagem": "kit-boas-vindas-3-pcs_24422.webp",
+    "preco": "43.08",
+    "estoque": "36",
+    "url_produto": "/3475/produto/kit-boas-vindas-3-pcs"
+  },
+  {
+    "codigo": "KT-90295",
+    "nome": "KIT PARA DRINKS C/ COQUETELEIRA - 6 PÇS",
+    "imagem": "kit-para-drinks-c-coqueteleira-6-pcs_23433.webp",
+    "preco": "108.44",
+    "estoque": "538",
+    "url_produto": "/3215/produto/kit-para-drinks-c-coqueteleira-6-pcs"
+  },
+  {
+    "codigo": "KT-90021",
+    "nome": "KIT PIZZA E CERVEJA - 7 PÇS - 35 CM",
+    "imagem": "kit-pizza-e-cerveja-7-pcs-35-cm_22217.webp",
+    "preco": "153.90",
+    "estoque": "888",
+    "url_produto": "/1694/produto/kit-pizza-e-cerveja-7-pcs-35-cm"
+  },
+  {
+    "codigo": "KT-90542",
+    "nome": "KIT GARRAFA, COPO E CANECA - 3 PÇS",
+    "imagem": "kit-garrafa-copo-e-caneca-3-pcs_25768.webp",
+    "preco": "61.52",
+    "estoque": "358",
+    "url_produto": "/3718/produto/kit-garrafa-copo-e-caneca-3-pcs"
+  },
+  {
+    "codigo": "KT-90016",
+    "nome": "JOGO DE COPOS DE VIDRO - 4 PÇS",
+    "imagem": "jogo-de-copos-de-vidro-4-pcs_21626.webp",
+    "preco": "71.90",
+    "estoque": "755",
+    "url_produto": "/1692/produto/jogo-de-copos-de-vidro-4-pcs"
+  },
+  {
+    "codigo": "KT-90344",
+    "nome": "JOGO DE TAÇAS DE VIDRO P/ CHAMPAGNE 186 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+    "imagem": "jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa_23704.webp",
+    "preco": "64.99",
+    "estoque": "692",
+    "url_produto": "/3327/produto/jogo-de-tacas-de-vidro-p-champagne-186-ml-2-pcs-nao-acompanha-a-garrafa"
+  },
+  {
+    "codigo": "KT-90519",
+    "nome": "KIT SQUEEZE, FONE, CADERNO E CANETA - PRETO - 4 PÇS",
+    "imagem": "kit-squeeze-fone-caderno-e-caneta-preto-4-pcs_25447.webp",
+    "preco": "74.13",
+    "estoque": "935",
+    "url_produto": "/3650/produto/kit-squeeze-fone-caderno-e-caneta-preto-4-pcs"
+  },
+  {
+    "codigo": "KT-90582",
+    "nome": "KIT MOCHILA, COPO, CADERNO E CANETA - 4 PÇS",
+    "imagem": "kit-mochila-copo-caderno-e-caneta-4-pcs_26282.webp",
+    "preco": "294.11",
+    "estoque": "0",
+    "url_produto": "/3810/produto/kit-mochila-copo-caderno-e-caneta-4-pcs"
+  }
 ]
