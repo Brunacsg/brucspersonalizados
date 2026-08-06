@@ -10,7 +10,7 @@ const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
 const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
 const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
 const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
-const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..', 'products_print_area_allcolors_market1_150px');
+const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..');
 const CATALOG_DOWNLOAD_DIR = path.join(__dirname, '..', 'catalogo');
 const COMPLETE_CATALOG_FILE = 'Cata\u0301logo_Brucs_2026.pdf';
 const KITS_CATALOG_FILE = 'Cata\u0301logo_kits .pdf';
@@ -612,6 +612,9 @@ function findLocalImageFile(index, token) {
     const raw = String(token || '').trim();
     if (!raw) return null;
 
+    const directMatch = index.refs.get(raw.toLowerCase());
+    if (directMatch) return directMatch;
+
     const clean = raw.split(/[\\/]/).pop().replace(/[?#].*$/, '');
     const baseName = clean.replace(/\.[^.]+$/, '');
     const candidates = [
@@ -673,11 +676,20 @@ async function getLocalImageIndex() {
                 const lower = file.toLowerCase();
                 exact.set(lower, file);
 
-                const match = String(file).match(/^(\d+)_/);
-                if (!match) continue;
-                const ref = match[1];
-                if (!refs.has(ref)) {
-                    refs.set(ref, file);
+                const codeMatch = String(file).match(/^(.+?)-\d+\.(png|jpe?g|webp)$/i);
+                if (codeMatch) {
+                    const code = codeMatch[1].toLowerCase();
+                    if (!refs.has(code)) {
+                        refs.set(code, file);
+                    }
+                }
+
+                const numericMatch = String(file).match(/^(\d+)_/);
+                if (numericMatch) {
+                    const ref = numericMatch[1];
+                    if (!refs.has(ref)) {
+                        refs.set(ref, file);
+                    }
                 }
             }
 
