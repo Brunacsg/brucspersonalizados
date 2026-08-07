@@ -7,7 +7,7 @@ const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
-const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 2;
 const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
 const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
 const LOCAL_PRODUCTS_IMAGE_DIR = path.join(__dirname, '..');
@@ -122,6 +122,38 @@ function sendSpotCatalogDisabled(res) {
     });
 }
 
+    const ALCOHOL_RELATED_PRODUCT_PATTERN = /\b(?:cerveja|cervejaria|chopp|chope|dose|shot|alcool|alcoolica|whisk(?:y|ies)?|vinho|drink|barrel|garrafa(?:s)?\s+de\s+(?:vinho|cerveja|whisk(?:y|ies)?))\b/;
+
+    function isAlcoholRelatedProduct(product) {
+        const searchableText = [
+            product?.Name,
+            product?.Title,
+            product?.ProductName,
+            product?.nome,
+            product?.Description,
+            product?.ShortDescription,
+            product?.descricao,
+            product?.Type,
+            product?.SubType,
+            product?.ProductTypeName,
+            product?.Category,
+            product?.categoria
+        ].filter(Boolean).join(' ')
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase();
+
+        return ALCOHOL_RELATED_PRODUCT_PATTERN.test(searchableText);
+    }
+
+    function excludeAlcoholRelatedProducts(payload) {
+        if (!Array.isArray(payload?.Products)) return payload;
+        return {
+            ...payload,
+            Products: payload.Products.filter((product) => !isAlcoholRelatedProduct(product))
+        };
+    }
+
 function normalizeLocalCatalogProduct(product) {
     const code = String(product?.codigo || '').trim();
     const price = Number(product?.preco);
@@ -139,7 +171,9 @@ function normalizeLocalCatalogProduct(product) {
     };
 }
 
-const LOCAL_CATALOG_PRODUCTS_NORMALIZED = LOCAL_CATALOG_PRODUCTS.map(normalizeLocalCatalogProduct);
+const LOCAL_CATALOG_PRODUCTS_NORMALIZED = LOCAL_CATALOG_PRODUCTS
+    .filter((product) => !isAlcoholRelatedProduct(product))
+    .map(normalizeLocalCatalogProduct);
 
 function getLocalCatalogImageFiles(code) {
     const requestedCode = String(code || '').trim();
@@ -1011,7 +1045,7 @@ function createApp() {
             const staleEntry = productsApiCache.get(cacheKey);
             const staleCached = staleEntry && staleEntry.value ? staleEntry.value : null;
 
-            const data = await getProductsPayload(lang, q);
+            const data = excludeAlcoholRelatedProducts(await getProductsPayload(lang, q));
             if (isProductsPayloadUsable(data)) {
                 setCacheValue(productsApiCache, cacheKey, data, PRODUCTS_API_TTL_MS);
                 setTimeout(() => {
@@ -1114,7 +1148,9 @@ function createApp() {
                     : Promise.resolve({ CustomizationOptions: [] })
             ]);
 
-            const productsPayload = productsResult.status === 'fulfilled' ? productsResult.value : {};
+            const productsPayload = productsResult.status === 'fulfilled'
+                ? excludeAlcoholRelatedProducts(productsResult.value)
+                : {};
             const stocksPayload = stocksResult.status === 'fulfilled' ? stocksResult.value : {};
             const pricesPayload = pricesResult.status === 'fulfilled' ? pricesResult.value : {};
             const optionalsPayload = optionalsResult.status === 'fulfilled' ? optionalsResult.value : {};
