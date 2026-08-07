@@ -122,7 +122,7 @@ function sendSpotCatalogDisabled(res) {
     });
 }
 
-    const ALCOHOL_RELATED_PRODUCT_PATTERN = /\b(?:cerveja|cervejaria|chopp|chope|dose|shot|alcool|alcoolica|whisk(?:y|ies)?|vinho|drink|barrel|garrafa(?:s)?\s+de\s+(?:vinho|cerveja|whisk(?:y|ies)?))\b/;
+    const ALCOHOL_RELATED_PRODUCT_PATTERN = /\b(?:cerveja|cervejaria|chopp|chope|dose|shot|alcool|alcoolica|whisk(?:y|ies)?|vinho|drink|barrel|kit\s+bar|(?:conj(?:unto)?\.?\s+)?copos?\s+americanos?|garrafa(?:s)?\s+de\s+(?:vinho|cerveja|whisk(?:y|ies)?))\b/;
 
     function isAlcoholRelatedProduct(product) {
         const searchableText = [
