@@ -17,6 +17,7 @@ const quoteCartStatus = document.getElementById('quoteCartStatus');
 const clearQuoteCartButton = document.getElementById('clearQuoteCart');
 const quoteCartSummary = document.getElementById('quoteCartSummary');
 const catalogSelectorButtons = Array.from(document.querySelectorAll('[data-catalog]'));
+const brindesCatalogDownload = document.getElementById('brindesCatalogDownload');
 
 const apiBase = window.SPOT_API_BASE || (window.location.protocol === 'file:' ? 'http://localhost:3001' : window.location.origin);
 const spotImageBase = window.SPOT_IMAGE_BASE || '';
@@ -27,7 +28,7 @@ let apiBaseResolvePromise = null;
 let isLoadingProducts = false;
 let allProducts = [];
 let selectedTypeGroups = new Set();
-let sortMode = 'price-asc';
+let sortMode = 'name';
 let priceRange = 'all';
 let stockByReference = new Map();
 let priceByReference = new Map();
@@ -855,18 +856,6 @@ function resolveImageSrc(product) {
 function applySorting(products) {
     const list = [...products];
 
-    if (sortMode === 'price-asc') {
-        list.sort((a, b) => {
-            const priceA = getProductPrice(a);
-            const priceB = getProductPrice(b);
-
-            if (!Number.isFinite(priceA) && !Number.isFinite(priceB)) return 0;
-            if (!Number.isFinite(priceA)) return 1;
-            if (!Number.isFinite(priceB)) return -1;
-            return priceA - priceB;
-        });
-    }
-
     if (sortMode === 'name') {
         list.sort((a, b) => getProductName(a).localeCompare(getProductName(b), 'pt-BR'));
     }
@@ -1069,7 +1058,7 @@ function renderProducts(products) {
     if (!productsGrid) return;
 
     const safeList = Array.isArray(products) ? products : [];
-    const pageItems = safeList;
+    const { totalPages, pageItems } = getPagedProducts(safeList);
 
     if (!pageItems.length) {
         productsGrid.innerHTML = '<p class="section-description">Nenhum produto encontrado.</p>';
@@ -1149,7 +1138,7 @@ function renderProducts(products) {
         });
     });
 
-    renderPagination(0, 0);
+    renderPagination(safeList.length, totalPages);
     updateCount(pageItems.length, safeList.length);
 
     hydrateVisibleImages();
@@ -1296,6 +1285,9 @@ function setActiveCatalog(catalog) {
         button.classList.toggle('is-active', isActive);
         button.setAttribute('aria-pressed', String(isActive));
     });
+    if (brindesCatalogDownload) {
+        brindesCatalogDownload.hidden = activeCatalog !== 'brindes';
+    }
 }
 
 async function fetchProducts(catalog = activeCatalog) {
@@ -1360,11 +1352,7 @@ async function fetchProducts(catalog = activeCatalog) {
             }
         } else {
             if (productsStatus) productsStatus.textContent = `Falha ao carregar produtos: ${lastError?.message || 'sem resposta'}`;
-            if (productsGrid) {
-                productsGrid.innerHTML = activeCatalog === 'brindes'
-                    ? '<div class="catalog-download-fallback"><p class="section-description">Não foi possível carregar os brindes agora.</p><a class="catalog-download-link" href="/downloads/catalogo-brindes" download>Baixar catálogo de brindes</a></div>'
-                    : '<p class="section-description">Não foi possível carregar os produtos agora.</p>';
-            }
+            if (productsGrid) productsGrid.innerHTML = '<p class="section-description">Não foi possível carregar os produtos agora.</p>';
             if (productsCount) productsCount.textContent = '0 Produtos';
         }
     } finally {
