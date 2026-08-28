@@ -7,7 +7,8 @@ const fetch = global.fetch || require('node-fetch');
 
 const ACCESS_KEY = process.env.ACCESS_KEY;
 const LOCAL_CATALOG_PRODUCTS = require('../data/local-products.json');
-const LOCAL_CATALOG_PRICE_MULTIPLIER = 2;
+const LOCAL_BRINDES_CATALOG = require('../catalogo_unificado_sem_kits.json');
+const LOCAL_CATALOG_PRICE_MULTIPLIER = 2.3;
 const EXCLUDED_LOCAL_CATALOG_CODES = new Set(['VI-00721-900', 'KT-9009K']);
 const SPOT_PRODUCTS_SNAPSHOT_FILE = path.join(__dirname, '..', 'data', 'spot-products-cache.json');
 const SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS = Number(process.env.SPOT_PRODUCTS_SNAPSHOT_MAX_AGE_MS) || 24 * 60 * 60 * 1000;
@@ -127,6 +128,12 @@ function isExcludedLocalCatalogProduct(product) {
     return EXCLUDED_LOCAL_CATALOG_CODES.has(String(product?.codigo || '').trim());
 }
 
+function calculateLocalCatalogPrice(price) {
+    return Number.isFinite(price)
+        ? Math.round((price * LOCAL_CATALOG_PRICE_MULTIPLIER + Number.EPSILON) * 100) / 100
+        : null;
+}
+
 function normalizeLocalCatalogProduct(product) {
     const code = String(product?.codigo || '').trim();
     const price = Number(product?.preco);
@@ -138,7 +145,7 @@ function normalizeLocalCatalogProduct(product) {
         Name: String(product?.nome || '').trim(),
         ProductTypeName: 'Kits',
         MainImage: `/${code}-1.jpg`,
-        Price: Number.isFinite(price) ? price * LOCAL_CATALOG_PRICE_MULTIPLIER : null,
+        Price: calculateLocalCatalogPrice(price),
         Stock: Number.isFinite(stock) ? Math.max(0, Math.floor(stock)) : null
     };
 }
@@ -146,6 +153,26 @@ function normalizeLocalCatalogProduct(product) {
 const LOCAL_CATALOG_PRODUCTS_NORMALIZED = LOCAL_CATALOG_PRODUCTS
     .filter((product) => !isExcludedLocalCatalogProduct(product))
     .map(normalizeLocalCatalogProduct);
+
+function normalizeLocalBrindeProduct(product) {
+    const code = String(product?.codigo || '').trim();
+    const price = Number(product?.preco);
+    const stock = Number(product?.estoque);
+    return {
+        InternalReference: code,
+        ProdReference: code,
+        ProductCode: code,
+        Name: String(product?.nome || '').trim(),
+        ProductTypeName: 'Brindes',
+        MainImage: `/${code}-1.jpg`,
+        Price: calculateLocalCatalogPrice(price),
+        Stock: Number.isFinite(stock) ? Math.max(0, Math.floor(stock)) : null
+    };
+}
+
+const LOCAL_BRINDES_PRODUCTS_NORMALIZED = (LOCAL_BRINDES_CATALOG?.produtos?.produto || [])
+    .map(normalizeLocalBrindeProduct)
+    .filter((product) => product.ProductCode && product.Name);
 
 function getLocalCatalogImageFiles(code) {
     const escapedCode = String(code || '').trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -911,6 +938,11 @@ function createApp() {
     app.get('/api/catalog/products', (req, res) => {
         res.setHeader('Cache-Control', 'public, max-age=300');
         return res.json({ source: 'local', Products: LOCAL_CATALOG_PRODUCTS_NORMALIZED });
+    });
+
+    app.get('/api/catalog/brindes', (req, res) => {
+        res.setHeader('Cache-Control', 'public, max-age=300');
+        return res.json({ source: 'local', Products: LOCAL_BRINDES_PRODUCTS_NORMALIZED });
     });
 
     app.get('/api/catalog/products/:code/images', (req, res) => {
