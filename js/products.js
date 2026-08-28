@@ -3,6 +3,7 @@ const productsStatus = document.getElementById('productsStatus');
 const productsCount = document.getElementById('productsCount');
 const typeFilterOptions = document.getElementById('typeFilterOptions');
 const clearTypeFilter = document.getElementById('clearTypeFilter');
+const typeFilterBar = document.getElementById('typeFilterBar');
 const sortSelect = document.getElementById('sortSelect');
 const priceFilter = document.getElementById('priceFilter');
 const catalogPagination = document.getElementById('catalogPagination');
@@ -245,7 +246,7 @@ function buildTypeGroup(typeName) {
         ['Canecas', ['caneca', 'mug']],
         ['Garrafas', ['garrafa', 'squeeze', 'bottle', 'botella']],
         ['Copos', ['copo', 'tumbler', 'termico', 'taca']],
-        ['Cadernos e Agendas', ['caderno', 'agenda', 'notebook', 'bloco']],
+        ['Cadernos e Agendas', ['caderno', 'caderneta', 'agenda', 'bloco']],
         ['Escritorio', ['caneta', 'lapis', 'marca texto', 'esferografica', 'office', 'escritorio']],
         ['Tecnologia', ['usb', 'powerbank', 'carregador', 'fone', 'mouse', 'teclado', 'hub', 'speaker']],
         ['Bolsas e Mochilas', ['mochila', 'backpack', 'saco mochila', 'bolsa', 'sacola']],
@@ -259,6 +260,10 @@ function buildTypeGroup(typeName) {
     }
 
     return 'Outros';
+}
+
+function getProductFilterGroup(product) {
+    return buildTypeGroup(getProductName(product));
 }
 
 function getProductDescription(product) {
@@ -792,6 +797,8 @@ function extractPriceMapFromList(list) {
 }
 
 async function loadCatalogSupplementalData() {
+    return;
+
     if (catalogSupplementalLoadingPromise) {
         return catalogSupplementalLoadingPromise;
     }
@@ -873,7 +880,7 @@ function applySorting(products) {
 
 function getFilteredProducts() {
     const byType = selectedTypeGroups.size
-        ? allProducts.filter(product => selectedTypeGroups.has(buildTypeGroup(getProductType(product))))
+        ? allProducts.filter(product => selectedTypeGroups.has(getProductFilterGroup(product)))
         : allProducts;
 
     const term = searchTerm.trim().toLowerCase();
@@ -912,10 +919,18 @@ function updateCount(shown, totalFiltered) {
 function renderTypeFilters() {
     if (!typeFilterOptions) return;
 
+    if (typeFilterBar) {
+        typeFilterBar.hidden = activeCatalog !== 'brindes';
+    }
+
+    if (activeCatalog !== 'brindes') {
+        typeFilterOptions.innerHTML = '';
+        return;
+    }
+
     const grouped = new Map();
     for (const product of allProducts) {
-        const rawType = getProductType(product);
-        const group = buildTypeGroup(rawType);
+        const group = getProductFilterGroup(product);
         grouped.set(group, (grouped.get(group) || 0) + 1);
     }
 
@@ -1275,6 +1290,7 @@ function initQuoteCart() {
 
 function setActiveCatalog(catalog) {
     activeCatalog = catalog === 'brindes' ? 'brindes' : 'kits';
+    selectedTypeGroups = new Set();
     searchTerm = '';
     priceRange = 'all';
     currentPage = 1;
@@ -1319,8 +1335,8 @@ async function fetchProducts(catalog = activeCatalog) {
 
     try {
         let products = [];
-        const endpoint = activeCatalog === 'kits' ? '/api/catalog/products' : '/api/spot/products?lang=PT';
-        const data = await fetchApiJson(endpoint, activeCatalog === 'kits' ? 15000 : 30000);
+        const endpoint = activeCatalog === 'kits' ? '/api/catalog/products' : '/api/catalog/brindes';
+        const data = await fetchApiJson(endpoint, 15000);
         products = extractProducts(data);
         if (!products.length) {
             if (hasCachedProducts) {

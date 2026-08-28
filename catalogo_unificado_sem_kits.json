@@ -1,0 +1,2526 @@
+{
+    "produtos": {
+        "produto": [
+            {
+                "codigo": "CN-00320",
+                "nome": "CANIVETE EM AÇO INOX COM 11 FUNÇÕES",
+                "imagem": "canivete-em-aco-inox-com-11-funcoes_21986.webp",
+                "preco": "15.18",
+                "estoque": "2604",
+                "url_produto": "/273/produto/canivete-em-aco-inox-com-11-funcoes"
+            },
+            {
+                "codigo": "CH-00708-900",
+                "nome": "CHAVEIRO EM METAL - CINZA/PRETO",
+                "imagem": "chaveiro-em-metal-retangular_25754.webp",
+                "preco": "7.65",
+                "estoque": "2438",
+                "url_produto": "/3715/produto/chaveiro-em-metal-cinza-preto"
+            },
+            {
+                "codigo": "CH-00281",
+                "nome": "CHAVEIRO EM METAL E MATERIAL SINTÉTICO PRETO REDONDO",
+                "imagem": "chaveiro-em-metal-e-material-sintetico-preto-redondo_18501.webp",
+                "preco": "12.04",
+                "estoque": "3233",
+                "url_produto": "/425/produto/chaveiro-em-metal-e-material-sintetico-preto-redondo"
+            },
+            {
+                "codigo": "CH-00718-900",
+                "nome": "CHAVEIRO EM METAL/PU - PRETO",
+                "imagem": "chaveiro-em-metal-cinza_25709.webp",
+                "preco": "9.03",
+                "estoque": "1731",
+                "url_produto": "/3706/produto/chaveiro-em-metal-pu-preto"
+            },
+            {
+                "codigo": "CN-00656",
+                "nome": "CANIVETE 3&quot; COM CABO EM MADEIRA E BAINHA EM COURO",
+                "imagem": "canivete-3_21179.webp",
+                "preco": "56.88",
+                "estoque": "1910",
+                "url_produto": "/3245/produto/canivete-3-com-cabo-em-madeira-e-bainha-em-couro"
+            },
+            {
+                "codigo": "CC-87A49",
+                "nome": "CANETA E CHAVEIRO - 2 PÇS",
+                "imagem": "caneta-e-chaveiro-2-pcs_24260.webp",
+                "preco": "18.01",
+                "estoque": "727",
+                "url_produto": "/3442/produto/caneta-e-chaveiro-2-pcs"
+            },
+            {
+                "codigo": "CC-73591",
+                "nome": "CANETA E CHAVEIRO - PRETO",
+                "imagem": "caneta-e-chaveiro-preto_21707.webp",
+                "preco": "21.35",
+                "estoque": "1759",
+                "url_produto": "/3111/produto/caneta-e-chaveiro-preto"
+            },
+            {
+                "codigo": "MR-00130",
+                "nome": "MARMITA EM FIBRA DE TRIGO/BAMBU C/ TALHERES - 19X11,5X6,8 CM",
+                "imagem": "marmita-em-fibra-de-trigo-bambu-c-talheres-19x115x68-cm_25997.webp",
+                "preco": "27.94",
+                "estoque": "173",
+                "url_produto": "/3755/produto/marmita-em-fibra-de-trigo-bambu-c-talheres-19x115x68-cm"
+            },
+            {
+                "codigo": "CC-73061",
+                "nome": "CANETA E CHAVEIRO - PRETO",
+                "imagem": "caneta-e-chaveiro-preto_20359.webp",
+                "preco": "18.83",
+                "estoque": "647",
+                "url_produto": "/3098/produto/caneta-e-chaveiro-preto"
+            },
+            {
+                "codigo": "CC-31591",
+                "nome": "CANETA E CHAVEIRO EM METAL / MATERIAL SINTÉTICO",
+                "imagem": "caneta-e-chaveiro-em-metal-material-sintetico_20368.webp",
+                "preco": "37.03",
+                "estoque": "1167",
+                "url_produto": "/2590/produto/caneta-e-chaveiro-em-metal-material-sintetico"
+            },
+            {
+                "codigo": "CH-00651-900",
+                "nome": "CHAVEIRO EM METAL/PU - PRATA/PRETO",
+                "imagem": "chaveiro-em-metal-prata_25670.webp",
+                "preco": "8.83",
+                "estoque": "2891",
+                "url_produto": "/3698/produto/chaveiro-em-metal-pu-prata-preto"
+            },
+            {
+                "codigo": "CH-00590-900",
+                "nome": "CHAVEIRO EM METAL C/ MOSQUETÃO",
+                "imagem": "chaveiro-em-metal-com-mosquetao_18078.webp",
+                "preco": "8.29",
+                "estoque": "1759",
+                "url_produto": "/2598/produto/chaveiro-em-metal-c-mosquetao"
+            },
+            {
+                "codigo": "LE-31901",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - PRETO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-preto_26185.webp",
+                "preco": "18.76",
+                "estoque": "1991",
+                "url_produto": "/3784/produto/caderneta-p-anotacoes-com-caneta-preto"
+            },
+            {
+                "codigo": "CN-01656",
+                "nome": "CANIVETE 3&quot; COM CABO DE MADEIRA",
+                "imagem": "canivete-3_21999.webp",
+                "preco": "36.54",
+                "estoque": "1910",
+                "url_produto": "/3244/produto/canivete-3-com-cabo-de-madeira"
+            },
+            {
+                "codigo": "PE-00102",
+                "nome": "PRENDEDOR DE EMBALAGEM EM POLIESTIRENO - FUMÊ",
+                "imagem": "prendedor-de-embalagem-em-poliestireno-fume_26825.webp",
+                "preco": "4.10",
+                "estoque": "3101",
+                "url_produto": "/1174/produto/prendedor-de-embalagem-em-poliestireno-fume"
+            },
+            {
+                "codigo": "GC-00713",
+                "nome": "GUARDA-CHUVA AUTOMÁTICO AZUL MARINHO - 106 CM",
+                "imagem": "guarda-chuva-automatico-azul-marinho-106-cm_19881.webp",
+                "preco": "39.19",
+                "estoque": "551",
+                "url_produto": "/1617/produto/guarda-chuva-automatico-azul-marinho-106-cm"
+            },
+            {
+                "codigo": "CH-00728-900",
+                "nome": "CHAVEIRO EM METAL/PU - CINZA/PRETO",
+                "imagem": "chaveiro-em-metal-e-partes-em-pu_25724.webp",
+                "preco": "11.97",
+                "estoque": "1681",
+                "url_produto": "/3709/produto/chaveiro-em-metal-pu-cinza-preto"
+            },
+            {
+                "codigo": "CC-72281",
+                "nome": "CANETA E CHAVEIRO EM METAL",
+                "imagem": "caneta-e-chaveiro-em-metal_20357.webp",
+                "preco": "23.76",
+                "estoque": "3233",
+                "url_produto": "/2947/produto/caneta-e-chaveiro-em-metal"
+            },
+            {
+                "codigo": "CH-00060-900",
+                "nome": "CHAVEIRO DE METAL PRATA RETANGULAR",
+                "imagem": "chaveiro-de-metal-prata-retangular_26809.webp",
+                "preco": "6.23",
+                "estoque": "647",
+                "url_produto": "/990/produto/chaveiro-de-metal-prata-retangular"
+            },
+            {
+                "codigo": "CH-00718",
+                "nome": "CHAVEIRO EM METAL/PU - PRETO",
+                "imagem": "chaveiro-em-metal-cinza_25719.webp",
+                "preco": "11.30",
+                "estoque": "1731",
+                "url_produto": "/3708/produto/chaveiro-em-metal-pu-preto"
+            },
+            {
+                "codigo": "CC-87708",
+                "nome": "CANETA CHAVEIRO EM METAL RETANGULAR",
+                "imagem": "caneta-chaveiro-em-metal-retangular_25744.webp",
+                "preco": "24.33",
+                "estoque": "0",
+                "url_produto": "/3713/produto/caneta-chaveiro-em-metal-retangular"
+            },
+            {
+                "codigo": "CN-02130",
+                "nome": "CANIVETE 3&quot; COM CABO EMBORRACHADO E BAINHA EM NYLON",
+                "imagem": "canivete-3_22000.webp",
+                "preco": "23.61",
+                "estoque": "2543",
+                "url_produto": "/2300/produto/canivete-3-com-cabo-emborrachado-e-bainha-em-nylon"
+            },
+            {
+                "codigo": "FE-00870",
+                "nome": "CONJ. DE FERRAMENTAS FENDA / PHILIPS / ALLEN - 7 PÇS",
+                "imagem": "conj-de-ferramentas-fenda-philips-allen-7-pcs_26791.webp",
+                "preco": "9.91",
+                "estoque": "2611",
+                "url_produto": "/290/produto/conj-de-ferramentas-fenda-philips-allen-7-pcs"
+            },
+            {
+                "codigo": "CN-00130",
+                "nome": "CANIVETE 3&quot; COM CABO EMBORRACHADO E BAINHA EM COURO",
+                "imagem": "canivete-3_12075.webp",
+                "preco": "41.75",
+                "estoque": "2543",
+                "url_produto": "/276/produto/canivete-3-com-cabo-emborrachado-e-bainha-em-couro"
+            },
+            {
+                "codigo": "GC-00621",
+                "nome": "GUARDA-CHUVA AUTOMÁTICO NYLON - PRETO - 98CM",
+                "imagem": "guarda-chuva-automatico-nylon-preto-98cm_24120.webp",
+                "preco": "43.23",
+                "estoque": "858",
+                "url_produto": "/3420/produto/guarda-chuva-automatico-nylon-preto-98cm"
+            },
+            {
+                "codigo": "CH-00321-900",
+                "nome": "CHAVEIRO EM METAL E MATERIAL SINTÉTICO PRETO COM DETALHE",
+                "imagem": "chaveiro-em-metal-e-material-sintetico-preto-com-detalhe_25316.webp",
+                "preco": "9.32",
+                "estoque": "3429",
+                "url_produto": "/997/produto/chaveiro-em-metal-e-material-sintetico-preto-com-detalhe"
+            },
+            {
+                "codigo": "CH-00738-900",
+                "nome": "CHAVEIRO MOSQUETÃO CINZA EM METAL/PU",
+                "imagem": "chaveiro-cinza-em-metal-e-pu-preto_25700.webp",
+                "preco": "16.33",
+                "estoque": "449",
+                "url_produto": "/3704/produto/chaveiro-mosquetao-cinza-em-metal-pu"
+            },
+            {
+                "codigo": "CH-00610",
+                "nome": "CHAVEIRO GIRATÓRIO EM METAL",
+                "imagem": "chaveiro-giratorio-em-metal_20563.webp",
+                "preco": "10.19",
+                "estoque": "3038",
+                "url_produto": "/3143/produto/chaveiro-giratorio-em-metal"
+            },
+            {
+                "codigo": "MA-05011",
+                "nome": "FRASQUEIRA EM ABS RÍGIDO - 12L",
+                "imagem": "frasqueira-em-abs-rigido-12l_21479.webp",
+                "preco": "115.94",
+                "estoque": "67",
+                "url_produto": "/3128/produto/frasqueira-em-abs-rigido-12l"
+            },
+            {
+                "codigo": "GC-00751",
+                "nome": "GUARDA CHUVA QUADRADO PRETO - 92 CM",
+                "imagem": "guarda-chuva-quadrado-preto-100cm_23772.webp",
+                "preco": "34.99",
+                "estoque": "1223",
+                "url_produto": "/3342/produto/guarda-chuva-quadrado-preto-92-cm"
+            },
+            {
+                "codigo": "CH-00708",
+                "nome": "CHAVEIRO EM METAL - CINZA/PRETO",
+                "imagem": "chaveiro-em-metal-retangular_25749.webp",
+                "preco": "9.42",
+                "estoque": "2438",
+                "url_produto": "/3714/produto/chaveiro-em-metal-cinza-preto"
+            },
+            {
+                "codigo": "CN-01603",
+                "nome": "CANIVETE 3&quot; CABO COM DETALHES EM MADEIRA",
+                "imagem": "canivete-3_26627.webp",
+                "preco": "31.19",
+                "estoque": "1050",
+                "url_produto": "/1534/produto/canivete-3-cabo-com-detalhes-em-madeira"
+            },
+            {
+                "codigo": "GC-00701",
+                "nome": "GUARDA-CHUVA AUTOMÁTICO PRETO - 106 CM",
+                "imagem": "guarda-chuva-automatico-preto-106-cm_26783.webp",
+                "preco": "39.27",
+                "estoque": "2231",
+                "url_produto": "/89/produto/guarda-chuva-automatico-preto-106-cm"
+            },
+            {
+                "codigo": "CH-00281-900",
+                "nome": "CHAVEIRO EM METAL E MATERIAL SINTÉTICO PRETO",
+                "imagem": "chaveiro-em-metal-e-material-sintetico-preto_3714.webp",
+                "preco": "9.47",
+                "estoque": "3233",
+                "url_produto": "/993/produto/chaveiro-em-metal-e-material-sintetico-preto"
+            },
+            {
+                "codigo": "FE-00730",
+                "nome": "CONJUNTO DE FERRAMENTAS 4 PÇS COM CHAVES CABO AMARELO",
+                "imagem": "conjunto-de-ferramentas-4-pcs_9686.webp",
+                "preco": "41.15",
+                "estoque": "4",
+                "url_produto": "/571/produto/conjunto-de-ferramentas-4-pcs-com-chaves-cabo-amarelo"
+            },
+            {
+                "codigo": "MR-00150",
+                "nome": "MARMITA DUPLA EM FIBRA DE TRIGO/BAMBU C/ TALHERES - 18,5x10,5x9,2 cm",
+                "imagem": "marmita-dupla-em-fibra-de-trigo-bambu_24686.webp",
+                "preco": "34.15",
+                "estoque": "365",
+                "url_produto": "/3509/produto/marmita-dupla-em-fibra-de-trigo-bambu-c-talheres-185x105x92-cm"
+            },
+            {
+                "codigo": "CN-01130",
+                "nome": "CANIVETE 3&quot; COM CABO EMBORRACHADO",
+                "imagem": "canivete-3_26623.webp",
+                "preco": "19.71",
+                "estoque": "2543",
+                "url_produto": "/790/produto/canivete-3-com-cabo-emborrachado"
+            },
+            {
+                "codigo": "CH-00321",
+                "nome": "CHAVEIRO EM METAL CROMADO E MATERIAL SINTÉTICO PRETO",
+                "imagem": "chaveiro-em-metal-cromado-e-material-sintetico-preto_18502.webp",
+                "preco": "11.97",
+                "estoque": "3429",
+                "url_produto": "/427/produto/chaveiro-em-metal-cromado-e-material-sintetico-preto"
+            },
+            {
+                "codigo": "CC-70738",
+                "nome": "CANETA ROLLER E CHAVEIRO CINZA EM METAL E PU PRETO",
+                "imagem": "caneta-roller-e-chaveiro-cinza-em-metal-e-pu-preto_25690.webp",
+                "preco": "47.20",
+                "estoque": "449",
+                "url_produto": "/3702/produto/caneta-roller-e-chaveiro-cinza-em-metal-e-pu-preto"
+            },
+            {
+                "codigo": "CN-00603",
+                "nome": "CANIVETE 3&quot; CABO COM DETALHES EM MADEIRA E BAINHA EM COURO",
+                "imagem": "canivete-3_26497.webp",
+                "preco": "52.77",
+                "estoque": "1050",
+                "url_produto": "/1521/produto/canivete-3-cabo-com-detalhes-em-madeira-e-bainha-em-couro"
+            },
+            {
+                "codigo": "PR-03203",
+                "nome": "PORTA-RETRATOS COM CABIDEIROS TRIPLO EM BAMBU GENEBRA",
+                "imagem": "porta-retratos-com-cabideiros-triplo-em-bambu-genebra_21813.webp",
+                "preco": "109.92",
+                "estoque": "53",
+                "url_produto": "/345/produto/porta-retratos-com-cabideiros-triplo-em-bambu-genebra"
+            },
+            {
+                "codigo": "GC-00402",
+                "nome": "GUARDA-CHUVA INVERTIDO - CINZA - 108 CM",
+                "imagem": "guarda-chuva-invertido-cinza-108-cm_26600.webp",
+                "preco": "45.10",
+                "estoque": "0",
+                "url_produto": "/1610/produto/guarda-chuva-invertido-cinza-108-cm"
+            },
+            {
+                "codigo": "CH-00651",
+                "nome": "CHAVEIRO EM METAL/PU - PRATA/PRETO",
+                "imagem": "chaveiro-em-metal-prata_25680.webp",
+                "preco": "10.86",
+                "estoque": "2891",
+                "url_produto": "/3700/produto/chaveiro-em-metal-pu-prata-preto"
+            },
+            {
+                "codigo": "IN-00544",
+                "nome": "PORTA CELULAR / SMARTPHONE À PROVA DÁGUA - VERMELHO",
+                "imagem": "porta-celular-smartphone-a-prova-dagua-vermelho_26513.webp",
+                "preco": "11.46",
+                "estoque": "192",
+                "url_produto": "/1160/produto/porta-celular-smartphone-a-prova-dagua-vermelho"
+            },
+            {
+                "codigo": "EM-00101",
+                "nome": "ESPELHO COM ACABAMENTO AVELUDADO PRETO - 10,8x7x1,8 CM",
+                "imagem": "espelho-com-acabamento-preto_24351.webp",
+                "preco": "14.95",
+                "estoque": "8",
+                "url_produto": "/3460/produto/espelho-com-acabamento-aveludado-preto-108x7x18-cm"
+            },
+            {
+                "codigo": "LE-31900",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BRANCO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-branco_26181.webp",
+                "preco": "18.76",
+                "estoque": "328",
+                "url_produto": "/3783/produto/caderneta-p-anotacoes-com-caneta-branco"
+            },
+            {
+                "codigo": "CH-00590",
+                "nome": "CHAVEIRO EM METAL COM MOSQUETÃO",
+                "imagem": "chaveiro-em-metal-com-mosquetao_24757.webp",
+                "preco": "11.08",
+                "estoque": "1759",
+                "url_produto": "/2591/produto/chaveiro-em-metal-com-mosquetao"
+            },
+            {
+                "codigo": "CC-73504",
+                "nome": "CANETA E CHAVEIRO EM ABS / METAL - VERMELHO",
+                "imagem": "caneta-e-chaveiro-em-abs-metal-vermelho_17214.webp",
+                "preco": "19.64",
+                "estoque": "103",
+                "url_produto": "/2043/produto/caneta-e-chaveiro-em-abs-metal-vermelho"
+            },
+            {
+                "codigo": "GC-00414",
+                "nome": "GUARDA-CHUVA INVERTIDO - VERMELHO - 108 CM",
+                "imagem": "guarda-chuva-invertido-vermelho-108-cm_26612.webp",
+                "preco": "45.09",
+                "estoque": "0",
+                "url_produto": "/1802/produto/guarda-chuva-invertido-vermelho-108-cm"
+            },
+            {
+                "codigo": "CH-00610-900",
+                "nome": "CHAVEIRO GIRATÓRIO EM METAL",
+                "imagem": "chaveiro-giratorio-em-metal_20567.webp",
+                "preco": "8.29",
+                "estoque": "3038",
+                "url_produto": "/3144/produto/chaveiro-giratorio-em-metal"
+            },
+            {
+                "codigo": "CH-00600-900",
+                "nome": "CHAVEIRO EM METAL",
+                "imagem": "chaveiro-em-metal_20560.webp",
+                "preco": "6.23",
+                "estoque": "2271",
+                "url_produto": "/3142/produto/chaveiro-em-metal"
+            },
+            {
+                "codigo": "CC-70728",
+                "nome": "CANETA ROLLER E CHAVEIRO EM METAL/PU",
+                "imagem": "caneta-roller-e-chaveiro-em-metal-pu_25729.webp",
+                "preco": "42.49",
+                "estoque": "1681",
+                "url_produto": "/3710/produto/caneta-roller-e-chaveiro-em-metal-pu"
+            },
+            {
+                "codigo": "CC-31281",
+                "nome": "CANETA E CHAVEIRO EM METAL E MATERIAL SINTÉTICO PRETO",
+                "imagem": "caneta-e-chaveiro-em-metal-e-material-sintetico-preto_20371.webp",
+                "preco": "38.15",
+                "estoque": "1167",
+                "url_produto": "/2382/produto/caneta-e-chaveiro-em-metal-e-material-sintetico-preto"
+            },
+            {
+                "codigo": "CH-00738",
+                "nome": "CHAVEIRO MOSQUETÃO EM METAL/PU - CINZA/PRETO",
+                "imagem": "chaveiro-cinza-em-metal-e-pu-preto_25695.webp",
+                "preco": "18.12",
+                "estoque": "449",
+                "url_produto": "/3703/produto/chaveiro-mosquetao-em-metal-pu-cinza-preto"
+            },
+            {
+                "codigo": "PR-10150",
+                "nome": "PORTA-RETRATO EM ALUMÍNIO",
+                "imagem": "porta-retrato-em-aluminio_26620.webp",
+                "preco": "20.79",
+                "estoque": "3382",
+                "url_produto": "/66/produto/porta-retrato-em-aluminio"
+            },
+            {
+                "codigo": "CH-00728",
+                "nome": "CHAVEIRO EM METAL/PU - CINZA/PRETO",
+                "imagem": "chaveiro-em-metal-e-partes-em-pu_25734.webp",
+                "preco": "14.00",
+                "estoque": "1681",
+                "url_produto": "/3711/produto/chaveiro-em-metal-pu-cinza-preto"
+            },
+            {
+                "codigo": "CC-87718",
+                "nome": "CANETA E CHAVEIRO EM METAL CINZA",
+                "imagem": "caneta-e-chaveiro-em-metal-cinza_25714.webp",
+                "preco": "26.18",
+                "estoque": "0",
+                "url_produto": "/3707/produto/caneta-e-chaveiro-em-metal-cinza"
+            },
+            {
+                "codigo": "CH-00600",
+                "nome": "CHAVEIRO EM METAL",
+                "imagem": "chaveiro-em-metal_20556.webp",
+                "preco": "8.15",
+                "estoque": "2271",
+                "url_produto": "/3141/produto/chaveiro-em-metal"
+            },
+            {
+                "codigo": "FE-00951",
+                "nome": "CONJUNTO DE FERRAMENTAS MULTI - CHAVES - 16 PÇS",
+                "imagem": "conjunto-de-ferramentas-multi-chaves-16-pcs_24125.webp",
+                "preco": "51.92",
+                "estoque": "1174",
+                "url_produto": "/3422/produto/conjunto-de-ferramentas-multi-chaves-16-pcs"
+            },
+            {
+                "codigo": "CH-00060",
+                "nome": "CHAVEIRO EM METAL CROMADO FOSCO",
+                "imagem": "chaveiro-em-metal-cromado-fosco_18497.webp",
+                "preco": "8.88",
+                "estoque": "647",
+                "url_produto": "/417/produto/chaveiro-em-metal-cromado-fosco"
+            },
+            {
+                "codigo": "PR-10620",
+                "nome": "PORTA RETRATO EM MDF",
+                "imagem": "porta-retrato-em-mdf_25227.webp",
+                "preco": "18.33",
+                "estoque": "2109",
+                "url_produto": "/3570/produto/porta-retrato-em-mdf"
+            },
+            {
+                "codigo": "GC-00801",
+                "nome": "GUARDA-CHUVA AUTOMÁTICO GRANDE PRETO - 130 CM",
+                "imagem": "guarda-chuva-automatico-grande-preto-130-cm_26502.webp",
+                "preco": "76.73",
+                "estoque": "24",
+                "url_produto": "/90/produto/guarda-chuva-automatico-grande-preto-130-cm"
+            },
+            {
+                "codigo": "CC-73441",
+                "nome": "CANETA E CHAVEIRO EM ABS / ALUMÍNIO",
+                "imagem": "caneta-e-chaveiro-em-abs-aluminio_20362.webp",
+                "preco": "13.98",
+                "estoque": "1640",
+                "url_produto": "/1871/produto/caneta-e-chaveiro-em-abs-aluminio"
+            },
+            {
+                "codigo": "VI-00192",
+                "nome": "CONJ. COPOS AMERICANOS MULTIUSO - 190 ML - 2 PÇS",
+                "imagem": "dois-copos-americanos-multiuso-190-ml-2-pcs_25043.webp",
+                "preco": "26.47",
+                "estoque": "742",
+                "url_produto": "/3585/produto/conj-copos-americanos-multiuso-190-ml-2-pcs"
+            },
+            {
+                "codigo": "IC-00500",
+                "nome": "CANECA EM AÇO INOX / POLIESTIRENO - 400 ML",
+                "imagem": "caneca-em-aco-inox-poliestireno-400-ml_21692.webp",
+                "preco": "19.15",
+                "estoque": "3580",
+                "url_produto": "/870/produto/caneca-em-aco-inox-poliestireno-400-ml"
+            },
+            {
+                "codigo": "VI-40351",
+                "nome": "COPO DE VIDRO P/ CAIPIRINHA / DRINK - 350ML",
+                "imagem": "copo-de-vidro-p-caipirinha-drink-350ml_19923.webp",
+                "preco": "15.42",
+                "estoque": "2192",
+                "url_produto": "/2962/produto/copo-de-vidro-p-caipirinha-drink-350ml"
+            },
+            {
+                "codigo": "IC-03400",
+                "nome": "COPO TÉRMICO EM AÇO INOX - BRANCO - 450 ML",
+                "imagem": "copo-termico-branco-450-ml_25172.webp",
+                "preco": "41.22",
+                "estoque": "0",
+                "url_produto": "/3552/produto/copo-termico-em-aco-inox-branco-450-ml"
+            },
+            {
+                "codigo": "VI-00222",
+                "nome": "JOGO DE COPOS VIDRO P / CERVEJA / DRINK 200 ML - 2 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-200-ml-2-pcs_21229.webp",
+                "preco": "36.42",
+                "estoque": "5665",
+                "url_produto": "/1731/produto/jogo-de-copos-vidro-p-cerveja-drink-200-ml-2-pcs"
+            },
+            {
+                "codigo": "IC-03511",
+                "nome": "COPO DUPLA CAMADA EM ALUMÍNIO RECICLADO  - PRETO - 500 ML",
+                "imagem": "copo-dupla-camada-preto-500-ml_26046.webp",
+                "preco": "43.81",
+                "estoque": "2133",
+                "url_produto": "/3764/produto/copo-dupla-camada-em-aluminio-reciclado-preto-500-ml"
+            },
+            {
+                "codigo": "CO-41231",
+                "nome": "CANECA EM CERÂMICA PRETA - 230ML - COM CAIXA",
+                "imagem": "caneca-em-ceramica-preta-230ml-com-caixa_19644.webp",
+                "preco": "18.71",
+                "estoque": "2087",
+                "url_produto": "/2884/produto/caneca-em-ceramica-preta-230ml-com-caixa"
+            },
+            {
+                "codigo": "VI-18362",
+                "nome": "CONJ. CANECAS PARA CERVEJA E ESPAÇO PARA GARRAFA - 2 PÇS",
+                "imagem": "conj-canecas-para-cerveja-e-espaco-para-garrafa-2-pcs_25127.webp",
+                "preco": "73.92",
+                "estoque": "970",
+                "url_produto": "/3612/produto/conj-canecas-para-cerveja-e-espaco-para-garrafa-2-pcs"
+            },
+            {
+                "codigo": "VI-00196",
+                "nome": "CONJ. COPOS AMERICANOS MULTIUSO - 190 ML - 6 PÇS",
+                "imagem": "conj-copos-americanos-multiuso-190-ml-6-pcs_25115.webp",
+                "preco": "36.29",
+                "estoque": "247",
+                "url_produto": "/3607/produto/conj-copos-americanos-multiuso-190-ml-6-pcs"
+            },
+            {
+                "codigo": "VI-00226",
+                "nome": "JOGO DE COPOS VIDRO P / CERVEJA / DRINK 200 ML - 6 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-200-ml-6-pcs_22666.webp",
+                "preco": "80.11",
+                "estoque": "1888",
+                "url_produto": "/2055/produto/jogo-de-copos-vidro-p-cerveja-drink-200-ml-6-pcs"
+            },
+            {
+                "codigo": "IG-00311",
+                "nome": "CAFETEIRA ITALIANA EM ALUMÍNIO - PRETA - 250ML",
+                "imagem": "_19602.webp",
+                "preco": "76.49",
+                "estoque": "1196",
+                "url_produto": "/2865/produto/cafeteira-italiana-em-aluminio-preta-250ml"
+            },
+            {
+                "codigo": "CO-01351",
+                "nome": "CANECA EM CERÂMICA PRETA - 350ML",
+                "imagem": "caneca-em-ceramica-preta-350ml_21579.webp",
+                "preco": "33.31",
+                "estoque": "2458",
+                "url_produto": "/2891/produto/caneca-em-ceramica-preta-350ml"
+            },
+            {
+                "codigo": "CO-03084",
+                "nome": "CONJ. DE XÍCARAS EXPRESS C/ PIRES - 4 PÇS",
+                "imagem": "conj-de-xicaras-express-c-pires-4-pcs_24878.webp",
+                "preco": "98.60",
+                "estoque": "322",
+                "url_produto": "/3534/produto/conj-de-xicaras-express-c-pires-4-pcs"
+            },
+            {
+                "codigo": "IS-01951",
+                "nome": "GARRAFA PAREDE DUPLA NA COR PRETA - 950 ML",
+                "imagem": "garrafa-parede-dupla-na-cor-preta-950-ml_25296.webp",
+                "preco": "53.91",
+                "estoque": "1512",
+                "url_produto": "/3561/produto/garrafa-parede-dupla-na-cor-preta-950-ml"
+            },
+            {
+                "codigo": "IS-00761",
+                "nome": "GARRAFA COM TAMPA EM AÇO INOX - PRETA - 750ML",
+                "imagem": "garrafa-com-tampa-em-aco-inox-preta-700ml_17566.webp",
+                "preco": "31.57",
+                "estoque": "9070",
+                "url_produto": "/2023/produto/garrafa-com-tampa-em-aco-inox-preta-750ml"
+            },
+            {
+                "codigo": "AS-01900",
+                "nome": "GARRAFA EM ALUMÍNIO BRANCA - 1 LITRO",
+                "imagem": "garrafa-em-aluminio-branca-1-litro_24129.webp",
+                "preco": "33.13",
+                "estoque": "614",
+                "url_produto": "/3423/produto/garrafa-em-aluminio-branca-1-litro"
+            },
+            {
+                "codigo": "IG-00461",
+                "nome": "CAFETEIRA PRENSA FRANCESA EM VIDRO / PP - 600ML",
+                "imagem": "cafeteira-prensa-francesa-600-ml_26071.webp",
+                "preco": "50.51",
+                "estoque": "599",
+                "url_produto": "/3768/produto/cafeteira-prensa-francesa-em-vidro-pp-600ml"
+            },
+            {
+                "codigo": "IC-00350",
+                "nome": "COPO EM AÇO INOX ESCOVADO - 350 ML",
+                "imagem": "copo-em-aco-inox-escovado-350-ml_26526.webp",
+                "preco": "19.53",
+                "estoque": "1697",
+                "url_produto": "/539/produto/copo-em-aco-inox-escovado-350-ml"
+            },
+            {
+                "codigo": "IC-A1350",
+                "nome": "CANECA EM FIBRA DE BAMBU COM CAIXA - 350 ML",
+                "imagem": "caneca-em-fibra-de-bambu-com-caixa-350-ml_23723.webp",
+                "preco": "8.75",
+                "estoque": "9903",
+                "url_produto": "/3319/produto/caneca-em-fibra-de-bambu-com-caixa-350-ml"
+            },
+            {
+                "codigo": "VI-88511-900",
+                "nome": "COPO AMERICANO PARA DRINK - 315 ML",
+                "imagem": "copo-americano-para-drink-315-ml_25039.webp",
+                "preco": "11.10",
+                "estoque": "639",
+                "url_produto": "/3584/produto/copo-americano-para-drink-315-ml"
+            },
+            {
+                "codigo": "VI-00322",
+                "nome": "JOGO DE COPOS VIDRO P / CERVEJA / DRINK 400 ML - 2 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-400-ml-2-pcs_21232.webp",
+                "preco": "48.17",
+                "estoque": "2786",
+                "url_produto": "/1655/produto/jogo-de-copos-vidro-p-cerveja-drink-400-ml-2-pcs"
+            },
+            {
+                "codigo": "AS-01511",
+                "nome": "SQUEEZE EM ALUMÍNIO PRETO - 500ML",
+                "imagem": "squeeze-em-aluminio-preto-500ml_19880.webp",
+                "preco": "18.59",
+                "estoque": "5759",
+                "url_produto": "/2858/produto/squeeze-em-aluminio-preto-500ml"
+            },
+            {
+                "codigo": "CO-41350",
+                "nome": "CANECA EM CERÂMICA BRANCA - 350ML",
+                "imagem": "_19662.webp",
+                "preco": "21.67",
+                "estoque": "2425",
+                "url_produto": "/2889/produto/caneca-em-ceramica-branca-350ml"
+            },
+            {
+                "codigo": "CO-01350",
+                "nome": "CANECA EM CERÂMICA BRANCA - 350ML",
+                "imagem": "caneca-em-ceramica-branca-350ml_21700.webp",
+                "preco": "33.31",
+                "estoque": "2425",
+                "url_produto": "/2888/produto/caneca-em-ceramica-branca-350ml"
+            },
+            {
+                "codigo": "AS-01901",
+                "nome": "GARRAFA EM ALUMÍNIO PRETA - 1 LITRO",
+                "imagem": "garrafa-de-aluminio-preta-1-litro_20616.webp",
+                "preco": "33.29",
+                "estoque": "2236",
+                "url_produto": "/3157/produto/garrafa-em-aluminio-preta-1-litro"
+            },
+            {
+                "codigo": "IS-00762",
+                "nome": "GARRAFA COM TAMPA EM AÇO INOX - PRATA - 750ML",
+                "imagem": "garrafa-com-tampa-em-aco-inox-prata-750ml_23924.webp",
+                "preco": "31.57",
+                "estoque": "2934",
+                "url_produto": "/3381/produto/garrafa-com-tampa-em-aco-inox-prata-750ml"
+            },
+            {
+                "codigo": "IS-01560",
+                "nome": "GARRAFA CAMADA DUPLA EM ALUMÍNIO RECICLADO - BRANCA - 450ML",
+                "imagem": "garrafa-camada-dupla-branco-450-ml_26079.webp",
+                "preco": "40.92",
+                "estoque": "2289",
+                "url_produto": "/3769/produto/garrafa-camada-dupla-em-aluminio-reciclado-branca-450ml"
+            },
+            {
+                "codigo": "IS-01501",
+                "nome": "GARRAFA EM INOX PAREDE DUPLA - PRETA - 500 ML",
+                "imagem": "garrafa-em-inox-parede-dupla-na-cor-preta-500-ml_23750.webp",
+                "preco": "42.16",
+                "estoque": "18",
+                "url_produto": "/3338/produto/garrafa-em-inox-parede-dupla-preta-500-ml"
+            },
+            {
+                "codigo": "IS-01500",
+                "nome": "GARRAFA EM INOX PAREDE DUPLA - BRANCA - 500 ML",
+                "imagem": "garrafa-em-inox-parede-dupla-na-cor-branca-500-ml_23729.webp",
+                "preco": "42.16",
+                "estoque": "934",
+                "url_produto": "/3337/produto/garrafa-em-inox-parede-dupla-branca-500-ml"
+            },
+            {
+                "codigo": "VI-00822",
+                "nome": "JOGO DE CANECAS PARA CAFÉ - 2 PÇS - 240ML",
+                "imagem": "jogo-de-canecas-para-cafe-2-pcs-240ml_25332.webp",
+                "preco": "56.50",
+                "estoque": "857",
+                "url_produto": "/2665/produto/jogo-de-canecas-para-cafe-2-pcs-240ml"
+            },
+            {
+                "codigo": "VI-00042",
+                "nome": "CONJ. COPOS AMERICANOS PARA DOSE - 2 PÇS",
+                "imagem": "dois-copos-americanos-dose-2-pcs_24936.webp",
+                "preco": "21.31",
+                "estoque": "447",
+                "url_produto": "/3548/produto/conj-copos-americanos-para-dose-2-pcs"
+            },
+            {
+                "codigo": "VI-00361",
+                "nome": "CANECA AMERICANA P/ CERVEJA/CHOPP - 340 ML",
+                "imagem": "caneca-americana-p-cerveja-340-ml_24913.webp",
+                "preco": "20.60",
+                "estoque": "3350",
+                "url_produto": "/3541/produto/caneca-americana-p-cerveja-chopp-340-ml"
+            },
+            {
+                "codigo": "VI-00812",
+                "nome": "JOGO DE CANECAS PARA CAFÉ - 2 PÇS - 130ML",
+                "imagem": "jogo-de-canecas-para-cafe-2-pcs-130ml_25333.webp",
+                "preco": "52.84",
+                "estoque": "301",
+                "url_produto": "/2664/produto/jogo-de-canecas-para-cafe-2-pcs-130ml"
+            },
+            {
+                "codigo": "VI-18322",
+                "nome": "JOGO DE COPOS DE VIDRO P/ CERVEJA 400 ML - 2 PÇS - COM ESPAÇO PARA A GARRAFA",
+                "imagem": "jogo-de-copos-de-vidro-p-cerveja-400-ml-2-pcs-com-espaco-para-a-garrafa_19954.webp",
+                "preco": "63.78",
+                "estoque": "970",
+                "url_produto": "/2963/produto/jogo-de-copos-de-vidro-p-cerveja-400-ml-2-pcs-com-espaco-para-a-garrafa"
+            },
+            {
+                "codigo": "IC-01350",
+                "nome": "CANECA EM FIBRA DE BAMBU - 350 ml",
+                "imagem": "_17922.webp",
+                "preco": "7.51",
+                "estoque": "9903",
+                "url_produto": "/2549/produto/caneca-em-fibra-de-bambu-350-ml"
+            },
+            {
+                "codigo": "IS-01543",
+                "nome": "GARRAFA PAREDE DUPLA COM DETALHES EM BAMBU - AZUL - 500 ML",
+                "imagem": "garrafa-parede-dupla-com-detalhes-em-bambu-azul-500-ml_26356.webp",
+                "preco": "47.76",
+                "estoque": "1490",
+                "url_produto": "/3819/produto/garrafa-parede-dupla-com-detalhes-em-bambu-azul-500-ml"
+            },
+            {
+                "codigo": "IS-01522",
+                "nome": "GARRAFA EM INOX PAREDE DUPLA - CINZA - 470 ML",
+                "imagem": "garrafa-em-inox-parede-dupla-na-cor-cinza-470-ml_23724.webp",
+                "preco": "50.37",
+                "estoque": "2070",
+                "url_produto": "/3341/produto/garrafa-em-inox-parede-dupla-cinza-470-ml"
+            },
+            {
+                "codigo": "IS-01545",
+                "nome": "GARRAFA PAREDE DUPLA COM DETALHES EM BAMBU - VERDE - 500 ML",
+                "imagem": "garrafa-parede-dupla-com-detalhes-em-bambu-verde-500-ml_26361.webp",
+                "preco": "47.76",
+                "estoque": "1454",
+                "url_produto": "/3820/produto/garrafa-parede-dupla-com-detalhes-em-bambu-verde-500-ml"
+            },
+            {
+                "codigo": "VI-00046",
+                "nome": "CONJ. COPOS AMERICANOS PARA DOSE - 6 PÇS",
+                "imagem": "conj-copos-americanos-para-dose-6-pcs_25109.webp",
+                "preco": "41.40",
+                "estoque": "149",
+                "url_produto": "/3605/produto/conj-copos-americanos-para-dose-6-pcs"
+            },
+            {
+                "codigo": "IC-01450",
+                "nome": "COPO EM FIBRA DE BAMBU COM TAMPA - 450ml",
+                "imagem": "_17918.webp",
+                "preco": "10.07",
+                "estoque": "13745",
+                "url_produto": "/2548/produto/copo-em-fibra-de-bambu-com-tampa-450ml"
+            },
+            {
+                "codigo": "IS-01540",
+                "nome": "GARRAFA PAREDE DUPLA COM DETALHES EM BAMBU - BRANCA - 500 ML",
+                "imagem": "garrafa-parede-dupla-com-detalhes-em-bambu-branca-500-ml_26351.webp",
+                "preco": "47.76",
+                "estoque": "1828",
+                "url_produto": "/3817/produto/garrafa-parede-dupla-com-detalhes-em-bambu-branca-500-ml"
+            },
+            {
+                "codigo": "VI-00514",
+                "nome": "CONJ. COPOS AMERICANOS PARA DRINK - 315 ML - 4 PÇS",
+                "imagem": "conj-copos-americanos-para-drink-315-ml-4-pcs_25291.webp",
+                "preco": "63.21",
+                "estoque": "160",
+                "url_produto": "/3619/produto/conj-copos-americanos-para-drink-315-ml-4-pcs"
+            },
+            {
+                "codigo": "VI-00504",
+                "nome": "JOGO DE COPOS VIDRO P/ DRINK 330 ML - 4 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-drink-330-ml-4-pcs_21233.webp",
+                "preco": "60.72",
+                "estoque": "181",
+                "url_produto": "/788/produto/jogo-de-copos-vidro-p-drink-330-ml-4-pcs"
+            },
+            {
+                "codigo": "VI-18512",
+                "nome": "CONJ. COPOS PARA DRINKS E ESPAÇO PARA GARRAFA - NÃO ACOMPANHA A GARRAFA - 2 PÇS",
+                "imagem": "copos-para-drinks-e-espaco-para-garrafa-3-pcs_24926.webp",
+                "preco": "58.77",
+                "estoque": "320",
+                "url_produto": "/3545/produto/conj-copos-para-drinks-e-espaco-para-garrafa-nao-acompanha-a-garrafa-2-pcs"
+            },
+            {
+                "codigo": "IS-01541",
+                "nome": "GARRAFA PAREDE DUPLA COM DETALHES EM BAMBU - PRETA - 500 ML",
+                "imagem": "garrafa-parede-dupla-com-detalhes-em-bambu-preta-500-ml_24116.webp",
+                "preco": "47.76",
+                "estoque": "4549",
+                "url_produto": "/3419/produto/garrafa-parede-dupla-com-detalhes-em-bambu-preta-500-ml"
+            },
+            {
+                "codigo": "VI-18612-BCO",
+                "nome": "JOGO DE TAÇAS DE VIDRO P /  VINHO 490 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+                "imagem": "jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs-nao-acompanha-a-garrafa_24651.webp",
+                "preco": "66.05",
+                "estoque": "2645",
+                "url_produto": "/3496/produto/jogo-de-tacas-de-vidro-p-vinho-490-ml-2-pcs-nao-acompanha-a-garrafa"
+            },
+            {
+                "codigo": "VI-40511",
+                "nome": "COPO AMERICANO PARA DRINKS - 315 ML",
+                "imagem": "copo-americano-drinks-315-ml_24923.webp",
+                "preco": "14.73",
+                "estoque": "639",
+                "url_produto": "/3544/produto/copo-americano-para-drinks-315-ml"
+            },
+            {
+                "codigo": "VI-18522",
+                "nome": "JOGO DE COPOS DE VIDRO P/ WHISKY 330 ML COM PORTA COPO",
+                "imagem": "jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo_24020.webp",
+                "preco": "64.13",
+                "estoque": "362",
+                "url_produto": "/2083/produto/jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo"
+            },
+            {
+                "codigo": "VI-40221",
+                "nome": "COPO DE VIDRO PARA CERVEJA / DRINK - 200ML - COM CAIXA",
+                "imagem": "copo-de-vidro-para-cerveja-drink-200ml-com-caixa_26804.webp",
+                "preco": "11.19",
+                "estoque": "9897",
+                "url_produto": "/1535/produto/copo-de-vidro-para-cerveja-drink-200ml-com-caixa"
+            },
+            {
+                "codigo": "AS-01510",
+                "nome": "SQUEEZE EM ALUMÍNIO BRANCO - 500 ML",
+                "imagem": "squeeze-em-aluminio-branco-500ml_23741.webp",
+                "preco": "19.03",
+                "estoque": "2354",
+                "url_produto": "/3335/produto/squeeze-em-aluminio-branco-500-ml"
+            },
+            {
+                "codigo": "IG-00401",
+                "nome": "CAFETEIRA PRENSA FRANCESA EM VIDRO - 350ML",
+                "imagem": "cafeteira-prensa-francesa-em-vidro-350ml_21664.webp",
+                "preco": "71.94",
+                "estoque": "826",
+                "url_produto": "/3140/produto/cafeteira-prensa-francesa-em-vidro-350ml"
+            },
+            {
+                "codigo": "CO-42271",
+                "nome": "CANECA AMERICANO - 270 ML",
+                "imagem": "caneca-americano-270-ml_24904.webp",
+                "preco": "14.54",
+                "estoque": "609",
+                "url_produto": "/3538/produto/caneca-americano-270-ml"
+            },
+            {
+                "codigo": "VI-40301",
+                "nome": "COPO DE VIDRO PARA CERVEJA / DRINKS 300 ML",
+                "imagem": "copo-de-vidro-para-cerveja-drinks-300-ml_26801.webp",
+                "preco": "13.24",
+                "estoque": "6607",
+                "url_produto": "/254/produto/copo-de-vidro-para-cerveja-drinks-300-ml"
+            },
+            {
+                "codigo": "VI-00352",
+                "nome": "JOGO DE COPOS DE VIDRO P/ CAIPIRINHA / DRINK - 350 ML - 2 PÇS",
+                "imagem": "jogo-de-copos-de-vidro-p-caipirinha-drink-350-ml-2-pcs_21214.webp",
+                "preco": "47.39",
+                "estoque": "1096",
+                "url_produto": "/2960/produto/jogo-de-copos-de-vidro-p-caipirinha-drink-350-ml-2-pcs"
+            },
+            {
+                "codigo": "IG-00320",
+                "nome": "CAFETEIRA ITALIANA EM AÇO INOX - 350 ML",
+                "imagem": "cafeteira-italiana-350-ml_26054.webp",
+                "preco": "73.81",
+                "estoque": "514",
+                "url_produto": "/3765/produto/cafeteira-italiana-em-aco-inox-350-ml"
+            },
+            {
+                "codigo": "IG-00431",
+                "nome": "CAFETEIRA PRENSA FRANCESA EM VIDRO / PP - 350ML",
+                "imagem": "cafeteira-prensa-francesa-350-ml_26063.webp",
+                "preco": "35.69",
+                "estoque": "2966",
+                "url_produto": "/3767/produto/cafeteira-prensa-francesa-em-vidro-pp-350ml"
+            },
+            {
+                "codigo": "VI-01102",
+                "nome": "CONJ. DE COPOS COM PAREDE DUPLA - 100ML - 2 PÇS",
+                "imagem": "conj-de-copos-com-parede-dupla-2-pcs_25131.webp",
+                "preco": "48.96",
+                "estoque": "3",
+                "url_produto": "/3613/produto/conj-de-copos-com-parede-dupla-100ml-2-pcs"
+            },
+            {
+                "codigo": "VI-01500",
+                "nome": "MORINGA DE VIDRO COM COPO - 500ML / 290ML",
+                "imagem": "moringa-de-vidro-com-copo-500ml-290ml_21249.webp",
+                "preco": "40.59",
+                "estoque": "742",
+                "url_produto": "/1860/produto/moringa-de-vidro-com-copo-500ml-290ml"
+            },
+            {
+                "codigo": "CO-01270",
+                "nome": "CANECA EM CERÂMICA BRANCA 270 ML EM CAIXA COM ELÁSTICO",
+                "imagem": "caneca-em-ceramica-branca-270-ml-em-caixa-com-elastico_21670.webp",
+                "preco": "26.30",
+                "estoque": "2574",
+                "url_produto": "/1652/produto/caneca-em-ceramica-branca-270-ml-em-caixa-com-elastico"
+            },
+            {
+                "codigo": "IS-01521",
+                "nome": "GARRAFA EM INOX PAREDE DUPLA - PRETO - 470 ML",
+                "imagem": "garrafa-em-inox-parede-dupla-na-cor-preto-470-ml_23733.webp",
+                "preco": "50.37",
+                "estoque": "2121",
+                "url_produto": "/3340/produto/garrafa-em-inox-parede-dupla-preto-470-ml"
+            },
+            {
+                "codigo": "VI-00224",
+                "nome": "JOGO DE COPOS VIDRO P / CERVEJA / DRINK 200 ML - 4 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-200-ml-4-pcs_26780.webp",
+                "preco": "52.44",
+                "estoque": "2464",
+                "url_produto": "/983/produto/jogo-de-copos-vidro-p-cerveja-drink-200-ml-4-pcs"
+            },
+            {
+                "codigo": "CO-03086",
+                "nome": "CONJ. DE XÍCARAS EXPRESS C/ PIRES - 6 PÇS",
+                "imagem": "conj-de-xicaras-express-c-pires-6-pcs_24881.webp",
+                "preco": "138.54",
+                "estoque": "215",
+                "url_produto": "/3535/produto/conj-de-xicaras-express-c-pires-6-pcs"
+            },
+            {
+                "codigo": "CO-42300",
+                "nome": "CANECA EM VIDRO - 300ML",
+                "imagem": "caneca-em-vidro-300ml_21590.webp",
+                "preco": "13.66",
+                "estoque": "2348",
+                "url_produto": "/2305/produto/caneca-em-vidro-300ml"
+            },
+            {
+                "codigo": "VI-00302",
+                "nome": "JOGO DE COPOS VIDRO P/CERVEJA / DRINK 300 ML - 2 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-300-ml-2-pcs_21230.webp",
+                "preco": "43.89",
+                "estoque": "3106",
+                "url_produto": "/251/produto/jogo-de-copos-vidro-p-cerveja-drink-300-ml-2-pcs"
+            },
+            {
+                "codigo": "CO-42271-900",
+                "nome": "CANECA AMERICANO - 270 ML",
+                "imagem": "caneca-americano-270-ml_24884.webp",
+                "preco": "11.96",
+                "estoque": "609",
+                "url_produto": "/3536/produto/caneca-americano-270-ml"
+            },
+            {
+                "codigo": "VI-18342-BCO",
+                "nome": "JOGO DE CANECAS DE VIDRO P/ CERVEJA 340 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+                "imagem": "jogo-de-canecas-de-vidro-p-cerveja-340-ml-2-pcs-nao-acompanha-a-garrafa_24643.webp",
+                "preco": "73.55",
+                "estoque": "1174",
+                "url_produto": "/3494/produto/jogo-de-canecas-de-vidro-p-cerveja-340-ml-2-pcs-nao-acompanha-a-garrafa"
+            },
+            {
+                "codigo": "VI-18622",
+                "nome": "JOGO DE TAÇAS PARA GIN - 2 PÇS - 600ML",
+                "imagem": "jogo-de-tacas-para-gin-2-pcs-600ml_22901.webp",
+                "preco": "75.32",
+                "estoque": "543",
+                "url_produto": "/2658/produto/jogo-de-tacas-para-gin-2-pcs-600ml"
+            },
+            {
+                "codigo": "CO-41270",
+                "nome": "CANECA EM CERÂMICA BRANCA 270 ML COM CAIXA",
+                "imagem": "caneca-em-ceramica-branca-270-ml-com-caixa_19650.webp",
+                "preco": "15.64",
+                "estoque": "4210",
+                "url_produto": "/2211/produto/caneca-em-ceramica-branca-270-ml-com-caixa"
+            },
+            {
+                "codigo": "CO-41230",
+                "nome": "CANECA EM CERÂMICA BRANCA - 230 ML",
+                "imagem": "caneca-em-ceramica-branca-230-ml_19638.webp",
+                "preco": "18.71",
+                "estoque": "3090",
+                "url_produto": "/2212/produto/caneca-em-ceramica-branca-230-ml"
+            },
+            {
+                "codigo": "IG-03301",
+                "nome": "CUIA TÉRMICA EM AÇO INOX - PRETO - 300ML",
+                "imagem": "cuia-termica-em-aco-inox-preto-300ml_20809.webp",
+                "preco": "49.04",
+                "estoque": "1215",
+                "url_produto": "/3192/produto/cuia-termica-em-aco-inox-preto-300ml"
+            },
+            {
+                "codigo": "VI-18522-BCO",
+                "nome": "JOGO DE COPOS DE VIDRO P/ WHISKY 330 ML COM PORTA COPO - 4 PÇS - NÃO ACOMPANHA A GARRAFA",
+                "imagem": "jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo-4-pcs-nao-acompanha-a-garrafa_24647.webp",
+                "preco": "64.13",
+                "estoque": "362",
+                "url_produto": "/3495/produto/jogo-de-copos-de-vidro-p-whisky-330-ml-com-porta-copo-4-pcs-nao-acompanha-a-garrafa"
+            },
+            {
+                "codigo": "VI-00044",
+                "nome": "CONJ. COPOS AMERICANOS PARA DOSE - 4 PÇS",
+                "imagem": "conj-copos-americanos-para-dose-4-pcs_25106.webp",
+                "preco": "37.66",
+                "estoque": "224",
+                "url_produto": "/3604/produto/conj-copos-americanos-para-dose-4-pcs"
+            },
+            {
+                "codigo": "VI-40501",
+                "nome": "COPO DE VIDRO PARA WHISKY / DRINKS - 330 ML",
+                "imagem": "copo-de-vidro-para-whisky-drinks-330-ml_23255.webp",
+                "preco": "24.16",
+                "estoque": "723",
+                "url_produto": "/2054/produto/copo-de-vidro-para-whisky-drinks-330-ml"
+            },
+            {
+                "codigo": "VI-01252",
+                "nome": "CONJ. DE COPOS COM PAREDE DUPLA - 250ML - 2 PÇS",
+                "imagem": "conj-de-copos-com-parede-dupla-2-pcs_25135.webp",
+                "preco": "61.50",
+                "estoque": "449",
+                "url_produto": "/3614/produto/conj-de-copos-com-parede-dupla-250ml-2-pcs"
+            },
+            {
+                "codigo": "IS-01551",
+                "nome": "GARRAFA DUPLA CAMADA NA COR PRETA - 550 ML",
+                "imagem": "garrafa-dupla-camada-na-cor-preta-550-ml_25294.JPG",
+                "preco": "43.23",
+                "estoque": "1660",
+                "url_produto": "/3564/produto/garrafa-dupla-camada-na-cor-preta-550-ml"
+            },
+            {
+                "codigo": "VI-01352",
+                "nome": "CONJ. DE COPOS COM PAREDE DUPLA - 250/100ML - 2 PÇS",
+                "imagem": "conj-de-copos-com-parede-dupla-2-pcs_25139.webp",
+                "preco": "55.23",
+                "estoque": "5",
+                "url_produto": "/3615/produto/conj-de-copos-com-parede-dupla-250-100ml-2-pcs"
+            },
+            {
+                "codigo": "IC-03342",
+                "nome": "COPO TÉRMICO C/ TAMPA - CINZA - 340 ML",
+                "imagem": "copo-termico-c-tampa-cinza-340-ml_23916.webp",
+                "preco": "38.27",
+                "estoque": "3531",
+                "url_produto": "/3380/produto/copo-termico-c-tampa-cinza-340-ml"
+            },
+            {
+                "codigo": "VI-01100",
+                "nome": "COPO EM VIDRO PAREDE DUPLA - 100 ML",
+                "imagem": "copo-em-vidro-parede-dupla-100-ml_25025.webp",
+                "preco": "13.66",
+                "estoque": "5",
+                "url_produto": "/3555/produto/copo-em-vidro-parede-dupla-100-ml"
+            },
+            {
+                "codigo": "VI-00312",
+                "nome": "JOGO DE COPOS VIDRO P/ CERVEJA / CHOPP - 350 ML - 2 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-chopp-350-ml-2-pcs_21231.webp",
+                "preco": "40.11",
+                "estoque": "780",
+                "url_produto": "/1868/produto/jogo-de-copos-vidro-p-cerveja-chopp-350-ml-2-pcs"
+            },
+            {
+                "codigo": "VI-88041-900",
+                "nome": "COPO AMERICANO PARA DOSE - 45 ML",
+                "imagem": "copo-americano-dose-45-ml_24933.webp",
+                "preco": "3.87",
+                "estoque": "894",
+                "url_produto": "/3547/produto/copo-americano-para-dose-45-ml"
+            },
+            {
+                "codigo": "CO-03082",
+                "nome": "CONJ. DE XÍCARAS EXPRESS C/ PIRES - 2 PÇS",
+                "imagem": "conj-de-xicaras-express-c-pires-2-pcs_24875.webp",
+                "preco": "55.61",
+                "estoque": "644",
+                "url_produto": "/3533/produto/conj-de-xicaras-express-c-pires-2-pcs"
+            },
+            {
+                "codigo": "AS-00610",
+                "nome": "GARRAFA EM ALUMÍNIO BRANCO - 600 ML",
+                "imagem": "garrafa-em-aluminio-branco-600-ml_24288.webp",
+                "preco": "19.58",
+                "estoque": "1788",
+                "url_produto": "/3458/produto/garrafa-em-aluminio-branco-600-ml"
+            },
+            {
+                "codigo": "AS-00611",
+                "nome": "GARRAFA EM ALUMÍNIO PRETO - 600 ML",
+                "imagem": "garrafa-em-aluminio-preto-600-ml_24346.webp",
+                "preco": "19.58",
+                "estoque": "0",
+                "url_produto": "/3459/produto/garrafa-em-aluminio-preto-600-ml"
+            },
+            {
+                "codigo": "CO-01271",
+                "nome": "CANECA EM CERÂMICA PRETA - 270ML",
+                "imagem": "caneca-em-ceramica-preta-270ml_23262.webp",
+                "preco": "26.30",
+                "estoque": "2574",
+                "url_produto": "/1646/produto/caneca-em-ceramica-preta-270ml"
+            },
+            {
+                "codigo": "IC-03340",
+                "nome": "COPO TÉRMICO C/ TAMPA - BRANCO - 340 ML",
+                "imagem": "copo-termico-c-tampa-branco-340-ml_23911.webp",
+                "preco": "38.27",
+                "estoque": "3416",
+                "url_produto": "/3379/produto/copo-termico-c-tampa-branco-340-ml"
+            },
+            {
+                "codigo": "IS-01561",
+                "nome": "GARRAFA CAMADA DUPLA EM ALUMÍNIO RECICLADO - PRETA - 450ML",
+                "imagem": "garrafa-camada-dupla-preta-450-ml_26086.webp",
+                "preco": "40.82",
+                "estoque": "2432",
+                "url_produto": "/3770/produto/garrafa-camada-dupla-em-aluminio-reciclado-preta-450ml"
+            },
+            {
+                "codigo": "IX-01611",
+                "nome": "CONJ. DE GARRAFA E CANECA EM AÇO INOX  600/180 ML - 2 PÇS",
+                "imagem": "conj-de-garrafa-e-caneca-em-aco-inox-600-180-ml-2-pcs_21218.webp",
+                "preco": "59.35",
+                "estoque": "991",
+                "url_produto": "/3076/produto/conj-de-garrafa-e-caneca-em-aco-inox-600-180-ml-2-pcs"
+            },
+            {
+                "codigo": "VI-00191-900",
+                "nome": "COPO AMERICANO MULTIUSO - 190 ML",
+                "imagem": "copo-americano-multiuso-190-ml_24907.webp",
+                "preco": "3.09",
+                "estoque": "1484",
+                "url_produto": "/3540/produto/copo-americano-multiuso-190-ml"
+            },
+            {
+                "codigo": "VI-00304",
+                "nome": "JOGO DE COPOS VIDRO P / CERVEJA / DRINK 300 ML - 4 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-drink-300-ml-4-pcs_21606.webp",
+                "preco": "63.80",
+                "estoque": "97",
+                "url_produto": "/250/produto/jogo-de-copos-vidro-p-cerveja-drink-300-ml-4-pcs"
+            },
+            {
+                "codigo": "IC-00330",
+                "nome": "CANECA EM AÇO INOX/POLIESTIRENO - 300 ML",
+                "imagem": "caneca-em-aco-inox-poliestireno-300-ml_26514.webp",
+                "preco": "16.00",
+                "estoque": "3094",
+                "url_produto": "/1060/produto/caneca-em-aco-inox-poliestireno-300-ml"
+            },
+            {
+                "codigo": "VI-18342",
+                "nome": "JOGO DE CANECAS DE VIDRO P/ CERVEJA 340 ML - 2 PÇS - NÃO ACOMPANHA A GARRAFA",
+                "imagem": "jogo-de-canecas-de-vidro-p-cerveja-340-ml-2-pcs_24609.webp",
+                "preco": "73.55",
+                "estoque": "1174",
+                "url_produto": "/1673/produto/jogo-de-canecas-de-vidro-p-cerveja-340-ml-2-pcs-nao-acompanha-a-garrafa"
+            },
+            {
+                "codigo": "VI-18612",
+                "nome": "JOGO DE TAÇAS DE VIDRO PARA  VINHO 490 ML - 2 PÇS",
+                "imagem": "jogo-de-tacas-de-vidro-para-vinho-490-ml-2-pcs_24891.webp",
+                "preco": "66.05",
+                "estoque": "2645",
+                "url_produto": "/1357/produto/jogo-de-tacas-de-vidro-para-vinho-490-ml-2-pcs"
+            },
+            {
+                "codigo": "CO-41351",
+                "nome": "CANECA EM CERÂMICA PRETA - 350ML",
+                "imagem": "_19668.webp",
+                "preco": "21.67",
+                "estoque": "2458",
+                "url_produto": "/2892/produto/caneca-em-ceramica-preta-350ml"
+            },
+            {
+                "codigo": "VI-18341",
+                "nome": "CANECA DE VIDRO P/  CHOPP / CERVEJA - 340 ML - 1 PÇ - COM ESPAÇO PARA A GARRAFA",
+                "imagem": "caneca-de-vidro-p-chopp-cerveja-340-ml-1-pc-com-espaco-para-a-garrafa_20230.webp",
+                "preco": "53.81",
+                "estoque": "970",
+                "url_produto": "/3051/produto/caneca-de-vidro-p-chopp-cerveja-340-ml-1-pc-com-espaco-para-a-garrafa"
+            },
+            {
+                "codigo": "VI-00361-900",
+                "nome": "CANECA AMERICANA P/ CERVEJA/CHOPP - 340 ML",
+                "imagem": "caneca-americana-p-cerveja-chopp-340-ml_25118.webp",
+                "preco": "19.00",
+                "estoque": "3350",
+                "url_produto": "/3608/produto/caneca-americana-p-cerveja-chopp-340-ml"
+            },
+            {
+                "codigo": "CO-03081-900",
+                "nome": "XICARA EXPRESS C/ PIRES AMERICANO - 90 ML",
+                "imagem": "xicara-expres-c-pires-americano-90-ml_24872.webp",
+                "preco": "18.00",
+                "estoque": "1287",
+                "url_produto": "/3532/produto/xicara-express-c-pires-americano-90-ml"
+            },
+            {
+                "codigo": "IX-41211",
+                "nome": "CONJ. DE CANECAS EM AÇO INOX  400/180 ML - 2 PÇS",
+                "imagem": "conj-de-canecas-em-aco-inox-400-180-ml-2-pcs_21220.webp",
+                "preco": "55.61",
+                "estoque": "1637",
+                "url_produto": "/3077/produto/conj-de-canecas-em-aco-inox-400-180-ml-2-pcs"
+            },
+            {
+                "codigo": "VI-00194",
+                "nome": "CONJ. COPOS AMERICANOS MULTIUSO - 190 ML - 4 PÇS",
+                "imagem": "conj-copos-americanos-multiuso-190-ml-4-pcs_25112.webp",
+                "preco": "30.86",
+                "estoque": "371",
+                "url_produto": "/3606/produto/conj-copos-americanos-multiuso-190-ml-4-pcs"
+            },
+            {
+                "codigo": "IS-01546",
+                "nome": "GARRAFA PAREDE DUPLA COM DETALHES EM BAMBU - AMARELA - 500 ML",
+                "imagem": "garrafa-parede-dupla-com-detalhes-em-bambu-amarela-500-ml_26374.webp",
+                "preco": "47.76",
+                "estoque": "1490",
+                "url_produto": "/3821/produto/garrafa-parede-dupla-com-detalhes-em-bambu-amarela-500-ml"
+            },
+            {
+                "codigo": "IS-01550",
+                "nome": "GARRAFA DUPLA CAMADA NA COR BRANCA - 550 ML",
+                "imagem": "garrafa-dupla-camada-na-cor-branca-550-ml_25295.JPG",
+                "preco": "43.21",
+                "estoque": "1035",
+                "url_produto": "/3567/produto/garrafa-dupla-camada-na-cor-branca-550-ml"
+            },
+            {
+                "codigo": "VI-00314",
+                "nome": "JOGO DE COPOS VIDRO P/ CERVEJA / CHOPP - 350 ML - 4 PÇS",
+                "imagem": "jogo-de-copos-vidro-p-cerveja-chopp-350-ml-4-pcs_22914.webp",
+                "preco": "65.53",
+                "estoque": "970",
+                "url_produto": "/1866/produto/jogo-de-copos-vidro-p-cerveja-chopp-350-ml-4-pcs"
+            },
+            {
+                "codigo": "VI-00340",
+                "nome": "CANECA DE VIDRO PARA  CHOPP / CERVEJA - 340 ML",
+                "imagem": "caneca-de-vidro-para-chopp-cerveja-340-ml_19906.webp",
+                "preco": "19.44",
+                "estoque": "2348",
+                "url_produto": "/1657/produto/caneca-de-vidro-para-chopp-cerveja-340-ml"
+            },
+            {
+                "codigo": "IC-03341",
+                "nome": "COPO TÉRMICO C/ TAMPA - PRETO - 340 ML",
+                "imagem": "copo-termico-c-tampa-preto-340-ml_21580.webp",
+                "preco": "38.27",
+                "estoque": "3758",
+                "url_produto": "/3189/produto/copo-termico-c-tampa-preto-340-ml"
+            },
+            {
+                "codigo": "VI-01250",
+                "nome": "COPO EM VIDRO PAREDE DUPLA - 250 ML",
+                "imagem": "copo-em-vidro-parede-dupla-250-ml_24956.webp",
+                "preco": "20.15",
+                "estoque": "897",
+                "url_produto": "/3558/produto/copo-em-vidro-parede-dupla-250-ml"
+            },
+            {
+                "codigo": "AS-01513",
+                "nome": "SQUEEZE EM ALUMÍNIO AZUL - 500ML",
+                "imagem": "squeeze-em-aluminio-azul-500ml_23737.webp",
+                "preco": "19.03",
+                "estoque": "2096",
+                "url_produto": "/3336/produto/squeeze-em-aluminio-azul-500ml"
+            },
+            {
+                "codigo": "CO-41271",
+                "nome": "CANECA EM CERÂMICA PRETA - 270ML",
+                "imagem": "caneca-em-ceramica-preta-270ml_19656.webp",
+                "preco": "15.64",
+                "estoque": "4917",
+                "url_produto": "/2886/produto/caneca-em-ceramica-preta-270ml"
+            },
+            {
+                "codigo": "IS-01502",
+                "nome": "GARRAFA EM INOX PAREDE DUPLA - PRATA - 500 ML",
+                "imagem": "garrafa-em-inox-parede-dupla-na-cor-prata-500-ml_23746.webp",
+                "preco": "42.16",
+                "estoque": "339",
+                "url_produto": "/3339/produto/garrafa-em-inox-parede-dupla-prata-500-ml"
+            },
+            {
+                "codigo": "CO-01231",
+                "nome": "CANECA EM CERÂMICA PRETA - 230ML",
+                "imagem": "caneca-em-ceramica-preta-230ml_21609.webp",
+                "preco": "30.14",
+                "estoque": "1702",
+                "url_produto": "/2883/produto/caneca-em-ceramica-preta-230ml"
+            },
+            {
+                "codigo": "VI-00362",
+                "nome": "CONJ. CANECAS PARA CERVEJA/CHOPP - 2 PÇS",
+                "imagem": "conj-canecas-para-cerveja-chopp-2-pcs_25121.webp",
+                "preco": "65.31",
+                "estoque": "1675",
+                "url_produto": "/3609/produto/conj-canecas-para-cerveja-chopp-2-pcs"
+            },
+            {
+                "codigo": "CO-03092",
+                "nome": "JOGO DE XÍCARAS COM PIRES - 90 ML - 4 PÇS",
+                "imagem": "jogo-de-xicaras-com-pires-90-ml-4-pcs_21205.webp",
+                "preco": "45.37",
+                "estoque": "629",
+                "url_produto": "/2652/produto/jogo-de-xicaras-com-pires-90-ml-4-pcs"
+            },
+            {
+                "codigo": "IP-00503",
+                "nome": "GARRAFA EM PALHA DE TRIGO E TAMPA EM BAMBU - 500 ML",
+                "imagem": "garrafa-em-palha-de-trigo-e-tampa-em-bambu-500-ml_25759.webp",
+                "preco": "16.46",
+                "estoque": "260",
+                "url_produto": "/3716/produto/garrafa-em-palha-de-trigo-e-tampa-em-bambu-500-ml"
+            },
+            {
+                "codigo": "CO-03094",
+                "nome": "JOGO DE XÍCARAS COM PIRES - 90 ML - 8 PÇS",
+                "imagem": "jogo-de-xicaras-com-pires-90-ml-8-pcs_21619.webp",
+                "preco": "78.19",
+                "estoque": "314",
+                "url_produto": "/2304/produto/jogo-de-xicaras-com-pires-90-ml-8-pcs"
+            },
+            {
+                "codigo": "IS-00768",
+                "nome": "GARRAFA COM TAMPA EM AÇO INOX - AMADEIRADO - 750ML",
+                "imagem": "garrafa-com-tampa-em-aco-inox-amadeirado-750ml_24013.webp",
+                "preco": "35.38",
+                "estoque": "4128",
+                "url_produto": "/2593/produto/garrafa-com-tampa-em-aco-inox-amadeirado-750ml"
+            },
+            {
+                "codigo": "VI-00354",
+                "nome": "JOGO DE COPOS DE VIDRO P/ CAIPIRINHA / DRINK - 350 ML - 4 PÇS",
+                "imagem": "jogo-de-copos-de-vidro-p-caipirinha-drink-350-ml-4-pcs_21573.webp",
+                "preco": "83.35",
+                "estoque": "970",
+                "url_produto": "/2961/produto/jogo-de-copos-de-vidro-p-caipirinha-drink-350-ml-4-pcs"
+            },
+            {
+                "codigo": "IG-00428",
+                "nome": "CAFETEIRA PRENSA FRANCESA EM VIDRO / AÇO INOX - 350ML",
+                "imagem": "cafeteira-prensa-francesa-em-vidro-aco-inox-350ml_26123.webp",
+                "preco": "70.91",
+                "estoque": "465",
+                "url_produto": "/3776/produto/cafeteira-prensa-francesa-em-vidro-aco-inox-350ml"
+            },
+            {
+                "codigo": "IC-00161",
+                "nome": "COPO PARA CAFÉ EM AÇO INOX - PRETO - 60ML",
+                "imagem": "copo-para-cafe-em-aco-inox-preto-60ml_21153.webp",
+                "preco": "39.98",
+                "estoque": "3416",
+                "url_produto": "/3246/produto/copo-para-cafe-em-aco-inox-preto-60ml"
+            },
+            {
+                "codigo": "IX-41601",
+                "nome": "CONJ. DE SQUEEZE E CANECA EM AÇO INOX  600/410 ML- 2 PÇS",
+                "imagem": "conj-de-squeeze-e-caneca-em-aco-inox-600-410-ml-2-pcs_21211.webp",
+                "preco": "62.08",
+                "estoque": "991",
+                "url_produto": "/242/produto/conj-de-squeeze-e-caneca-em-aco-inox-600-410-ml-2-pcs"
+            },
+            {
+                "codigo": "CO-01230",
+                "nome": "CANECA EM CERÂMICA 230ML - BRANCA",
+                "imagem": "caneca-em-ceramica-230ml-branca_21666.webp",
+                "preco": "30.14",
+                "estoque": "1702",
+                "url_produto": "/1650/produto/caneca-em-ceramica-230ml-branca"
+            },
+            {
+                "codigo": "VI-01500-472",
+                "nome": "MORINGA DE VIDRO COM COPO COCA COLA RETRÔ - 500ML / 290ML",
+                "imagem": "moringa-de-vidro-com-copo-coca-cola-retro-500ml-290ml_21571.webp",
+                "preco": "36.13",
+                "estoque": "63",
+                "url_produto": "/2335/produto/moringa-de-vidro-com-copo-coca-cola-retro-500ml-290ml"
+            },
+            {
+                "codigo": "CO-03054",
+                "nome": "JOGO DE XÍCARAS DE CAFÉZINHO COM PIRES EM PORCELANA - 50ML",
+                "imagem": "jogo-de-xicaras-de-cafezinho-com-pires-em-porcelana-50ml_21632.webp",
+                "preco": "168.43",
+                "estoque": "183",
+                "url_produto": "/3102/produto/jogo-de-xicaras-de-cafezinho-com-pires-em-porcelana-50ml"
+            },
+            {
+                "codigo": "IS-01751",
+                "nome": "SQUEEZE FUMÊ REVESTIDO EM AÇO INOX - 750 ML",
+                "imagem": "squeeze-fume-revestido-em-aco-inox-750-ml_19998.webp",
+                "preco": "30.30",
+                "estoque": "1555",
+                "url_produto": "/229/produto/squeeze-fume-revestido-em-aco-inox-750-ml"
+            },
+            {
+                "codigo": "IS-00760",
+                "nome": "GARRAFA COM TAMPA EM AÇO INOX - BRANCA - 750ML",
+                "imagem": "garrafa-com-tampa-em-aco-inox-branca-700ml_20581.webp",
+                "preco": "31.14",
+                "estoque": "3408",
+                "url_produto": "/2550/produto/garrafa-com-tampa-em-aco-inox-branca-750ml"
+            },
+            {
+                "codigo": "CR-92002",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - CINZA",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-cinza_26160.webp",
+                "preco": "6.48",
+                "estoque": "2963",
+                "url_produto": "/3779/produto/caneta-roller-em-aluminio-reciclado-bambu-cinza"
+            },
+            {
+                "codigo": "LE-31071",
+                "nome": "CADERNETA S/ PAUTA PRETO - 9,5X15,5 CM",
+                "imagem": "_19286.webp",
+                "preco": "11.10",
+                "estoque": "1991",
+                "url_produto": "/2786/produto/caderneta-s-pauta-preto-95x155-cm"
+            },
+            {
+                "codigo": "LE-31062",
+                "nome": "CADERNETA C/ PAUTA CINZA - 9,5X15,5 CM",
+                "imagem": "caderneta-c-pauta-cinza-95x155-cm_25305.webp",
+                "preco": "12.38",
+                "estoque": "1566",
+                "url_produto": "/2783/produto/caderneta-c-pauta-cinza-95x155-cm"
+            },
+            {
+                "codigo": "LE-31922",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - CINZA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-cinza_26205.webp",
+                "preco": "20.61",
+                "estoque": "374",
+                "url_produto": "/3789/produto/caderneta-p-anotacoes-com-caneta-cinza"
+            },
+            {
+                "codigo": "CE-87004",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - VERMELHA",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-vermelha_21838.webp",
+                "preco": "7.38",
+                "estoque": "1485",
+                "url_produto": "/3234/produto/caneta-esferografica-em-aluminio-com-ponta-touch-vermelha"
+            },
+            {
+                "codigo": "LE-31364",
+                "nome": "CADERNETA C/ PAUTA VERMELHO - 14X21 CM",
+                "imagem": "caderneta-c-pauta-vermelho-14x21-cm_21876.webp",
+                "preco": "18.50",
+                "estoque": "286",
+                "url_produto": "/2801/produto/caderneta-c-pauta-vermelho-14x21-cm"
+            },
+            {
+                "codigo": "LE-31723",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - AZUL",
+                "imagem": "caderneta-p-anotacoes-com-caneta-azul_22669.webp",
+                "preco": "25.12",
+                "estoque": "1059",
+                "url_produto": "/2813/produto/caderneta-p-anotacoes-com-caneta-azul"
+            },
+            {
+                "codigo": "LE-31372",
+                "nome": "CADERNETA S/ PAUTA CINZA - 14X21 CM",
+                "imagem": "caderneta-s-pauta-cinza-14x21-cm_22113.webp",
+                "preco": "16.50",
+                "estoque": "253",
+                "url_produto": "/2803/produto/caderneta-s-pauta-cinza-14x21-cm"
+            },
+            {
+                "codigo": "CI-72004",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH VERMELHA",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-vermelha_26810.webp",
+                "preco": "4.04",
+                "estoque": "9795",
+                "url_produto": "/1515/produto/caneta-esferografica-em-aluminio-com-ponta-touch-vermelha"
+            },
+            {
+                "codigo": "CI-73004",
+                "nome": "CANETA ESFEROGRÁFICA EM ABS TAMPA E PONTA TOUCH VERMELHA",
+                "imagem": "caneta-esferografica-em-abs-tampa-e-ponta-touch-vermelha_26590.webp",
+                "preco": "3.20",
+                "estoque": "4928",
+                "url_produto": "/1518/produto/caneta-esferografica-em-abs-tampa-e-ponta-touch-vermelha"
+            },
+            {
+                "codigo": "CR-70001",
+                "nome": "CANETA ROLLER EM ALUMÍNIO COM TAMPA - PRETA",
+                "imagem": "caneta-roller-em-aluminio-com-tampa-preta_21149.webp",
+                "preco": "18.73",
+                "estoque": "2901",
+                "url_produto": "/3243/produto/caneta-roller-em-aluminio-com-tampa-preta"
+            },
+            {
+                "codigo": "LE-30641",
+                "nome": "CADERNO PAUTADO COM WIRE-O - 23X18CM - BEGE/PRETO",
+                "imagem": "caderno-pautado-com-wire-o-23x18cm-bege-preto_23769.webp",
+                "preco": "22.34",
+                "estoque": "824",
+                "url_produto": "/3347/produto/caderno-pautado-com-wire-o-23x18cm-bege-preto"
+            },
+            {
+                "codigo": "CE-87000",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - BRANCA",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-branca_21087.webp",
+                "preco": "7.38",
+                "estoque": "2626",
+                "url_produto": "/3230/produto/caneta-esferografica-em-aluminio-com-ponta-touch-branca"
+            },
+            {
+                "codigo": "LE-31731",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - PRETA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-preta_21718.webp",
+                "preco": "24.28",
+                "estoque": "1991",
+                "url_produto": "/2815/produto/caderneta-p-anotacoes-com-caneta-preta"
+            },
+            {
+                "codigo": "LE-31871",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - PRETA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-preta_21120.webp",
+                "preco": "18.20",
+                "estoque": "0",
+                "url_produto": "/3237/produto/caderneta-p-anotacoes-com-caneta-preta"
+            },
+            {
+                "codigo": "LE-31074",
+                "nome": "CADERNETA S/ PAUTA VERMELHO - 9,5X15,5 CM",
+                "imagem": "caderneta-s-pauta-vermelho-95x155-cm_23316.webp",
+                "preco": "11.10",
+                "estoque": "31",
+                "url_produto": "/2789/produto/caderneta-s-pauta-vermelho-95x155-cm"
+            },
+            {
+                "codigo": "LE-31734",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - VERMELHA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-vermelha_21912.webp",
+                "preco": "24.42",
+                "estoque": "31",
+                "url_produto": "/2818/produto/caderneta-p-anotacoes-com-caneta-vermelha"
+            },
+            {
+                "codigo": "PC-00040",
+                "nome": "PORTA-CARTÃO EM ALUMÍNIO COM EMBALAGEM",
+                "imagem": "porta-cartao-em-aluminio-com-embalagem_22870.webp",
+                "preco": "8.68",
+                "estoque": "2073",
+                "url_produto": "/52/produto/porta-cartao-em-aluminio-com-embalagem"
+            },
+            {
+                "codigo": "LE-31064",
+                "nome": "CADERNETA C/ PAUTA VERMELHO - 9,5X15,5 CM",
+                "imagem": "caderneta-c-pauta-vermelho-95x155-cm_22675.webp",
+                "preco": "12.38",
+                "estoque": "490",
+                "url_produto": "/2785/produto/caderneta-c-pauta-vermelho-95x155-cm"
+            },
+            {
+                "codigo": "LE-32001",
+                "nome": "BLOCO PARA ANOTAÇÕES SIMPLES - PRETO - 100 FLS",
+                "imagem": "bloco-para-anotacoes-simples-preto-100-fls_25301.webp",
+                "preco": "5.84",
+                "estoque": "7117",
+                "url_produto": "/1614/produto/bloco-para-anotacoes-simples-preto-100-fls"
+            },
+            {
+                "codigo": "LE-32735",
+                "nome": "BLOCO PARA ANOTAÇÕES COM CANETA - VERDE",
+                "imagem": "bloco-para-anotacoes-com-caneta-verde_21894.webp",
+                "preco": "9.03",
+                "estoque": "1785",
+                "url_produto": "/3074/produto/bloco-para-anotacoes-com-caneta-verde"
+            },
+            {
+                "codigo": "LE-31070",
+                "nome": "CADERNETA S/ PAUTA BRANCA - 9,5X15,5 CM",
+                "imagem": "caderneta-s-pauta-branca-95x155-cm_20531.webp",
+                "preco": "11.10",
+                "estoque": "328",
+                "url_produto": "/3135/produto/caderneta-s-pauta-branca-95x155-cm"
+            },
+            {
+                "codigo": "CE-90001-900",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMINIO RECICLADO - PRETA",
+                "imagem": "caneta-em-aluminio-reciclado-preto_26004.webp",
+                "preco": "4.18",
+                "estoque": "3950",
+                "url_produto": "/3757/produto/caneta-esferografica-em-aluminio-reciclado-preta"
+            },
+            {
+                "codigo": "CE-87003",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - AZUL",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-azul_21799.webp",
+                "preco": "7.38",
+                "estoque": "3972",
+                "url_produto": "/3233/produto/caneta-esferografica-em-aluminio-com-ponta-touch-azul"
+            },
+            {
+                "codigo": "LE-31162",
+                "nome": "CADERNETA C/ PAUTA CINZA - 12,2X17 CM",
+                "imagem": "caderneta-c-pauta-cinza-122x17-cm_21760.webp",
+                "preco": "15.77",
+                "estoque": "145",
+                "url_produto": "/2791/produto/caderneta-c-pauta-cinza-122x17-cm"
+            },
+            {
+                "codigo": "LE-31870",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BRANCA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-branca_21116.webp",
+                "preco": "18.20",
+                "estoque": "328",
+                "url_produto": "/3236/produto/caderneta-p-anotacoes-com-caneta-branca"
+            },
+            {
+                "codigo": "LE-31363",
+                "nome": "CADERNETA C/ PAUTA AZUL - 14X21 CM",
+                "imagem": "caderneta-c-pauta-azul-14x21-cm_21846.webp",
+                "preco": "18.50",
+                "estoque": "280",
+                "url_produto": "/2800/produto/caderneta-c-pauta-azul-14x21-cm"
+            },
+            {
+                "codigo": "PC-00071",
+                "nome": "PORTA-CARTÃO EM METAL CROMADO E MATERIAL SINTÉTICO PRETO",
+                "imagem": "porta-cartao-em-metal-cromado-e-material-sintetico-preto_26505.webp",
+                "preco": "13.08",
+                "estoque": "0",
+                "url_produto": "/349/produto/porta-cartao-em-metal-cromado-e-material-sintetico-preto"
+            },
+            {
+                "codigo": "CR-92001-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - PRETA",
+                "imagem": "caneta-preta-em-aluminio-reciclado-bambu_26016.webp",
+                "preco": "6.00",
+                "estoque": "5455",
+                "url_produto": "/3759/produto/caneta-roller-em-aluminio-reciclado-bambu-preta"
+            },
+            {
+                "codigo": "LE-31721",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - PRETA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-preta_22868.webp",
+                "preco": "25.38",
+                "estoque": "1991",
+                "url_produto": "/2812/produto/caderneta-p-anotacoes-com-caneta-preta"
+            },
+            {
+                "codigo": "CI-73001",
+                "nome": "CANETA ESFEROGRÁFICA EM ABS COM TAMPA E PONTA TOUCH PRETA",
+                "imagem": "caneta-esferografica-em-abs-com-tampa-e-ponta-touch-preta_21726.webp",
+                "preco": "3.20",
+                "estoque": "9185",
+                "url_produto": "/1665/produto/caneta-esferografica-em-abs-com-tampa-e-ponta-touch-preta"
+            },
+            {
+                "codigo": "LE-30601",
+                "nome": "CADERNO PAUTADO COM WIRE-O - PRETO - 23,5x18cm - 100 FLS",
+                "imagem": "caderno-pautado-com-wire-o-preto-235x18cm-100-fls_21905.webp",
+                "preco": "26.46",
+                "estoque": "999",
+                "url_produto": "/1469/produto/caderno-pautado-com-wire-o-preto-235x18cm-100-fls"
+            },
+            {
+                "codigo": "CE-31001",
+                "nome": "CANETA ESFEROGRÁFICA EM METAL CROMADO PRETO",
+                "imagem": "caneta-esferografica-em-metal-cromado-preto_19789.webp",
+                "preco": "19.05",
+                "estoque": "1167",
+                "url_produto": "/370/produto/caneta-esferografica-em-metal-cromado-preto"
+            },
+            {
+                "codigo": "LE-34375",
+                "nome": "CADERNETA S/ PAUTA - 14X21CM - BEGE/VERDE",
+                "imagem": "caderneta-s-pauta-14x21cm-bege-verde_25609.webp",
+                "preco": "14.77",
+                "estoque": "196",
+                "url_produto": "/3685/produto/caderneta-s-pauta-14x21cm-bege-verde"
+            },
+            {
+                "codigo": "CR-92005",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - VERDE",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-verde_26176.webp",
+                "preco": "6.48",
+                "estoque": "2628",
+                "url_produto": "/3782/produto/caneta-roller-em-aluminio-reciclado-bambu-verde"
+            },
+            {
+                "codigo": "LE-31925",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA",
+                "imagem": "caderneta-p-anotacoes-com-caneta_26229.webp",
+                "preco": "20.61",
+                "estoque": "328",
+                "url_produto": "/3795/produto/caderneta-p-anotacoes-com-caneta"
+            },
+            {
+                "codigo": "LE-31063",
+                "nome": "CADERNETA C/ PAUTA AZUL - 9,5X15,5 CM",
+                "imagem": "caderneta-c-pauta-azul-95x155-cm_25302.webp",
+                "preco": "12.38",
+                "estoque": "859",
+                "url_produto": "/2784/produto/caderneta-c-pauta-azul-95x155-cm"
+            },
+            {
+                "codigo": "CR-92003-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - AZUL",
+                "imagem": "caneta-azul-em-aluminio-reciclado-bambu_26028.webp",
+                "preco": "6.03",
+                "estoque": "4819",
+                "url_produto": "/3761/produto/caneta-roller-em-aluminio-reciclado-bambu-azul"
+            },
+            {
+                "codigo": "CE-87002",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - CINZA",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-cinza_21878.webp",
+                "preco": "7.38",
+                "estoque": "1874",
+                "url_produto": "/3232/produto/caneta-esferografica-em-aluminio-com-ponta-touch-cinza"
+            },
+            {
+                "codigo": "LE-33500",
+                "nome": "CADERNO ESPIRAL COM CAPA DURA E CANETA RECICLADOS",
+                "imagem": "_13672.webp",
+                "preco": "18.37",
+                "estoque": "420",
+                "url_produto": "/1856/produto/caderno-espiral-com-capa-dura-e-caneta-reciclados"
+            },
+            {
+                "codigo": "LE-30645",
+                "nome": "CADERNO PAUTADO COM WIRE-O - 23X18CM - BEGE/VERDE",
+                "imagem": "caderno-pautado-com-wire-o-23x18cm-bege-verde_23760.webp",
+                "preco": "22.34",
+                "estoque": "157",
+                "url_produto": "/3344/produto/caderno-pautado-com-wire-o-23x18cm-bege-verde"
+            },
+            {
+                "codigo": "LE-11001",
+                "nome": "CADERNO FSC C/ PAUTA E ZÍPER - CAPA EM RPET PRETO - 14X21CM",
+                "imagem": "caderno-preto-almofadado_26094.webp",
+                "preco": "16.89",
+                "estoque": "1797",
+                "url_produto": "/3771/produto/caderno-fsc-c-pauta-e-ziper-capa-em-rpet-preto-14x21cm"
+            },
+            {
+                "codigo": "LE-31061",
+                "nome": "CADERNETA C/ PAUTA PRETO - 9,5X15,5 CM",
+                "imagem": "caderneta-c-pauta-preto-95x155-cm_21864.webp",
+                "preco": "12.37",
+                "estoque": "1952",
+                "url_produto": "/2782/produto/caderneta-c-pauta-preto-95x155-cm"
+            },
+            {
+                "codigo": "CE-76003",
+                "nome": "CANETA ESFEROGRÁFICA EM BAMBU E METAL COM PONTA TOUCH",
+                "imagem": "caneta-esferografica-em-bambu-e-metal-com-ponta-touch_19792.webp",
+                "preco": "5.19",
+                "estoque": "6241",
+                "url_produto": "/2016/produto/caneta-esferografica-em-bambu-e-metal-com-ponta-touch"
+            },
+            {
+                "codigo": "LE-34075",
+                "nome": "CADERNETA S/ PAUTA - 9,5X15,5 CM - BEGE/VERDE",
+                "imagem": "caderneta-s-pauta-95x155-cm-bege-verde_25565.webp",
+                "preco": "11.14",
+                "estoque": "969",
+                "url_produto": "/3677/produto/caderneta-s-pauta-95x155-cm-bege-verde"
+            },
+            {
+                "codigo": "LE-31362",
+                "nome": "CADERNETA C/ PAUTA CINZA - 14X21 CM",
+                "imagem": "caderneta-c-pauta-cinza-14x21-cm_21893.webp",
+                "preco": "18.50",
+                "estoque": "586",
+                "url_produto": "/2799/produto/caderneta-c-pauta-cinza-14x21-cm"
+            },
+            {
+                "codigo": "CE-88001",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO - PRETA",
+                "imagem": "caneta-esferografica-em-aluminio-preta_21732.webp",
+                "preco": "20.50",
+                "estoque": "2800",
+                "url_produto": "/3241/produto/caneta-esferografica-em-aluminio-preta"
+            },
+            {
+                "codigo": "CR-92004-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - VERMELHA",
+                "imagem": "caneta-vermelha-em-aluminio-reciclado-bambu_26034.webp",
+                "preco": "6.03",
+                "estoque": "2789",
+                "url_produto": "/3762/produto/caneta-roller-em-aluminio-reciclado-bambu-vermelha"
+            },
+            {
+                "codigo": "CE-89001",
+                "nome": "CANETA ESFEROGRÁFICA 6X1 EM ALUMÍNIO - PRETA",
+                "imagem": "caneta-esferografica-6x1-em-aluminio-preta_23686.webp",
+                "preco": "20.67",
+                "estoque": "1026",
+                "url_produto": "/3242/produto/caneta-esferografica-6x1-em-aluminio-preta"
+            },
+            {
+                "codigo": "CR-92000-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - BRANCA",
+                "imagem": "caneta-branca-em-aluminio-reciclado-bambu_26015.webp",
+                "preco": "6.00",
+                "estoque": "4835",
+                "url_produto": "/3758/produto/caneta-roller-em-aluminio-reciclado-bambu-branca"
+            },
+            {
+                "codigo": "LE-31170",
+                "nome": "CADERNETA S/ PAUTA BRANCA - 12,2X17 CM",
+                "imagem": "caderneta-s-pauta-branca-122x17-cm_21925.webp",
+                "preco": "13.95",
+                "estoque": "222",
+                "url_produto": "/3137/produto/caderneta-s-pauta-branca-122x17-cm"
+            },
+            {
+                "codigo": "LE-31160",
+                "nome": "CADERNETA C/ PAUTA BRANCA - 12,2X17 CM",
+                "imagem": "caderneta-c-pauta-branca-122x17-cm_21719.webp",
+                "preco": "14.14",
+                "estoque": "28",
+                "url_produto": "/3136/produto/caderneta-c-pauta-branca-122x17-cm"
+            },
+            {
+                "codigo": "LE-31373",
+                "nome": "CADERNETA S/ PAUTA AZUL - 14X21 CM",
+                "imagem": "caderneta-s-pauta-azul-14x21-cm_22106.webp",
+                "preco": "16.50",
+                "estoque": "354",
+                "url_produto": "/2804/produto/caderneta-s-pauta-azul-14x21-cm"
+            },
+            {
+                "codigo": "LE-32731",
+                "nome": "BLOCO PARA ANOTAÇÕES COM CANETA - PRETO/PRATA",
+                "imagem": "bloco-para-anotacoes-com-caneta-preto-prata_23318.webp",
+                "preco": "9.04",
+                "estoque": "7117",
+                "url_produto": "/1616/produto/bloco-para-anotacoes-com-caneta-preto-prata"
+            },
+            {
+                "codigo": "CR-92000",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - BRANCA",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-branca_26150.webp",
+                "preco": "6.48",
+                "estoque": "4835",
+                "url_produto": "/3777/produto/caneta-roller-em-aluminio-reciclado-bambu-branca"
+            },
+            {
+                "codigo": "CR-92001",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - PRETA",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-preta_26155.webp",
+                "preco": "6.48",
+                "estoque": "5455",
+                "url_produto": "/3778/produto/caneta-roller-em-aluminio-reciclado-bambu-preta"
+            },
+            {
+                "codigo": "LE-30600",
+                "nome": "CADERNO PAUTADO COM WIRE-O - BRANCO - 23,5x18cm - 100 FLS",
+                "imagem": "caderno-pautado-com-wire-o-branco-235x18cm-100-fls_21807.webp",
+                "preco": "26.46",
+                "estoque": "176",
+                "url_produto": "/3133/produto/caderno-pautado-com-wire-o-branco-235x18cm-100-fls"
+            },
+            {
+                "codigo": "LE-34173",
+                "nome": "CADERNETA S/ PAUTA - 12,2X17CM - BEGE/AZUL",
+                "imagem": "caderneta-s-pauta-122x17cm-bege-azul_25585.webp",
+                "preco": "13.10",
+                "estoque": "500",
+                "url_produto": "/3679/produto/caderneta-s-pauta-122x17cm-bege-azul"
+            },
+            {
+                "codigo": "LE-34733",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BEGE/AZUL",
+                "imagem": "caderneta-p-anotacoes-com-caneta-bege-azul_25467.webp",
+                "preco": "17.41",
+                "estoque": "945",
+                "url_produto": "/3655/produto/caderneta-p-anotacoes-com-caneta-bege-azul"
+            },
+            {
+                "codigo": "CR-92004",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - VERMELHA",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-vermelha_26170.webp",
+                "preco": "6.48",
+                "estoque": "2789",
+                "url_produto": "/3781/produto/caneta-roller-em-aluminio-reciclado-bambu-vermelha"
+            },
+            {
+                "codigo": "CI-73003",
+                "nome": "CANETA ESFEROGRÁFICA EM ABS COM TAMPA PONTA TOUCH AZUL",
+                "imagem": "caneta-esferografica-em-abs-com-tampa-ponta-touch-azul_26595.webp",
+                "preco": "3.20",
+                "estoque": "1106",
+                "url_produto": "/1517/produto/caneta-esferografica-em-abs-com-tampa-ponta-touch-azul"
+            },
+            {
+                "codigo": "LE-32733",
+                "nome": "BLOCO PARA ANOTAÇÕES COM CANETA - AZUL",
+                "imagem": "bloco-para-anotacoes-com-caneta-azul_22104.webp",
+                "preco": "8.95",
+                "estoque": "1106",
+                "url_produto": "/3072/produto/bloco-para-anotacoes-com-caneta-azul"
+            },
+            {
+                "codigo": "CE-90000-900",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMINIO RECICLADO - BRANCA",
+                "imagem": "caneta-em-aluminio-reciclado-branco_25999.webp",
+                "preco": "4.18",
+                "estoque": "4818",
+                "url_produto": "/3756/produto/caneta-esferografica-em-aluminio-reciclado-branca"
+            },
+            {
+                "codigo": "CE-51003",
+                "nome": "CANETA ESFEROGRÁFICA EM BAMBU CROMADO FOSCO",
+                "imagem": "caneta-esferografica-em-bambu-cromado-fosco_19790.webp",
+                "preco": "20.08",
+                "estoque": "2286",
+                "url_produto": "/379/produto/caneta-esferografica-em-bambu-cromado-fosco"
+            },
+            {
+                "codigo": "LE-32730",
+                "nome": "BLOCO PARA ANOTAÇÕES COM CANETA - PRETO",
+                "imagem": "bloco-para-anotacoes-com-caneta-preto_22869.webp",
+                "preco": "8.94",
+                "estoque": "7117",
+                "url_produto": "/3070/produto/bloco-para-anotacoes-com-caneta-preto"
+            },
+            {
+                "codigo": "LE-30644",
+                "nome": "CADERNO PAUTADO COM WIRE-O - 23X18CM - BEGE/VERMELHO",
+                "imagem": "caderno-pautado-com-wire-o-23x18cm-bege-vermelho_23763.webp",
+                "preco": "22.34",
+                "estoque": "170",
+                "url_produto": "/3345/produto/caderno-pautado-com-wire-o-23x18cm-bege-vermelho"
+            },
+            {
+                "codigo": "LE-31P74",
+                "nome": "CADERNETA VERMELHA - 80 FOLHAS E MARCA PÁGINA COM 5 CORES",
+                "imagem": "_19394.webp",
+                "preco": "13.27",
+                "estoque": "31",
+                "url_produto": "/2823/produto/caderneta-vermelha-80-folhas-e-marca-pagina-com-5-cores"
+            },
+            {
+                "codigo": "CI-73000",
+                "nome": "CANETA ESFEROGRÁFICA EM ABS COM TAMPA E PONTA TOUCH PRATA",
+                "imagem": "caneta-esferografica-em-abs-com-tampa-e-ponta-touch-prata_26573.webp",
+                "preco": "3.20",
+                "estoque": "17806",
+                "url_produto": "/1516/produto/caneta-esferografica-em-abs-com-tampa-e-ponta-touch-prata"
+            },
+            {
+                "codigo": "LE-31172",
+                "nome": "CADERNETA S/ PAUTA CINZA - 12,2X17 CM",
+                "imagem": "caderneta-s-pauta-cinza-122x17-cm_21804.webp",
+                "preco": "13.95",
+                "estoque": "358",
+                "url_produto": "/2795/produto/caderneta-s-pauta-cinza-122x17-cm"
+            },
+            {
+                "codigo": "LE-31174",
+                "nome": "CADERNETA S/ PAUTA VERMELHO - 12,2X17 CM",
+                "imagem": "caderneta-s-pauta-vermelho-122x17-cm_21936.webp",
+                "preco": "13.95",
+                "estoque": "258",
+                "url_produto": "/2797/produto/caderneta-s-pauta-vermelho-122x17-cm"
+            },
+            {
+                "codigo": "LE-32004",
+                "nome": "BLOCO PARA ANOTAÇÕES SIMPLES - VERMELHO - 100 FLS",
+                "imagem": "bloco-para-anotacoes-simples-vermelho-100-fls_21825.webp",
+                "preco": "5.85",
+                "estoque": "1607",
+                "url_produto": "/1896/produto/bloco-para-anotacoes-simples-vermelho-100-fls"
+            },
+            {
+                "codigo": "LE-34074",
+                "nome": "CADERNETA S/ PAUTA - 9,5X15,5 CM - BEGE/VERMELHO",
+                "imagem": "caderneta-s-pauta-95x155-cm-bege-vermelho_25569.webp",
+                "preco": "11.14",
+                "estoque": "945",
+                "url_produto": "/3676/produto/caderneta-s-pauta-95x155-cm-bege-vermelho"
+            },
+            {
+                "codigo": "LE-34731",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BEGE/PRETO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-bege-preto_25462.webp",
+                "preco": "17.40",
+                "estoque": "992",
+                "url_produto": "/3654/produto/caderneta-p-anotacoes-com-caneta-bege-preto"
+            },
+            {
+                "codigo": "LE-31874",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - VERMELHA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-vermelha_21131.webp",
+                "preco": "18.20",
+                "estoque": "31",
+                "url_produto": "/3240/produto/caderneta-p-anotacoes-com-caneta-vermelha"
+            },
+            {
+                "codigo": "CC-72651",
+                "nome": "CANETA E CHAVEIRO EM METAL",
+                "imagem": "caneta-e-chaveiro-em-metal_25675.webp",
+                "preco": "22.98",
+                "estoque": "2891",
+                "url_produto": "/3699/produto/caneta-e-chaveiro-em-metal"
+            },
+            {
+                "codigo": "CI-72001",
+                "nome": "CANETA ESFERORÁFICA EM ALUMÍNIO COM PONTA TOUCH PRETA",
+                "imagem": "caneta-esferorafica-em-aluminio-com-ponta-touch-preta_26532.webp",
+                "preco": "4.31",
+                "estoque": "7941",
+                "url_produto": "/1513/produto/caneta-esferorafica-em-aluminio-com-ponta-touch-preta"
+            },
+            {
+                "codigo": "LE-31360",
+                "nome": "CADERNETA C/ PAUTA BRANCA - 14X21 CM",
+                "imagem": "caderneta-c-pauta-branca-14x21-cm_21914.webp",
+                "preco": "18.50",
+                "estoque": "316",
+                "url_produto": "/3138/produto/caderneta-c-pauta-branca-14x21-cm"
+            },
+            {
+                "codigo": "CI-73005",
+                "nome": "CANETA ESFEROGRÁFICA EM ABS COM TAMPA E PONTA TOUCH VERDE",
+                "imagem": "caneta-esferografica-em-abs-com-tampa-e-ponta-touch-verde_26579.webp",
+                "preco": "3.20",
+                "estoque": "13553",
+                "url_produto": "/1519/produto/caneta-esferografica-em-abs-com-tampa-e-ponta-touch-verde"
+            },
+            {
+                "codigo": "LE-31072",
+                "nome": "CADERNETA S/ PAUTA CINZA - 9,5X15,5 CM",
+                "imagem": "_19287.webp",
+                "preco": "11.10",
+                "estoque": "374",
+                "url_produto": "/2787/produto/caderneta-s-pauta-cinza-95x155-cm"
+            },
+            {
+                "codigo": "CI-72013",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - AZUL CLARO",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-azul-claro_20732.webp",
+                "preco": "4.18",
+                "estoque": "2413",
+                "url_produto": "/3188/produto/caneta-esferografica-em-aluminio-com-ponta-touch-azul-claro"
+            },
+            {
+                "codigo": "LE-31173",
+                "nome": "CADERNETA S/ PAUTA AZUL - 12,2X17 CM",
+                "imagem": "caderneta-s-pauta-azul-122x17-cm_22111.webp",
+                "preco": "13.95",
+                "estoque": "328",
+                "url_produto": "/2796/produto/caderneta-s-pauta-azul-122x17-cm"
+            },
+            {
+                "codigo": "LE-31371",
+                "nome": "CADERNETA S/ PAUTA PRETO - 14X21 CM",
+                "imagem": "caderneta-s-pauta-preto-14x21-cm_21861.webp",
+                "preco": "16.50",
+                "estoque": "1663",
+                "url_produto": "/2802/produto/caderneta-s-pauta-preto-14x21-cm"
+            },
+            {
+                "codigo": "LE-31732",
+                "nome": "CADERNETA PARA ANOTAÇÕES COM CANETA - CINZA",
+                "imagem": "_19385.webp",
+                "preco": "24.13",
+                "estoque": "374",
+                "url_produto": "/2816/produto/caderneta-para-anotacoes-com-caneta-cinza"
+            },
+            {
+                "codigo": "LE-31311",
+                "nome": "CADERNETA PARA ANOTAÇÕES COM CANETA - PRETA",
+                "imagem": "_19380.webp",
+                "preco": "37.00",
+                "estoque": "1167",
+                "url_produto": "/2811/produto/caderneta-para-anotacoes-com-caneta-preta"
+            },
+            {
+                "codigo": "LE-30603",
+                "nome": "CADERNO PAUTADO COM WIRE-O - AZUL - 23,5x18cm - 100 FLS",
+                "imagem": "caderno-pautado-com-wire-o-azul-235x18cm-100-fls_25310.webp",
+                "preco": "26.46",
+                "estoque": "434",
+                "url_produto": "/1875/produto/caderno-pautado-com-wire-o-azul-235x18cm-100-fls"
+            },
+            {
+                "codigo": "LE-34734",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BEGE/VERMELHO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-bege-vermelho_25472.webp",
+                "preco": "17.54",
+                "estoque": "945",
+                "url_produto": "/3656/produto/caderneta-p-anotacoes-com-caneta-bege-vermelho"
+            },
+            {
+                "codigo": "LE-31724",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - VERMELHA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-vermelha_21759.webp",
+                "preco": "25.26",
+                "estoque": "31",
+                "url_produto": "/2814/produto/caderneta-p-anotacoes-com-caneta-vermelha"
+            },
+            {
+                "codigo": "CE-87005",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - VERDE",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-verde_21895.webp",
+                "preco": "7.38",
+                "estoque": "1610",
+                "url_produto": "/3235/produto/caneta-esferografica-em-aluminio-com-ponta-touch-verde"
+            },
+            {
+                "codigo": "LE-34374",
+                "nome": "CADERNETA S/ PAUTA - 14X21CM - BEGE/VERMELHO",
+                "imagem": "caderneta-s-pauta-14x21cm-bege-vermelho_25605.webp",
+                "preco": "14.77",
+                "estoque": "300",
+                "url_produto": "/3684/produto/caderneta-s-pauta-14x21cm-bege-vermelho"
+            },
+            {
+                "codigo": "LE-34174",
+                "nome": "CADERNETA S/ PAUTA - 12,2X17CM - BEGE/VERMELHO",
+                "imagem": "caderneta-s-pauta-122x17cm-bege-vermelho_25589.webp",
+                "preco": "13.10",
+                "estoque": "500",
+                "url_produto": "/3680/produto/caderneta-s-pauta-122x17cm-bege-vermelho"
+            },
+            {
+                "codigo": "LE-33101",
+                "nome": "CADERNO ESPIRAL COM CAPA DURA PRETO / BEGE",
+                "imagem": "_17582.webp",
+                "preco": "24.51",
+                "estoque": "995",
+                "url_produto": "/2421/produto/caderno-espiral-com-capa-dura-preto-bege"
+            },
+            {
+                "codigo": "LE-31171",
+                "nome": "CADERNETA S/ PAUTA PRETO - 12,2X17 CM",
+                "imagem": "caderneta-s-pauta-preto-122x17-cm_21775.webp",
+                "preco": "13.95",
+                "estoque": "497",
+                "url_produto": "/2794/produto/caderneta-s-pauta-preto-122x17-cm"
+            },
+            {
+                "codigo": "LE-31163",
+                "nome": "CADERNETA C/ PAUTA AZUL - 12,2X17 CM",
+                "imagem": "caderneta-c-pauta-azul-122x17-cm_22116.webp",
+                "preco": "15.77",
+                "estoque": "158",
+                "url_produto": "/2792/produto/caderneta-c-pauta-azul-122x17-cm"
+            },
+            {
+                "codigo": "LE-34373",
+                "nome": " CADERNETA S/ PAUTA - 14X21CM - BEGE/AZUL",
+                "imagem": "-caderneta-s-pauta-14x21cm-bege-azul_25601.webp",
+                "preco": "14.77",
+                "estoque": "299",
+                "url_produto": "/3683/produto/-caderneta-s-pauta-14x21cm-bege-azul"
+            },
+            {
+                "codigo": "LE-31374",
+                "nome": "CADERNETA S/ PAUTA VERMELHO - 14X21 CM",
+                "imagem": "caderneta-s-pauta-vermelho-14x21-cm_22672.webp",
+                "preco": "16.50",
+                "estoque": "277",
+                "url_produto": "/2805/produto/caderneta-s-pauta-vermelho-14x21-cm"
+            },
+            {
+                "codigo": "CR-92003",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - AZUL",
+                "imagem": "caneta-roller-em-aluminio-reciclado-bambu-azul_26165.webp",
+                "preco": "6.48",
+                "estoque": "4819",
+                "url_produto": "/3780/produto/caneta-roller-em-aluminio-reciclado-bambu-azul"
+            },
+            {
+                "codigo": "LE-3273C",
+                "nome": "BLOCO PARA ANOTAÇÕES PRETO COM CANETA",
+                "imagem": "bloco-para-anotacoes-preto-com-caneta_21848.webp",
+                "preco": "18.15",
+                "estoque": "7117",
+                "url_produto": "/1870/produto/bloco-para-anotacoes-preto-com-caneta"
+            },
+            {
+                "codigo": "LE-31161",
+                "nome": "CADERNETA C/ PAUTA PRETO - 12,2X17 CM",
+                "imagem": "caderneta-c-pauta-preto-122x17-cm_23128.webp",
+                "preco": "15.76",
+                "estoque": "286",
+                "url_produto": "/2790/produto/caderneta-c-pauta-preto-122x17-cm"
+            },
+            {
+                "codigo": "CE-87001",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMÍNIO COM PONTA TOUCH - PRETA",
+                "imagem": "caneta-esferografica-em-aluminio-com-ponta-touch-preta_23298.webp",
+                "preco": "7.38",
+                "estoque": "0",
+                "url_produto": "/3231/produto/caneta-esferografica-em-aluminio-com-ponta-touch-preta"
+            },
+            {
+                "codigo": "LE-30643",
+                "nome": "CADERNO PAUTADO COM WIRE-O - 23X18CM - BEGE/AZUL",
+                "imagem": "caderno-pautado-com-wire-o-23x18cm-bege-azul_23766.webp",
+                "preco": "22.34",
+                "estoque": "63",
+                "url_produto": "/3346/produto/caderno-pautado-com-wire-o-23x18cm-bege-azul"
+            },
+            {
+                "codigo": "LE-31921",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - PRETO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-preto_26197.webp",
+                "preco": "20.61",
+                "estoque": "1991",
+                "url_produto": "/3787/produto/caderneta-p-anotacoes-com-caneta-preto"
+            },
+            {
+                "codigo": "LE-10871",
+                "nome": "CONJ. CADERNO E CANETA  - 2 PÇS",
+                "imagem": "conj-caderno-e-caneta-2-pcs_25665.webp",
+                "preco": "20.89",
+                "estoque": "0",
+                "url_produto": "/3697/produto/conj-caderno-e-caneta-2-pcs"
+            },
+            {
+                "codigo": "PC-00020",
+                "nome": "PORTA-CARTÃO EM ALUMÍNIO FOSCO",
+                "imagem": "porta-cartao-em-aluminio-fosco_26806.webp",
+                "preco": "11.91",
+                "estoque": "645",
+                "url_produto": "/1173/produto/porta-cartao-em-aluminio-fosco"
+            },
+            {
+                "codigo": "LE-31361",
+                "nome": "CADERNETA C/ PAUTA PRETO - 14X21 CM",
+                "imagem": "caderneta-c-pauta-preto-14x21-cm_21873.webp",
+                "preco": "18.50",
+                "estoque": "629",
+                "url_produto": "/2798/produto/caderneta-c-pauta-preto-14x21-cm"
+            },
+            {
+                "codigo": "LE-34073",
+                "nome": "CADERNETA S/ PAUTA - 9,5X15,5 CM - BEGE/AZUL",
+                "imagem": "caderneta-s-pauta-95x155-cm-bege-azul_25573.webp",
+                "preco": "11.14",
+                "estoque": "945",
+                "url_produto": "/3675/produto/caderneta-s-pauta-95x155-cm-bege-azul"
+            },
+            {
+                "codigo": "LE-31060",
+                "nome": "CADERNETA C/ PAUTA BRANCA - 9,5X15,5 CM",
+                "imagem": "caderneta-c-pauta-branca-95x155-cm_20529.webp",
+                "preco": "12.38",
+                "estoque": "77",
+                "url_produto": "/3134/produto/caderneta-c-pauta-branca-95x155-cm"
+            },
+            {
+                "codigo": "LE-34071",
+                "nome": "CADERNETA S/ PAUTA - 9,5X15,5 CM - BEGE/PRETO",
+                "imagem": "caderneta-s-pauta-95x155-cm-bege-preto_25577.webp",
+                "preco": "11.14",
+                "estoque": "992",
+                "url_produto": "/3674/produto/caderneta-s-pauta-95x155-cm-bege-preto"
+            },
+            {
+                "codigo": "CR-92005-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - VERDE",
+                "imagem": "caneta-verde-em-aluminio-reciclado-bambu_26040.webp",
+                "preco": "6.00",
+                "estoque": "2628",
+                "url_produto": "/3763/produto/caneta-roller-em-aluminio-reciclado-bambu-verde"
+            },
+            {
+                "codigo": "CE-90001",
+                "nome": "CANETA ESFEROGRÁFICA EM ALUMINIO RECICLADO - PRETA",
+                "imagem": "caneta-esferografica-em-aluminio-reciclado-preta_26145.webp",
+                "preco": "4.35",
+                "estoque": "3950",
+                "url_produto": "/3775/produto/caneta-esferografica-em-aluminio-reciclado-preta"
+            },
+            {
+                "codigo": "LE-31733",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - AZUL",
+                "imagem": "caderneta-p-anotacoes-com-caneta-azul_21843.webp",
+                "preco": "24.03",
+                "estoque": "1059",
+                "url_produto": "/2817/produto/caderneta-p-anotacoes-com-caneta-azul"
+            },
+            {
+                "codigo": "LE-31872",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - CINZA",
+                "imagem": "caderneta-p-anotacoes-com-caneta-cinza_21124.webp",
+                "preco": "18.20",
+                "estoque": "374",
+                "url_produto": "/3238/produto/caderneta-p-anotacoes-com-caneta-cinza"
+            },
+            {
+                "codigo": "EC-00291",
+                "nome": "ESTOJO PARA CANETA EM ALUMÍNIO PRETO",
+                "imagem": "estojo-para-caneta-em-aluminio-preto_26547.webp",
+                "preco": "14.45",
+                "estoque": "417",
+                "url_produto": "/411/produto/estojo-para-caneta-em-aluminio-preto"
+            },
+            {
+                "codigo": "LE-31924",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - VERMELHO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-vermelho_26221.webp",
+                "preco": "20.61",
+                "estoque": "31",
+                "url_produto": "/3793/produto/caderneta-p-anotacoes-com-caneta-vermelho"
+            },
+            {
+                "codigo": "LE-34735",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BEGE/VERDE",
+                "imagem": "caderneta-p-anotacoes-com-caneta-bege-verde_25477.webp",
+                "preco": "17.51",
+                "estoque": "969",
+                "url_produto": "/3657/produto/caderneta-p-anotacoes-com-caneta-bege-verde"
+            },
+            {
+                "codigo": "LE-34171",
+                "nome": "CADERNETA S/ PAUTA - 12,2X17CM - BEGE/PRETO",
+                "imagem": "caderneta-s-pauta-122x17cm-bege-preto_25581.webp",
+                "preco": "13.10",
+                "estoque": "730",
+                "url_produto": "/3678/produto/caderneta-s-pauta-122x17cm-bege-preto"
+            },
+            {
+                "codigo": "LE-31873",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - AZUL",
+                "imagem": "caderneta-p-anotacoes-com-caneta-azul_21128.webp",
+                "preco": "18.20",
+                "estoque": "1059",
+                "url_produto": "/3239/produto/caderneta-p-anotacoes-com-caneta-azul"
+            },
+            {
+                "codigo": "LE-32003",
+                "nome": "BLOCO PARA ANOTAÇÕES SIMPLES - AZUL - 100 FLS",
+                "imagem": "bloco-para-anotacoes-simples-azul-100-fls_21792.webp",
+                "preco": "5.85",
+                "estoque": "2233",
+                "url_produto": "/1895/produto/bloco-para-anotacoes-simples-azul-100-fls"
+            },
+            {
+                "codigo": "LE-31P71",
+                "nome": "CADERNETA PRETA - 80 FOLHAS E MARCA PÁGINA COM 5 CORES",
+                "imagem": "_19393.webp",
+                "preco": "13.28",
+                "estoque": "1991",
+                "url_produto": "/2822/produto/caderneta-preta-80-folhas-e-marca-pagina-com-5-cores"
+            },
+            {
+                "codigo": "LE-31920",
+                "nome": "CADERNETA P/ ANOTAÇÕES COM CANETA - BRANCO",
+                "imagem": "caderneta-p-anotacoes-com-caneta-branco_26294.webp",
+                "preco": "20.61",
+                "estoque": "328",
+                "url_produto": "/3813/produto/caderneta-p-anotacoes-com-caneta-branco"
+            },
+            {
+                "codigo": "LE-31P73",
+                "nome": "CADERNETA AZUL - 80 FOLHAS E MARCA PÁGINA COM 5 CORES",
+                "imagem": "_19395.webp",
+                "preco": "13.27",
+                "estoque": "1059",
+                "url_produto": "/2824/produto/caderneta-azul-80-folhas-e-marca-pagina-com-5-cores"
+            },
+            {
+                "codigo": "LE-32734",
+                "nome": "BLOCO PARA ANOTAÇÕES COM CANETA - VERMELHO",
+                "imagem": "bloco-para-anotacoes-com-caneta-vermelho_20284.webp",
+                "preco": "9.06",
+                "estoque": "1607",
+                "url_produto": "/3073/produto/bloco-para-anotacoes-com-caneta-vermelho"
+            },
+            {
+                "codigo": "LE-10371",
+                "nome": "CADERNO C/ PAUTA - PRETO - 14X21CM",
+                "imagem": "caderno-c-pauta-preto-14x21cm_25652.webp",
+                "preco": "11.56",
+                "estoque": "0",
+                "url_produto": "/3694/produto/caderno-c-pauta-preto-14x21cm"
+            },
+            {
+                "codigo": "LE-34371",
+                "nome": "CADERNETA S/ PAUTA - 14X21CM - BEGE/PRETO",
+                "imagem": "caderneta-s-pauta-14x21cm-bege-preto_25597.webp",
+                "preco": "14.77",
+                "estoque": "361",
+                "url_produto": "/3682/produto/caderneta-s-pauta-14x21cm-bege-preto"
+            },
+            {
+                "codigo": "LE-31164",
+                "nome": "CADERNETA C/ PAUTA VERMELHO - 12,2X17 CM",
+                "imagem": "caderneta-c-pauta-vermelho-122x17-cm_21851.webp",
+                "preco": "15.77",
+                "estoque": "421",
+                "url_produto": "/2793/produto/caderneta-c-pauta-vermelho-122x17-cm"
+            },
+            {
+                "codigo": "CR-92002-900",
+                "nome": "CANETA ROLLER EM ALUMÍNIO RECICLADO /  BAMBU - CINZA",
+                "imagem": "caneta-cinza-em-aluminio-reciclado-bambu_26022.webp",
+                "preco": "6.00",
+                "estoque": "2963",
+                "url_produto": "/3760/produto/caneta-roller-em-aluminio-reciclado-bambu-cinza"
+            },
+            {
+                "codigo": "LE-31370",
+                "nome": "CADERNETA S/ PAUTA BRANCA - 14X21 CM",
+                "imagem": "caderneta-s-pauta-branca-14x21-cm_21796.webp",
+                "preco": "16.50",
+                "estoque": "391",
+                "url_produto": "/3139/produto/caderneta-s-pauta-branca-14x21-cm"
+            },
+            {
+                "codigo": "LE-32005",
+                "nome": "BLOCO PARA ANOTAÇÕES SIMPLES - VERDE - 100 FLS",
+                "imagem": "bloco-para-anotacoes-simples-verde-100-fls_21932.webp",
+                "preco": "5.85",
+                "estoque": "1785",
+                "url_produto": "/1897/produto/bloco-para-anotacoes-simples-verde-100-fls"
+            },
+            {
+                "codigo": "LE-31073",
+                "nome": "CADERNETA S/ PAUTA AZUL - 9,5X15,5 CM",
+                "imagem": "_19288.webp",
+                "preco": "11.10",
+                "estoque": "1059",
+                "url_produto": "/2788/produto/caderneta-s-pauta-azul-95x155-cm"
+            },
+            {
+                "codigo": "LE-31P72",
+                "nome": "CADERNETA CINZA - 80 FOLHAS E MARCA PÁGINA COM 5 CORES",
+                "imagem": "_19392.webp",
+                "preco": "13.27",
+                "estoque": "374",
+                "url_produto": "/2821/produto/caderneta-cinza-80-folhas-e-marca-pagina-com-5-cores"
+            },
+            {
+                "codigo": "LE-34175",
+                "nome": "CADERNETA S/ PAUTA - 12,2X17CM - BEGE/VERDE",
+                "imagem": "caderneta-s-pauta-122x17cm-bege-verde_25593.webp",
+                "preco": "13.10",
+                "estoque": "445",
+                "url_produto": "/3681/produto/caderneta-s-pauta-122x17cm-bege-verde"
+            }
+        ]
+    }
+}
