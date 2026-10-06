@@ -185,6 +185,45 @@ if ('IntersectionObserver' in window) {
     document.querySelectorAll('img[data-src]').forEach(img => imageObserver.observe(img));
 }
 
+    const galleryCarousel = document.querySelector('.gallery-carousel');
+    if (galleryCarousel) {
+        const track = galleryCarousel.querySelector('.gallery-carousel-track');
+        const slides = Array.from(galleryCarousel.querySelectorAll('.galeria-item'));
+        const previousButton = galleryCarousel.querySelector('.gallery-carousel-prev');
+        const nextButton = galleryCarousel.querySelector('.gallery-carousel-next');
+        const dotsContainer = galleryCarousel.querySelector('.gallery-carousel-dots');
+        let currentSlide = 0;
+
+        const dots = slides.map((_, index) => {
+            const dot = document.createElement('button');
+            dot.className = 'gallery-carousel-dot';
+            dot.type = 'button';
+            dot.setAttribute('aria-label', `Ver imagem ${index + 1}`);
+            dot.addEventListener('click', () => showSlide(index));
+            dotsContainer.appendChild(dot);
+            return dot;
+        });
+
+        function showSlide(index) {
+            currentSlide = (index + slides.length) % slides.length;
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            dots.forEach((dot, dotIndex) => {
+                const active = dotIndex === currentSlide;
+                dot.classList.toggle('is-active', active);
+                dot.setAttribute('aria-current', active ? 'true' : 'false');
+            });
+        }
+
+        previousButton.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+        galleryCarousel.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowLeft') showSlide(currentSlide - 1);
+            if (event.key === 'ArrowRight') showSlide(currentSlide + 1);
+        });
+
+        showSlide(0);
+    }
+
 // Google Analytics ou tracking (personalizar com ID real)
 // Comentado por padrão - descomenta quando tiver ID
 /*

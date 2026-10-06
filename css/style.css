@@ -364,7 +364,7 @@ p {
     align-items: center;
     background: radial-gradient(circle at top left, rgba(139,92,246,.35), transparent 28%),
                 linear-gradient(135deg, #07030d 0%, #12091f 42%, #1b1132 100%);
-    padding: 140px 0 80px;
+    padding: 80px 0 40px;
     overflow: hidden;
     position: relative;
 }
@@ -895,7 +895,7 @@ p {
    ================================ */
 
 .diferenciais {
-    padding: 80px 0;
+    padding: 48px 0;
     background: transparent;
 }
 
@@ -1065,7 +1065,7 @@ p {
    ================================ */
 
 .sobre {
-    padding: 80px 0;
+    padding: 48px 0;
     background: transparent;
 }
 
@@ -1848,4 +1848,100 @@ html, body {
         width: 100%;
     }
 }
+}
+
+/* Carrossel da galeria de projetos */
+.gallery-carousel {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4.25rem;
+}
+
+.gallery-carousel-viewport {
+    overflow: hidden;
+}
+
+.gallery-carousel-track {
+    display: flex;
+    transition: transform 0.45s ease;
+}
+
+.gallery-carousel .galeria-item {
+    flex: 0 0 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.gallery-carousel .galeria-item img {
+    height: 620px;
+    object-fit: contain;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.gallery-carousel-control {
+    position: absolute;
+    top: calc(50% - 1.5rem);
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 50%;
+    background: rgba(20, 20, 28, 0.78);
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.gallery-carousel-control:hover,
+.gallery-carousel-control:focus-visible {
+    background: var(--accent-gold);
+    color: var(--primary-dark);
+}
+
+.gallery-carousel-prev {
+    left: 0;
+}
+
+.gallery-carousel-next {
+    right: 0;
+}
+
+.gallery-carousel-dots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.gallery-carousel-dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.42);
+    cursor: pointer;
+}
+
+.gallery-carousel-dot.is-active {
+    background: var(--accent-gold);
+}
+
+@media (max-width: 600px) {
+    .gallery-carousel {
+        padding: 0 3rem;
+    }
+
+    .gallery-carousel .galeria-item img {
+        height: 420px;
+    }
+
+    .gallery-carousel-control {
+        width: 2.35rem;
+        height: 2.35rem;
+        font-size: 1.6rem;
+    }
 }

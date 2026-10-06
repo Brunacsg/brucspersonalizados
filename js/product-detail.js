@@ -14,6 +14,7 @@ let detailKeydownHandler = null;
 const DETAIL_IMAGES_CACHE_TTL_MS = 30 * 60 * 1000;
 const QUOTE_CART_KEY = 'catalogQuoteCartV1';
 const PRODUCTS_CACHE_KEYS = ['spotCatalogProductsSessionCacheV1', 'spotCatalogProductsCacheV1'];
+const CATALOG_FALLBACK_IMAGE = 'assets/images/kits-corporativos.jpeg';
 
 function parseNumber(value) {
     if (value === null || value === undefined) return null;
@@ -73,11 +74,11 @@ function escapeHtml(value) {
 }
 
 function getProductCode(product) {
-    return product.InternalReference || product.ProdReference || product.ProductCode || product.Code || product.ID || product.id || '---';
+    return product.InternalReference || product.ProdReference || product.ProductCode || product.Code || product.codigo || product.ID || product.id || '---';
 }
 
 function getProductReference(product) {
-    const raw = product.ProdReference || product.ProductReference || product.Reference || product.InternalReference || product.Code || product.ID || product.id || '';
+    const raw = product.ProdReference || product.ProductReference || product.Reference || product.InternalReference || product.Code || product.codigo || product.ID || product.id || '';
     const text = String(raw || '').trim();
     if (!text) return '';
     const numeric = (text.match(/\d+/) || [])[0];
@@ -85,7 +86,7 @@ function getProductReference(product) {
 }
 
 function getProductName(product) {
-    return product.Name || product.Title || product.ProductName || product.Description || 'Produto sem nome';
+    return product.Name || product.Title || product.ProductName || product.nome || product.Description || 'Produto sem nome';
 }
 
 function getProductStock(product) {
@@ -125,19 +126,12 @@ function readCachedProduct(ref, code) {
 }
 
 async function loadProductByReference(ref, code) {
-    await resolveApiBaseCandidate();
-    try {
-        const response = await fetchWithTimeout(buildApiUrl('/api/catalog/products'), 15000);
-        if (response.ok) {
-            const payload = await response.json();
-            const localProduct = findProductByReference(payload?.Products, ref, code);
-            if (localProduct) return localProduct;
-        }
-    } catch {
-        // Fall back to a previously cached product when the local catalog is unavailable.
+    const response = await fetch('data/local-products.json');
+    if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
     }
 
-    return readCachedProduct(ref, code);
+    return findProductByReference(await response.json(), ref, code);
 }
 
 function readQuoteCart() {
@@ -194,7 +188,7 @@ function getImageFileToken(raw) {
 }
 
 function resolveImageSrc(product) {
-    const raw = product.MainImage || product.Image || product.Photo || product.ImageURL || '';
+    const raw = product.MainImage || product.Image || product.Photo || product.ImageURL || CATALOG_FALLBACK_IMAGE;
     if (typeof raw === 'string' && raw.trim()) {
         const clean = raw.trim();
         if (/^https?:\/\//i.test(clean)) {
@@ -503,20 +497,8 @@ async function fetchAllProductImages(product) {
     const declaredImages = getInitialImageUrls(product);
     const isLocalImage = String(product?.MainImage || product?.Image || '').trim().startsWith('/');
     if (isLocalImage) {
-        const code = getProductCode(product);
-        try {
-            const response = await fetchWithTimeout(buildApiUrl(`/api/catalog/products/${encodeURIComponent(code)}/images`), 5000);
-            if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            const payload = await response.json();
-            const localImages = Array.isArray(payload?.images)
-                ? payload.images.map((image) => `${activeApiBase}${String(image || '').startsWith('/') ? '' : '/'}${image}`).filter(Boolean)
-                : [];
-            const images = localImages.length ? localImages : declaredImages;
-            saveDetailImagesCache(product, images);
-            return images;
-        } finally {
-            console.timeEnd('product-detail:images');
-        }
+        console.timeEnd('product-detail:images');
+        return declaredImages;
     }
 
     if (hasDeclaredGalleryImages(product) && declaredImages.length) {
@@ -525,35 +507,8 @@ async function fetchAllProductImages(product) {
         return declaredImages;
     }
 
-    const mainFile = getImageFileToken(product.MainImage || product.Image || product.Photo || product.ImageURL || '');
-
-    try {
-        const qs = new URLSearchParams();
-        if (mainFile) qs.set('main', mainFile);
-        const url = `${buildApiUrl(`/api/spot/product-images/${encodeURIComponent(ref)}`)}${qs.toString() ? `?${qs.toString()}` : ''}`;
-        const response = await fetchWithTimeout(url, 12000);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const payload = await response.json();
-        const apiImages = Array.isArray(payload?.images)
-            ? payload.images.map((item) => {
-                const relative = String(item?.url || '').trim();
-                if (!relative) return '';
-                if (/^https?:\/\//i.test(relative)) return relative;
-                return `${activeApiBase}${relative.startsWith('/') ? '' : '/'}${relative}`;
-            }).filter(Boolean)
-            : [];
-
-        const images = apiImages.length ? apiImages : getInitialImageUrls(product);
-        if (apiImages.length) {
-            saveDetailImagesCache(product, images);
-        }
-        return images;
-    } catch (error) {
-        console.warn('Falha ao carregar imagens do produto Spot:', error);
-        return getInitialImageUrls(product);
-    } finally {
-        console.timeEnd('product-detail:images');
-    }
+    console.timeEnd('product-detail:images');
+    return declaredImages;
 }
 
 function renderDetail(snapshot) {
