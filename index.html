@@ -16,7 +16,7 @@
     <meta property="og:image" content="https://brucspersonalizados.github.io/assets/images/hero-banner.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://brucspersonalizados.github.io/">
-    
+
     <title>Brucs Personalizados - Brindes Corporativos e Personalizados</title>
     <meta name="theme-color" content="#2d1b4e">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,6 +36,9 @@
 </head>
 <body>
     <a class="skip-link" href="#main-content">Ir para o conteúdo</a>
+    <div class="top-banner">
+        <img src="assets/images/capa.png" alt="Banner Brucs Personalizados" loading="lazy">
+    </div>
     <!-- Navigation -->
     <nav class="navbar" aria-label="Navegação principal">
         <div class="container">
@@ -45,11 +48,11 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Início</a></li>
-                <li><a href="#kits">Kits</a></li>
-                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
                 <li><a href="#como-funciona">Como Funciona</a></li>
-                <li><a href="produtos.html">Catálogo</a></li>
-                <li data-quote-cart-nav hidden><a class="nav-quote-button" data-quote-cart-link href="produtos.html?quote=1">Visualizar orçamento</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#orcamento">Orçamento</a></li>
             </ul>
             <div class="hamburger" role="button" tabindex="0" aria-label="Abrir menu" aria-expanded="false">
                 <span></span>
@@ -61,67 +64,69 @@
 
     <main id="main-content">
 
-    <section id="home" class="hero hero-b2b">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
         <div class="container hero-container">
+
             <div class="hero-text">
-                <span class="hero-tag">BRINDES CORPORATIVOS</span>
-                <h1>Brindes corporativos que fazem sua marca ser lembrada.</h1>
-                <p>Kits e produtos personalizados para empresas, eventos, colaboradores, clientes e parceiros.</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20brindes%20corporativos." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
-                    <a href="#kits" class="btn btn-secondary">Ver kits</a>
+                <span class="hero-tag">
+                    BRUCS PERSONALIZADOS
+                </span>
+
+            <h1>
+                Sua marca,<br>
+                presente em cada detalhe.
+            </h1>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="diferenciais">
+        <div class="container">
+            <h2>Diferenciais da Brucs</h2>
+            <div class="diferenciais-grid">
+                <article class="diferenciais-card">
+                    <h3>Atendimento humano</h3>
+                    <p>Suporte dedicado do briefing à entrega, com atenção especial a cada detalhe do seu projeto.</p>
+                </article>
+                <article class="diferenciais-card">
+                    <h3>Produtos premium</h3>
+                    <p>Selecionamos materiais de alta qualidade e acabamentos profissionais para brindes que impressionam.</p>
+                </article>
+                <article class="diferenciais-card">
+                    <h3>Entrega no prazo</h3>
+                    <p>Planejamento ágil e logística coordenada para entregar seus brindes exatamente quando você precisar.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+
+     <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h2>Sobre a Brucs Personalizados</h2>
+                    <p>A Brucs Personalizados nasceu com o propósito de transformar brindes em experiências memoráveis. Atendemos empresas, organizadores de eventos e clientes de todo o Brasil, oferecendo produtos personalizados com qualidade, criatividade e excelência no atendimento.</p>
+                    <p>Somos especialistas em criar soluções personalizadas que fortalecem a marca de nossos clientes e deixam uma impressão duradoura. Nossa equipe dedicada trabalha para garantir que cada projeto seja único e alinhado com os objetivos de negócio.</p>
+                </div>
+
+                <div class="sobre-destaques">
+                    <h3>O que a Brucs entrega</h3>
+                    <ul>
+                        <li>Brindes para campanhas corporativas e ações de relacionamento.</li>
+                        <li>Personalização alinhada à identidade visual da sua empresa.</li>
+                        <li>Suporte especializado para escolher o melhor item para cada objetivo.</li>
+                    </ul>
+                    <p>Da ideia inicial à entrega final, cuidamos de cada detalhe para que sua marca seja lembrada.</p>
                 </div>
             </div>
-            <div class="hero-media">
-                <img src="assets/images/hero-banner.jpg" alt="Kit corporativo personalizado da Brucs" fetchpriority="high">
-            </div>
         </div>
     </section>
-
-    <section class="home-section categorias" aria-labelledby="categorias-title">
-        <div class="container">
-            <div class="section-heading">
-                <span class="section-kicker">SOLUÇÕES BRUCS</span>
-                <h2 id="categorias-title">O que você procura?</h2>
-            </div>
-            <div class="category-grid">
-                <article class="category-card"><span class="category-icon" aria-hidden="true">K</span><h3>Kits Corporativos</h3><p>Kits personalizados para onboarding, colaboradores, clientes, parceiros e ações corporativas.</p><a href="#kits" class="text-link">Ver produtos</a></article>
-                <article class="category-card"><span class="category-icon" aria-hidden="true">B</span><h3>Brindes Personalizados</h3><p>Garrafas, canecas, canetas, cadernos e outros produtos com a identidade da sua empresa.</p><a href="produtos.html" class="text-link">Ver produtos</a></article>
-                <article class="category-card"><span class="category-icon" aria-hidden="true">E</span><h3>Eventos Corporativos</h3><p>Produtos personalizados para eventos, congressos, feiras, convenções e ações promocionais.</p><a href="produtos.html" class="text-link">Ver produtos</a></article>
-            </div>
-        </div>
-    </section>
-
-    <section id="kits" class="home-section kit-feature" aria-labelledby="kit-feature-title">
-        <div class="container kit-feature-layout">
-            <div class="kit-feature-image"><img src="assets/images/1.jpeg" alt="Kit corporativo premium personalizado"></div>
-            <div class="kit-feature-copy">
-                <span class="section-kicker">DESTAQUE BRUCS</span>
-                <h2 id="kit-feature-title">Kit Corporativo Premium</h2>
-                <p>Uma experiência completa para presentear clientes, colaboradores e parceiros com produtos personalizados com a identidade da sua marca.</p>
-                <ul class="kit-items"><li>Garrafa de inox</li><li>Caderneta</li><li>Caneta metálica</li><li>Caneca de inox</li><li>Embalagem personalizada</li></ul>
-                <p class="kit-note">Personalização com a identidade da sua empresa. Consulte condições e quantidade.</p>
-                <a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20o%20Kit%20Corporativo%20Premium." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="home-section kit-options" aria-labelledby="kit-options-title">
-        <div class="container">
-            <div class="section-heading"><span class="section-kicker">ESCOLHA SUA BASE</span><h2 id="kit-options-title">Escolha seu kit</h2></div>
-            <div class="kit-option-grid">
-                <article class="kit-option"><img src="assets/images/kits_onboarding-480.jpeg" alt="Kit essencial personalizado"><div><h3>Kit Essencial</h3><p>Para ações corporativas e eventos.</p><a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20Kit%20Essencial." class="text-link" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a></div></article>
-                <article class="kit-option"><img src="assets/images/kits-corporativos.jpeg" alt="Kit premium personalizado"><div><h3>Kit Premium</h3><p>Para clientes, parceiros e colaboradores.</p><a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20Kit%20Premium." class="text-link" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a></div></article>
-                <article class="kit-option"><img src="assets/images/projeto-2.jpeg" alt="Kit executivo personalizado"><div><h3>Kit Executivo</h3><p>Para presentes corporativos especiais.</p><a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20Kit%20Executivo." class="text-link" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a></div></article>
-            </div>
-        </div>
-    </section>
-
-    <section class="home-section build-kit"><div class="container build-kit-inner"><div><span class="section-kicker">PERSONALIZAÇÃO SOB MEDIDA</span><h2>Monte um kit que tenha a cara da sua empresa.</h2><p>Escolha os produtos, defina a quantidade e personalize cada detalhe. A BRUCS cuida da produção e montagem para entregar uma experiência completa para sua marca.</p></div><a href="https://wa.me/5511930226736?text=Olá!%20Quero%20montar%20um%20kit%20personalizado%20para%20minha%20empresa." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Quero montar meu kit</a></div></section>
-
-    <section id="solucoes" class="home-section solutions" aria-labelledby="solutions-title"><div class="container"><div class="section-heading"><span class="section-kicker">PARA SUA EMPRESA</span><h2 id="solutions-title">Soluções para diferentes momentos</h2></div><div class="solutions-grid"><article><h3>RH</h3><p>Kits de boas-vindas e onboarding.</p></article><article><h3>Eventos</h3><p>Brindes para congressos, feiras e convenções.</p></article><article><h3>Clientes</h3><p>Presentes corporativos para fortalecer relacionamentos.</p></article><article><h3>Colaboradores</h3><p>Ações internas e reconhecimento.</p></article><article><h3>Parceiros</h3><p>Presentes personalizados para relacionamento empresarial.</p></article></div></div></section>
-
-    <section id="diferenciais" class="home-section diferenciais"><div class="container"><div class="section-heading"><span class="section-kicker">POR QUE BRUCS</span><h2>Personalização que representa a sua marca.</h2></div><div class="benefits"><p>Personalização com a identidade da sua empresa</p><p>Atendimento personalizado</p><p>Kits corporativos sob medida</p><p>Produção conforme sua necessidade</p></div></div></section>
 
     <!-- Como Funciona -->
     <section id="como-funciona" class="como-funciona">
@@ -130,46 +135,145 @@
             <div class="processo-grid">
                 <div class="processo-card">
                     <div class="processo-numero">1</div>
-                    <h3>Você escolhe</h3>
-                    <p>Escolha produtos ou kits.</p>
+                    <h3>Envie sua Ideia</h3>
+                    <p>Compartilhe sua ideia, necessidades e especificações do projeto conosco.</p>
                 </div>
 
                 <div class="processo-card">
                     <div class="processo-numero">2</div>
-                    <h3>Personaliza</h3>
-                    <p>Envie sua identidade visual e informações da empresa.</p>
+                    <h3>Receba uma Arte Digital</h3>
+                    <p>Nossa equipe cria uma arte digital para sua aprovação e feedback.</p>
                 </div>
 
                 <div class="processo-card">
                     <div class="processo-numero">3</div>
-                    <h3>Aprove</h3>
-                    <p>Receba e aprove a proposta e a arte.</p>
+                    <h3>Aprovação da Produção</h3>
+                    <p>Você aprova a arte e iniciamos a produção dos seus brindes.</p>
                 </div>
 
                 <div class="processo-card">
                     <div class="processo-numero">4</div>
-                    <h3>Produzimos</h3>
-                    <p>Produzimos seus produtos personalizados.</p>
+                    <h3>Fabricação Personalizada</h3>
+                    <p>Fabricamos seus brindes com qualidade premium e personalização exclusiva.</p>
                 </div>
 
                 <div class="processo-card">
                     <div class="processo-numero">5</div>
-                    <h3>Entregamos</h3>
-                    <p>Seu pedido é preparado e enviado.</p>
+                    <h3>Entrega no Prazo</h3>
+                    <p>Seus brindes chegam dentro do prazo combinado, prontos para uso.</p>
                 </div>
             </div>
-            <p class="section-subtitle">Conte o que você precisa e receba uma proposta personalizada.</p>
         </div>
     </section>
 
-    <section class="home-section quote-cta"><div class="container"><span class="section-kicker">VAMOS CONVERSAR</span><h2>Precisa de brindes personalizados para sua empresa?</h2><p>Conte para a BRUCS o que você precisa e receba uma proposta personalizada.</p><a href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20brindes%20personalizados." class="btn btn-primary" target="_blank" rel="noopener noreferrer">Solicitar orçamento pelo WhatsApp</a></div></section>
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h2>Depoimentos de Clientes</h2>
+            <p class="section-subtitle">Veja o impacto dos brindes personalizados em marcas e eventos reais.</p>
+            <div class="depoimentos-grid">
+                <article class="depoimento-card">
+                    <p>“A equipe da Brucs entendeu rapidamente nosso briefing e entregou um produto de alta qualidade. O resultado foi elogiado por toda a equipe.”</p>
+                    <span>— Juliana S., Marketing</span>
+                </article>
+                <article class="depoimento-card">
+                    <p>“Entrega pontual e acabamento impecável. O brinde personalizado se tornou um diferencial em nosso evento de lançamento.”</p>
+                    <span>— Carlos M., RH</span>
+                </article>
+                <article class="depoimento-card">
+                    <p>“A comunicação foi excelente e a arte digital nos ajudou a visualizar o produto antes da produção. Recomendo demais.”</p>
+                    <span>— Fernanda P., Eventos</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Orçamento -->
+    <section id="orcamento" class="orcamento">
+        <div class="container">
+            <h2>Solicite Seu Orçamento</h2>
+            <p class="section-description">Preencha os dados abaixo e receba uma proposta personalizada</p>
+            
+            <form class="form-orcamento" id="formOrcamento" action="https://formsubmit.co/contato@brucspersonalizados.com.br" method="POST" data-form-submit="true">
+                <!-- Formsubmit hidden fields: first submission requires verification to the target email -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Solicitação de Orçamento - Brucs Personalizados">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome *</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="empresa">Empresa *</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefone">Telefone *</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="produto">Tipo de Produto *</label>
+                    <select id="produto" name="produto" required>
+                        <option value="">Selecione um tipo de produto</option>
+                        <option value="Aniversário de Empresa">Aniversário de Empresa</option>
+                        <option value="Boas Vindas">Boas Vindas</option>
+                        <option value="Feiras e Eventos">Feiras e Eventos</option>
+                        <option value="SIPAT">SIPAT</option>
+                        <option value="Aniversário de Colaborador">Aniversário de Colaborador</option>
+                        <option value="Treinamentos">Treinamentos</option>
+                        <option value="Brindes Setembro Amarelo">Brindes Setembro Amarelo</option>
+                        <option value="Fim de Ano">Fim de Ano</option>
+                        <option value="Dia das Mulheres">Dia das Mulheres</option>
+                        <option value="Dia das Mães">Dia das Mães</option>
+                        <option value="Outubro Rosa">Outubro Rosa</option>
+                        <option value="Novembro Azul">Novembro Azul</option>
+                        <option value="Premiações ao Colaborador">Premiações ao Colaborador</option>
+                        <option value="Brindes para Clientes">Brindes para Clientes</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade *</label>
+                        <input type="number" id="quantidade" name="quantidade" min="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="margem">Quanto deseja investir por Brinde? (R$) *</label>
+                        <input type="text" id="margem" name="margem" placeholder="Ex.: R$ 15,00" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="consultor">Código do Consultor</label>
+                    <input type="text" id="consultor" name="consultor" placeholder="Opcional para consultores BRUCS">
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição do Projeto *</label>
+                    <textarea id="descricao" name="descricao" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-large">Solicitar Orçamento</button>
+            </form>
+        </div>
+    </section>
 
     <!-- Contato WhatsApp Flutuante -->
-    <a class="whatsapp-float" href="https://wa.me/5511930226736?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20brindes%20personalizados." target="_blank" rel="noopener noreferrer" aria-label="Solicitar orçamento pelo WhatsApp">
+    <div class="whatsapp-float" onclick="abrirWhatsApp()">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="white">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.867 1.171c-1.493.821-2.771 1.993-3.393 3.384 1.364-2.558 3.8-4.269 6.614-4.269.23 0 .459.013.684.039 1.68.138 3.2.829 4.316 1.979-1.224-.191-2.357-.547-3.35-1.304"/>
         </svg>
-    </a>
+    </div>
 
     </main>
 
@@ -182,18 +286,16 @@
                     <p>Brindes corporativos e personalizados de qualidade premium para sua marca e evento.</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Produtos</h4>
-                    <p><a href="#kits">Kits corporativos</a></p>
-                    <p><a href="produtos.html">Brindes</a></p>
-                    <p><a href="#solucoes">Eventos</a></p>
-                    <p><a href="produtos.html">Catálogo completo</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Atendimento</h4>
+                    <h4>Contato</h4>
                     <p>📧 <a href="mailto:contato@brucspersonalizados.com.br">contato@brucspersonalizados.com.br</a></p>
                     <p>📱 <a href="https://wa.me/5511930226736" target="_blank">WhatsApp</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
                     <div class="social-links">
                         <a href="https://instagram.com/brucspersonalizados" title="Instagram" target="_blank" rel="noopener noreferrer">@brucspersonalizados</a>
+                        <a href="#" title="Facebook">Facebook</a>
+                        <a href="#" title="LinkedIn">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -203,6 +305,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js?v=3"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
